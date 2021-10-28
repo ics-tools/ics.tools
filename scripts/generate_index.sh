@@ -11,5 +11,8 @@ for i in `find "$ROOT" -maxdepth 1 -mindepth 1 -type d| sort`; do
 done
 for i in `find "$ROOT" -maxdepth 1 -mindepth 1 -type f| sort`; do
     file=`basename "$i"`
-    echo "- [$file](${HTTP}${file})" >> $OUTPUT
+    if [ "$file" != $(basename "$3") ]
+    then
+        echo "- [$file](${HTTP}${file})" >> $OUTPUT
+    fi
 done
