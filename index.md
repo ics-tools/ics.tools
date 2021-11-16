@@ -10,3 +10,6 @@ Innerhalb der entsprechenden Kalender Typ Domain, gibt es eine Auflistung aller 
 
 ## Dynamische
 - Keine
+
+---
+[Impressum](https://skillkiller.de/#impressum)
