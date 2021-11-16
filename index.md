@@ -7,6 +7,7 @@ Innerhalb der entsprechenden Kalender Typ Domain, gibt es eine Auflistung aller 
 # Aktuelle Kalender Typen
 ## Statisch
 - [Schulferien nach Bundesländer](https://ferien.ics.tools/)
+- [Feiertage nach Bundesländer](https://feiertage.ics.tools/)
 
 ## Dynamische
 - Keine
