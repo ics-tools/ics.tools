@@ -2,6 +2,7 @@
 layout: page
 title: "ics.tools"
 ---
+## Allgemeines
 ics.tools stellt unterschiedliche fertige Kalender Dateien zur Verfügung. Diese Dateien können dann als Kalender Abo in diversen Kalender Anwendungen als URL abonniert werden. Dadurch werden Änderungen immer automatisch mitübernommen. Für den einmaligen Import von statischen Ereignisen ist es auch möglich die Kalender herunterzuladen und einmalig zu importieren.
 
 ## Was sind ics Dateien?
