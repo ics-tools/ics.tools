@@ -1,5 +1,4 @@
 ---
-layout: page
 title: "ics.tools"
 ---
 ## Allgemeines
