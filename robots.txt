@@ -1,2 +1,3 @@
+Sitemap: https://ics.tools/sitemap.txt
 User-Agent: *
 Allow: /
