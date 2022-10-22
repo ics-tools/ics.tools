@@ -20,8 +20,8 @@ Aktuell werden folgende Kalender Typen angeboten:
 ics Dateien sind technische Kalender Dateien nach dem [RFC 5545 Standard](https://www.rfc-editor.org/rfc/rfc5545). In solchen Kalendern können einzelne oder auch mehrere Termine eingetragen sein. 
 Das ist ein standardisiertes Formart und wird von alle gängigen Kalender Anwendungen unterstützt.
 
-### Kalender Url anzeigen
-Es gibt eine Auflistung aller zur Verfügung gestellten Dateien. Um den Link zu bekommen, muss man auf den Link ein Rechtsklick machen. Danach gibt es die Option "Link kopieren". Mithilfe dieses Links kann man die Datei herunterladen oder in die Kalender Anwendung als Abo Url eintragen.
+### Kalender URL anzeigen
+Es gibt eine Auflistung aller zur Verfügung gestellten Dateien. Um den Link zu bekommen, muss man auf den Link ein Rechtsklick machen. Danach gibt es die Option "Link kopieren". Mithilfe dieses Links kann man die Datei herunterladen oder in die Kalender Anwendung als Abo URL eintragen.
 
 ## Open-Source
 Das Projekt über GitHub gehostet und die Webseite wird über GitHub Pages verteilt.
