@@ -11,6 +11,9 @@ ics.tools stellt unterschiedliche fertige Kalender Dateien zur Verfügung. Diese
 Dadurch werden Änderungen automatisch regelmäßig übernommen.
 Für den einmaligen Import von den Ereignissen ist es ebenfalls möglich, die Kalender herunterzuladen und zu importieren.
 
+## Datenzeitraum
+Die Datensätze enthalten Informationen aus dem Zeitraum von 2015 bis 2024.
+
 ## Kalender Typen
 Aktuell werden folgende Kalender Typen angeboten:
 - Schulferien nach Bundesländer
