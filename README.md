@@ -1,18 +1,18 @@
 # ics.tools
-Ansammlung von Kalenderdateien für gesetzliche Feiertage sowie Schulferien der Bundesländer.
-Die Kalenderdateien werden regelmäßig aktualisiert und können als Kalenderabo abonniert oder heruntergeladen werden.
 
-## Über das Projekt
-Dieses Projekt ist eine einfache Dateiansammlung und beinhaltet keine Logik zu Erstellung der ics Dateien.
-Die ics Dateien werden fertig in dieses Projekt gelegt und über GitHub Pages werden diese Dateien online verfügbar gemacht.
-Es sind kleinere Skripte hinterlegt, welche die index.html dynamisch erzeugen, um die Verlinkungen zu vereinfachen. Ausgeführt
-werden diese Skripte über die Deploy Action.
+**ics.tools** bietet vorgefertigte Kalenderdateien im **ics-Format**, die einfach in deine bevorzugte Kalender-App integriert werden können. So bleiben Schulferien und Feiertage immer automatisch aktuell.
 
-## Motivation für das Projekt
-Ich habe gerne alle relevanten Daten in virtuellen Kalender abgebildet. Ich habe keine automatische Möglichkeit gefunden diese Daten zu importieren.
-Um den Prozess für mich zu vereinfachen, erstelle ich jährlich die ics Dateien. Diesen Dateien sind über einen statischen Link erreichbar,
-um ein automatisches Abrufen zu ermöglichen.
+## Funktionen
+- **Kalender-Abos**: Füge die Kalender als Abo hinzu und erhalte automatische Updates.
+- **Einmaliger Import**: Lade die Dateien herunter und importiere sie manuell.
 
-## Fehler in den Daten gefunden?
-Solltest du einen Fehler in den Daten gefunden haben, erstelle bitte ein Issue und beschreibe das Problem sowie die erwarteten Daten.
-Des Weiteren kannst du eine Pull Request erstellen, welche den Fehler direkt behebt. Andernfalls werde ich mich um eine Lösung bemühen.
+## Verfügbare Daten
+**Kalendertypen**:
+- Schulferien nach Bundesländern.
+- Gesetzliche Feiertage nach Bundesländern.
+
+## Projekt
+- Monitoring: [status.ics.tools](https://status.ics.tools)
+- Fehler melden: [Issues-Seite](https://github.com/ics-tools/ics.tools/issues/new/choose)
+
+Weitere Informationen findest du direkt auf der [Webseite](https://ics.tools).
