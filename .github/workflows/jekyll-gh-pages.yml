@@ -21,9 +21,35 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
-  # Build job
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+      - name: Test files
+        run: |
+          for s in $(find -type f -name "*.ics" -print); do
+            echo "::group::Test file $s";
+            echo "Make http request"
+            echo "::debug::$response"
+            response=$(curl -sS -F "jform[task]=validate" -F "jform[ical_file]=@$s" "https://icalendar.org/validator.html?json=1")
+            error_count=$(echo "$response" | jq '.totals.errors')
+            warning_count=$(echo "$response" | jq '.totals.warnings')
+            echo "File has $error_count errors and $warning_count warnings."
+            if [ "$error_count" -gt "0" ]; then
+              echo "::error title=Error found::$(echo "$response" | jq -r '.errors | map(.message) | join("\n")')"
+              exit 1
+            fi
+            if [ "$warning_count" -gt "0" ]; then
+              echo "::warning title=Warning found::$(echo "$response" | jq -r '.warnings | map(.message) | join("\n")')"
+              exit 2
+            fi
+            echo "::endgroup::"
+          done
+  
   build:
     runs-on: ubuntu-latest
+    needs: check
     steps:
       - name: Checkout
         uses: actions/checkout@v3
