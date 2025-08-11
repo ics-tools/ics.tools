@@ -46,7 +46,7 @@ jobs:
             fi
             echo "::endgroup::"
           done
-  
+
   build:
     runs-on: ubuntu-latest
     needs: check
@@ -56,19 +56,19 @@ jobs:
       - name: Set up Python 3
         uses: actions/setup-python@v2
         with:
-          python-version: '3.X'
+          python-version: "3.X"
       - name: Build page
         run: bash generate_page.sh
         working-directory: scripts
       - name: Setup Pages
-        uses: actions/configure-pages@v2
+        uses: actions/configure-pages@v5
       - name: Build with Jekyll
         uses: actions/jekyll-build-pages@v1
         with:
           source: ./page
           destination: ./_site
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v1
+        uses: actions/upload-pages-artifact@v3
 
   # Deployment job
   deploy:
