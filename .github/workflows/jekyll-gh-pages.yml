@@ -31,8 +31,8 @@ jobs:
           for s in $(find -type f -name "*.ics" -print); do
             echo "::group::Test file $s";
             echo "Make http request"
-            echo "::debug::$response"
             response=$(curl -sS -F "jform[task]=validate" -F "jform[ical_file]=@$s" "https://icalendar.org/validator.html?json=1")
+            echo "::debug::$response"
             error_count=$(echo "$response" | jq '.totals.errors')
             warning_count=$(echo "$response" | jq '.totals.warnings')
             echo "File has $error_count errors and $warning_count warnings."
