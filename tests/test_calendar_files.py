@@ -1,6 +1,10 @@
 import pytest
 import os
+
+import requests
 from icalendar import Calendar
+
+ICAL_VALIDATOR_URL = "https://icalendar.org/validator.html?json=1"
 
 def find_ics_files(base_path='./'):
     ics_files = []
@@ -41,3 +45,25 @@ def test_calendar_name_matches_filename_with_suffix(parsed_calendar):
     expected_name = build_expected_calendar_name(path)
     assert cal_name == expected_name, f"Expected calendar name '{expected_name}', but found '{cal_name}' (NAME) in {path}"
     assert x_wr_cal_name == expected_name, f"Expected calendar name '{expected_name}', but found '{x_wr_cal_name}' (X-WR-CALNAME) in {path}"
+
+@pytest.mark.parametrize("ics_path", find_ics_files())
+def test_icalendar_org_validator(ics_path):
+    with open(ics_path, 'rb') as f:
+        files = {
+            "jform[task]": (None, "validate"),
+            "jform[ical_file]": (os.path.basename(ics_path), f, "text/calendar"),
+        }
+        response = requests.post(ICAL_VALIDATOR_URL, files=files)
+        response.raise_for_status()
+        data = response.json()
+
+    errors = data.get("totals", {}).get("errors", 0)
+    warnings = data.get("totals", {}).get("warnings", 0)
+
+    if errors > 0:
+        messages = "\n".join(err["message"] for err in data.get("errors", []))
+        pytest.fail(f"Validation errors in {ics_path}:\n{messages}")
+
+    if warnings > 0:
+        messages = "\n".join(warn["message"] for warn in data.get("warnings", []))
+        pytest.skip(f"Validation warnings in {ics_path}:\n{messages}")
