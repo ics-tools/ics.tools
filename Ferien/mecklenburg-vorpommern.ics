@@ -1201,7 +1201,7 @@ LAST-MODIFIED:20250118T012730Z
 DTSTAMP:20250112T032002Z
 TRANSP:TRANSPARENT
 END:VEVENT
-NAME:Mecklenburg-Vorpommern Feiertage
-X-WR-CALNAME:Mecklenburg-Vorpommern Feiertage
+NAME:Mecklenburg-Vorpommern Ferien
+X-WR-CALNAME:Mecklenburg-Vorpommern Ferien
 METHOD:PUBLISH
 END:VCALENDAR
