@@ -42,6 +42,15 @@ jobs:
             fi
             echo "::endgroup::"
           done
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.X'
+          cache: 'pip' 
+      - name: Install dependencies
+        run: pip install -r tests/requirements.txt
+      - name: Run unit tests
+        run: pytest
 
   build:
     runs-on: ubuntu-latest
