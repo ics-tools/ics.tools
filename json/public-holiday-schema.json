@@ -1,0 +1,83 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://ics.tools/json/schema/public-holiday-schema.json",
+    "title": "ics.tools Public holiday schema",
+    "type": "object",
+    "required": [
+        "metadata",
+        "holidays"
+    ],
+    "additionalProperties": false,
+    "properties": {
+        "$schema": {
+            "type": "string",
+            "format": "uri-reference"
+        },
+        "metadata": {
+            "type": "object",
+            "required": [
+                "state",
+                "code"
+            ],
+            "additionalProperties": false,
+            "properties": {
+                "state": {
+                    "type": "string",
+                    "description": "Vollständiger Name des Bundeslandes (z.B. Bayern)"
+                },
+                "code": {
+                    "type": "string",
+                    "enum": [
+                        "BW",
+                        "BY",
+                        "BE",
+                        "BB",
+                        "HB",
+                        "HH",
+                        "HE",
+                        "MV",
+                        "NI",
+                        "NW",
+                        "RP",
+                        "SL",
+                        "SN",
+                        "ST",
+                        "SH",
+                        "TH"
+                    ],
+                    "description": "Zweistelliges ISO-Kürzel"
+                }
+            }
+        },
+        "holidays": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "required": [
+                    "date",
+                    "name"
+                ],
+                "additionalProperties": false,
+                "properties": {
+                    "name": {
+                        "type": "string",
+                        "description": "Name des Feiertags"
+                    },
+                    "date": {
+                        "type": "string",
+                        "format": "date",
+                        "description": "Format: YYYY-MM-DD"
+                    },
+                    "created": {
+                        "type": "string",
+                        "format": "date-time"
+                    },
+                    "updated": {
+                        "type": "string",
+                        "format": "date-time"
+                    }
+                }
+            }
+        }
+    }
+}
