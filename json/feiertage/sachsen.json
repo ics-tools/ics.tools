@@ -1,0 +1,801 @@
+{
+    "$schema": "./../public-holidays-schema.json",
+    "metadata": {
+        "state": "Sachsen",
+        "code": "SN"
+    },
+    "holidays": [
+        {
+            "name": "Neujahr",
+            "date": "2015-01-01",
+            "created": "2026-01-15T17:49:49Z",
+            "updated": "2026-01-15T17:49:49Z"
+        },
+        {
+            "name": "2. Weihnachtsfeiertag",
+            "date": "2015-12-26",
+            "created": "2026-01-15T17:49:49Z",
+            "updated": "2026-01-15T17:49:49Z"
+        },
+        {
+            "name": "Karfreitag",
+            "date": "2015-04-03",
+            "created": "2026-01-15T17:49:49Z",
+            "updated": "2026-01-15T17:49:49Z"
+        },
+        {
+            "name": "Ostermontag",
+            "date": "2015-04-06",
+            "created": "2026-01-15T17:49:49Z",
+            "updated": "2026-01-15T17:49:49Z"
+        },
+        {
+            "name": "Tag der Arbeit",
+            "date": "2015-05-01",
+            "created": "2026-01-15T17:49:49Z",
+            "updated": "2026-01-15T17:49:49Z"
+        },
+        {
+            "name": "Christi Himmelfahrt",
+            "date": "2015-05-14",
+            "created": "2026-01-15T17:49:49Z",
+            "updated": "2026-01-15T17:49:49Z"
+        },
+        {
+            "name": "Pfingstmontag",
+            "date": "2015-05-25",
+            "created": "2026-01-15T17:49:49Z",
+            "updated": "2026-01-15T17:49:49Z"
+        },
+        {
+            "name": "Tag der Deutschen Einheit",
+            "date": "2015-10-03",
+            "created": "2026-01-15T17:49:49Z",
+            "updated": "2026-01-15T17:49:49Z"
+        },
+        {
+            "name": "Reformationstag",
+            "date": "2015-10-31",
+            "created": "2026-01-15T17:49:49Z",
+            "updated": "2026-01-15T17:49:49Z"
+        },
+        {
+            "name": "Buß- und Bettag",
+            "date": "2015-11-18",
+            "created": "2026-01-15T17:49:49Z",
+            "updated": "2026-01-15T17:49:49Z"
+        },
+        {
+            "name": "1. Weihnachtsfeiertag",
+            "date": "2015-12-25",
+            "created": "2026-01-15T17:49:49Z",
+            "updated": "2026-01-15T17:49:49Z"
+        },
+        {
+            "name": "Neujahr",
+            "date": "2016-01-01",
+            "created": "2026-01-15T17:49:49Z",
+            "updated": "2026-01-15T17:49:49Z"
+        },
+        {
+            "name": "2. Weihnachtsfeiertag",
+            "date": "2016-12-26",
+            "created": "2026-01-15T17:49:49Z",
+            "updated": "2026-01-15T17:49:49Z"
+        },
+        {
+            "name": "Karfreitag",
+            "date": "2016-03-25",
+            "created": "2026-01-15T17:49:49Z",
+            "updated": "2026-01-15T17:49:49Z"
+        },
+        {
+            "name": "Ostermontag",
+            "date": "2016-03-28",
+            "created": "2026-01-15T17:49:49Z",
+            "updated": "2026-01-15T17:49:49Z"
+        },
+        {
+            "name": "Tag der Arbeit",
+            "date": "2016-05-01",
+            "created": "2026-01-15T17:49:49Z",
+            "updated": "2026-01-15T17:49:49Z"
+        },
+        {
+            "name": "Christi Himmelfahrt",
+            "date": "2016-05-05",
+            "created": "2026-01-15T17:49:49Z",
+            "updated": "2026-01-15T17:49:49Z"
+        },
+        {
+            "name": "Pfingstmontag",
+            "date": "2016-05-16",
+            "created": "2026-01-15T17:49:49Z",
+            "updated": "2026-01-15T17:49:49Z"
+        },
+        {
+            "name": "Tag der Deutschen Einheit",
+            "date": "2016-10-03",
+            "created": "2026-01-15T17:49:49Z",
+            "updated": "2026-01-15T17:49:49Z"
+        },
+        {
+            "name": "Reformationstag",
+            "date": "2016-10-31",
+            "created": "2026-01-15T17:49:49Z",
+            "updated": "2026-01-15T17:49:49Z"
+        },
+        {
+            "name": "Buß- und Bettag",
+            "date": "2016-11-16",
+            "created": "2026-01-15T17:49:49Z",
+            "updated": "2026-01-15T17:49:49Z"
+        },
+        {
+            "name": "1. Weihnachtsfeiertag",
+            "date": "2016-12-25",
+            "created": "2026-01-15T17:49:49Z",
+            "updated": "2026-01-15T17:49:49Z"
+        },
+        {
+            "name": "Neujahr",
+            "date": "2017-01-01",
+            "created": "2026-01-15T17:49:49Z",
+            "updated": "2026-01-15T17:49:49Z"
+        },
+        {
+            "name": "2. Weihnachtsfeiertag",
+            "date": "2017-12-26",
+            "created": "2026-01-15T17:49:49Z",
+            "updated": "2026-01-15T17:49:49Z"
+        },
+        {
+            "name": "Karfreitag",
+            "date": "2017-04-14",
+            "created": "2026-01-15T17:49:49Z",
+            "updated": "2026-01-15T17:49:49Z"
+        },
+        {
+            "name": "Ostermontag",
+            "date": "2017-04-17",
+            "created": "2026-01-15T17:49:49Z",
+            "updated": "2026-01-15T17:49:49Z"
+        },
+        {
+            "name": "Tag der Arbeit",
+            "date": "2017-05-01",
+            "created": "2026-01-15T17:49:49Z",
+            "updated": "2026-01-15T17:49:49Z"
+        },
+        {
+            "name": "Christi Himmelfahrt",
+            "date": "2017-05-25",
+            "created": "2026-01-15T17:49:49Z",
+            "updated": "2026-01-15T17:49:49Z"
+        },
+        {
+            "name": "Pfingstmontag",
+            "date": "2017-06-05",
+            "created": "2026-01-15T17:49:49Z",
+            "updated": "2026-01-15T17:49:49Z"
+        },
+        {
+            "name": "Tag der Deutschen Einheit",
+            "date": "2017-10-03",
+            "created": "2026-01-15T17:49:49Z",
+            "updated": "2026-01-15T17:49:49Z"
+        },
+        {
+            "name": "Reformationstag",
+            "date": "2017-10-31",
+            "created": "2026-01-15T17:49:49Z",
+            "updated": "2026-01-15T17:49:49Z"
+        },
+        {
+            "name": "Buß- und Bettag",
+            "date": "2017-11-22",
+            "created": "2026-01-15T17:49:49Z",
+            "updated": "2026-01-15T17:49:49Z"
+        },
+        {
+            "name": "1. Weihnachtsfeiertag",
+            "date": "2017-12-25",
+            "created": "2026-01-15T17:49:49Z",
+            "updated": "2026-01-15T17:49:49Z"
+        },
+        {
+            "name": "Neujahr",
+            "date": "2018-01-01",
+            "created": "2026-01-15T17:49:49Z",
+            "updated": "2026-01-15T17:49:49Z"
+        },
+        {
+            "name": "2. Weihnachtsfeiertag",
+            "date": "2018-12-26",
+            "created": "2026-01-15T17:49:49Z",
+            "updated": "2026-01-15T17:49:49Z"
+        },
+        {
+            "name": "Karfreitag",
+            "date": "2018-03-30",
+            "created": "2026-01-15T17:49:49Z",
+            "updated": "2026-01-15T17:49:49Z"
+        },
+        {
+            "name": "Ostermontag",
+            "date": "2018-04-02",
+            "created": "2026-01-15T17:49:49Z",
+            "updated": "2026-01-15T17:49:49Z"
+        },
+        {
+            "name": "Tag der Arbeit",
+            "date": "2018-05-01",
+            "created": "2026-01-15T17:49:49Z",
+            "updated": "2026-01-15T17:49:49Z"
+        },
+        {
+            "name": "Christi Himmelfahrt",
+            "date": "2018-05-10",
+            "created": "2026-01-15T17:49:49Z",
+            "updated": "2026-01-15T17:49:49Z"
+        },
+        {
+            "name": "Pfingstmontag",
+            "date": "2018-05-21",
+            "created": "2026-01-15T17:49:49Z",
+            "updated": "2026-01-15T17:49:49Z"
+        },
+        {
+            "name": "Tag der Deutschen Einheit",
+            "date": "2018-10-03",
+            "created": "2026-01-15T17:49:49Z",
+            "updated": "2026-01-15T17:49:49Z"
+        },
+        {
+            "name": "Reformationstag",
+            "date": "2018-10-31",
+            "created": "2026-01-15T17:49:49Z",
+            "updated": "2026-01-15T17:49:49Z"
+        },
+        {
+            "name": "Buß- und Bettag",
+            "date": "2018-11-21",
+            "created": "2026-01-15T17:49:49Z",
+            "updated": "2026-01-15T17:49:49Z"
+        },
+        {
+            "name": "1. Weihnachtsfeiertag",
+            "date": "2018-12-25",
+            "created": "2026-01-15T17:49:49Z",
+            "updated": "2026-01-15T17:49:49Z"
+        },
+        {
+            "name": "Neujahr",
+            "date": "2019-01-01",
+            "created": "2026-01-15T17:49:49Z",
+            "updated": "2026-01-15T17:49:49Z"
+        },
+        {
+            "name": "2. Weihnachtsfeiertag",
+            "date": "2019-12-26",
+            "created": "2026-01-15T17:49:49Z",
+            "updated": "2026-01-15T17:49:49Z"
+        },
+        {
+            "name": "Karfreitag",
+            "date": "2019-04-19",
+            "created": "2026-01-15T17:49:49Z",
+            "updated": "2026-01-15T17:49:49Z"
+        },
+        {
+            "name": "Ostermontag",
+            "date": "2019-04-22",
+            "created": "2026-01-15T17:49:49Z",
+            "updated": "2026-01-15T17:49:49Z"
+        },
+        {
+            "name": "Tag der Arbeit",
+            "date": "2019-05-01",
+            "created": "2026-01-15T17:49:49Z",
+            "updated": "2026-01-15T17:49:49Z"
+        },
+        {
+            "name": "Christi Himmelfahrt",
+            "date": "2019-05-30",
+            "created": "2026-01-15T17:49:49Z",
+            "updated": "2026-01-15T17:49:49Z"
+        },
+        {
+            "name": "Pfingstmontag",
+            "date": "2019-06-10",
+            "created": "2026-01-15T17:49:49Z",
+            "updated": "2026-01-15T17:49:49Z"
+        },
+        {
+            "name": "Tag der Deutschen Einheit",
+            "date": "2019-10-03",
+            "created": "2026-01-15T17:49:49Z",
+            "updated": "2026-01-15T17:49:49Z"
+        },
+        {
+            "name": "Reformationstag",
+            "date": "2019-10-31",
+            "created": "2026-01-15T17:49:49Z",
+            "updated": "2026-01-15T17:49:49Z"
+        },
+        {
+            "name": "Buß- und Bettag",
+            "date": "2019-11-20",
+            "created": "2026-01-15T17:49:49Z",
+            "updated": "2026-01-15T17:49:49Z"
+        },
+        {
+            "name": "1. Weihnachtsfeiertag",
+            "date": "2019-12-25",
+            "created": "2026-01-15T17:49:49Z",
+            "updated": "2026-01-15T17:49:49Z"
+        },
+        {
+            "name": "Neujahr",
+            "date": "2020-01-01",
+            "created": "2026-01-15T17:49:49Z",
+            "updated": "2026-01-15T17:49:49Z"
+        },
+        {
+            "name": "2. Weihnachtsfeiertag",
+            "date": "2020-12-26",
+            "created": "2026-01-15T17:49:49Z",
+            "updated": "2026-01-15T17:49:49Z"
+        },
+        {
+            "name": "Karfreitag",
+            "date": "2020-04-10",
+            "created": "2026-01-15T17:49:49Z",
+            "updated": "2026-01-15T17:49:49Z"
+        },
+        {
+            "name": "Ostermontag",
+            "date": "2020-04-13",
+            "created": "2026-01-15T17:49:49Z",
+            "updated": "2026-01-15T17:49:49Z"
+        },
+        {
+            "name": "Tag der Arbeit",
+            "date": "2020-05-01",
+            "created": "2026-01-15T17:49:49Z",
+            "updated": "2026-01-15T17:49:49Z"
+        },
+        {
+            "name": "Christi Himmelfahrt",
+            "date": "2020-05-21",
+            "created": "2026-01-15T17:49:49Z",
+            "updated": "2026-01-15T17:49:49Z"
+        },
+        {
+            "name": "Pfingstmontag",
+            "date": "2020-06-01",
+            "created": "2026-01-15T17:49:49Z",
+            "updated": "2026-01-15T17:49:49Z"
+        },
+        {
+            "name": "Tag der Deutschen Einheit",
+            "date": "2020-10-03",
+            "created": "2026-01-15T17:49:49Z",
+            "updated": "2026-01-15T17:49:49Z"
+        },
+        {
+            "name": "Reformationstag",
+            "date": "2020-10-31",
+            "created": "2026-01-15T17:49:49Z",
+            "updated": "2026-01-15T17:49:49Z"
+        },
+        {
+            "name": "Buß- und Bettag",
+            "date": "2020-11-18",
+            "created": "2026-01-15T17:49:49Z",
+            "updated": "2026-01-15T17:49:49Z"
+        },
+        {
+            "name": "1. Weihnachtsfeiertag",
+            "date": "2020-12-25",
+            "created": "2026-01-15T17:49:49Z",
+            "updated": "2026-01-15T17:49:49Z"
+        },
+        {
+            "name": "Neujahr",
+            "date": "2021-01-01",
+            "created": "2026-01-15T17:49:49Z",
+            "updated": "2026-01-15T17:49:49Z"
+        },
+        {
+            "name": "2. Weihnachtsfeiertag",
+            "date": "2021-12-26",
+            "created": "2026-01-15T17:49:49Z",
+            "updated": "2026-01-15T17:49:49Z"
+        },
+        {
+            "name": "Karfreitag",
+            "date": "2021-04-02",
+            "created": "2026-01-15T17:49:49Z",
+            "updated": "2026-01-15T17:49:49Z"
+        },
+        {
+            "name": "Ostermontag",
+            "date": "2021-04-05",
+            "created": "2026-01-15T17:49:49Z",
+            "updated": "2026-01-15T17:49:49Z"
+        },
+        {
+            "name": "Tag der Arbeit",
+            "date": "2021-05-01",
+            "created": "2026-01-15T17:49:49Z",
+            "updated": "2026-01-15T17:49:49Z"
+        },
+        {
+            "name": "Christi Himmelfahrt",
+            "date": "2021-05-13",
+            "created": "2026-01-15T17:49:49Z",
+            "updated": "2026-01-15T17:49:49Z"
+        },
+        {
+            "name": "Pfingstmontag",
+            "date": "2021-05-24",
+            "created": "2026-01-15T17:49:49Z",
+            "updated": "2026-01-15T17:49:49Z"
+        },
+        {
+            "name": "Tag der Deutschen Einheit",
+            "date": "2021-10-03",
+            "created": "2026-01-15T17:49:49Z",
+            "updated": "2026-01-15T17:49:49Z"
+        },
+        {
+            "name": "Reformationstag",
+            "date": "2021-10-31",
+            "created": "2026-01-15T17:49:49Z",
+            "updated": "2026-01-15T17:49:49Z"
+        },
+        {
+            "name": "Buß- und Bettag",
+            "date": "2021-11-17",
+            "created": "2026-01-15T17:49:49Z",
+            "updated": "2026-01-15T17:49:49Z"
+        },
+        {
+            "name": "1. Weihnachtsfeiertag",
+            "date": "2021-12-25",
+            "created": "2026-01-15T17:49:49Z",
+            "updated": "2026-01-15T17:49:49Z"
+        },
+        {
+            "name": "Neujahr",
+            "date": "2022-01-01",
+            "created": "2026-01-15T17:49:49Z",
+            "updated": "2026-01-15T17:49:49Z"
+        },
+        {
+            "name": "2. Weihnachtsfeiertag",
+            "date": "2022-12-26",
+            "created": "2026-01-15T17:49:49Z",
+            "updated": "2026-01-15T17:49:49Z"
+        },
+        {
+            "name": "Karfreitag",
+            "date": "2022-04-15",
+            "created": "2026-01-15T17:49:49Z",
+            "updated": "2026-01-15T17:49:49Z"
+        },
+        {
+            "name": "Ostermontag",
+            "date": "2022-04-18",
+            "created": "2026-01-15T17:49:49Z",
+            "updated": "2026-01-15T17:49:49Z"
+        },
+        {
+            "name": "Tag der Arbeit",
+            "date": "2022-05-01",
+            "created": "2026-01-15T17:49:49Z",
+            "updated": "2026-01-15T17:49:49Z"
+        },
+        {
+            "name": "Christi Himmelfahrt",
+            "date": "2022-05-26",
+            "created": "2026-01-15T17:49:49Z",
+            "updated": "2026-01-15T17:49:49Z"
+        },
+        {
+            "name": "Pfingstmontag",
+            "date": "2022-06-06",
+            "created": "2026-01-15T17:49:49Z",
+            "updated": "2026-01-15T17:49:49Z"
+        },
+        {
+            "name": "Tag der Deutschen Einheit",
+            "date": "2022-10-03",
+            "created": "2026-01-15T17:49:49Z",
+            "updated": "2026-01-15T17:49:49Z"
+        },
+        {
+            "name": "Reformationstag",
+            "date": "2022-10-31",
+            "created": "2026-01-15T17:49:49Z",
+            "updated": "2026-01-15T17:49:49Z"
+        },
+        {
+            "name": "Buß- und Bettag",
+            "date": "2022-11-16",
+            "created": "2026-01-15T17:49:49Z",
+            "updated": "2026-01-15T17:49:49Z"
+        },
+        {
+            "name": "1. Weihnachtsfeiertag",
+            "date": "2022-12-25",
+            "created": "2026-01-15T17:49:49Z",
+            "updated": "2026-01-15T17:49:49Z"
+        },
+        {
+            "name": "Neujahr",
+            "date": "2023-01-01",
+            "created": "2026-01-15T17:49:49Z",
+            "updated": "2026-01-15T17:49:49Z"
+        },
+        {
+            "name": "2. Weihnachtsfeiertag",
+            "date": "2023-12-26",
+            "created": "2026-01-15T17:49:49Z",
+            "updated": "2026-01-15T17:49:49Z"
+        },
+        {
+            "name": "Karfreitag",
+            "date": "2023-04-07",
+            "created": "2026-01-15T17:49:49Z",
+            "updated": "2026-01-15T17:49:49Z"
+        },
+        {
+            "name": "Ostermontag",
+            "date": "2023-04-10",
+            "created": "2026-01-15T17:49:49Z",
+            "updated": "2026-01-15T17:49:49Z"
+        },
+        {
+            "name": "Tag der Arbeit",
+            "date": "2023-05-01",
+            "created": "2026-01-15T17:49:49Z",
+            "updated": "2026-01-15T17:49:49Z"
+        },
+        {
+            "name": "Christi Himmelfahrt",
+            "date": "2023-05-18",
+            "created": "2026-01-15T17:49:49Z",
+            "updated": "2026-01-15T17:49:49Z"
+        },
+        {
+            "name": "Pfingstmontag",
+            "date": "2023-05-29",
+            "created": "2026-01-15T17:49:49Z",
+            "updated": "2026-01-15T17:49:49Z"
+        },
+        {
+            "name": "Tag der Deutschen Einheit",
+            "date": "2023-10-03",
+            "created": "2026-01-15T17:49:49Z",
+            "updated": "2026-01-15T17:49:49Z"
+        },
+        {
+            "name": "Reformationstag",
+            "date": "2023-10-31",
+            "created": "2026-01-15T17:49:49Z",
+            "updated": "2026-01-15T17:49:49Z"
+        },
+        {
+            "name": "Buß- und Bettag",
+            "date": "2023-11-22",
+            "created": "2026-01-15T17:49:49Z",
+            "updated": "2026-01-15T17:49:49Z"
+        },
+        {
+            "name": "1. Weihnachtsfeiertag",
+            "date": "2023-12-25",
+            "created": "2026-01-15T17:49:49Z",
+            "updated": "2026-01-15T17:49:49Z"
+        },
+        {
+            "name": "Neujahr",
+            "date": "2024-01-01",
+            "created": "2026-01-15T17:49:49Z",
+            "updated": "2026-01-15T17:49:49Z"
+        },
+        {
+            "name": "2. Weihnachtsfeiertag",
+            "date": "2024-12-26",
+            "created": "2026-01-15T17:49:49Z",
+            "updated": "2026-01-15T17:49:49Z"
+        },
+        {
+            "name": "Karfreitag",
+            "date": "2024-03-29",
+            "created": "2026-01-15T17:49:49Z",
+            "updated": "2026-01-15T17:49:49Z"
+        },
+        {
+            "name": "Ostermontag",
+            "date": "2024-04-01",
+            "created": "2026-01-15T17:49:49Z",
+            "updated": "2026-01-15T17:49:49Z"
+        },
+        {
+            "name": "Tag der Arbeit",
+            "date": "2024-05-01",
+            "created": "2026-01-15T17:49:49Z",
+            "updated": "2026-01-15T17:49:49Z"
+        },
+        {
+            "name": "Christi Himmelfahrt",
+            "date": "2024-05-09",
+            "created": "2026-01-15T17:49:49Z",
+            "updated": "2026-01-15T17:49:49Z"
+        },
+        {
+            "name": "Pfingstmontag",
+            "date": "2024-05-20",
+            "created": "2026-01-15T17:49:49Z",
+            "updated": "2026-01-15T17:49:49Z"
+        },
+        {
+            "name": "Tag der Deutschen Einheit",
+            "date": "2024-10-03",
+            "created": "2026-01-15T17:49:49Z",
+            "updated": "2026-01-15T17:49:49Z"
+        },
+        {
+            "name": "Reformationstag",
+            "date": "2024-10-31",
+            "created": "2026-01-15T17:49:49Z",
+            "updated": "2026-01-15T17:49:49Z"
+        },
+        {
+            "name": "Buß- und Bettag",
+            "date": "2024-11-20",
+            "created": "2026-01-15T17:49:49Z",
+            "updated": "2026-01-15T17:49:49Z"
+        },
+        {
+            "name": "1. Weihnachtsfeiertag",
+            "date": "2024-12-25",
+            "created": "2026-01-15T17:49:49Z",
+            "updated": "2026-01-15T17:49:49Z"
+        },
+        {
+            "name": "Neujahr",
+            "date": "2025-01-01",
+            "created": "2026-01-15T17:49:49Z",
+            "updated": "2026-01-15T17:49:49Z"
+        },
+        {
+            "name": "2. Weihnachtsfeiertag",
+            "date": "2025-12-26",
+            "created": "2026-01-15T17:49:49Z",
+            "updated": "2026-01-15T17:49:49Z"
+        },
+        {
+            "name": "Karfreitag",
+            "date": "2025-04-18",
+            "created": "2026-01-15T17:49:49Z",
+            "updated": "2026-01-15T17:49:49Z"
+        },
+        {
+            "name": "Ostermontag",
+            "date": "2025-04-21",
+            "created": "2026-01-15T17:49:49Z",
+            "updated": "2026-01-15T17:49:49Z"
+        },
+        {
+            "name": "Tag der Arbeit",
+            "date": "2025-05-01",
+            "created": "2026-01-15T17:49:49Z",
+            "updated": "2026-01-15T17:49:49Z"
+        },
+        {
+            "name": "Christi Himmelfahrt",
+            "date": "2025-05-29",
+            "created": "2026-01-15T17:49:49Z",
+            "updated": "2026-01-15T17:49:49Z"
+        },
+        {
+            "name": "Pfingstmontag",
+            "date": "2025-06-09",
+            "created": "2026-01-15T17:49:49Z",
+            "updated": "2026-01-15T17:49:49Z"
+        },
+        {
+            "name": "Tag der Deutschen Einheit",
+            "date": "2025-10-03",
+            "created": "2026-01-15T17:49:49Z",
+            "updated": "2026-01-15T17:49:49Z"
+        },
+        {
+            "name": "Reformationstag",
+            "date": "2025-10-31",
+            "created": "2026-01-15T17:49:49Z",
+            "updated": "2026-01-15T17:49:49Z"
+        },
+        {
+            "name": "Buß- und Bettag",
+            "date": "2025-11-19",
+            "created": "2026-01-15T17:49:49Z",
+            "updated": "2026-01-15T17:49:49Z"
+        },
+        {
+            "name": "1. Weihnachtsfeiertag",
+            "date": "2025-12-25",
+            "created": "2026-01-15T17:49:49Z",
+            "updated": "2026-01-15T17:49:49Z"
+        },
+        {
+            "name": "Neujahr",
+            "date": "2026-01-01",
+            "created": "2026-01-15T17:49:49Z",
+            "updated": "2026-01-15T17:49:49Z"
+        },
+        {
+            "name": "2. Weihnachtsfeiertag",
+            "date": "2026-12-26",
+            "created": "2026-01-15T17:49:49Z",
+            "updated": "2026-01-15T17:49:49Z"
+        },
+        {
+            "name": "Karfreitag",
+            "date": "2026-04-03",
+            "created": "2026-01-15T17:49:49Z",
+            "updated": "2026-01-15T17:49:49Z"
+        },
+        {
+            "name": "Ostermontag",
+            "date": "2026-04-06",
+            "created": "2026-01-15T17:49:49Z",
+            "updated": "2026-01-15T17:49:49Z"
+        },
+        {
+            "name": "Tag der Arbeit",
+            "date": "2026-05-01",
+            "created": "2026-01-15T17:49:49Z",
+            "updated": "2026-01-15T17:49:49Z"
+        },
+        {
+            "name": "Christi Himmelfahrt",
+            "date": "2026-05-14",
+            "created": "2026-01-15T17:49:49Z",
+            "updated": "2026-01-15T17:49:49Z"
+        },
+        {
+            "name": "Pfingstmontag",
+            "date": "2026-05-25",
+            "created": "2026-01-15T17:49:49Z",
+            "updated": "2026-01-15T17:49:49Z"
+        },
+        {
+            "name": "Tag der Deutschen Einheit",
+            "date": "2026-10-03",
+            "created": "2026-01-15T17:49:49Z",
+            "updated": "2026-01-15T17:49:49Z"
+        },
+        {
+            "name": "Reformationstag",
+            "date": "2026-10-31",
+            "created": "2026-01-15T17:49:49Z",
+            "updated": "2026-01-15T17:49:49Z"
+        },
+        {
+            "name": "Buß- und Bettag",
+            "date": "2026-11-18",
+            "created": "2026-01-15T17:49:49Z",
+            "updated": "2026-01-15T17:49:49Z"
+        },
+        {
+            "name": "1. Weihnachtsfeiertag",
+            "date": "2026-12-25",
+            "created": "2026-01-15T17:49:49Z",
+            "updated": "2026-01-15T17:49:49Z"
+        }
+    ]
+}
