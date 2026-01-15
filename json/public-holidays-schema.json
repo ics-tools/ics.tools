@@ -1,6 +1,6 @@
 {
     "$schema": "https://json-schema.org/draft/2020-12/schema",
-    "$id": "https://ics.tools/json/schema/public-holiday-schema.json",
+    "$id": "https://ics.tools/json/schema/public-holidays-schema.json",
     "title": "ics.tools Public holiday schema",
     "type": "object",
     "required": [
