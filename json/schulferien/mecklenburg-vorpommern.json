@@ -1,0 +1,667 @@
+{
+    "$schema": "./../school-holidays-schema.json",
+    "metadata": {
+        "state": "Mecklenburg-Vorpommern",
+        "code": "MV"
+    },
+    "school_holidays": [
+        {
+            "name": "Winterferien 2015 Mecklenburg-Vorpommern",
+            "start": "2015-02-02",
+            "end": "2015-02-15",
+            "created": "2026-01-15T17:28:16Z",
+            "updated": "2026-01-15T17:28:16Z"
+        },
+        {
+            "name": "Osterferien 2015 Mecklenburg-Vorpommern",
+            "start": "2015-03-30",
+            "end": "2015-04-09",
+            "created": "2026-01-15T17:28:16Z",
+            "updated": "2026-01-15T17:28:16Z"
+        },
+        {
+            "name": "Pfingstferien 2015 Mecklenburg-Vorpommern",
+            "start": "2015-05-22",
+            "end": "2015-05-27",
+            "created": "2026-01-15T17:28:16Z",
+            "updated": "2026-01-15T17:28:16Z"
+        },
+        {
+            "name": "Sommerferien 2015 Mecklenburg-Vorpommern",
+            "start": "2015-07-20",
+            "end": "2015-08-30",
+            "created": "2026-01-15T17:28:16Z",
+            "updated": "2026-01-15T17:28:16Z"
+        },
+        {
+            "name": "Herbstferien 2015 Mecklenburg-Vorpommern",
+            "start": "2015-10-24",
+            "end": "2015-10-31",
+            "created": "2026-01-15T17:28:16Z",
+            "updated": "2026-01-15T17:28:16Z"
+        },
+        {
+            "name": "Weihnachtsferien 2015 Mecklenburg-Vorpommern",
+            "start": "2015-12-21",
+            "end": "2016-01-03",
+            "created": "2026-01-15T17:28:16Z",
+            "updated": "2026-01-15T17:28:16Z"
+        },
+        {
+            "name": "Winterferien 2016 Mecklenburg-Vorpommern",
+            "start": "2016-02-01",
+            "end": "2016-02-14",
+            "created": "2026-01-15T17:28:16Z",
+            "updated": "2026-01-15T17:28:16Z"
+        },
+        {
+            "name": "Osterferien 2016 Mecklenburg-Vorpommern",
+            "start": "2016-03-21",
+            "end": "2016-03-31",
+            "created": "2026-01-15T17:28:16Z",
+            "updated": "2026-01-15T17:28:16Z"
+        },
+        {
+            "name": "Pfingstferien 2016 Mecklenburg-Vorpommern",
+            "start": "2016-05-14",
+            "end": "2016-05-18",
+            "created": "2026-01-15T17:28:16Z",
+            "updated": "2026-01-15T17:28:16Z"
+        },
+        {
+            "name": "Sommerferien 2016 Mecklenburg-Vorpommern",
+            "start": "2016-07-25",
+            "end": "2016-09-04",
+            "created": "2026-01-15T17:28:16Z",
+            "updated": "2026-01-15T17:28:16Z"
+        },
+        {
+            "name": "Herbstferien 2016 Mecklenburg-Vorpommern",
+            "start": "2016-10-24",
+            "end": "2016-10-29",
+            "created": "2026-01-15T17:28:16Z",
+            "updated": "2026-01-15T17:28:16Z"
+        },
+        {
+            "name": "Weihnachtsferien 2016 Mecklenburg-Vorpommern",
+            "start": "2016-12-22",
+            "end": "2017-01-03",
+            "created": "2026-01-15T17:28:16Z",
+            "updated": "2026-01-15T17:28:16Z"
+        },
+        {
+            "name": "Winterferien 2017 Mecklenburg-Vorpommern",
+            "start": "2017-02-06",
+            "end": "2017-02-19",
+            "created": "2026-01-15T17:28:16Z",
+            "updated": "2026-01-15T17:28:16Z"
+        },
+        {
+            "name": "Osterferien 2017 Mecklenburg-Vorpommern",
+            "start": "2017-04-10",
+            "end": "2017-04-20",
+            "created": "2026-01-15T17:28:16Z",
+            "updated": "2026-01-15T17:28:16Z"
+        },
+        {
+            "name": "Pfingstferien 2017 Mecklenburg-Vorpommern",
+            "start": "2017-06-02",
+            "end": "2017-06-07",
+            "created": "2026-01-15T17:28:16Z",
+            "updated": "2026-01-15T17:28:16Z"
+        },
+        {
+            "name": "Sommerferien 2017 Mecklenburg-Vorpommern",
+            "start": "2017-07-24",
+            "end": "2017-09-03",
+            "created": "2026-01-15T17:28:16Z",
+            "updated": "2026-01-15T17:28:16Z"
+        },
+        {
+            "name": "Herbstferien 2017 Mecklenburg-Vorpommern",
+            "start": "2017-10-02",
+            "end": "2017-10-03",
+            "created": "2026-01-15T17:28:16Z",
+            "updated": "2026-01-15T17:28:16Z"
+        },
+        {
+            "name": "Herbstferien 2017 Mecklenburg-Vorpommern",
+            "start": "2017-10-23",
+            "end": "2017-10-31",
+            "created": "2026-01-15T17:28:16Z",
+            "updated": "2026-01-15T17:28:16Z"
+        },
+        {
+            "name": "Weihnachtsferien 2017 Mecklenburg-Vorpommern",
+            "start": "2017-12-21",
+            "end": "2018-01-04",
+            "created": "2026-01-15T17:28:16Z",
+            "updated": "2026-01-15T17:28:16Z"
+        },
+        {
+            "name": "Winterferien 2018 Mecklenburg-Vorpommern",
+            "start": "2018-02-05",
+            "end": "2018-02-17",
+            "created": "2026-01-15T17:28:16Z",
+            "updated": "2026-01-15T17:28:16Z"
+        },
+        {
+            "name": "Osterferien 2018 Mecklenburg-Vorpommern",
+            "start": "2018-03-26",
+            "end": "2018-04-05",
+            "created": "2026-01-15T17:28:16Z",
+            "updated": "2026-01-15T17:28:16Z"
+        },
+        {
+            "name": "Pfingstferien 2018 Mecklenburg-Vorpommern",
+            "start": "2018-05-11",
+            "end": "2018-05-12",
+            "created": "2026-01-15T17:28:16Z",
+            "updated": "2026-01-15T17:28:16Z"
+        },
+        {
+            "name": "Pfingstferien 2018 Mecklenburg-Vorpommern",
+            "start": "2018-05-18",
+            "end": "2018-05-23",
+            "created": "2026-01-15T17:28:16Z",
+            "updated": "2026-01-15T17:28:16Z"
+        },
+        {
+            "name": "Sommerferien 2018 Mecklenburg-Vorpommern",
+            "start": "2018-07-09",
+            "end": "2018-08-19",
+            "created": "2026-01-15T17:28:16Z",
+            "updated": "2026-01-15T17:28:16Z"
+        },
+        {
+            "name": "Herbstferien 2018 Mecklenburg-Vorpommern",
+            "start": "2018-10-08",
+            "end": "2018-10-14",
+            "created": "2026-01-15T17:28:16Z",
+            "updated": "2026-01-15T17:28:16Z"
+        },
+        {
+            "name": "Herbstferien 2018 Mecklenburg-Vorpommern",
+            "start": "2018-11-01",
+            "end": "2018-11-03",
+            "created": "2026-01-15T17:28:16Z",
+            "updated": "2026-01-15T17:28:16Z"
+        },
+        {
+            "name": "Weihnachtsferien 2018 Mecklenburg-Vorpommern",
+            "start": "2018-12-24",
+            "end": "2019-01-06",
+            "created": "2026-01-15T17:28:16Z",
+            "updated": "2026-01-15T17:28:16Z"
+        },
+        {
+            "name": "Winterferien 2019 Mecklenburg-Vorpommern",
+            "start": "2019-02-04",
+            "end": "2019-02-16",
+            "created": "2026-01-15T17:28:16Z",
+            "updated": "2026-01-15T17:28:16Z"
+        },
+        {
+            "name": "Osterferien 2019 Mecklenburg-Vorpommern",
+            "start": "2019-04-15",
+            "end": "2019-04-25",
+            "created": "2026-01-15T17:28:16Z",
+            "updated": "2026-01-15T17:28:16Z"
+        },
+        {
+            "name": "Pfingstferien 2019 Mecklenburg-Vorpommern",
+            "start": "2019-06-07",
+            "end": "2019-06-12",
+            "created": "2026-01-15T17:28:16Z",
+            "updated": "2026-01-15T17:28:16Z"
+        },
+        {
+            "name": "Pfingstferien 2019 Mecklenburg-Vorpommern",
+            "start": "2019-05-31",
+            "end": "2019-06-01",
+            "created": "2026-01-15T17:28:16Z",
+            "updated": "2026-01-15T17:28:16Z"
+        },
+        {
+            "name": "Sommerferien 2019 Mecklenburg-Vorpommern",
+            "start": "2019-07-01",
+            "end": "2019-08-11",
+            "created": "2026-01-15T17:28:16Z",
+            "updated": "2026-01-15T17:28:16Z"
+        },
+        {
+            "name": "Herbstferien 2019 Mecklenburg-Vorpommern",
+            "start": "2019-10-04",
+            "end": "2019-10-05",
+            "created": "2026-01-15T17:28:16Z",
+            "updated": "2026-01-15T17:28:16Z"
+        },
+        {
+            "name": "Herbstferien 2019 Mecklenburg-Vorpommern",
+            "start": "2019-10-07",
+            "end": "2019-10-13",
+            "created": "2026-01-15T17:28:16Z",
+            "updated": "2026-01-15T17:28:16Z"
+        },
+        {
+            "name": "Herbstferien 2019 Mecklenburg-Vorpommern",
+            "start": "2019-11-01",
+            "end": "2019-11-02",
+            "created": "2026-01-15T17:28:16Z",
+            "updated": "2026-01-15T17:28:16Z"
+        },
+        {
+            "name": "Weihnachtsferien 2019 Mecklenburg-Vorpommern",
+            "start": "2019-12-23",
+            "end": "2020-01-05",
+            "created": "2026-01-15T17:28:16Z",
+            "updated": "2026-01-15T17:28:16Z"
+        },
+        {
+            "name": "Winterferien 2020 Mecklenburg-Vorpommern",
+            "start": "2020-02-10",
+            "end": "2020-02-22",
+            "created": "2026-01-15T17:28:16Z",
+            "updated": "2026-01-15T17:28:16Z"
+        },
+        {
+            "name": "Osterferien 2020 Mecklenburg-Vorpommern",
+            "start": "2020-04-06",
+            "end": "2020-04-16",
+            "created": "2026-01-15T17:28:16Z",
+            "updated": "2026-01-15T17:28:16Z"
+        },
+        {
+            "name": "Pfingstferien 2020 Mecklenburg-Vorpommern",
+            "start": "2020-05-22",
+            "end": "2020-05-23",
+            "created": "2026-01-15T17:28:16Z",
+            "updated": "2026-01-15T17:28:16Z"
+        },
+        {
+            "name": "Pfingstferien 2020 Mecklenburg-Vorpommern",
+            "start": "2020-05-29",
+            "end": "2020-06-03",
+            "created": "2026-01-15T17:28:16Z",
+            "updated": "2026-01-15T17:28:16Z"
+        },
+        {
+            "name": "Sommerferien 2020 Mecklenburg-Vorpommern",
+            "start": "2020-06-22",
+            "end": "2020-08-02",
+            "created": "2026-01-15T17:28:16Z",
+            "updated": "2026-01-15T17:28:16Z"
+        },
+        {
+            "name": "Herbstferien 2020 Mecklenburg-Vorpommern",
+            "start": "2020-10-05",
+            "end": "2020-10-11",
+            "created": "2026-01-15T17:28:16Z",
+            "updated": "2026-01-15T17:28:16Z"
+        },
+        {
+            "name": "Herbstferien 2020 Mecklenburg-Vorpommern",
+            "start": "2020-11-02",
+            "end": "2020-11-04",
+            "created": "2026-01-15T17:28:16Z",
+            "updated": "2026-01-15T17:28:16Z"
+        },
+        {
+            "name": "Weihnachtsferien 2020 Mecklenburg-Vorpommern",
+            "start": "2020-12-21",
+            "end": "2021-01-03",
+            "created": "2026-01-15T17:28:16Z",
+            "updated": "2026-01-15T17:28:16Z"
+        },
+        {
+            "name": "Winterferien 2021 Mecklenburg-Vorpommern",
+            "start": "2021-02-06",
+            "end": "2021-02-20",
+            "created": "2026-01-15T17:28:16Z",
+            "updated": "2026-01-15T17:28:16Z"
+        },
+        {
+            "name": "Osterferien 2021 Mecklenburg-Vorpommern",
+            "start": "2021-03-29",
+            "end": "2021-04-08",
+            "created": "2026-01-15T17:28:16Z",
+            "updated": "2026-01-15T17:28:16Z"
+        },
+        {
+            "name": "Pfingstferien 2021 Mecklenburg-Vorpommern",
+            "start": "2021-05-14",
+            "end": "2021-05-15",
+            "created": "2026-01-15T17:28:16Z",
+            "updated": "2026-01-15T17:28:16Z"
+        },
+        {
+            "name": "Pfingstferien 2021 Mecklenburg-Vorpommern",
+            "start": "2021-05-21",
+            "end": "2021-05-26",
+            "created": "2026-01-15T17:28:16Z",
+            "updated": "2026-01-15T17:28:16Z"
+        },
+        {
+            "name": "Sommerferien 2021 Mecklenburg-Vorpommern",
+            "start": "2021-06-21",
+            "end": "2021-08-01",
+            "created": "2026-01-15T17:28:16Z",
+            "updated": "2026-01-15T17:28:16Z"
+        },
+        {
+            "name": "Herbstferien 2021 Mecklenburg-Vorpommern",
+            "start": "2021-10-02",
+            "end": "2021-10-10",
+            "created": "2026-01-15T17:28:16Z",
+            "updated": "2026-01-15T17:28:16Z"
+        },
+        {
+            "name": "Herbstferien 2021 Mecklenburg-Vorpommern",
+            "start": "2021-11-01",
+            "end": "2021-11-03",
+            "created": "2026-01-15T17:28:16Z",
+            "updated": "2026-01-15T17:28:16Z"
+        },
+        {
+            "name": "Weihnachtsferien 2021 Mecklenburg-Vorpommern",
+            "start": "2021-12-22",
+            "end": "2022-01-01",
+            "created": "2026-01-15T17:28:16Z",
+            "updated": "2026-01-15T17:28:16Z"
+        },
+        {
+            "name": "Winterferien 2022 Mecklenburg-Vorpommern",
+            "start": "2022-02-05",
+            "end": "2022-02-19",
+            "created": "2026-01-15T17:28:16Z",
+            "updated": "2026-01-15T17:28:16Z"
+        },
+        {
+            "name": "Osterferien 2022 Mecklenburg-Vorpommern",
+            "start": "2022-04-11",
+            "end": "2022-04-21",
+            "created": "2026-01-15T17:28:16Z",
+            "updated": "2026-01-15T17:28:16Z"
+        },
+        {
+            "name": "Pfingstferien 2022 Mecklenburg-Vorpommern",
+            "start": "2022-05-27",
+            "end": "2022-05-28",
+            "created": "2026-01-15T17:28:16Z",
+            "updated": "2026-01-15T17:28:16Z"
+        },
+        {
+            "name": "Pfingstferien 2022 Mecklenburg-Vorpommern",
+            "start": "2022-06-03",
+            "end": "2022-06-08",
+            "created": "2026-01-15T17:28:16Z",
+            "updated": "2026-01-15T17:28:16Z"
+        },
+        {
+            "name": "Sommerferien 2022 Mecklenburg-Vorpommern",
+            "start": "2022-07-04",
+            "end": "2022-08-14",
+            "created": "2026-01-15T17:28:16Z",
+            "updated": "2026-01-15T17:28:16Z"
+        },
+        {
+            "name": "Herbstferien 2022 Mecklenburg-Vorpommern",
+            "start": "2022-10-10",
+            "end": "2022-10-15",
+            "created": "2026-01-15T17:28:16Z",
+            "updated": "2026-01-15T17:28:16Z"
+        },
+        {
+            "name": "Herbstferien 2022 Mecklenburg-Vorpommern",
+            "start": "2022-11-01",
+            "end": "2022-11-03",
+            "created": "2026-01-15T17:28:16Z",
+            "updated": "2026-01-15T17:28:16Z"
+        },
+        {
+            "name": "Weihnachtsferien 2022 Mecklenburg-Vorpommern",
+            "start": "2022-12-22",
+            "end": "2023-01-03",
+            "created": "2026-01-15T17:28:16Z",
+            "updated": "2026-01-15T17:28:16Z"
+        },
+        {
+            "name": "Winterferien 2023 Mecklenburg-Vorpommern",
+            "start": "2023-02-06",
+            "end": "2023-02-19",
+            "created": "2026-01-15T17:28:16Z",
+            "updated": "2026-01-15T17:28:16Z"
+        },
+        {
+            "name": "Osterferien 2023 Mecklenburg-Vorpommern",
+            "start": "2023-04-03",
+            "end": "2023-04-13",
+            "created": "2026-01-15T17:28:16Z",
+            "updated": "2026-01-15T17:28:16Z"
+        },
+        {
+            "name": "Pfingstferien 2023 Mecklenburg-Vorpommern",
+            "start": "2023-05-19",
+            "end": "2023-05-20",
+            "created": "2026-01-15T17:28:16Z",
+            "updated": "2026-01-15T17:28:16Z"
+        },
+        {
+            "name": "Pfingstferien 2023 Mecklenburg-Vorpommern",
+            "start": "2023-05-26",
+            "end": "2023-05-31",
+            "created": "2026-01-15T17:28:16Z",
+            "updated": "2026-01-15T17:28:16Z"
+        },
+        {
+            "name": "Sommerferien 2023 Mecklenburg-Vorpommern",
+            "start": "2023-07-17",
+            "end": "2023-08-27",
+            "created": "2026-01-15T17:28:16Z",
+            "updated": "2026-01-15T17:28:16Z"
+        },
+        {
+            "name": "Herbstferien 2023 Mecklenburg-Vorpommern",
+            "start": "2023-10-09",
+            "end": "2023-10-15",
+            "created": "2026-01-15T17:28:16Z",
+            "updated": "2026-01-15T17:28:16Z"
+        },
+        {
+            "name": "Herbstferien 2023 Mecklenburg-Vorpommern",
+            "start": "2023-10-30",
+            "end": "2023-11-02",
+            "created": "2026-01-15T17:28:16Z",
+            "updated": "2026-01-15T17:28:16Z"
+        },
+        {
+            "name": "Weihnachtsferien 2023 Mecklenburg-Vorpommern",
+            "start": "2023-12-21",
+            "end": "2024-01-04",
+            "created": "2026-01-15T17:28:16Z",
+            "updated": "2026-01-15T17:28:16Z"
+        },
+        {
+            "name": "Winterferien 2024 Mecklenburg-Vorpommern",
+            "start": "2024-02-05",
+            "end": "2024-02-17",
+            "created": "2026-01-15T17:28:16Z",
+            "updated": "2026-01-15T17:28:16Z"
+        },
+        {
+            "name": "Osterferien 2024 Mecklenburg-Vorpommern",
+            "start": "2024-03-25",
+            "end": "2024-04-04",
+            "created": "2026-01-15T17:28:16Z",
+            "updated": "2026-01-15T17:28:16Z"
+        },
+        {
+            "name": "Pfingstferien 2024 Mecklenburg-Vorpommern",
+            "start": "2024-05-10",
+            "end": "2024-05-11",
+            "created": "2026-01-15T17:28:16Z",
+            "updated": "2026-01-15T17:28:16Z"
+        },
+        {
+            "name": "Pfingstferien 2024 Mecklenburg-Vorpommern",
+            "start": "2024-05-17",
+            "end": "2024-05-22",
+            "created": "2026-01-15T17:28:16Z",
+            "updated": "2026-01-15T17:28:16Z"
+        },
+        {
+            "name": "Sommerferien 2024 Mecklenburg-Vorpommern",
+            "start": "2024-07-22",
+            "end": "2024-09-01",
+            "created": "2026-01-15T17:28:16Z",
+            "updated": "2026-01-15T17:28:16Z"
+        },
+        {
+            "name": "Herbstferien 2024 Mecklenburg-Vorpommern",
+            "start": "2024-10-21",
+            "end": "2024-10-27",
+            "created": "2026-01-15T17:28:16Z",
+            "updated": "2026-01-15T17:28:16Z"
+        },
+        {
+            "name": "Herbstferien 2024 Mecklenburg-Vorpommern",
+            "start": "2024-10-04",
+            "end": "2024-10-05",
+            "created": "2026-01-15T17:28:16Z",
+            "updated": "2026-01-15T17:28:16Z"
+        },
+        {
+            "name": "Herbstferien 2024 Mecklenburg-Vorpommern",
+            "start": "2024-11-01",
+            "end": "2024-11-02",
+            "created": "2026-01-15T17:28:16Z",
+            "updated": "2026-01-15T17:28:16Z"
+        },
+        {
+            "name": "Weihnachtsferien 2024 Mecklenburg-Vorpommern",
+            "start": "2024-12-23",
+            "end": "2025-01-07",
+            "created": "2026-01-15T17:28:16Z",
+            "updated": "2026-01-15T17:28:16Z"
+        },
+        {
+            "name": "Winterferien 2025 Mecklenburg-Vorpommern",
+            "start": "2025-02-03",
+            "end": "2025-02-15",
+            "created": "2026-01-15T17:28:16Z",
+            "updated": "2026-01-15T17:28:16Z"
+        },
+        {
+            "name": "Osterferien 2025 Mecklenburg-Vorpommern",
+            "start": "2025-04-14",
+            "end": "2025-04-24",
+            "created": "2026-01-15T17:28:16Z",
+            "updated": "2026-01-15T17:28:16Z"
+        },
+        {
+            "name": "Osterferien 2025 Mecklenburg-Vorpommern",
+            "start": "2025-05-30",
+            "end": "2025-05-31",
+            "created": "2026-01-15T17:28:16Z",
+            "updated": "2026-01-15T17:28:16Z"
+        },
+        {
+            "name": "Pfingstferien 2025 Mecklenburg-Vorpommern",
+            "start": "2025-06-06",
+            "end": "2025-06-11",
+            "created": "2026-01-15T17:28:16Z",
+            "updated": "2026-01-15T17:28:16Z"
+        },
+        {
+            "name": "Sommerferien 2025 Mecklenburg-Vorpommern",
+            "start": "2025-07-28",
+            "end": "2025-09-07",
+            "created": "2026-01-15T17:28:16Z",
+            "updated": "2026-01-15T17:28:16Z"
+        },
+        {
+            "name": "Herbstferien 2025 Mecklenburg-Vorpommern",
+            "start": "2025-10-20",
+            "end": "2025-10-26",
+            "created": "2026-01-15T17:28:16Z",
+            "updated": "2026-01-15T17:28:16Z"
+        },
+        {
+            "name": "Herbstferien 2025 Mecklenburg-Vorpommern",
+            "start": "2025-10-02",
+            "end": "2025-10-03",
+            "created": "2026-01-15T17:28:16Z",
+            "updated": "2026-01-15T17:28:16Z"
+        },
+        {
+            "name": "Herbstferien 2025 Mecklenburg-Vorpommern",
+            "start": "2025-11-03",
+            "end": "2025-11-04",
+            "created": "2026-01-15T17:28:16Z",
+            "updated": "2026-01-15T17:28:16Z"
+        },
+        {
+            "name": "Weihnachtsferien 2025 Mecklenburg-Vorpommern",
+            "start": "2025-12-22",
+            "end": "2026-01-06",
+            "created": "2026-01-15T17:28:16Z",
+            "updated": "2026-01-15T17:28:16Z"
+        },
+        {
+            "name": "Winterferien 2026 Mecklenburg-Vorpommern",
+            "start": "2026-02-09",
+            "end": "2026-02-21",
+            "created": "2026-01-15T17:28:16Z",
+            "updated": "2026-01-15T17:28:16Z"
+        },
+        {
+            "name": "Osterferien 2026 Mecklenburg-Vorpommern",
+            "start": "2026-03-30",
+            "end": "2026-04-09",
+            "created": "2026-01-15T17:28:16Z",
+            "updated": "2026-01-15T17:28:16Z"
+        },
+        {
+            "name": "Pfingstferien 2026 Mecklenburg-Vorpommern",
+            "start": "2026-05-22",
+            "end": "2026-05-27",
+            "created": "2026-01-15T17:28:16Z",
+            "updated": "2026-01-15T17:28:16Z"
+        },
+        {
+            "name": "Pfingstferien 2026 Mecklenburg-Vorpommern",
+            "start": "2026-05-15",
+            "end": "2026-05-16",
+            "created": "2026-01-15T17:28:16Z",
+            "updated": "2026-01-15T17:28:16Z"
+        },
+        {
+            "name": "Sommerferien 2026 Mecklenburg-Vorpommern",
+            "start": "2026-07-13",
+            "end": "2026-08-23",
+            "created": "2026-01-15T17:28:16Z",
+            "updated": "2026-01-15T17:28:16Z"
+        },
+        {
+            "name": "Herbstferien 2026 Mecklenburg-Vorpommern",
+            "start": "2026-10-19",
+            "end": "2026-10-25",
+            "created": "2026-01-15T17:28:16Z",
+            "updated": "2026-01-15T17:28:16Z"
+        },
+        {
+            "name": "Herbstferien 2026 Mecklenburg-Vorpommern",
+            "start": "2026-11-26",
+            "end": "2026-11-28",
+            "created": "2026-01-15T17:28:16Z",
+            "updated": "2026-01-15T17:28:16Z"
+        },
+        {
+            "name": "Weihnachtsferien 2026 Mecklenburg-Vorpommern",
+            "start": "2026-12-19",
+            "end": "2027-01-03",
+            "created": "2026-01-15T17:28:16Z",
+            "updated": "2026-01-15T17:28:16Z"
+        }
+    ]
+}

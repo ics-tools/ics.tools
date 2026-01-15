@@ -1,0 +1,541 @@
+{
+    "$schema": "./../school-holidays-schema.json",
+    "metadata": {
+        "state": "Sachsen",
+        "code": "SN"
+    },
+    "school_holidays": [
+        {
+            "name": "Winterferien 2015 Sachsen",
+            "start": "2015-02-09",
+            "end": "2015-02-22",
+            "created": "2026-01-15T17:28:17Z",
+            "updated": "2026-01-15T17:28:17Z"
+        },
+        {
+            "name": "Osterferien 2015 Sachsen",
+            "start": "2015-04-02",
+            "end": "2015-04-12",
+            "created": "2026-01-15T17:28:17Z",
+            "updated": "2026-01-15T17:28:17Z"
+        },
+        {
+            "name": "Pfingstferien 2015 Sachsen",
+            "start": "2015-05-15",
+            "end": "2015-05-16",
+            "created": "2026-01-15T17:28:17Z",
+            "updated": "2026-01-15T17:28:17Z"
+        },
+        {
+            "name": "Sommerferien 2015 Sachsen",
+            "start": "2015-07-13",
+            "end": "2015-08-22",
+            "created": "2026-01-15T17:28:17Z",
+            "updated": "2026-01-15T17:28:17Z"
+        },
+        {
+            "name": "Herbstferien 2015 Sachsen",
+            "start": "2015-10-12",
+            "end": "2015-10-25",
+            "created": "2026-01-15T17:28:17Z",
+            "updated": "2026-01-15T17:28:17Z"
+        },
+        {
+            "name": "Weihnachtsferien 2015 Sachsen",
+            "start": "2015-12-21",
+            "end": "2016-01-03",
+            "created": "2026-01-15T17:28:17Z",
+            "updated": "2026-01-15T17:28:17Z"
+        },
+        {
+            "name": "Winterferien 2016 Sachsen",
+            "start": "2016-02-08",
+            "end": "2016-02-21",
+            "created": "2026-01-15T17:28:17Z",
+            "updated": "2026-01-15T17:28:17Z"
+        },
+        {
+            "name": "Osterferien 2016 Sachsen",
+            "start": "2016-03-25",
+            "end": "2016-04-03",
+            "created": "2026-01-15T17:28:17Z",
+            "updated": "2026-01-15T17:28:17Z"
+        },
+        {
+            "name": "Pfingstferien 2016 Sachsen",
+            "start": "2016-05-06",
+            "end": "2016-05-07",
+            "created": "2026-01-15T17:28:17Z",
+            "updated": "2026-01-15T17:28:17Z"
+        },
+        {
+            "name": "Sommerferien 2016 Sachsen",
+            "start": "2016-06-27",
+            "end": "2016-08-06",
+            "created": "2026-01-15T17:28:17Z",
+            "updated": "2026-01-15T17:28:17Z"
+        },
+        {
+            "name": "Herbstferien 2016 Sachsen",
+            "start": "2016-10-03",
+            "end": "2016-10-16",
+            "created": "2026-01-15T17:28:17Z",
+            "updated": "2026-01-15T17:28:17Z"
+        },
+        {
+            "name": "Weihnachtsferien 2016 Sachsen",
+            "start": "2016-12-23",
+            "end": "2017-01-03",
+            "created": "2026-01-15T17:28:17Z",
+            "updated": "2026-01-15T17:28:17Z"
+        },
+        {
+            "name": "Winterferien 2017 Sachsen",
+            "start": "2017-02-13",
+            "end": "2017-02-25",
+            "created": "2026-01-15T17:28:17Z",
+            "updated": "2026-01-15T17:28:17Z"
+        },
+        {
+            "name": "Osterferien 2017 Sachsen",
+            "start": "2017-04-13",
+            "end": "2017-04-23",
+            "created": "2026-01-15T17:28:17Z",
+            "updated": "2026-01-15T17:28:17Z"
+        },
+        {
+            "name": "Pfingstferien 2017 Sachsen",
+            "start": "2017-05-26",
+            "end": "2017-05-27",
+            "created": "2026-01-15T17:28:17Z",
+            "updated": "2026-01-15T17:28:17Z"
+        },
+        {
+            "name": "Sommerferien 2017 Sachsen",
+            "start": "2017-06-26",
+            "end": "2017-08-05",
+            "created": "2026-01-15T17:28:17Z",
+            "updated": "2026-01-15T17:28:17Z"
+        },
+        {
+            "name": "Herbstferien 2017 Sachsen",
+            "start": "2017-10-02",
+            "end": "2017-10-15",
+            "created": "2026-01-15T17:28:17Z",
+            "updated": "2026-01-15T17:28:17Z"
+        },
+        {
+            "name": "Herbstferien 2017 Sachsen",
+            "start": "2017-10-30",
+            "end": "2017-10-31",
+            "created": "2026-01-15T17:28:17Z",
+            "updated": "2026-01-15T17:28:17Z"
+        },
+        {
+            "name": "Weihnachtsferien 2017 Sachsen",
+            "start": "2017-12-23",
+            "end": "2018-01-03",
+            "created": "2026-01-15T17:28:17Z",
+            "updated": "2026-01-15T17:28:17Z"
+        },
+        {
+            "name": "Winterferien 2018 Sachsen",
+            "start": "2018-02-12",
+            "end": "2018-02-24",
+            "created": "2026-01-15T17:28:17Z",
+            "updated": "2026-01-15T17:28:17Z"
+        },
+        {
+            "name": "Osterferien 2018 Sachsen",
+            "start": "2018-03-29",
+            "end": "2018-04-07",
+            "created": "2026-01-15T17:28:17Z",
+            "updated": "2026-01-15T17:28:17Z"
+        },
+        {
+            "name": "Pfingstferien 2018 Sachsen",
+            "start": "2018-05-19",
+            "end": "2018-05-23",
+            "created": "2026-01-15T17:28:17Z",
+            "updated": "2026-01-15T17:28:17Z"
+        },
+        {
+            "name": "Pfingstferien 2018 Sachsen",
+            "start": "2018-05-11",
+            "end": "2018-05-12",
+            "created": "2026-01-15T17:28:17Z",
+            "updated": "2026-01-15T17:28:17Z"
+        },
+        {
+            "name": "Sommerferien 2018 Sachsen",
+            "start": "2018-07-02",
+            "end": "2018-08-11",
+            "created": "2026-01-15T17:28:17Z",
+            "updated": "2026-01-15T17:28:17Z"
+        },
+        {
+            "name": "Herbstferien 2018 Sachsen",
+            "start": "2018-10-08",
+            "end": "2018-10-21",
+            "created": "2026-01-15T17:28:17Z",
+            "updated": "2026-01-15T17:28:17Z"
+        },
+        {
+            "name": "Weihnachtsferien 2018 Sachsen",
+            "start": "2018-12-22",
+            "end": "2019-01-05",
+            "created": "2026-01-15T17:28:17Z",
+            "updated": "2026-01-15T17:28:17Z"
+        },
+        {
+            "name": "Winterferien 2019 Sachsen",
+            "start": "2019-02-18",
+            "end": "2019-03-03",
+            "created": "2026-01-15T17:28:17Z",
+            "updated": "2026-01-15T17:28:17Z"
+        },
+        {
+            "name": "Osterferien 2019 Sachsen",
+            "start": "2019-04-19",
+            "end": "2019-04-27",
+            "created": "2026-01-15T17:28:17Z",
+            "updated": "2026-01-15T17:28:17Z"
+        },
+        {
+            "name": "Pfingstferien 2019 Sachsen",
+            "start": "2019-05-31",
+            "end": "2019-06-01",
+            "created": "2026-01-15T17:28:17Z",
+            "updated": "2026-01-15T17:28:17Z"
+        },
+        {
+            "name": "Sommerferien 2019 Sachsen",
+            "start": "2019-07-08",
+            "end": "2019-08-17",
+            "created": "2026-01-15T17:28:17Z",
+            "updated": "2026-01-15T17:28:17Z"
+        },
+        {
+            "name": "Herbstferien 2019 Sachsen",
+            "start": "2019-10-14",
+            "end": "2019-10-26",
+            "created": "2026-01-15T17:28:17Z",
+            "updated": "2026-01-15T17:28:17Z"
+        },
+        {
+            "name": "Weihnachtsferien 2019 Sachsen",
+            "start": "2019-12-21",
+            "end": "2020-01-04",
+            "created": "2026-01-15T17:28:17Z",
+            "updated": "2026-01-15T17:28:17Z"
+        },
+        {
+            "name": "Winterferien 2020 Sachsen",
+            "start": "2020-02-10",
+            "end": "2020-02-23",
+            "created": "2026-01-15T17:28:17Z",
+            "updated": "2026-01-15T17:28:17Z"
+        },
+        {
+            "name": "Osterferien 2020 Sachsen",
+            "start": "2020-04-10",
+            "end": "2020-04-19",
+            "created": "2026-01-15T17:28:17Z",
+            "updated": "2026-01-15T17:28:17Z"
+        },
+        {
+            "name": "Pfingstferien 2020 Sachsen",
+            "start": "2020-05-22",
+            "end": "2020-05-23",
+            "created": "2026-01-15T17:28:17Z",
+            "updated": "2026-01-15T17:28:17Z"
+        },
+        {
+            "name": "Sommerferien 2020 Sachsen",
+            "start": "2020-07-20",
+            "end": "2020-08-29",
+            "created": "2026-01-15T17:28:17Z",
+            "updated": "2026-01-15T17:28:17Z"
+        },
+        {
+            "name": "Herbstferien 2020 Sachsen",
+            "start": "2020-10-19",
+            "end": "2020-11-01",
+            "created": "2026-01-15T17:28:17Z",
+            "updated": "2026-01-15T17:28:17Z"
+        },
+        {
+            "name": "Weihnachtsferien 2020 Sachsen",
+            "start": "2020-12-19",
+            "end": "2021-01-03",
+            "created": "2026-01-15T17:28:17Z",
+            "updated": "2026-01-15T17:28:17Z"
+        },
+        {
+            "name": "Winterferien 2021 Sachsen",
+            "start": "2021-01-31",
+            "end": "2021-02-07",
+            "created": "2026-01-15T17:28:17Z",
+            "updated": "2026-01-15T17:28:17Z"
+        },
+        {
+            "name": "Osterferien 2021 Sachsen",
+            "start": "2021-03-27",
+            "end": "2021-04-11",
+            "created": "2026-01-15T17:28:17Z",
+            "updated": "2026-01-15T17:28:17Z"
+        },
+        {
+            "name": "Pfingstferien 2021 Sachsen",
+            "start": "2021-05-14",
+            "end": "2021-05-15",
+            "created": "2026-01-15T17:28:17Z",
+            "updated": "2026-01-15T17:28:17Z"
+        },
+        {
+            "name": "Sommerferien 2021 Sachsen",
+            "start": "2021-07-26",
+            "end": "2021-09-04",
+            "created": "2026-01-15T17:28:17Z",
+            "updated": "2026-01-15T17:28:17Z"
+        },
+        {
+            "name": "Herbstferien 2021 Sachsen",
+            "start": "2021-10-18",
+            "end": "2021-10-31",
+            "created": "2026-01-15T17:28:17Z",
+            "updated": "2026-01-15T17:28:17Z"
+        },
+        {
+            "name": "Weihnachtsferien 2021 Sachsen",
+            "start": "2021-12-23",
+            "end": "2022-01-02",
+            "created": "2026-01-15T17:28:17Z",
+            "updated": "2026-01-15T17:28:17Z"
+        },
+        {
+            "name": "Winterferien 2022 Sachsen",
+            "start": "2022-02-12",
+            "end": "2022-02-27",
+            "created": "2026-01-15T17:28:17Z",
+            "updated": "2026-01-15T17:28:17Z"
+        },
+        {
+            "name": "Osterferien 2022 Sachsen",
+            "start": "2022-04-15",
+            "end": "2022-04-24",
+            "created": "2026-01-15T17:28:17Z",
+            "updated": "2026-01-15T17:28:17Z"
+        },
+        {
+            "name": "Pfingstferien 2022 Sachsen",
+            "start": "2022-05-27",
+            "end": "2022-05-28",
+            "created": "2026-01-15T17:28:17Z",
+            "updated": "2026-01-15T17:28:17Z"
+        },
+        {
+            "name": "Sommerferien 2022 Sachsen",
+            "start": "2022-07-18",
+            "end": "2022-08-27",
+            "created": "2026-01-15T17:28:17Z",
+            "updated": "2026-01-15T17:28:17Z"
+        },
+        {
+            "name": "Herbstferien 2022 Sachsen",
+            "start": "2022-10-17",
+            "end": "2022-10-30",
+            "created": "2026-01-15T17:28:17Z",
+            "updated": "2026-01-15T17:28:17Z"
+        },
+        {
+            "name": "Weihnachtsferien 2022 Sachsen",
+            "start": "2022-12-22",
+            "end": "2023-01-03",
+            "created": "2026-01-15T17:28:17Z",
+            "updated": "2026-01-15T17:28:17Z"
+        },
+        {
+            "name": "Winterferien 2023 Sachsen",
+            "start": "2023-02-13",
+            "end": "2023-02-25",
+            "created": "2026-01-15T17:28:17Z",
+            "updated": "2026-01-15T17:28:17Z"
+        },
+        {
+            "name": "Osterferien 2023 Sachsen",
+            "start": "2023-04-07",
+            "end": "2023-04-16",
+            "created": "2026-01-15T17:28:17Z",
+            "updated": "2026-01-15T17:28:17Z"
+        },
+        {
+            "name": "Pfingstferien 2023 Sachsen",
+            "start": "2023-05-19",
+            "end": "2023-05-20",
+            "created": "2026-01-15T17:28:17Z",
+            "updated": "2026-01-15T17:28:17Z"
+        },
+        {
+            "name": "Sommerferien 2023 Sachsen",
+            "start": "2023-07-10",
+            "end": "2023-08-19",
+            "created": "2026-01-15T17:28:17Z",
+            "updated": "2026-01-15T17:28:17Z"
+        },
+        {
+            "name": "Herbstferien 2023 Sachsen",
+            "start": "2023-10-02",
+            "end": "2023-10-15",
+            "created": "2026-01-15T17:28:17Z",
+            "updated": "2026-01-15T17:28:17Z"
+        },
+        {
+            "name": "Herbstferien 2023 Sachsen",
+            "start": "2023-10-30",
+            "end": "2023-10-31",
+            "created": "2026-01-15T17:28:17Z",
+            "updated": "2026-01-15T17:28:17Z"
+        },
+        {
+            "name": "Weihnachtsferien 2023 Sachsen",
+            "start": "2023-12-23",
+            "end": "2024-01-03",
+            "created": "2026-01-15T17:28:17Z",
+            "updated": "2026-01-15T17:28:17Z"
+        },
+        {
+            "name": "Winterferien 2024 Sachsen",
+            "start": "2024-02-12",
+            "end": "2024-02-24",
+            "created": "2026-01-15T17:28:17Z",
+            "updated": "2026-01-15T17:28:17Z"
+        },
+        {
+            "name": "Osterferien 2024 Sachsen",
+            "start": "2024-03-28",
+            "end": "2024-04-06",
+            "created": "2026-01-15T17:28:17Z",
+            "updated": "2026-01-15T17:28:17Z"
+        },
+        {
+            "name": "Pfingstferien 2024 Sachsen",
+            "start": "2024-05-18",
+            "end": "2024-05-22",
+            "created": "2026-01-15T17:28:17Z",
+            "updated": "2026-01-15T17:28:17Z"
+        },
+        {
+            "name": "Pfingstferien 2024 Sachsen",
+            "start": "2024-05-10",
+            "end": "2024-05-11",
+            "created": "2026-01-15T17:28:17Z",
+            "updated": "2026-01-15T17:28:17Z"
+        },
+        {
+            "name": "Sommerferien 2024 Sachsen",
+            "start": "2024-06-20",
+            "end": "2024-08-03",
+            "created": "2026-01-15T17:28:17Z",
+            "updated": "2026-01-15T17:28:17Z"
+        },
+        {
+            "name": "Herbstferien 2024 Sachsen",
+            "start": "2024-10-07",
+            "end": "2024-10-20",
+            "created": "2026-01-15T17:28:17Z",
+            "updated": "2026-01-15T17:28:17Z"
+        },
+        {
+            "name": "Weihnachtsferien 2024 Sachsen",
+            "start": "2024-12-23",
+            "end": "2025-01-04",
+            "created": "2026-01-15T17:28:17Z",
+            "updated": "2026-01-15T17:28:17Z"
+        },
+        {
+            "name": "Winterferien 2025 Sachsen",
+            "start": "2025-02-17",
+            "end": "2025-03-02",
+            "created": "2026-01-15T17:28:17Z",
+            "updated": "2026-01-15T17:28:17Z"
+        },
+        {
+            "name": "Osterferien 2025 Sachsen",
+            "start": "2025-04-18",
+            "end": "2025-04-26",
+            "created": "2026-01-15T17:28:17Z",
+            "updated": "2026-01-15T17:28:17Z"
+        },
+        {
+            "name": "Osterferien 2025 Sachsen",
+            "start": "2025-05-30",
+            "end": "2025-05-31",
+            "created": "2026-01-15T17:28:17Z",
+            "updated": "2026-01-15T17:28:17Z"
+        },
+        {
+            "name": "Sommerferien 2025 Sachsen",
+            "start": "2025-06-28",
+            "end": "2025-08-09",
+            "created": "2026-01-15T17:28:17Z",
+            "updated": "2026-01-15T17:28:17Z"
+        },
+        {
+            "name": "Herbstferien 2025 Sachsen",
+            "start": "2025-10-06",
+            "end": "2025-10-19",
+            "created": "2026-01-15T17:28:17Z",
+            "updated": "2026-01-15T17:28:17Z"
+        },
+        {
+            "name": "Weihnachtsferien 2025 Sachsen",
+            "start": "2025-12-22",
+            "end": "2026-01-03",
+            "created": "2026-01-15T17:28:17Z",
+            "updated": "2026-01-15T17:28:17Z"
+        },
+        {
+            "name": "Winterferien 2026 Sachsen",
+            "start": "2026-02-09",
+            "end": "2026-02-22",
+            "created": "2026-01-15T17:28:17Z",
+            "updated": "2026-01-15T17:28:17Z"
+        },
+        {
+            "name": "Osterferien 2026 Sachsen",
+            "start": "2026-04-03",
+            "end": "2026-04-11",
+            "created": "2026-01-15T17:28:17Z",
+            "updated": "2026-01-15T17:28:17Z"
+        },
+        {
+            "name": "Osterferien 2026 Sachsen",
+            "start": "2026-05-15",
+            "end": "2026-05-16",
+            "created": "2026-01-15T17:28:17Z",
+            "updated": "2026-01-15T17:28:17Z"
+        },
+        {
+            "name": "Sommerferien 2026 Sachsen",
+            "start": "2026-07-04",
+            "end": "2026-08-15",
+            "created": "2026-01-15T17:28:17Z",
+            "updated": "2026-01-15T17:28:17Z"
+        },
+        {
+            "name": "Herbstferien 2026 Sachsen",
+            "start": "2026-10-12",
+            "end": "2026-10-25",
+            "created": "2026-01-15T17:28:17Z",
+            "updated": "2026-01-15T17:28:17Z"
+        },
+        {
+            "name": "Weihnachtsferien 2026 Sachsen",
+            "start": "2026-12-23",
+            "end": "2027-01-03",
+            "created": "2026-01-15T17:28:17Z",
+            "updated": "2026-01-15T17:28:17Z"
+        }
+    ]
+}
