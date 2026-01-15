@@ -1,6 +1,6 @@
 {
     "$schema": "https://json-schema.org/draft/2020-12/schema",
-    "$id": "https://ics.tools/json/schema/school-holiday-schema.json",
+    "$id": "https://ics.tools/json/schema/school-holidays-schema",
     "title": "ics.tools School holiday schema",
     "type": "object",
     "required": [
