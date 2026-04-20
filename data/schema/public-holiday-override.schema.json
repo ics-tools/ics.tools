@@ -4,6 +4,10 @@
     "description": "Schema for manual overrides of public holiday data",
     "type": "object",
     "properties": {
+        "$schema": {
+            "type": "string",
+            "format": "uri-reference"
+        },
         "new": {
             "type": "array",
             "description": "Add completely new public holiday entries",
