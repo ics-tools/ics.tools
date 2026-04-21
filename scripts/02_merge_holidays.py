@@ -160,6 +160,7 @@ def enrich_with_metadata(
     final_entries.sort(key=lambda x: x["date"])
 
     test = {
+        "$schema": "../../schema/public-holidays.schema.json",
         "metadata": {"state": state_name, "code": state_code},
         "holidays": final_entries,
     }
