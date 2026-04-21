@@ -159,12 +159,11 @@ def enrich_with_metadata(
     # Sort final list chronologically
     final_entries.sort(key=lambda x: x["date"])
 
-    test = {
+    return {
         "$schema": "../../schema/public-holidays.schema.json",
         "metadata": {"state": state_name, "code": state_code},
         "holidays": final_entries,
     }
-    return test
 
 
 def process_state(state_code: str, state_name: str) -> None:
