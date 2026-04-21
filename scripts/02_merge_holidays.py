@@ -9,24 +9,24 @@ RAW_DIR = "data/public_holidays/raw"
 OVERRIDE_DIR = "data/public_holidays/override"
 RESULT_DIR = "data/public_holidays/result"
 
-SUBDIVISIONS = [
-    "BW",
-    "BY",
-    "BE",
-    "BB",
-    "HB",
-    "HH",
-    "HE",
-    "MV",
-    "NI",
-    "NW",
-    "RP",
-    "SL",
-    "SN",
-    "ST",
-    "SH",
-    "TH",
-]
+SUBDIVISIONS = {
+    "BW": "Baden-Württemberg",
+    "BY": "Bayern",
+    "BE": "Berlin",
+    "BB": "Brandenburg",
+    "HB": "Bremen",
+    "HH": "Hamburg",
+    "HE": "Hessen",
+    "MV": "Mecklenburg-Vorpommern",
+    "NI": "Niedersachsen",
+    "NW": "Nordrhein-Westfalen",
+    "RP": "Rheinland-Pfalz",
+    "SL": "Saarland",
+    "SN": "Sachsen",
+    "ST": "Sachsen-Anhalt",
+    "SH": "Schleswig-Holstein",
+    "TH": "Thüringen",
+}
 
 
 def calculate_md5(name: str, date: str) -> str:
@@ -109,10 +109,13 @@ def apply_overrides(
 
 
 def enrich_with_metadata(
-    working_data: Dict[str, Dict[str, Any]], previous_memory: Dict[str, Dict[str, Any]]
-) -> List[Dict[str, Any]]:
+    state_code: str,
+    state_name: str,
+    working_data: Dict[str, Dict[str, Any]],
+    previous_memory: Dict[str, Dict[str, Any]]
+) -> dict[str, Any]:
     """Compares current data with previous memory to generate sequence numbers and update timestamps."""
-    final_result = []
+    final_entries = []
     timestamp_now = get_now_iso()
 
     for entry_id, data in working_data.items():
@@ -151,20 +154,25 @@ def enrich_with_metadata(
                 }
             )
 
-        final_result.append(final_entry)
+        final_entries.append(final_entry)
 
     # Sort final list chronologically
-    final_result.sort(key=lambda x: x["date"])
-    return final_result
+    final_entries.sort(key=lambda x: x["date"])
+
+    test = {
+        "metadata": {"state": state_name, "code": state_code},
+        "holidays": final_entries,
+    }
+    return test
 
 
-def process_state(state: str) -> None:
+def process_state(state_code: str, state_name: str) -> None:
     """Handles the complete processing pipeline for a single state."""
-    print(f"::group::Merging {state}")
+    print(f"::group::Merging {state_name} ({state_code})")
 
-    raw_path = os.path.join(RAW_DIR, f"{state}.json")
-    override_path = os.path.join(OVERRIDE_DIR, f"{state}.json")
-    result_path = os.path.join(RESULT_DIR, f"{state}.json")
+    raw_path = os.path.join(RAW_DIR, f"{state_code}.json")
+    override_path = os.path.join(OVERRIDE_DIR, f"{state_code}.json")
+    result_path = os.path.join(RESULT_DIR, f"{state_code}.json")
 
     # 1. Load Data
     raw_entries = load_json_file(raw_path, default_fallback=[])
@@ -172,8 +180,15 @@ def process_state(state: str) -> None:
         override_path, default_fallback={"new": [], "modify": [], "remove": []}
     )
 
-    prev_list = load_json_file(result_path, default_fallback=[])
-    previous_memory = {item["id"]: item for item in prev_list}
+    prev_data = load_json_file(result_path, default_fallback=[])
+    if isinstance(prev_data, dict):
+        prev_list = prev_data.get("holidays", [])
+    else:
+        prev_list = prev_data
+
+    previous_memory = {
+        item["id"]: item for item in prev_list if isinstance(item, dict) and "id" in item
+    }
 
     # 2. Build Base Data
     working_data = {}
@@ -181,7 +196,7 @@ def process_state(state: str) -> None:
         entry_id = entry.get("id")
         working_data[entry_id] = {
             "id": entry_id,
-            "name": extract_name(entry.get("name"), entry_id, state),
+            "name": extract_name(entry.get("name"), entry_id, state_code),
             "date": entry.get("startDate"),
         }
 
@@ -189,13 +204,15 @@ def process_state(state: str) -> None:
     apply_overrides(working_data, overrides)
 
     # 4. Process Metadata & Hashes
-    final_result = enrich_with_metadata(working_data, previous_memory)
+    final_result = enrich_with_metadata(
+        state_code, state_name, working_data, previous_memory
+    )
 
     # 5. Save Result
     with open(result_path, "w", encoding="utf-8") as f:
         json.dump(final_result, f, ensure_ascii=False, indent=2)
 
-    print(f"✅ Finished {state}")
+    print(f"✅ Finished {state_name} ({state_code})")
     print("::endgroup::")
 
 
@@ -203,8 +220,8 @@ def main():
     os.makedirs(RESULT_DIR, exist_ok=True)
     print("Starting merge process with MD5 hashing")
 
-    for state in SUBDIVISIONS:
-        process_state(state)
+    for state_code, state_name in SUBDIVISIONS.items():
+        process_state(state_code, state_name)
 
     print("Merge process completed.")
 
