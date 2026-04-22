@@ -1,0 +1,70 @@
+import os
+import json
+from pathlib import Path
+from icalendar import Calendar, Event
+from datetime import datetime, timedelta, timezone
+
+# --- Configuration ---
+JSON_RESULT_DIR = Path("data/public_holidays/result")
+RESULT_DIR = Path("Feiertage/")
+
+os.makedirs(RESULT_DIR, exist_ok=True)
+
+
+def generate_uid(event_id, state_code):
+    return f"{event_id}-{state_code}@feiertage.ics.tools"
+
+
+def format_github_actions_error(file_path, message):
+    escaped_message = (
+        message.replace("%", "%25")
+        .replace("\r", "%0D")
+        .replace("\n", "%0A")
+    )
+    return f"::error file={file_path.as_posix()}::{escaped_message}"
+
+
+for json_file in JSON_RESULT_DIR.glob("*.json"):
+    with open(json_file, "r", encoding="utf-8") as file_handle:
+        data = json.load(file_handle)
+
+    # Validate that filename matches state metadata.
+    federal_state = data.get("metadata").get("state")
+    federal_state_iso_code = data.get("metadata").get("code")
+    expected_filename = f"{federal_state_iso_code}.json"
+
+    if json_file.name != expected_filename:
+        error_message = (
+            f"Validation error: filename '{json_file.name}' does not match "
+            f"state '{data.get('metadata').get('state')}' "
+            f"(expected: '{expected_filename}')."
+        )
+        raise RuntimeError(
+            format_github_actions_error(json_file, error_message)
+        )
+
+    cal = Calendar()
+    cal.add("prodid", "-//ics.tools//ics.tools Feiertage v2.0//DE")
+    cal.add("version", "2.0")
+    cal.add("x-wr-calname", f"{federal_state} Feiertage")
+    cal.add("method", "PUBLISH")
+
+    for item in data.get("holidays"):
+        event = Event()
+        event.add(
+            "uid", generate_uid(item.get("id"), federal_state_iso_code)
+        )
+        event.add("SUMMARY", item.get("name"))
+        start_date = datetime.fromisoformat(item["date"]).date()
+        end_date = start_date + timedelta(days=1)
+        event.add("DTSTART", start_date)
+        event.add("DTEND", end_date)
+        event.add("CREATED", datetime.fromisoformat(item["created"]))
+        event.add("LAST-MODIFIED", datetime.fromisoformat(item["modified"]))
+        event.add("DTSTAMP", datetime.now(timezone.utc))
+        event.add("SEQUENCE", item["sequence"])
+
+        cal.add_component(event)
+
+    with open(RESULT_DIR / f"{federal_state.lower()}.ics", "wb") as f:
+        f.write(cal.to_ical())
