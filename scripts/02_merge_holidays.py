@@ -38,7 +38,7 @@ def calculate_md5(name: str, date: str) -> str:
 def get_now_iso() -> str:
     """Returns current UTC timestamp in ISO 8601 format."""
     return (
-        datetime.now(timezone.utc).isoformat(timespec="seconds").replace("+00:00", "Z")
+        datetime.now(timezone.utc).isoformat(timespec="seconds")
     )
 
 
