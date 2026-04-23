@@ -3,30 +3,12 @@ import os
 import hashlib
 from datetime import datetime, timezone
 from typing import List, Dict, Any, Optional
-
-# --- Configuration ---
-RAW_DIR = "data/public_holidays/raw"
-OVERRIDE_DIR = "data/public_holidays/override"
-RESULT_DIR = "data/public_holidays/result"
-
-SUBDIVISIONS = {
-    "BW": "Baden-Württemberg",
-    "BY": "Bayern",
-    "BE": "Berlin",
-    "BB": "Brandenburg",
-    "HB": "Bremen",
-    "HH": "Hamburg",
-    "HE": "Hessen",
-    "MV": "Mecklenburg-Vorpommern",
-    "NI": "Niedersachsen",
-    "NW": "Nordrhein-Westfalen",
-    "RP": "Rheinland-Pfalz",
-    "SL": "Saarland",
-    "SN": "Sachsen",
-    "ST": "Sachsen-Anhalt",
-    "SH": "Schleswig-Holstein",
-    "TH": "Thüringen",
-}
+from config import (
+    PUBLIC_HOLIDAYS_OVERRIDE_DIR,
+    PUBLIC_HOLIDAYS_RAW_DIR,
+    PUBLIC_HOLIDAYS_RESULT_DIR,
+    STATE_NAMES,
+)
 
 
 def calculate_md5(name: str, date: str) -> str:
@@ -170,9 +152,9 @@ def process_state(state_code: str, state_name: str) -> None:
     """Handles the complete processing pipeline for a single state."""
     print(f"::group::Merging {state_name} ({state_code})")
 
-    raw_path = os.path.join(RAW_DIR, f"{state_code}.json")
-    override_path = os.path.join(OVERRIDE_DIR, f"{state_code}.json")
-    result_path = os.path.join(RESULT_DIR, f"{state_code}.json")
+    raw_path = os.path.join(PUBLIC_HOLIDAYS_RAW_DIR, f"{state_code}.json")
+    override_path = os.path.join(PUBLIC_HOLIDAYS_OVERRIDE_DIR, f"{state_code}.json")
+    result_path = os.path.join(PUBLIC_HOLIDAYS_RESULT_DIR, f"{state_code}.json")
 
     # 1. Load Data
     raw_entries = load_json_file(raw_path, default_fallback=[])
@@ -217,10 +199,10 @@ def process_state(state_code: str, state_name: str) -> None:
 
 
 def main():
-    os.makedirs(RESULT_DIR, exist_ok=True)
+    os.makedirs(PUBLIC_HOLIDAYS_RESULT_DIR, exist_ok=True)
     print("Starting merge process with MD5 hashing")
 
-    for state_code, state_name in SUBDIVISIONS.items():
+    for state_code, state_name in STATE_NAMES.items():
         process_state(state_code, state_name)
 
     print("Merge process completed.")

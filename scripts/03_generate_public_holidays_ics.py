@@ -3,10 +3,10 @@ import json
 from pathlib import Path
 from icalendar import Calendar, Event
 from datetime import datetime, timedelta, timezone
+from config import PUBLIC_HOLIDAYS_ICS_DIR, PUBLIC_HOLIDAYS_RESULT_DIR
 
-# --- Configuration ---
-JSON_RESULT_DIR = Path("data/public_holidays/result")
-RESULT_DIR = Path("Feiertage/")
+JSON_RESULT_DIR = Path(PUBLIC_HOLIDAYS_RESULT_DIR)
+RESULT_DIR = Path(PUBLIC_HOLIDAYS_ICS_DIR)
 
 os.makedirs(RESULT_DIR, exist_ok=True)
 
