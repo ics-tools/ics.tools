@@ -1,0 +1,111 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://ics.tools/data/schema/school-holidays.schema.json",
+  "title": "ics.tools School holiday schema",
+  "type": "object",
+  "required": [
+    "metadata",
+    "holidays"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "$schema": {
+      "type": "string",
+      "format": "uri-reference"
+    },
+    "metadata": {
+      "type": "object",
+      "required": [
+        "state",
+        "code"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "state": {
+          "type": "string",
+          "description": "Vollstaendiger Name des Bundeslandes (z.B. Bayern)"
+        },
+        "code": {
+          "type": "string",
+          "enum": [
+            "BW",
+            "BY",
+            "BE",
+            "BB",
+            "HB",
+            "HH",
+            "HE",
+            "MV",
+            "NI",
+            "NW",
+            "RP",
+            "SL",
+            "SN",
+            "ST",
+            "SH",
+            "TH"
+          ],
+          "description": "Zweistelliges ISO-Kuerzel"
+        }
+      }
+    },
+    "holidays": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "name",
+          "date",
+          "endDate",
+          "md5",
+          "created",
+          "modified",
+          "sequence"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "id": {
+            "type": "string",
+            "format": "uuid",
+            "description": "Eindeutige ID der Schulferienperiode"
+          },
+          "name": {
+            "type": "string",
+            "description": "Bezeichnung der Schulferien"
+          },
+          "date": {
+            "type": "string",
+            "format": "date",
+            "description": "Startdatum im Format YYYY-MM-DD"
+          },
+          "endDate": {
+            "type": "string",
+            "format": "date",
+            "description": "Endedatum im Format YYYY-MM-DD"
+          },
+          "md5": {
+            "type": "string",
+            "pattern": "^[a-fA-F0-9]{32}$",
+            "description": "MD5 Hash der Ferien-Daten"
+          },
+          "created": {
+            "type": "string",
+            "format": "date-time",
+            "description": "Erstellungszeitpunkt (ISO 8601)"
+          },
+          "modified": {
+            "type": "string",
+            "format": "date-time",
+            "description": "Letzter Aenderungszeitpunkt (ISO 8601)"
+          },
+          "sequence": {
+            "type": "integer",
+            "minimum": 0,
+            "description": "Versionszaehler fuer Aenderungen"
+          }
+        }
+      }
+    }
+  }
+}

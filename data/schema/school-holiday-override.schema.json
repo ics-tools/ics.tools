@@ -1,0 +1,85 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "School Holiday Override Schema",
+  "description": "Schema for manual overrides of school holiday data",
+  "type": "object",
+  "properties": {
+    "$schema": {
+      "type": "string",
+      "format": "uri-reference"
+    },
+    "new": {
+      "type": "array",
+      "description": "Add completely new school holiday entries",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "name",
+          "startDate",
+          "endDate"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "description": "Unique identifier for the new entry"
+          },
+          "name": {
+            "type": "string",
+            "description": "Display name of the school holiday"
+          },
+          "startDate": {
+            "type": "string",
+            "format": "date",
+            "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+          },
+          "endDate": {
+            "type": "string",
+            "format": "date",
+            "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "modify": {
+      "type": "array",
+      "description": "Modify specific fields of existing API entries by ID",
+      "items": {
+        "type": "object",
+        "required": [
+          "id"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "description": "ID of the API entry to modify"
+          },
+          "name": {
+            "type": "string"
+          },
+          "startDate": {
+            "type": "string",
+            "format": "date",
+            "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+          },
+          "endDate": {
+            "type": "string",
+            "format": "date",
+            "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+          }
+        },
+        "minProperties": 2,
+        "additionalProperties": false
+      }
+    },
+    "remove": {
+      "type": "array",
+      "description": "List of API IDs to be removed from the final result",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "additionalProperties": false
+}
