@@ -85,7 +85,7 @@ jobs:
 
           for pr_number in "${pr_numbers[@]}"; do
             echo "Closing PR #${pr_number}"
-            gh pr close "${pr_number}" --comment "Closed automatically by a newer automated holiday update run."
+            gh pr close "${pr_number}" --delete-branch --comment "Closed automatically by a newer automated holiday update run."
           done
 
       - name: Check for data changes
