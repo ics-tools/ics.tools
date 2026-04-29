@@ -39,7 +39,7 @@ PUBLIC_HOLIDAYS_ICS_DIR = "Feiertage"
 SCHOOL_HOLIDAYS_RAW_DIR = "data/school_holidays/raw"
 SCHOOL_HOLIDAYS_OVERRIDE_DIR = "data/school_holidays/override"
 SCHOOL_HOLIDAYS_RESULT_DIR = "data/school_holidays/result"
-SCHOOL_HOLIDAYS_ICS_DIR = "Schulferien"
+SCHOOL_HOLIDAYS_ICS_DIR = "Ferien"
 
 
 def subdivision_code(state_code: str) -> str:
