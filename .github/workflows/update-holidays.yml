@@ -105,7 +105,7 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           branch: ${{ env.BRANCH_NAME }}
           base: master
-          title: "chore: update public and school holidays data"
+          title: "Update public and school holidays data"
           body: Automated update of public and school holiday data.
           commit-message: "chore: update public and school holidays data"
           committer: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>
