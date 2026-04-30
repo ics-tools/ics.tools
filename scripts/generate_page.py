@@ -13,9 +13,20 @@ from config import (
 
 # Check if ICS dirs exist
 for source_dir in WEBSITE_ICS_SOURCE_DIRS:
-    if not os.path.exists(source_dir) or not os.path.isdir(source_dir):
-        print(f"Error: ICS dir is not ready: {source_dir}")
+    if not os.path.exists(source_dir):
+        print(
+            "::error::Missing ICS source directory: "
+            f"'{source_dir}'. Current working directory: '{os.getcwd()}'. "
+            "Run the ICS generation step before generate_page.py."
+        )
         sys.exit(1)
+
+    if not os.path.isdir(source_dir):
+        print(
+            "::error::Invalid ICS source path (expected directory): "
+            f"'{source_dir}'. Current working directory: '{os.getcwd()}'."
+        )
+        sys.exit(2)
 
 
 os.makedirs(WEBSITE_DIR, exist_ok=True)
