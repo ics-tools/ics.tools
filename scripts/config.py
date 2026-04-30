@@ -41,6 +41,20 @@ SCHOOL_HOLIDAYS_OVERRIDE_DIR = "data/school_holidays/override"
 SCHOOL_HOLIDAYS_RESULT_DIR = "data/school_holidays/result"
 SCHOOL_HOLIDAYS_ICS_DIR = "Ferien"
 
+# Website generation config
+WEBSITE_DIR = "website"
+WEBSITE_TEMPLATE_FILE = "index_template.md"
+WEBSITE_OUTPUT_FILE = "index.md"
+WEBSITE_ROOT_FILES = ["CNAME"]
+WEBSITE_ICS_SOURCE_DIRS = [
+    PUBLIC_HOLIDAYS_ICS_DIR,
+    SCHOOL_HOLIDAYS_ICS_DIR,
+]
+WEBSITE_PLACEHOLDERS = {
+    PUBLIC_HOLIDAYS_ICS_DIR: "[[feiertage-tree]]",
+    SCHOOL_HOLIDAYS_ICS_DIR: "[[ferien-tree]]",
+}
+
 
 def subdivision_code(state_code: str) -> str:
     return f"{COUNTRY_CODE}-{state_code}"
