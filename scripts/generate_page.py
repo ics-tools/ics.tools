@@ -71,3 +71,6 @@ for source_dir in WEBSITE_ICS_SOURCE_DIRS:
 
 with open(output_path, "w", encoding="utf-8") as file:
     file.write(content)
+
+if os.path.exists(template_path):
+    os.remove(template_path)
