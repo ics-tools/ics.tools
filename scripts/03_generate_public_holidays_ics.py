@@ -47,6 +47,10 @@ for json_file in JSON_RESULT_DIR.glob("*.json"):
     cal.add("prodid", "-//ics.tools//ics.tools Feiertage v2.0//DE")
     cal.add("version", "2.0")
     cal.add("x-wr-calname", f"{federal_state} Feiertage")
+    cal.add("name", f"{federal_state} Feiertage")
+    cal.add("x-wr-timezone", "Europe/Berlin")
+    cal.add("REFRESH-INTERVAL", "P1D", parameters={"VALUE": "DURATION"})
+    cal.add("X-PUBLISHED-TTL", "P1D")
     cal.add("method", "PUBLISH")
 
     for item in data.get("holidays"):
@@ -63,7 +67,7 @@ for json_file in JSON_RESULT_DIR.glob("*.json"):
         event.add("LAST-MODIFIED", datetime.fromisoformat(item["modified"]))
         event.add("DTSTAMP", datetime.now(timezone.utc))
         event.add("SEQUENCE", item["sequence"])
-
+        event.add("transp", "TRANSPARENT")
         cal.add_component(event)
 
     with open(RESULT_DIR / f"{federal_state.lower()}.ics", "wb") as f:
