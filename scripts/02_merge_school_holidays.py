@@ -31,25 +31,28 @@ def load_json_file(filepath: str, default_fallback: Any) -> Any:
 
 
 def extract_name(
-    name_list: Optional[List[Dict[str, str]]], entry_id: str, state: str
+    name_list: Optional[List[Dict[str, str]]],
+    entry_id: str,
+    state: str,
+    year: int
 ) -> str:
     """Extracts the German text from the API name array with fallback."""
     if not name_list or not isinstance(name_list, list) or len(name_list) == 0:
         print(
             f"::warning title=Missing Name,file={state}.json::No name found for school holiday {entry_id} in {state}. Using 'Unknown'."
         )
-        return "Unknown"
+        return f"Unknown {year} {STATE_NAMES[state]}"
 
     for item in name_list:
         text = item.get("text")
         if item.get("language") == "DE" and text:
-            return text
+            return f"{text} {year} {STATE_NAMES[state]}"
 
     fallback_name = name_list[0].get("text", "Unknown")
     print(
         f"::warning title=Missing German Name,file={state}.json::German name missing for {entry_id} in {state}. Falling back to: {fallback_name}"
     )
-    return fallback_name
+    return f"{fallback_name} {year} {STATE_NAMES[state]}"
 
 
 def apply_overrides(
@@ -179,7 +182,7 @@ def process_state(state_code: str, state_name: str) -> None:
 
         working_data[entry_id] = {
             "id": entry_id,
-            "name": extract_name(entry.get("name"), entry_id, state_code),
+            "name": extract_name(entry.get("name"), entry_id, state_code, int(start_date[:4])),
             "date": start_date,
             "endDate": end_date,
         }
