@@ -51,10 +51,10 @@ def main() -> None:
         cal.add("x-wr-calname", f"{federal_state} Schulferien")
         cal.add("name", f"{federal_state} Schulferien")
         cal.add("x-wr-timezone", "Europe/Berlin")
-        cal.add("REFRESH-INTERVAL", "P1D", parameters={"VALUE": "DURATION"})
-        cal.add("X-PUBLISHED-TTL", "P1D")
-        cal.add("CALSCALE", "GREGORIAN")
-        cal.add("SOURCE", urljoin(WEBSITE_BASE_URL, result_file.as_posix()))
+        cal.add("refresh-interval", "P1D", parameters={"VALUE": "DURATION"})
+        cal.add("x-published-ttl", "P1D")
+        cal.add("calscale", "GREGORIAN")
+        cal.add("source", urljoin(WEBSITE_BASE_URL, result_file.as_posix()))
         cal.add("method", "PUBLISH")
 
         for item in data.get("holidays", []):
