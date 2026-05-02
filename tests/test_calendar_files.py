@@ -1,7 +1,5 @@
 import pytest
 import os
-from collections import defaultdict
-from datetime import datetime, timedelta
 
 import requests
 from icalendar import Calendar
