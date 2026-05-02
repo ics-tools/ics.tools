@@ -167,6 +167,9 @@ def process_state(state_code: str, state_name: str) -> None:
 
     working_data = {}
     for entry in raw_entries:
+        if entry.get("regionalScope") == "Local":
+            continue
+
         entry_id = entry.get("id")
         if not entry_id:
             continue

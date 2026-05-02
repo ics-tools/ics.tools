@@ -175,6 +175,9 @@ def process_state(state_code: str, state_name: str) -> None:
     # 2. Build Base Data
     working_data = {}
     for entry in raw_entries:
+        if entry.get("regionalScope") == "Local":
+            continue
+
         entry_id = entry.get("id")
         working_data[entry_id] = {
             "id": entry_id,
