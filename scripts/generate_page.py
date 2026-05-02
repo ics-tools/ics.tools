@@ -3,15 +3,14 @@ import os
 import shutil
 
 from config import (
-    WEBSITE_DIR,
+    WEBSITE_TEMPLATE_DIR,
+    WEBSITE_RESULT_DIR,
     WEBSITE_TEMPLATE_FILE,
     WEBSITE_OUTPUT_FILE,
-    WEBSITE_ROOT_FILES,
     WEBSITE_ICS_SOURCE_DIRS,
     WEBSITE_PLACEHOLDERS,
 )
 
-# Check if ICS dirs exist
 for source_dir in WEBSITE_ICS_SOURCE_DIRS:
     if not os.path.exists(source_dir):
         print(
@@ -28,16 +27,29 @@ for source_dir in WEBSITE_ICS_SOURCE_DIRS:
         )
         sys.exit(2)
 
+if not os.path.exists(WEBSITE_TEMPLATE_DIR):
+    print(
+        "::error::Missing website template directory: "
+        f"'{WEBSITE_TEMPLATE_DIR}'. Current working directory: '{os.getcwd()}'."
+    )
+    sys.exit(3)
 
-os.makedirs(WEBSITE_DIR, exist_ok=True)
+if not os.path.isdir(WEBSITE_TEMPLATE_DIR):
+    print(
+        "::error::Invalid website template path (expected directory): "
+        f"'{WEBSITE_TEMPLATE_DIR}'. Current working directory: '{os.getcwd()}'."
+    )
+    sys.exit(4)
 
-for root_file in WEBSITE_ROOT_FILES:
-    shutil.copy(root_file, os.path.join(WEBSITE_DIR, root_file))
+
+if os.path.exists(WEBSITE_RESULT_DIR):
+    shutil.rmtree(WEBSITE_RESULT_DIR)
+
+shutil.copytree(WEBSITE_TEMPLATE_DIR, WEBSITE_RESULT_DIR)
 
 for source_dir in WEBSITE_ICS_SOURCE_DIRS:
-    dir_name = os.path.basename(os.path.normpath(source_dir))
-    target_dir = os.path.join(WEBSITE_DIR, dir_name)
-    shutil.copytree(source_dir, target_dir, dirs_exist_ok=True)
+    target_dir = os.path.join(WEBSITE_RESULT_DIR, os.path.basename(os.path.normpath(source_dir)))
+    shutil.copytree(source_dir, target_dir)
 
 
 def markdown_links_from_dir(directory: str, http_path: str) -> str:
@@ -53,8 +65,8 @@ def markdown_links_from_dir(directory: str, http_path: str) -> str:
     return links
 
 
-template_path = os.path.join(WEBSITE_DIR, WEBSITE_TEMPLATE_FILE)
-output_path = os.path.join(WEBSITE_DIR, WEBSITE_OUTPUT_FILE)
+template_path = os.path.join(WEBSITE_RESULT_DIR, WEBSITE_TEMPLATE_FILE)
+output_path = os.path.join(WEBSITE_RESULT_DIR, WEBSITE_OUTPUT_FILE)
 
 with open(template_path, "r", encoding="utf-8") as file1:
     content = file1.read()
@@ -65,7 +77,7 @@ for source_dir in WEBSITE_ICS_SOURCE_DIRS:
     if not placeholder:
         continue
 
-    website_dir_path = os.path.join(WEBSITE_DIR, dir_name)
+    website_dir_path = os.path.join(WEBSITE_RESULT_DIR, dir_name)
     links = markdown_links_from_dir(website_dir_path, f"{dir_name}/")
     content = content.replace(placeholder, links)
 
