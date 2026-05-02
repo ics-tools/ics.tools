@@ -60,7 +60,7 @@ def main() -> None:
         for item in data.get("holidays", []):
             event = Event()
             event.add("uid", generate_uid(item.get("id"), federal_state_iso_code))
-            event.add("SUMMARY", item.get("name"))
+            event.add("summary", item.get("name"))
 
             start_date = datetime.fromisoformat(item["date"]).date()
             inclusive_end_date = datetime.fromisoformat(item["endDate"]).date()
@@ -75,12 +75,12 @@ def main() -> None:
             # RFC5545 all-day events use an exclusive DTEND boundary.
             exclusive_end_date = inclusive_end_date + timedelta(days=1)
 
-            event.add("DTSTART", start_date)
-            event.add("DTEND", exclusive_end_date)
-            event.add("CREATED", datetime.fromisoformat(item["created"]))
-            event.add("LAST-MODIFIED", datetime.fromisoformat(item["modified"]))
-            event.add("DTSTAMP", datetime.now(timezone.utc))
-            event.add("SEQUENCE", item["sequence"])
+            event.add("dtstart", start_date)
+            event.add("dtend", exclusive_end_date)
+            event.add("created", datetime.fromisoformat(item["created"]))
+            event.add("last-modified", datetime.fromisoformat(item["modified"]))
+            event.add("dtstamp", datetime.now(timezone.utc))
+            event.add("sequence", item["sequence"])
             event.add("transp", "TRANSPARENT")
             cal.add_component(event)
 
