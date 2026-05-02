@@ -32,7 +32,7 @@ def find_ferien_ics_files(base_path='./'):
 @pytest.fixture(params=find_ics_files())
 def parsed_calendar(request):
     path = request.param
-    with open(path, 'rb') as f:
+    with open(path, "r", encoding="utf-8") as f:
         try:
             cal = Calendar.from_ical(f.read())
         except Exception as e:
@@ -43,7 +43,7 @@ def parsed_calendar(request):
 @pytest.fixture(params=find_ferien_ics_files())
 def parsed_ferien_calendar(request):
     path = request.param
-    with open(path, 'rb') as f:
+    with open(path, "r", encoding="utf-8") as f:
         try:
             cal = Calendar.from_ical(f.read())
         except Exception as e:
