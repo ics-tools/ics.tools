@@ -3,7 +3,8 @@ import json
 from pathlib import Path
 from icalendar import Calendar, Event
 from datetime import datetime, timedelta, timezone
-from config import PUBLIC_HOLIDAYS_ICS_DIR, PUBLIC_HOLIDAYS_RESULT_DIR
+from urllib.parse import urljoin, quote
+from config import PUBLIC_HOLIDAYS_ICS_DIR, PUBLIC_HOLIDAYS_RESULT_DIR, WEBSITE_BASE_URL
 
 JSON_RESULT_DIR = Path(PUBLIC_HOLIDAYS_RESULT_DIR)
 RESULT_DIR = Path(PUBLIC_HOLIDAYS_ICS_DIR)
@@ -43,6 +44,8 @@ for json_file in JSON_RESULT_DIR.glob("*.json"):
             format_github_actions_error(json_file, error_message)
         )
 
+    RESULT_FILE = RESULT_DIR / f"{federal_state.lower()}.ics"
+
     cal = Calendar()
     cal.add("prodid", "-//ics.tools//ics.tools Feiertage v2.0//DE")
     cal.add("version", "2.0")
@@ -51,6 +54,8 @@ for json_file in JSON_RESULT_DIR.glob("*.json"):
     cal.add("x-wr-timezone", "Europe/Berlin")
     cal.add("REFRESH-INTERVAL", "P1D", parameters={"VALUE": "DURATION"})
     cal.add("X-PUBLISHED-TTL", "P1D")
+    cal.add("CALSCALE", "GREGORIAN")
+    cal.add("SOURCE", urljoin(WEBSITE_BASE_URL, RESULT_FILE.as_posix()))
     cal.add("method", "PUBLISH")
 
     for item in data.get("holidays"):
@@ -70,5 +75,5 @@ for json_file in JSON_RESULT_DIR.glob("*.json"):
         event.add("transp", "TRANSPARENT")
         cal.add_component(event)
 
-    with open(RESULT_DIR / f"{federal_state.lower()}.ics", "wb") as f:
+    with open(RESULT_FILE, "wb") as f:
         f.write(cal.to_ical())

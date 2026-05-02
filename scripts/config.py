@@ -42,6 +42,7 @@ SCHOOL_HOLIDAYS_RESULT_DIR = "data/school_holidays/result"
 SCHOOL_HOLIDAYS_ICS_DIR = "Ferien"
 
 # Website generation config
+WEBSITE_BASE_URL = "https://ics.tools/"
 WEBSITE_DIR = "website"
 WEBSITE_TEMPLATE_FILE = "index_template.md"
 WEBSITE_OUTPUT_FILE = "index.md"
