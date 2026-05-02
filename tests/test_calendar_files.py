@@ -55,8 +55,14 @@ def build_expected_calendar_name(ics_path: str) -> str:
     dirname = os.path.basename(os.path.dirname(ics_path))
     filename = os.path.splitext(os.path.basename(ics_path))[0]
 
+    match dirname:
+        case "Ferien":
+            category_name = "Schulferien"
+        case _:
+            category_name = dirname
+
     expected_name_part = filename.title()
-    return f"{expected_name_part} {dirname}"
+    return f"{expected_name_part} {category_name}"
 
 def test_calendar_name_matches_filename_with_suffix(parsed_calendar):
     cal, path = parsed_calendar
