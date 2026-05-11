@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "ics.tools – Deutsche Feiertage und Schulferien als Kalender"
-description: "Kostenlose ICS-Kalenderdateien für deutsche Feiertage und Schulferien. Abonnieren oder importieren"
+title: "ics.tools"
+description: "Deutsche Feiertage und Schulferien als Kalender"
 ---
 
 # Feiertage & Schulferien als digitale Kalender
