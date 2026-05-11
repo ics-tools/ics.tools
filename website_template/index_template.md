@@ -1,48 +1,58 @@
-## Feiertage
+---
+layout: default
+title: "ics.tools – Deutsche Feiertage und Schulferien als Kalender"
+description: "Kostenlose ICS-Kalenderdateien für deutsche Feiertage und Schulferien. Abonnieren oder importieren"
+---
+
+# Feiertage & Schulferien als digitale Kalender
+
+Dein universeller Kalender für **deutsche Feiertage** und **Schulferien**.
+
+## Was ist ics.tools?
+
+**ics.tools** bietet dir standardisierte Kalenderdateien im **ICS-Format**. Mit nur wenigen Klicks integrierst du Feiertage und Schulferien in deine bevorzugte Kalender-App – und sie bleiben automatisch auf dem neuesten Stand.
+
+### Zwei einfache Wege:
+
+**1. Kalender abonnieren** (empfohlen)  
+Kopiere die Kalender-URL in deine Kalender-App. Updates erfolgen automatisch.
+
+**2. Kalender importieren**  
+Lade die Datei herunter und importiere sie manuell in deinen Kalender.
+
+---
+
+## Feiertage nach Bundesland
 [[feiertage-tree]]
 
 ---
 
-## Ferien
+## Schulferien nach Bundesland
 [[ferien-tree]]
 
 ---
 
-## Was ist ics.tools?
-**ics.tools** stellt vorgefertigte Kalenderdateien im **ics-Format** bereit, die einfach abonniert oder importiert werden können. Damit bleiben deine Kalender immer automatisch aktuell – wenn es um Feiertage oder Schulferien  geht.
+## Worin liegen die Vorteile?
 
-### Funktionen auf einen Blick:
-- **Kalender-Abos**: Bleibe automatisch up-to-date, indem du die Kalender als Abo in deiner bevorzugten Kalender-App hinzufügst.
-- **Einmaliger Import**: Lade die Kalender herunter und importiere sie einmalig in deinen Kalender.
-
-### So funktioniert’s:
-1. **Kalender URL finden**: Gehe zu den [Feiertagen](#feiertage) oder zu den [Ferien](#ferien), klicke mit der rechten Maustaste auf den gewünschten Kalender und kopiere die URL.
-2. **In deiner Kalender-App einfügen**: Nutze die URL, um den Kalender als Abo hinzuzufügen. Änderungen werden dann automatisch synchronisiert.
+- ✓ **Universell kompatibel**: Google Calendar, Outlook, Apple Calendar, Thunderbird und viele weitere
+- ✓ **Automatische Updates**: Abonnierte Kalender bleiben immer aktuell
+- ✓ **Datenschutz**: Keine Registrierung erforderlich
+- ✓ **Open Source**: Der Quellcode ist öffentlich auf [GitHub](https://github.com/ics-tools/ics.tools) verfügbar
 
 ---
 
-## Welche Daten sind verfügbar?
-- **Zeitraum**: Ereignisdaten von 2015 bis 2026.
-- **Kalendertypen**:
-  - Schulferien nach Bundesländern.
-  - Gesetzliche Feiertage nach Bundesländern.
+## ICS-Format – Der Standard für Kalender
+
+ICS-Dateien (iCalendar-Format, [RFC 5545](https://www.rfc-editor.org/rfc/rfc5545)) sind der weltweite Standard für Kalenderaustausch. Sie sind mit praktisch jeder Kalender-Anwendung kompatibel.
 
 ---
 
-## Was sind ics-Dateien?
-**ics-Dateien** sind standardisierte Kalenderdateien im [RFC 5545-Format](https://www.rfc-editor.org/rfc/rfc5545). Diese Dateien sind von nahezu allen Kalender-Anwendungen wie Google Kalender, Outlook oder Apple Kalender lesbar und können mehrere Termine enthalten.
+## Feedback & Support
+
+- 🐛 [Bug melden](https://github.com/ics-tools/ics.tools/issues/new/choose)
+- 💡 [Verbesserung vorschlagen](https://github.com/ics-tools/ics.tools)
+- 📊 [Status-Seite](https://status.ics.tools)
 
 ---
 
-## Open Source – Mach mit!
-Dieses Projekt wird auf GitHub gehostet und die Webseite über **GitHub Pages** bereitgestellt. Ich freue mich über:
-- **Fehlermeldungen**: Teile mir Probleme über die [Issues-Seite](https://github.com/ics-tools/ics.tools/issues/new/choose) mit.
-- **Verbesserungsvorschläge**: Vorschläge und Änderungen kannst du ebenfalls auf der [Projektseite](https://github.com/ics-tools/ics.tools) einreichen.
-
-Das Projekt verfügt außerdem über ein Monitoring unter [status.ics.tools](https://status.ics.tools), wo der aktuelle Status eingesehen werden kann.
-
----
-
-[Impressum](https://skillkiller.de/impressum) | 
-[GitHub](https://github.com/ics-tools/ics.tools) | 
-[Status](https://status.ics.tools/)
+[Impressum](https://skillkiller.de/impressum) • [GitHub](https://github.com/ics-tools/ics.tools) • [Status](https://status.ics.tools/)
