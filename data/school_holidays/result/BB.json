@@ -1,0 +1,629 @@
+{
+  "$schema": "../../schema/school-holidays.schema.json",
+  "metadata": {
+    "state": "Brandenburg",
+    "code": "BB"
+  },
+  "holidays": [
+    {
+      "id": "cc62b50e-66e7-45f4-b86a-8b3eee54a2e1",
+      "name": "Weihnachtsferien 2019 Brandenburg",
+      "date": "2019-12-23",
+      "endDate": "2020-01-03",
+      "md5": "a1ab8117c1b8a9181f542e07d32e29eb",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "c086df01-808c-4615-8af2-b32bad49e639",
+      "name": "Winterferien 2020 Brandenburg",
+      "date": "2020-02-03",
+      "endDate": "2020-02-08",
+      "md5": "1823d88989e1159c950d9ebbbdbef09d",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "92d20740-80f7-453e-8a44-a24018416df2",
+      "name": "Osterferien 2020 Brandenburg",
+      "date": "2020-04-06",
+      "endDate": "2020-04-17",
+      "md5": "6d3be56d6049c99691c84665238794c3",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "852def6c-dc0c-49a1-87bf-b40f0dd28203",
+      "name": "Variabler Ferientag 2020 Brandenburg",
+      "date": "2020-05-22",
+      "endDate": "2020-05-22",
+      "md5": "58cd5512eebe003f0d3883e97425e0de",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "d5cf08ce-5992-473e-a836-47ac1d176b38",
+      "name": "Sommerferien 2020 Brandenburg",
+      "date": "2020-06-25",
+      "endDate": "2020-08-08",
+      "md5": "fad65d04b3859daf1f730c9b21770d9b",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "d3380372-6cf0-4d4f-91a3-b73a5b554b4b",
+      "name": "Herbstferien 2020 Brandenburg",
+      "date": "2020-10-12",
+      "endDate": "2020-10-24",
+      "md5": "9a2fa5f68e11edc01f1f34fd2f67a8fb",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "5afd4d21-8859-4c29-b28b-6b94b134f631",
+      "name": "Weihnachtsferien 2020 Brandenburg",
+      "date": "2020-12-21",
+      "endDate": "2021-01-02",
+      "md5": "f3089a94372d037dec52d46640df2867",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "853dfa31-a9cb-454d-9aba-462e4f9287d9",
+      "name": "Winterferien 2021 Brandenburg",
+      "date": "2021-02-01",
+      "endDate": "2021-02-06",
+      "md5": "c38e83ad3373dada3886a8e4d9d5e597",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "eba172a5-6e73-4929-8d4a-357b5824c4d7",
+      "name": "Osterferien 2021 Brandenburg",
+      "date": "2021-03-29",
+      "endDate": "2021-04-09",
+      "md5": "070c8873d3e20dc18e99f87726ef4517",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "7f9db4c5-5ecc-4c75-b35e-f1ea85efd3b8",
+      "name": "Variabler Ferientag 2021 Brandenburg",
+      "date": "2021-05-14",
+      "endDate": "2021-05-14",
+      "md5": "995623e0f8f4a4dd2a58a1fb367b44d7",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "0d33ae29-2584-440f-8ea2-08dea4bce5d3",
+      "name": "Sommerferien 2021 Brandenburg",
+      "date": "2021-06-24",
+      "endDate": "2021-08-07",
+      "md5": "b05cb58121451b72b9936f55920b86a8",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "b7aba53c-564c-4f06-ae6b-d39c2638e114",
+      "name": "Herbstferien 2021 Brandenburg",
+      "date": "2021-10-11",
+      "endDate": "2021-10-23",
+      "md5": "29ad510af3510c7c4cde7b5e0faa66ed",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "2cb9068e-d0a2-4144-9843-db08693a93c2",
+      "name": "Weihnachtsferien 2021 Brandenburg",
+      "date": "2021-12-23",
+      "endDate": "2021-12-31",
+      "md5": "cd68caabdf04a63758783152e511216f",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "7a3921e6-7cf4-468f-828b-97c4658db76e",
+      "name": "Winterferien 2022 Brandenburg",
+      "date": "2022-01-31",
+      "endDate": "2022-02-05",
+      "md5": "2e48ceba27bbd3d8bc2edec029af8727",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "5b6529c2-b83c-4d24-be1b-9cb7d535535a",
+      "name": "Osterferien 2022 Brandenburg",
+      "date": "2022-04-11",
+      "endDate": "2022-04-24",
+      "md5": "acd38a30596dc91bd0b7cfa5d2922eb2",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "f6743872-8f45-4818-ab1e-d55a4ff75929",
+      "name": "Variabler Ferientag 2022 Brandenburg",
+      "date": "2022-05-27",
+      "endDate": "2022-05-27",
+      "md5": "50fe2da10cfb46133f7806439aca11f5",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "fa165d69-4428-4d4a-b5ea-9a37430bcf9f",
+      "name": "Sommerferien 2022 Brandenburg",
+      "date": "2022-07-07",
+      "endDate": "2022-08-20",
+      "md5": "ee309bef0ee6a8a8536c4f5a432edc6b",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "d22236d7-f467-4275-9f45-892498449a6d",
+      "name": "Herbstferien 2022 Brandenburg",
+      "date": "2022-10-24",
+      "endDate": "2022-11-05",
+      "md5": "663bcd51fdaa09911fbfd2dd98cc2542",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "87d121f9-f277-4cae-9e0d-f5eac823a165",
+      "name": "Weihnachtsferien 2022 Brandenburg",
+      "date": "2022-12-22",
+      "endDate": "2023-01-03",
+      "md5": "0b8af0958992ba1bb9bbb4d5bd70d510",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "6fedc38f-b738-4700-9f09-d1100eb559fe",
+      "name": "Winterferien 2023 Brandenburg",
+      "date": "2023-01-30",
+      "endDate": "2023-02-03",
+      "md5": "4ffb3c35b634afa908e4513996710813",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "a7a8b2db-61c9-4970-89a0-fcad49fc8666",
+      "name": "Osterferien 2023 Brandenburg",
+      "date": "2023-04-03",
+      "endDate": "2023-04-14",
+      "md5": "6ebd0c2b00f51b5c00857451c1710baa",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "058071ca-9d75-4951-adaf-29241d295636",
+      "name": "Variabler Ferientag 2023 Brandenburg",
+      "date": "2023-05-19",
+      "endDate": "2023-05-19",
+      "md5": "4847f22569cdfced62ccafbe316e38d8",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "96a39e61-eef8-430b-b4ae-89f2ffd8dfe0",
+      "name": "Sommerferien 2023 Brandenburg",
+      "date": "2023-07-13",
+      "endDate": "2023-08-26",
+      "md5": "9f980e335a108d5bb9d608b287b83885",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "022cd6cf-066e-432d-a57f-73282caea59c",
+      "name": "Variabler Ferientag 2023 Brandenburg",
+      "date": "2023-10-02",
+      "endDate": "2023-10-02",
+      "md5": "183ad42a493e087cad82cba9dad3e7db",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "4a678e60-db15-47bf-89b5-a09a94e9e639",
+      "name": "Herbstferien 2023 Brandenburg",
+      "date": "2023-10-23",
+      "endDate": "2023-11-04",
+      "md5": "41b74ea61f4904391719ef96c6e9ba54",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "798c955e-e536-43af-9cfa-63253572dc8d",
+      "name": "Weihnachtsferien 2023 Brandenburg",
+      "date": "2023-12-23",
+      "endDate": "2024-01-05",
+      "md5": "e1740a390e73ae81242ec96e63f0a361",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "b0c86a8d-9cd3-4058-a1b2-7d1de82dd244",
+      "name": "Winterferien 2024 Brandenburg",
+      "date": "2024-02-05",
+      "endDate": "2024-02-09",
+      "md5": "900f56d28662dda0bbfe4417677c2001",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "ae5b7fe8-1a2b-408d-8fd1-f5797efc739d",
+      "name": "Osterferien 2024 Brandenburg",
+      "date": "2024-03-25",
+      "endDate": "2024-04-05",
+      "md5": "94053509e1bdd625ed1ad2b7eeb6d4b5",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "e9bb69be-3ec9-46ba-9a47-4ddf2df1915d",
+      "name": "Variabler Ferientag 2024 Brandenburg",
+      "date": "2024-05-10",
+      "endDate": "2024-05-10",
+      "md5": "480b6d6135a774dfe0107ca538fea70d",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "47ba736e-4941-4244-956a-2a5a291ef749",
+      "name": "Sommerferien 2024 Brandenburg",
+      "date": "2024-07-18",
+      "endDate": "2024-08-31",
+      "md5": "3153289f05481fda7d02a0773dbe06bb",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "f1ab8919-b102-42a2-8bfa-ecee396e459b",
+      "name": "Variabler Ferientag 2024 Brandenburg",
+      "date": "2024-10-04",
+      "endDate": "2024-10-04",
+      "md5": "8756f711139141077eb603a087ca3720",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "ed3b83e4-8adf-47cf-b747-8de795795879",
+      "name": "Herbstferien 2024 Brandenburg",
+      "date": "2024-10-21",
+      "endDate": "2024-11-02",
+      "md5": "632203a86344794e7fb144e15ce84459",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "0af1037e-c38b-43ad-96ea-2aaaa08a800f",
+      "name": "Weihnachtsferien 2024 Brandenburg",
+      "date": "2024-12-23",
+      "endDate": "2024-12-31",
+      "md5": "1888d45612c92f67781376ef7d8cf05e",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "d442929a-d817-4a0c-bb9b-3766a0b0b271",
+      "name": "Winterferien 2025 Brandenburg",
+      "date": "2025-02-03",
+      "endDate": "2025-02-08",
+      "md5": "6d5256eea7d092c0674378e12b9dc18b",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "90d59863-cc2d-4739-81da-2752956a5433",
+      "name": "Osterferien 2025 Brandenburg",
+      "date": "2025-04-14",
+      "endDate": "2025-04-25",
+      "md5": "da0d6070d0fb5cb281db6d5da8ac2fa6",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "7456750f-7489-4e61-995e-d3e747b95516",
+      "name": "Variabler Ferientag 2025 Brandenburg",
+      "date": "2025-05-02",
+      "endDate": "2025-05-02",
+      "md5": "bbaae313182788262f7da01adaced97f",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "7558612d-2be4-4a48-8f7c-825c3a2cfca8",
+      "name": "Variabler Ferientag 2025 Brandenburg",
+      "date": "2025-05-30",
+      "endDate": "2025-05-30",
+      "md5": "63ce3a1edb07e391cb4ef887188f530b",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "de4ce3ad-0370-4580-9468-7fa6dad7bfa9",
+      "name": "Pfingstferien 2025 Brandenburg",
+      "date": "2025-06-10",
+      "endDate": "2025-06-10",
+      "md5": "e3bd44507076aa9c243d6f0ce49a137c",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "2ef9e6a1-e4b2-459e-afc3-a309239048df",
+      "name": "Sommerferien 2025 Brandenburg",
+      "date": "2025-07-24",
+      "endDate": "2025-09-06",
+      "md5": "0c3dac2c311e53a2a6019039b27e5b8e",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "4893dcaf-9c52-4eeb-8bee-5d2b24d03e60",
+      "name": "Herbstferien 2025 Brandenburg",
+      "date": "2025-10-20",
+      "endDate": "2025-11-01",
+      "md5": "07f347ebb76f2d1b2e35d4b4dc3ac885",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "71438ac1-40fc-4122-a3d1-52ebb3c3483a",
+      "name": "Weihnachtsferien 2025 Brandenburg",
+      "date": "2025-12-22",
+      "endDate": "2026-01-02",
+      "md5": "f124987520b84f87c678f0f0bb814140",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "6dc2c4a3-709f-4ef3-af9e-34030f26ab70",
+      "name": "Winterferien 2026 Brandenburg",
+      "date": "2026-02-02",
+      "endDate": "2026-02-07",
+      "md5": "7ff63407f2ce310e00ee4e2ba0cb721e",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "f27e854e-e9f7-48d0-ac48-7675a327f29d",
+      "name": "Osterferien 2026 Brandenburg",
+      "date": "2026-03-30",
+      "endDate": "2026-04-10",
+      "md5": "148cdc81acd4d8a38ad449e2a84ae744",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "e9825bee-4d0b-41a5-8e61-36b01fb2c635",
+      "name": "Variabler Ferientag 2026 Brandenburg",
+      "date": "2026-05-15",
+      "endDate": "2026-05-15",
+      "md5": "67e103a816c7f6e7108b369254989fe4",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "5543e812-5959-4533-b493-138952caceee",
+      "name": "Pfingstferien 2026 Brandenburg",
+      "date": "2026-05-26",
+      "endDate": "2026-05-26",
+      "md5": "648c63d8a0b3eee8839b3e8babf11050",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "328c986c-a822-41e1-9eb1-6f6c9d0a2504",
+      "name": "Sommerferien 2026 Brandenburg",
+      "date": "2026-07-09",
+      "endDate": "2026-08-22",
+      "md5": "6ebc9ed302d0660a6291230ac899a77c",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "37b0ebd1-bccb-46c8-ada9-2d71899503dd",
+      "name": "Herbstferien 2026 Brandenburg",
+      "date": "2026-10-19",
+      "endDate": "2026-10-30",
+      "md5": "71536255d3d19aee143e095d0618d3fa",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "6153428a-b18e-432b-8c93-e364ac63e951",
+      "name": "Weihnachtsferien 2026 Brandenburg",
+      "date": "2026-12-23",
+      "endDate": "2027-01-02",
+      "md5": "cb3205be6cabeab98cdcb9e542b13ed1",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "5d51abac-15ad-4acf-aa15-62e04433a864",
+      "name": "Winterferien 2027 Brandenburg",
+      "date": "2027-02-01",
+      "endDate": "2027-02-06",
+      "md5": "4273f5528ca46d2ab4974369a100762f",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "e593694d-933d-45af-a88e-e2e26c42d11b",
+      "name": "Osterferien 2027 Brandenburg",
+      "date": "2027-03-22",
+      "endDate": "2027-04-03",
+      "md5": "bbe6b4d70c24d0d27567ec2660a3d678",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "727feeb6-51c7-432d-b190-ecad61f85b52",
+      "name": "Variabler Ferientag 2027 Brandenburg",
+      "date": "2027-05-07",
+      "endDate": "2027-05-07",
+      "md5": "21145e1e25ebc46a4f81ead692ef4f47",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "ae46ee2e-8e62-4819-8572-8a130b82655a",
+      "name": "Pfingstferien 2027 Brandenburg",
+      "date": "2027-05-18",
+      "endDate": "2027-05-18",
+      "md5": "c0d6bada2ce7207d9e39140a47256b85",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "f6bebb43-9c82-461c-a570-6901b4a27e2c",
+      "name": "Sommerferien 2027 Brandenburg",
+      "date": "2027-07-01",
+      "endDate": "2027-08-14",
+      "md5": "9758b7698c5cb84fa2fbcb2e072b3df8",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "44177709-678f-4f18-819c-e2ba4f0d7b3e",
+      "name": "Herbstferien 2027 Brandenburg",
+      "date": "2027-10-11",
+      "endDate": "2027-10-23",
+      "md5": "0b2a6a2611bc94867a5915f67f3460b6",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "401c43d7-3993-409c-9b2d-76ca4e6b0244",
+      "name": "Weihnachtsferien 2027 Brandenburg",
+      "date": "2027-12-23",
+      "endDate": "2027-12-31",
+      "md5": "0fce1c5ac7cb8834cc0a037087869b1b",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "28e113d3-5db6-47ae-89d9-2e585e743658",
+      "name": "Winterferien 2028 Brandenburg",
+      "date": "2028-01-31",
+      "endDate": "2028-02-05",
+      "md5": "15c0f356908bc886c59ed954525906c6",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "e93c4ebc-84bc-42dd-8f49-c5f33c52b30d",
+      "name": "Osterferien 2028 Brandenburg",
+      "date": "2028-04-10",
+      "endDate": "2028-04-22",
+      "md5": "44dc8022d05e2d90f8c58aaab8cc29e0",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "ac864ecd-2694-491c-8516-37ffbe348de3",
+      "name": "Variabler Ferientag 2028 Brandenburg",
+      "date": "2028-05-26",
+      "endDate": "2028-05-26",
+      "md5": "3535b74782a79d2f1fc5fa0a00f2c46c",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "4fba8669-8031-4b0f-9393-39dfe6594e06",
+      "name": "Sommerferien 2028 Brandenburg",
+      "date": "2028-06-29",
+      "endDate": "2028-08-12",
+      "md5": "65fdcf4e92554fec8ea607b76a13c5e1",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "5d15a0bb-8ca9-4c2c-9e78-6d13fa3bbaee",
+      "name": "Herbstferien 2028 Brandenburg",
+      "date": "2028-10-02",
+      "endDate": "2028-10-14",
+      "md5": "79c34b0ead8abc09f87b3e529f99fefc",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "c26f5b58-fbaf-4c52-9dea-472fdeb86360",
+      "name": "Variabler Ferientag 2028 Brandenburg",
+      "date": "2028-10-30",
+      "endDate": "2028-10-30",
+      "md5": "9e63d9b0a089e0e175eb72c121ab220b",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "430c58a6-5885-439d-af46-d4f4e7f43010",
+      "name": "Weihnachtsferien 2028 Brandenburg",
+      "date": "2028-12-22",
+      "endDate": "2029-01-02",
+      "md5": "1eeefea4278be7fe4dd27f0f4cef6c39",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    }
+  ]
+}

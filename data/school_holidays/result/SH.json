@@ -1,0 +1,649 @@
+{
+  "$schema": "../../schema/school-holidays.schema.json",
+  "metadata": {
+    "state": "Schleswig-Holstein",
+    "code": "SH"
+  },
+  "holidays": [
+    {
+      "id": "2028646a-607c-4ecf-b33a-852e455cc729",
+      "name": "Weihnachtsferien 2019 Schleswig-Holstein",
+      "date": "2019-12-23",
+      "endDate": "2020-01-06",
+      "md5": "12caa9a166c418a08b96c2f28f5c9043",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "113d6e8d-70c5-4371-8ed1-6014080065b2",
+      "name": "Osterferien 2020 Schleswig-Holstein",
+      "date": "2020-03-30",
+      "endDate": "2020-04-17",
+      "md5": "88731594e63750b6efaba74d5b7f99af",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "a4a3e9ac-578e-435e-8b6a-6d3bdcf39608",
+      "name": "Himmelfahrt 2020 Schleswig-Holstein",
+      "date": "2020-05-22",
+      "endDate": "2020-05-22",
+      "md5": "16d920ddbc45e21a6c645b353d7389f5",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "76e69f66-2bce-45df-a498-d5e8b715f694",
+      "name": "Sommerferien 2020 Schleswig-Holstein",
+      "date": "2020-06-29",
+      "endDate": "2020-08-01",
+      "md5": "5783fe471a9faee8fb3c15b8542b3248",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "809edd99-2e24-4eb2-a6a8-26483ac731ec",
+      "name": "Sommerferien 2020 Schleswig-Holstein",
+      "date": "2020-06-29",
+      "endDate": "2020-08-08",
+      "md5": "3e23121d0dd00a35ed3273a86bab4a4c",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "8b0ee37c-0601-4f1a-89ff-9867b4e88b6f",
+      "name": "Herbstferien 2020 Schleswig-Holstein",
+      "date": "2020-09-28",
+      "endDate": "2020-10-17",
+      "md5": "e8f0f6fe871bb18f0c92ade8e73862a1",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "7a722647-0002-478c-b648-5fdfe6a2abf2",
+      "name": "Herbstferien 2020 Schleswig-Holstein",
+      "date": "2020-10-05",
+      "endDate": "2020-10-17",
+      "md5": "eff5b5827dd23bba724b92ec0bd416c9",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "55434584-11f9-417f-b2ae-993c5d4ae8ea",
+      "name": "Weihnachtsferien 2020 Schleswig-Holstein",
+      "date": "2020-12-21",
+      "endDate": "2021-01-06",
+      "md5": "b789d1644a7123a09881ac5409190a2a",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "a80da99c-cb94-4f61-a99f-9ce15db78ea6",
+      "name": "Osterferien 2021 Schleswig-Holstein",
+      "date": "2021-04-01",
+      "endDate": "2021-04-16",
+      "md5": "59967281fe2719c3c37e056e7f7cbff0",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "5febdd4f-27a8-4195-8fb2-b969cec562d2",
+      "name": "Himmelfahrt 2021 Schleswig-Holstein",
+      "date": "2021-05-14",
+      "endDate": "2021-05-15",
+      "md5": "5ddfe320bda67facdffd8f791e64ca29",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "d1874465-1086-4bc3-b5cd-2e9d3df70182",
+      "name": "Sommerferien 2021 Schleswig-Holstein",
+      "date": "2021-06-21",
+      "endDate": "2021-07-24",
+      "md5": "da3e5260706114ca6d1d04664de51798",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "50bbed73-71bb-4ce8-8c09-c50b3f03e59c",
+      "name": "Sommerferien 2021 Schleswig-Holstein",
+      "date": "2021-06-21",
+      "endDate": "2021-07-31",
+      "md5": "bee0a862ebd217b9a1da3d60de50b9fd",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "bd66b9d0-8690-4793-99cc-66b61c408bdf",
+      "name": "Herbstferien 2021 Schleswig-Holstein",
+      "date": "2021-09-27",
+      "endDate": "2021-10-16",
+      "md5": "9478e66c01d73059e25936606d7f6fb8",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "f505ba97-2ac8-4725-b9f5-b9e41200319b",
+      "name": "Herbstferien 2021 Schleswig-Holstein",
+      "date": "2021-10-04",
+      "endDate": "2021-10-16",
+      "md5": "db7f3f6f07e2f813be1aee90e7a0ac7a",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "f32a0a35-2b9a-45a7-a417-e501239a7131",
+      "name": "Weihnachtsferien 2021 Schleswig-Holstein",
+      "date": "2021-12-23",
+      "endDate": "2022-01-08",
+      "md5": "40ab7fbe5c0610a4ef5e68d22779ddef",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "03770012-8bc5-4363-9f80-508efea29b41",
+      "name": "Osterferien 2022 Schleswig-Holstein",
+      "date": "2022-04-04",
+      "endDate": "2022-04-16",
+      "md5": "8677311878d55680cfaccee3adaa23c6",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "12873d17-f4f3-4752-bac1-a7072f61e344",
+      "name": "Himmelfahrt 2022 Schleswig-Holstein",
+      "date": "2022-05-27",
+      "endDate": "2022-05-28",
+      "md5": "b72d14739dbd246e4f0de7c12ef4c832",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "74f0a270-731a-4c8f-bc66-25d12ef87d7b",
+      "name": "Sommerferien 2022 Schleswig-Holstein",
+      "date": "2022-07-04",
+      "endDate": "2022-08-06",
+      "md5": "d3a3dbbae7b449b0ad6fdd5d7cf63716",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "491d12d3-fc6a-498e-b50e-69732ac05b83",
+      "name": "Sommerferien 2022 Schleswig-Holstein",
+      "date": "2022-07-04",
+      "endDate": "2022-08-13",
+      "md5": "7a1f97ec6693e1de7c0db43cb9fd34c8",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "a7c11d82-8d35-456b-bf6c-93d6d8ff43ea",
+      "name": "Herbstferien 2022 Schleswig-Holstein",
+      "date": "2022-10-03",
+      "endDate": "2022-10-21",
+      "md5": "ab5f626fb20c8ff1d3b52c2dfd485dd7",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "a37db8e3-2da1-4ae4-9041-873e06d66887",
+      "name": "Herbstferien 2022 Schleswig-Holstein",
+      "date": "2022-10-10",
+      "endDate": "2022-10-21",
+      "md5": "cebc0944354c68b63b209af6943bce5d",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "a435990f-82ee-4b10-959e-4523765e291f",
+      "name": "Weihnachtsferien 2022 Schleswig-Holstein",
+      "date": "2022-12-23",
+      "endDate": "2023-01-07",
+      "md5": "d89594c3578b763963f18fc13eb7a32b",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "6cb736d4-98b9-4e50-bd26-8cf298a0f12a",
+      "name": "Osterferien 2023 Schleswig-Holstein",
+      "date": "2023-04-06",
+      "endDate": "2023-04-22",
+      "md5": "1fa0776840af5685da4e6bf8afcc3c30",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "d818b0fe-13fb-481e-8708-fa6c5bd83269",
+      "name": "Himmelfahrt 2023 Schleswig-Holstein",
+      "date": "2023-05-19",
+      "endDate": "2023-05-20",
+      "md5": "7573ecd4b26ece47b2dbc2308bd33d4a",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "04a679a7-e058-4c25-9b44-1aebfb36516a",
+      "name": "Sommerferien 2023 Schleswig-Holstein",
+      "date": "2023-07-17",
+      "endDate": "2023-08-19",
+      "md5": "868e2aec020a8a78e903102e9ee14ffc",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "438a0dfe-6dfb-45f4-aafd-9dd9fa0929bc",
+      "name": "Sommerferien 2023 Schleswig-Holstein",
+      "date": "2023-07-17",
+      "endDate": "2023-08-26",
+      "md5": "5ad7da0af3f824d41c4a7d21b7f3a600",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "f6e640c9-09d7-469f-9c4e-e3e9b55dce26",
+      "name": "Herbstferien 2023 Schleswig-Holstein",
+      "date": "2023-10-09",
+      "endDate": "2023-10-27",
+      "md5": "7e0636e698305b4e773f2a09bc1770e5",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "0e212497-aa5b-4110-b030-950026637571",
+      "name": "Herbstferien 2023 Schleswig-Holstein",
+      "date": "2023-10-16",
+      "endDate": "2023-10-27",
+      "md5": "0b7e0f9f380b50f67e623ab76244548e",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "8ca0788a-2ce9-463d-b66e-2feb1c2e8cec",
+      "name": "Weihnachtsferien 2023 Schleswig-Holstein",
+      "date": "2023-12-27",
+      "endDate": "2024-01-06",
+      "md5": "a3eb71655e8ce242a47520f508cbf61f",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "e5d33965-124e-4dfb-b2d7-f4e7f6d0eb6d",
+      "name": "Osterferien 2024 Schleswig-Holstein",
+      "date": "2024-04-02",
+      "endDate": "2024-04-19",
+      "md5": "7e5354e509895c8c82f6c35c622e9502",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "c6c51588-b427-4454-aa64-384c0a555a6a",
+      "name": "Himmelfahrt 2024 Schleswig-Holstein",
+      "date": "2024-05-10",
+      "endDate": "2024-05-11",
+      "md5": "1bd79787e2dbbdc8f09c6a8306e2761d",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "b385bd29-3c0a-4322-8475-4c9c22b6c5cf",
+      "name": "Sommerferien 2024 Schleswig-Holstein",
+      "date": "2024-07-22",
+      "endDate": "2024-08-24",
+      "md5": "46acf0161cffc717b8161b0011e9b45b",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "fd5307fe-76d6-42f2-8774-5fef700d8031",
+      "name": "Sommerferien 2024 Schleswig-Holstein",
+      "date": "2024-07-22",
+      "endDate": "2024-08-31",
+      "md5": "b6b567543f61eb8229a5f65bdc85a17f",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "209768f1-b65c-4056-bc17-01df2c04822a",
+      "name": "Herbstferien 2024 Schleswig-Holstein",
+      "date": "2024-10-14",
+      "endDate": "2024-11-01",
+      "md5": "a3e80cc4b65fd7ff6b729d24b15a3576",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "08eef432-6e8e-49aa-81a3-c85f1d53c96f",
+      "name": "Herbstferien 2024 Schleswig-Holstein",
+      "date": "2024-10-21",
+      "endDate": "2024-11-01",
+      "md5": "53b4f283c25ec73c5725d9aa8f13fc8a",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "ade0ef11-b174-4694-81a7-f4070e5c0803",
+      "name": "Weihnachtsferien 2024 Schleswig-Holstein",
+      "date": "2024-12-19",
+      "endDate": "2025-01-07",
+      "md5": "4a8ce7ec0849f5838e4e978424b2e8ca",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "dc5f7764-bbd1-4b8b-b5c1-5ae64870dbbd",
+      "name": "Osterferien 2025 Schleswig-Holstein",
+      "date": "2025-04-11",
+      "endDate": "2025-04-25",
+      "md5": "219a672b6ade7e27c831da40be21a765",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "22d1fa1e-73f1-4865-9e41-216b826feaa0",
+      "name": "Himmelfahrt 2025 Schleswig-Holstein",
+      "date": "2025-05-30",
+      "endDate": "2025-05-30",
+      "md5": "4c7ab470ac3c4519446ba1ff305a79a2",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "d14df348-0bb6-40e2-8e11-9bfe61f310f3",
+      "name": "Sommerferien 2025 Schleswig-Holstein",
+      "date": "2025-07-28",
+      "endDate": "2025-08-30",
+      "md5": "527549350b29c225b7579ae77335596a",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "4efa8a64-e3a7-420c-ad2c-82f2fbe79215",
+      "name": "Sommerferien 2025 Schleswig-Holstein",
+      "date": "2025-07-28",
+      "endDate": "2025-09-06",
+      "md5": "cc6e20edfc89f278e395e18247db9ed4",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "c9a70962-0482-405e-bfb5-f31863c2e0d5",
+      "name": "Herbstferien 2025 Schleswig-Holstein",
+      "date": "2025-10-13",
+      "endDate": "2025-10-30",
+      "md5": "05a99afa9d57cc391bb267fe228c3324",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "613a52df-5ad8-4179-906b-1dc3c90250b1",
+      "name": "Herbstferien 2025 Schleswig-Holstein",
+      "date": "2025-10-20",
+      "endDate": "2025-10-30",
+      "md5": "516afba8bb9283a2349c345b6d601063",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "2fc953e8-0194-420a-9aba-437c50faaa74",
+      "name": "Weihnachtsferien 2025 Schleswig-Holstein",
+      "date": "2025-12-19",
+      "endDate": "2026-01-06",
+      "md5": "da2ae7cb8be93989b3d55fb347de7352",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "6c743d0a-dc28-4cc7-9ff6-296839145178",
+      "name": "Osterferien 2026 Schleswig-Holstein",
+      "date": "2026-03-26",
+      "endDate": "2026-04-10",
+      "md5": "2cdf5fd031cdad9c83edcfd9a6da69b9",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "0ee33968-9d63-4969-bf78-c4827e711994",
+      "name": "Himmelfahrt 2026 Schleswig-Holstein",
+      "date": "2026-05-15",
+      "endDate": "2026-05-15",
+      "md5": "afffe615c6581f60c7022385b9cc7868",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "fdd6cbef-1e9f-4897-831d-8fdb276c4797",
+      "name": "Sommerferien 2026 Schleswig-Holstein",
+      "date": "2026-07-04",
+      "endDate": "2026-08-08",
+      "md5": "8593f440b479e3f87f0b0722ca94bf75",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "7dcb7a13-cb0f-4661-a283-495acbc3ed82",
+      "name": "Sommerferien 2026 Schleswig-Holstein",
+      "date": "2026-07-04",
+      "endDate": "2026-08-15",
+      "md5": "a0b5f4a2db6a31b2fc8f504d2e95d0b8",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "e3d21746-7a9c-4ae6-93c1-2f20aa59e25f",
+      "name": "Herbstferien 2026 Schleswig-Holstein",
+      "date": "2026-10-05",
+      "endDate": "2026-10-24",
+      "md5": "74a0a41774073d6b9e304e2b1ddd3e06",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "84a4da5f-d71a-4fa2-9333-625b6fd50300",
+      "name": "Herbstferien 2026 Schleswig-Holstein",
+      "date": "2026-10-12",
+      "endDate": "2026-10-24",
+      "md5": "80a377c8a3b4a517722eb80fca3c2251",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "74875362-e705-4227-94bf-4232f6df2903",
+      "name": "Weihnachtsferien 2026 Schleswig-Holstein",
+      "date": "2026-12-21",
+      "endDate": "2027-01-06",
+      "md5": "e6ea43acc6c899e6addfd2fbb91a1a53",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "61a1f854-0863-47fe-a21d-25f12a4edec2",
+      "name": "Osterferien 2027 Schleswig-Holstein",
+      "date": "2027-03-30",
+      "endDate": "2027-04-10",
+      "md5": "4a6bf67aeeffda2cd743b7dfab4651da",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "5c72cce9-3058-4f4e-9bef-82cd4c1eca9e",
+      "name": "Himmelfahrt 2027 Schleswig-Holstein",
+      "date": "2027-05-07",
+      "endDate": "2027-05-07",
+      "md5": "45aaf64eacd7732e2c5c29e691ed870c",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "9aa4c32e-e8f8-4a8e-80ea-5b83bda3b448",
+      "name": "Sommerferien 2027 Schleswig-Holstein",
+      "date": "2027-07-03",
+      "endDate": "2027-08-07",
+      "md5": "77ce81cc18f5560405b6412511a2e975",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "4743f7af-800d-4d0b-afb2-2e07fa82d13b",
+      "name": "Sommerferien 2027 Schleswig-Holstein",
+      "date": "2027-07-03",
+      "endDate": "2027-08-14",
+      "md5": "b537e6d066293316ca542fa6c82f3f85",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "4e2c2a5c-4a71-4c3e-98cb-1eb269431519",
+      "name": "Herbstferien 2027 Schleswig-Holstein",
+      "date": "2027-10-04",
+      "endDate": "2027-10-23",
+      "md5": "521ff52e688fcb3bb36cdc6c08631e27",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "377af68e-2c15-458a-ac42-bdc8354ac6dd",
+      "name": "Herbstferien 2027 Schleswig-Holstein",
+      "date": "2027-10-11",
+      "endDate": "2027-10-23",
+      "md5": "85405a08bc18224b7648669f0be93c66",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "ed341123-ee3c-478a-9dea-ffbbf460b8d3",
+      "name": "Weihnachtsferien 2027 Schleswig-Holstein",
+      "date": "2027-12-23",
+      "endDate": "2028-01-08",
+      "md5": "5d1a8b18a3d397608a351e67a210856a",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "89cf029f-a702-40d2-a462-a11ad3a92f4c",
+      "name": "Osterferien 2028 Schleswig-Holstein",
+      "date": "2028-04-03",
+      "endDate": "2028-04-15",
+      "md5": "21621d3e03abee2d90af89cc203bc32e",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "5774e099-8873-4e9a-a744-19a2664f325d",
+      "name": "Himmelfahrt 2028 Schleswig-Holstein",
+      "date": "2028-05-26",
+      "endDate": "2028-05-26",
+      "md5": "55d0c99e2457c1c71275bda37ce82ef9",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "6a3fda5f-6c73-4f3a-b85a-84792ab399e0",
+      "name": "Sommerferien 2028 Schleswig-Holstein",
+      "date": "2028-06-24",
+      "endDate": "2028-07-28",
+      "md5": "3e127fb22584ad57e27c690fdba84786",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "678de58c-7267-419c-8d49-6dbac21e490a",
+      "name": "Sommerferien 2028 Schleswig-Holstein",
+      "date": "2028-06-24",
+      "endDate": "2028-08-04",
+      "md5": "6baf9aa3a52eec44025c106dfd49a555",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "3c83cf6f-154c-412c-baa7-15d6099c589e",
+      "name": "Herbstferien 2028 Schleswig-Holstein",
+      "date": "2028-10-09",
+      "endDate": "2028-10-30",
+      "md5": "f67c0244028754071026b7f72d92318d",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "d4c682e4-c864-432e-8108-bb8518f46556",
+      "name": "Herbstferien 2028 Schleswig-Holstein",
+      "date": "2028-10-16",
+      "endDate": "2028-10-30",
+      "md5": "9066f2906f0a92ed22a32615be683567",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "1314c1d4-675b-428b-a240-2930c4567973",
+      "name": "Weihnachtsferien 2028 Schleswig-Holstein",
+      "date": "2028-12-21",
+      "endDate": "2029-01-05",
+      "md5": "b9ae8f7dfeb9c861cf6bcf4f723c88de",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    }
+  ]
+}

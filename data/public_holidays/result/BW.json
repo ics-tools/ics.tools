@@ -1,0 +1,981 @@
+{
+  "$schema": "../../schema/public-holidays.schema.json",
+  "metadata": {
+    "state": "Baden-Württemberg",
+    "code": "BW"
+  },
+  "holidays": [
+    {
+      "id": "bff5aa15-d762-471c-b98a-f97a88f02fa3",
+      "name": "Neujahr",
+      "date": "2020-01-01",
+      "md5": "6530a97d992a897a9ca04152ad269928",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "acdc4a9a-3ca7-4629-86a2-2fde04e93e8d",
+      "name": "Heilige Drei Könige",
+      "date": "2020-01-06",
+      "md5": "d00028627fc85e1e855dc4cee17c2264",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "aa7998cb-2c2c-4228-9ea7-74a21a1daaf1",
+      "name": "Karfreitag",
+      "date": "2020-04-10",
+      "md5": "38ad6c1f9345a2d351b1ab34fd9c9877",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "fbc7ffb8-2750-46b9-96e3-d43f6be86d64",
+      "name": "Ostermontag",
+      "date": "2020-04-13",
+      "md5": "af66ef1b0ae36e3c9b259d2ad8a7bde5",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "c156ae07-bb1f-444f-a4ea-694bc571e1ef",
+      "name": "Tag der Arbeit",
+      "date": "2020-05-01",
+      "md5": "53d2fea4650a76fc2851f6f56fd3cbb0",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "50d3e2e7-20d9-4852-b072-dd733d4cb18c",
+      "name": "Christi Himmelfahrt",
+      "date": "2020-05-21",
+      "md5": "e5d77de4b8e6d07a61a59f812a2d1b92",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "30bc6858-7e7d-4a0f-9bc0-de506b7a4397",
+      "name": "Pfingstmontag",
+      "date": "2020-06-01",
+      "md5": "9a8b683890a23374d3c65c5f23bb101a",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "4916a671-f043-4d59-a7a7-dee06b3ba356",
+      "name": "Fronleichnam",
+      "date": "2020-06-11",
+      "md5": "68575600a394aae206227ad86a57dc5e",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "9ef90361-8436-4e0a-8e28-e6ae55b341b7",
+      "name": "Tag der Deutschen Einheit",
+      "date": "2020-10-03",
+      "md5": "453717cb9d8b2ac7255056e4e2ded37c",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "0a3e2f1e-4c60-4543-9c0e-2d75484131f9",
+      "name": "Allerheiligen",
+      "date": "2020-11-01",
+      "md5": "c167663efe05989006e218447b7e7fd1",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "b7d3d55f-6974-4778-b9fa-444d5a2d35bd",
+      "name": "1. Weihnachtsfeiertag",
+      "date": "2020-12-25",
+      "md5": "5edda346156ff4191d7c8e3fca1f9130",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "3a53bd86-6173-4f60-a676-3f693d02275c",
+      "name": "2. Weihnachtsfeiertag",
+      "date": "2020-12-26",
+      "md5": "00c47d23e4315600392bdb278ad17634",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "4acbb5fb-5d3d-450a-8095-8c322e855272",
+      "name": "Neujahr",
+      "date": "2021-01-01",
+      "md5": "95d37a4189c872c73dda9aac23d0628a",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "949a10c9-6abc-4088-938d-e16a23d4d746",
+      "name": "Heilige Drei Könige",
+      "date": "2021-01-06",
+      "md5": "02b305503bf47f7895aa9e3c383d9426",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "3772289c-28e5-4fc9-bb14-4509a026bcec",
+      "name": "Karfreitag",
+      "date": "2021-04-02",
+      "md5": "7f1f78b1cc69fca25ccd08b713cd6bda",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "c3c4e15f-e9f4-4834-b0e5-769f9e663669",
+      "name": "Ostermontag",
+      "date": "2021-04-05",
+      "md5": "5006534990fd8207d4e37c10128fec99",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "0316ac75-d320-4110-985f-ef883416b378",
+      "name": "Tag der Arbeit",
+      "date": "2021-05-01",
+      "md5": "956332b958f4bc6574dc87d625cdbcf8",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "f769b001-8d0b-4e41-9a16-fb446a6bcc64",
+      "name": "Christi Himmelfahrt",
+      "date": "2021-05-13",
+      "md5": "d0486411d84a3c2f7f3a18c078ddec7d",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "c5495db1-32f7-47f6-8bc6-b2eee461af58",
+      "name": "Pfingstmontag",
+      "date": "2021-05-24",
+      "md5": "588b8dff96a2e1036cceec8af1df8fa2",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "0bec62b8-79d8-4fb8-b7d6-e495d8bdecd0",
+      "name": "Fronleichnam",
+      "date": "2021-06-03",
+      "md5": "b9d0321d46b0fcb4f448b1adb1fde75b",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "9735e445-143d-4db7-b689-f77b1fb6310e",
+      "name": "Tag der Deutschen Einheit",
+      "date": "2021-10-03",
+      "md5": "cd6ce6c1fad6e988dc76810a47cae277",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "404a7f93-6cf4-475b-afe4-a1b2c6163f00",
+      "name": "Allerheiligen",
+      "date": "2021-11-01",
+      "md5": "91bec88d36334ac7053a1da662dfc3c0",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "d7249ebf-1242-4361-be12-fa6570254e41",
+      "name": "1. Weihnachtsfeiertag",
+      "date": "2021-12-25",
+      "md5": "2e2bd9b126eca0159f9037b82aed8a2c",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "bf328eb6-60d5-495b-abe9-a000e6118d8a",
+      "name": "2. Weihnachtsfeiertag",
+      "date": "2021-12-26",
+      "md5": "c5674d3d71e401f2812c64d93fa94042",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "ff3b77a3-8c31-47af-b1c7-f26dd51f3c19",
+      "name": "Neujahr",
+      "date": "2022-01-01",
+      "md5": "31a87c6b3cd910ccfde746044b126a13",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "3670fbc1-514d-49c8-9b1f-5f43a779c30d",
+      "name": "Heilige Drei Könige",
+      "date": "2022-01-06",
+      "md5": "ed3fe715666439a0d24faecdffc26b69",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "77bf6fd2-bdd4-423f-ae09-37090e8adcfe",
+      "name": "Karfreitag",
+      "date": "2022-04-15",
+      "md5": "125ce80318abe2fbe2165c314e5ad8cd",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "04857023-b572-4ff7-b412-a2a068f3a387",
+      "name": "Ostermontag",
+      "date": "2022-04-18",
+      "md5": "ee5401c77f2eee4e5e20203d27660ad5",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "c4f18911-57b7-4854-9ce3-bab66b024c04",
+      "name": "Tag der Arbeit",
+      "date": "2022-05-01",
+      "md5": "0a12eabdc4e9c7df7fd307805e78420a",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "40ace374-45e8-4b9f-aa22-3891eeb5451c",
+      "name": "Christi Himmelfahrt",
+      "date": "2022-05-26",
+      "md5": "01ce802d2d3161ea38b4a8709d33cc41",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "ce336268-1932-498a-b56b-04191abe18fb",
+      "name": "Pfingstmontag",
+      "date": "2022-06-06",
+      "md5": "e6d503a0a9fe4c25b680d3c282f3789d",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "fba46f24-170b-4c9a-8d0d-8b0f1c16d510",
+      "name": "Fronleichnam",
+      "date": "2022-06-16",
+      "md5": "8dd8b0efa0c4f2185d03b2bcff85d211",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "a537e0cb-c2a1-448a-bee5-49430351f0ad",
+      "name": "Tag der Deutschen Einheit",
+      "date": "2022-10-03",
+      "md5": "48fd1499c4945ddb7e95b74933ac5de3",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "3eab31ad-460c-40b5-99ca-0cfcc627c146",
+      "name": "Allerheiligen",
+      "date": "2022-11-01",
+      "md5": "66007a1f775484302390d67b314c3356",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "943c023f-53e0-4824-b13b-cae6a31fe254",
+      "name": "1. Weihnachtsfeiertag",
+      "date": "2022-12-25",
+      "md5": "416d159f8b7d5f9c376e77c3490705f0",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "d764e01f-db2f-4f94-8f9d-b85b9157ddf2",
+      "name": "2. Weihnachtsfeiertag",
+      "date": "2022-12-26",
+      "md5": "a315f1054fa9f4b668906d0ccdba105c",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "94498ba1-28e3-4dcd-b28f-d7aaf4cc56d7",
+      "name": "Neujahr",
+      "date": "2023-01-01",
+      "md5": "df88b002f84a931aa5c3fe85c9d7b0e3",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "04f86fc2-424a-46e5-befd-2dce33158470",
+      "name": "Heilige Drei Könige",
+      "date": "2023-01-06",
+      "md5": "dd7f51f00fd26f3167ad730776546b4b",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "b921a500-5e7e-42b6-9348-885f3157ed4c",
+      "name": "Karfreitag",
+      "date": "2023-04-07",
+      "md5": "91951a30fe950e4b3e20097e858dc334",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "2cc013e7-7079-4c89-a559-27efca5c7b78",
+      "name": "Ostermontag",
+      "date": "2023-04-10",
+      "md5": "5232899c74240d9ffff35d4883c1317b",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "1e25e6a2-85fe-46dd-9fab-9388df4a445c",
+      "name": "Tag der Arbeit",
+      "date": "2023-05-01",
+      "md5": "1209986c3ef00c10fdf6da67811346cb",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "c18498e4-d3a7-4e27-8ea3-18e396c2d785",
+      "name": "Christi Himmelfahrt",
+      "date": "2023-05-18",
+      "md5": "66c0e53e2d2303f480480a7988d61e28",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "9730d923-2686-4d44-8fa5-b4c46a1937f8",
+      "name": "Pfingstmontag",
+      "date": "2023-05-29",
+      "md5": "f40a2e49c848aef32316db1ef590911d",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "86ee67fc-a51f-4f7b-a0c6-f6e9e11eb0ed",
+      "name": "Fronleichnam",
+      "date": "2023-06-08",
+      "md5": "5a7e880d1c7940c8899ab7f4ee93da14",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "f4f1fe82-cd70-4d33-b456-f78f9b77f064",
+      "name": "Tag der Deutschen Einheit",
+      "date": "2023-10-03",
+      "md5": "384262e3893984adad4232ba27ce37e1",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "ed4084d4-897c-4c1c-9d11-837874a5122f",
+      "name": "Allerheiligen",
+      "date": "2023-11-01",
+      "md5": "0b33c4ae1493c4b95fb8f1e63ff464af",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "eca484e0-f6a7-4ca4-9891-5def5648c97c",
+      "name": "1. Weihnachtsfeiertag",
+      "date": "2023-12-25",
+      "md5": "a71d0b7eb91eeacee0a5eab2bf7abb1f",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "f9e24f26-c4a9-44e7-bda8-3c56fa11eb55",
+      "name": "2. Weihnachtsfeiertag",
+      "date": "2023-12-26",
+      "md5": "390a198cce3f90a05b3db4e06245f3f6",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "58a1da08-fb96-4d9b-8d95-b1e06278c8f3",
+      "name": "Neujahr",
+      "date": "2024-01-01",
+      "md5": "feafd975586ac0838b9c29291e3107e8",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "ebf55361-f340-4852-a7fa-547143cf9cf2",
+      "name": "Heilige Drei Könige",
+      "date": "2024-01-06",
+      "md5": "60b6ba3a45575bddde161b5fa270e3ee",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "72299d8e-272c-44b6-8d50-86ff5cb01a9a",
+      "name": "Karfreitag",
+      "date": "2024-03-29",
+      "md5": "4aabfc1e246ae3e7dceecd8dff49dc25",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "bd4e0c06-a2c5-4d2a-aa92-1fb7c59025e2",
+      "name": "Ostermontag",
+      "date": "2024-04-01",
+      "md5": "325603db6a6c6b83e62bed7ac4081331",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "d849751c-921e-4be1-8b30-117a610c126c",
+      "name": "Tag der Arbeit",
+      "date": "2024-05-01",
+      "md5": "78c452f07a1dae1974d68f3e9115e51c",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "440aae4c-0d2b-45a4-9480-ae91b106c002",
+      "name": "Christi Himmelfahrt",
+      "date": "2024-05-09",
+      "md5": "2bf23767d7d0b4c802182b159b48fbc2",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "2407e8d2-b6bc-4d5f-b19a-52d4eba5e498",
+      "name": "Pfingstmontag",
+      "date": "2024-05-20",
+      "md5": "ee193ddaff15cab54d2d104bb54be193",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "3931407a-d2f7-4a89-966c-a94781f4a649",
+      "name": "Fronleichnam",
+      "date": "2024-05-30",
+      "md5": "46a82fe06f48c610f4b916e5b3473645",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "a2454b44-b3d5-4681-a345-6eae46fb9f4b",
+      "name": "Tag der Deutschen Einheit",
+      "date": "2024-10-03",
+      "md5": "51b25016b16d3c4f0563f3223fc44d73",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "5e49e26d-44a2-4751-a394-9b83c5ea47f8",
+      "name": "Allerheiligen",
+      "date": "2024-11-01",
+      "md5": "547a8c74867afb4c7bc974966db45926",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "332d7a5e-c693-4d2d-bdf5-957dd4409c91",
+      "name": "1. Weihnachtsfeiertag",
+      "date": "2024-12-25",
+      "md5": "aaa0337e096a603e9c75ebb86442d12c",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "717b466d-05f3-4810-915b-96625ca2aebf",
+      "name": "2. Weihnachtsfeiertag",
+      "date": "2024-12-26",
+      "md5": "2598b21689e22ce532e4c892d28e9d1d",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "27f0d8cd-76b2-47e7-89ac-a3a9f6a6b1ba",
+      "name": "Neujahr",
+      "date": "2025-01-01",
+      "md5": "3e141420efb04c7286106dfa66ddb354",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "1c80b87d-8221-4dc2-9a1a-3b0f57dce9f5",
+      "name": "Heilige Drei Könige",
+      "date": "2025-01-06",
+      "md5": "52d2153d557b4c3eb20d3891b093edc8",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "c7aef0d5-f292-4d08-b878-a25a6c05fc12",
+      "name": "Karfreitag",
+      "date": "2025-04-18",
+      "md5": "410a2069f613c14ee10c20be59af2c91",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "12776265-e638-4112-a11f-f24bb37d8a3d",
+      "name": "Ostermontag",
+      "date": "2025-04-21",
+      "md5": "79fd6a7caf2119d4dc45be90eb24a291",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "5db64014-1aaf-46f0-be83-d8baa826cfef",
+      "name": "Tag der Arbeit",
+      "date": "2025-05-01",
+      "md5": "74f38f8e6aea604c80be1cc86dfd01bf",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "9fbbb949-8b22-4916-a16c-0a799a2dd79f",
+      "name": "Christi Himmelfahrt",
+      "date": "2025-05-29",
+      "md5": "90be77044b885f1433e9fabbd442a385",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "b52574c0-0e5d-44ff-ac6b-4e3c6d71f1d7",
+      "name": "Pfingstmontag",
+      "date": "2025-06-09",
+      "md5": "f9d8e574a3058bab58d8b418b9d03446",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "2590b1ad-4268-4cac-a11a-5192791d0c0d",
+      "name": "Fronleichnam",
+      "date": "2025-06-19",
+      "md5": "1d3a54c5b67a9f6728aeeb8e17bf67d3",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "ac964e18-2d34-497a-a9c5-b8ab065b7238",
+      "name": "Tag der Deutschen Einheit",
+      "date": "2025-10-03",
+      "md5": "d94a2c9383981208782a63170eed1d42",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "0e5ed383-7890-4f12-b041-65a79aedeb5f",
+      "name": "Allerheiligen",
+      "date": "2025-11-01",
+      "md5": "4f98e1ce2c003fda0e9bcb3a2d9f0384",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "92b270e3-247f-4f82-b79d-b5ad77a67d95",
+      "name": "1. Weihnachtsfeiertag",
+      "date": "2025-12-25",
+      "md5": "20aa86a0e892e98f65a9183663ae4993",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "28bf580c-9787-4d67-ab3e-06a5e6597c1c",
+      "name": "2. Weihnachtsfeiertag",
+      "date": "2025-12-26",
+      "md5": "dabc78c8f9e25714fa3d5cb037ce8c4a",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "9ac6fd8b-aec4-41f0-916b-f03af58ecdab",
+      "name": "Neujahr",
+      "date": "2026-01-01",
+      "md5": "51ed531eb68158f644cba935ffd42524",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "7f99caaa-1eb2-4564-a6e8-13844634c929",
+      "name": "Heilige Drei Könige",
+      "date": "2026-01-06",
+      "md5": "3cf7b5288a37b0e5582d9d926dc153f7",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "f80fd9dc-41b4-4203-8fea-2cf36d365fbb",
+      "name": "Karfreitag",
+      "date": "2026-04-03",
+      "md5": "604724d1ffed89c2d57bcbfeac5ac83e",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "8d8ad831-8d60-429f-ad46-7f842c9fe2d9",
+      "name": "Ostermontag",
+      "date": "2026-04-06",
+      "md5": "cb9d3c86cb182439683fafa937820ab1",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "6f661249-94cb-4a54-a063-20dde86ebde6",
+      "name": "Tag der Arbeit",
+      "date": "2026-05-01",
+      "md5": "4a397147c5c68b75fcbecb24312b8a00",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "0905ed2a-46a7-4731-87e2-a8c53c42b0e2",
+      "name": "Christi Himmelfahrt",
+      "date": "2026-05-14",
+      "md5": "14bad964f53d53993f5fca3585c132fe",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "ce6dcd62-b512-4075-be98-73ffc3dee4db",
+      "name": "Pfingstmontag",
+      "date": "2026-05-25",
+      "md5": "41dfe1437a42a717f3419ccf87311213",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "4030dfd3-7e29-4334-b637-42a9097be309",
+      "name": "Fronleichnam",
+      "date": "2026-06-04",
+      "md5": "13bc992338e6d0829e17ea9f42b7f4a9",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "555eaa64-b8f6-44ce-850b-6af0d75555e9",
+      "name": "Tag der Deutschen Einheit",
+      "date": "2026-10-03",
+      "md5": "14285a6effd918684d18345b6aa0827e",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "c359d742-f458-4962-8bf1-44e5d504f6d0",
+      "name": "Allerheiligen",
+      "date": "2026-11-01",
+      "md5": "96bbadf5f8f7ff8780dabbdd52d0af39",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "b37c8536-925e-455c-9e61-8e2b984a74d1",
+      "name": "1. Weihnachtsfeiertag",
+      "date": "2026-12-25",
+      "md5": "8f34b6c02752aec5b4e16aca251588d8",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "fafc28cf-c8fc-4290-97b0-99904f920d4f",
+      "name": "2. Weihnachtsfeiertag",
+      "date": "2026-12-26",
+      "md5": "8d57326f03e00646708cab15d5843520",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "a9951b88-fbfa-4634-8b80-39c60abb2a0c",
+      "name": "Neujahr",
+      "date": "2027-01-01",
+      "md5": "67da0279a7e90899f51c46ac9e8d379f",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "341c9738-8063-4e1b-99d3-336174cf42de",
+      "name": "Heilige Drei Könige",
+      "date": "2027-01-06",
+      "md5": "769e955cc5ddcf82ec462f804d48e2df",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "f5967e35-9fbb-4cd9-ae3d-622f6cf90028",
+      "name": "Karfreitag",
+      "date": "2027-03-26",
+      "md5": "a28c0073e9c724e2b86e9d98563f6a21",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "fcd0558e-3e01-4902-b785-d8bd45baba24",
+      "name": "Ostermontag",
+      "date": "2027-03-29",
+      "md5": "8235c0d404f36e17fef220524933f465",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "5dce4648-d6e6-400a-936e-b85edbf85622",
+      "name": "Tag der Arbeit",
+      "date": "2027-05-01",
+      "md5": "45c46e91708fee754b1f6e1ab033c048",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "889b46cc-0934-44a1-9468-d88f880acc94",
+      "name": "Christi Himmelfahrt",
+      "date": "2027-05-06",
+      "md5": "4ff6165091101681faf6b6da6e063a47",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "689daf70-cc0e-44d6-a501-8a17d4a551dc",
+      "name": "Pfingstmontag",
+      "date": "2027-05-17",
+      "md5": "e1fef9f1ab9726eca175eee6fab7b392",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "c1b5e914-3c7d-426d-90b4-1d8a889b02a2",
+      "name": "Fronleichnam",
+      "date": "2027-05-27",
+      "md5": "88f5aa2b5bba28c1a285abf9ba779c30",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "3e88b5c4-993a-4bd1-9f9a-149545598bc6",
+      "name": "Tag der Deutschen Einheit",
+      "date": "2027-10-03",
+      "md5": "3b506b4081114258586e7075bdd418d6",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "506df8ed-e54d-4af6-9939-e8dca991c153",
+      "name": "Allerheiligen",
+      "date": "2027-11-01",
+      "md5": "1da13f1975aa794a0ad57ba4ad0ec3c1",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "ba7542be-fca8-427b-ac2d-797470860c62",
+      "name": "1. Weihnachtsfeiertag",
+      "date": "2027-12-25",
+      "md5": "4bfa520d2b2d46a8ad0c6f0bd7281a5f",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "ee8fc25d-db77-48d9-a74f-6374d74642fa",
+      "name": "2. Weihnachtsfeiertag",
+      "date": "2027-12-26",
+      "md5": "3bd8cfc2480c21751093b5e18a8d375a",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "286433c6-b1ce-4835-b16a-95f6dbf28e11",
+      "name": "Neujahr",
+      "date": "2028-01-01",
+      "md5": "6cb38fca6f47bea9ed9260ce14db8a57",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "b2eccb85-9d35-4f63-95aa-5d1d9954799e",
+      "name": "Heilige Drei Könige",
+      "date": "2028-01-06",
+      "md5": "a39e2441b40262555d6bca0d709369bb",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "692e2b19-92e1-4186-a9e1-971602ddda85",
+      "name": "Karfreitag",
+      "date": "2028-04-14",
+      "md5": "7d2d4870593dae66d017cecb19072c68",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "b13ef7b6-b755-4be1-9b46-f267462513c0",
+      "name": "Ostermontag",
+      "date": "2028-04-17",
+      "md5": "6bb1594de2b5239b0e8061c650a0224f",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "e153c1b9-ef86-4f43-a454-60ea0138ef1e",
+      "name": "Tag der Arbeit",
+      "date": "2028-05-01",
+      "md5": "31f6493d1f2468011ffb265ade9770bc",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "ed0edf81-d59d-4406-9681-372e81b69abc",
+      "name": "Christi Himmelfahrt",
+      "date": "2028-05-25",
+      "md5": "a034d6df48a9a720a00bcedf9301a9c8",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "71df5df7-5477-4374-abc4-2afddcc1632a",
+      "name": "Pfingstmontag",
+      "date": "2028-06-05",
+      "md5": "0125cf1405b78eb8ee5af690cbfa608d",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "d2b970b8-57ef-4f06-a8bd-b6f6b3009688",
+      "name": "Fronleichnam",
+      "date": "2028-06-15",
+      "md5": "05cb92d4f2f18e432584d6fc63594ae0",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "0bab590b-6c97-4feb-bb8e-fde4ccf45d5f",
+      "name": "Tag der Deutschen Einheit",
+      "date": "2028-10-03",
+      "md5": "cb51d476c6e898fbbfa508da08ab8ffd",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "b7bc09ad-b1c9-4cb8-a4f3-28e0e75ea260",
+      "name": "Allerheiligen",
+      "date": "2028-11-01",
+      "md5": "68ff382adac387e04b449d91b8395c10",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "c11af431-b691-4717-af80-4a3cf954f112",
+      "name": "1. Weihnachtsfeiertag",
+      "date": "2028-12-25",
+      "md5": "58ab74cfb6f52236ccb6d8d0469dc95c",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "b03399a3-02cb-444c-a662-bdd176bf5263",
+      "name": "2. Weihnachtsfeiertag",
+      "date": "2028-12-26",
+      "md5": "6bf1c3ca3f98e821014c65055ac8419a",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    }
+  ]
+}

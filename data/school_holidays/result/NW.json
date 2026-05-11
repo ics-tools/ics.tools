@@ -1,0 +1,449 @@
+{
+  "$schema": "../../schema/school-holidays.schema.json",
+  "metadata": {
+    "state": "Nordrhein-Westfalen",
+    "code": "NW"
+  },
+  "holidays": [
+    {
+      "id": "78bbb200-36b2-4eb1-90bc-41ee649159f2",
+      "name": "Weihnachtsferien 2019 Nordrhein-Westfalen",
+      "date": "2019-12-23",
+      "endDate": "2020-01-06",
+      "md5": "40a198f7d661acd59367985b56dd4616",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "7da07aa0-f9f0-4d59-94cf-81958f5efffd",
+      "name": "Osterferien 2020 Nordrhein-Westfalen",
+      "date": "2020-04-06",
+      "endDate": "2020-04-18",
+      "md5": "5647e366b9d8ede85933cddbff1f1e72",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "eae8403e-9a13-457f-a339-e871d22278f6",
+      "name": "Pfingstferien 2020 Nordrhein-Westfalen",
+      "date": "2020-06-02",
+      "endDate": "2020-06-02",
+      "md5": "6526782823394eaac5c8838888491499",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "da87699c-6434-41dd-9a97-08c9f95073a3",
+      "name": "Sommerferien 2020 Nordrhein-Westfalen",
+      "date": "2020-06-29",
+      "endDate": "2020-08-11",
+      "md5": "8608703966fd1fc35c2579e6080787b2",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "b38a47e0-9e8d-460c-b354-fb6be109ac75",
+      "name": "Herbstferien 2020 Nordrhein-Westfalen",
+      "date": "2020-10-12",
+      "endDate": "2020-10-24",
+      "md5": "839960316e8d99b1be21f1d0f561f540",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "aac248b0-dc8c-425c-aec2-fdfb36d35cc2",
+      "name": "Weihnachtsferien 2020 Nordrhein-Westfalen",
+      "date": "2020-12-21",
+      "endDate": "2021-01-06",
+      "md5": "ec2b38bb001005269a4a13bb079f6797",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "7cb784d2-95cc-4b43-86bf-f9c8d280b10b",
+      "name": "Osterferien 2021 Nordrhein-Westfalen",
+      "date": "2021-03-29",
+      "endDate": "2021-04-10",
+      "md5": "81308672168ec8270dcd440b8e7c0994",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "361efe50-9bfb-4f10-ba0c-4193226df3f3",
+      "name": "Pfingstferien 2021 Nordrhein-Westfalen",
+      "date": "2021-05-25",
+      "endDate": "2021-05-25",
+      "md5": "757468bedeb7caa554235fbc43b59863",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "77c99cb7-21a1-4372-9da0-21394eb2ccb5",
+      "name": "Sommerferien 2021 Nordrhein-Westfalen",
+      "date": "2021-07-05",
+      "endDate": "2021-08-17",
+      "md5": "aa45a7b59cb05ceb46ffab4c88253a14",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "6e86c1f1-c966-42c9-905e-488b407cf052",
+      "name": "Herbstferien 2021 Nordrhein-Westfalen",
+      "date": "2021-10-11",
+      "endDate": "2021-10-23",
+      "md5": "b1e18a01d4f748fba3e8eca7902ca97b",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "1c971414-8efc-49eb-ab29-685de4c68b47",
+      "name": "Weihnachtsferien 2021 Nordrhein-Westfalen",
+      "date": "2021-12-24",
+      "endDate": "2022-01-08",
+      "md5": "010b11417492f8ef459aa05b14c5ea55",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "29400d1f-125b-4fb1-85c2-e2e2a96b8815",
+      "name": "Osterferien 2022 Nordrhein-Westfalen",
+      "date": "2022-04-11",
+      "endDate": "2022-04-23",
+      "md5": "1b5883516bb366b11ce213b623b0992a",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "1a2b0c15-9898-46c9-97d5-0beadac8cbc8",
+      "name": "Sommerferien 2022 Nordrhein-Westfalen",
+      "date": "2022-06-27",
+      "endDate": "2022-08-09",
+      "md5": "41b1757ec7ebfd87a1823ab7b512c592",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "7f60353b-3dac-446c-859c-efe0792a8733",
+      "name": "Herbstferien 2022 Nordrhein-Westfalen",
+      "date": "2022-10-04",
+      "endDate": "2022-10-15",
+      "md5": "54d5b3af49acefb54263fee6bc127196",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "27b373c1-a971-4a95-9a5e-5c0e6816de2d",
+      "name": "Weihnachtsferien 2022 Nordrhein-Westfalen",
+      "date": "2022-12-23",
+      "endDate": "2023-01-06",
+      "md5": "96f53c294b8ec213068f2db9297194c6",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "682d9f2e-9cbd-42d0-a448-0e1991f25d59",
+      "name": "Osterferien 2023 Nordrhein-Westfalen",
+      "date": "2023-04-03",
+      "endDate": "2023-04-15",
+      "md5": "08192367661ee98a1cc1afb1cf117e35",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "e9f6b762-b525-4051-a590-a54ea36f4751",
+      "name": "Pfingstferien 2023 Nordrhein-Westfalen",
+      "date": "2023-05-30",
+      "endDate": "2023-05-30",
+      "md5": "af8cf64bf3fc71641399917fa8796f56",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "8ac3b6cb-06f5-4e1e-b659-a0bef922b7e1",
+      "name": "Sommerferien 2023 Nordrhein-Westfalen",
+      "date": "2023-06-22",
+      "endDate": "2023-08-04",
+      "md5": "1d7549ebef7d0700316be88ef3383222",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "4fddc8dd-9048-40f6-a0ed-174ac8a4170c",
+      "name": "Herbstferien 2023 Nordrhein-Westfalen",
+      "date": "2023-10-02",
+      "endDate": "2023-10-14",
+      "md5": "f4c8b51f6a2f53becb86b35afcc350ac",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "505960fd-25cb-4742-983c-3e1326f42ad6",
+      "name": "Weihnachtsferien 2023 Nordrhein-Westfalen",
+      "date": "2023-12-21",
+      "endDate": "2024-01-05",
+      "md5": "3209216a5907f39b11ba3e5a5c2cf891",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "a9dbc89b-166f-46d8-9de1-8faae01ecf07",
+      "name": "Osterferien 2024 Nordrhein-Westfalen",
+      "date": "2024-03-25",
+      "endDate": "2024-04-06",
+      "md5": "918a809565bed7466adc248766c904e7",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "36e1ca93-0a45-4d24-b5ca-523fd854604c",
+      "name": "Pfingstferien 2024 Nordrhein-Westfalen",
+      "date": "2024-05-21",
+      "endDate": "2024-05-21",
+      "md5": "2820e2d84599f3f3050222f137271634",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "8c430e77-c97c-418e-b928-6da34af4dc8b",
+      "name": "Sommerferien 2024 Nordrhein-Westfalen",
+      "date": "2024-07-08",
+      "endDate": "2024-08-20",
+      "md5": "8449a81ce3a224d5d8320b1083c6e9c2",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "c6a32bf4-0f28-4872-8b2e-771e438ce06c",
+      "name": "Herbstferien 2024 Nordrhein-Westfalen",
+      "date": "2024-10-14",
+      "endDate": "2024-10-26",
+      "md5": "8c2ef8f5de33fac566a6cb1c6e9261c3",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "29bd10aa-e6b8-4760-a44e-6a88ab783f03",
+      "name": "Weihnachtsferien 2024 Nordrhein-Westfalen",
+      "date": "2024-12-23",
+      "endDate": "2025-01-06",
+      "md5": "980f1a508a61b7fa5fa1558602f75ff4",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "c45b7237-ad6d-40ce-ba16-735541b1be82",
+      "name": "Osterferien 2025 Nordrhein-Westfalen",
+      "date": "2025-04-14",
+      "endDate": "2025-04-26",
+      "md5": "1662f82f38ecfea121163a202b8b8d8e",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "589f490d-9bbb-48ef-a402-ae9af623edfa",
+      "name": "Pfingstferien 2025 Nordrhein-Westfalen",
+      "date": "2025-06-10",
+      "endDate": "2025-06-10",
+      "md5": "6d88541d3b97d0fefbc28a1958a68f44",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "1c5ba5d4-58a5-4058-9b9c-79bffbc03425",
+      "name": "Sommerferien 2025 Nordrhein-Westfalen",
+      "date": "2025-07-14",
+      "endDate": "2025-08-26",
+      "md5": "e395be94bce4a6e36b7529bca70bb2a7",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "d9838244-e0bc-4c9a-9afd-63f63c5cb321",
+      "name": "Herbstferien 2025 Nordrhein-Westfalen",
+      "date": "2025-10-13",
+      "endDate": "2025-10-25",
+      "md5": "d5e4681182363769e3be6505ffe54e53",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "18670b9c-54e8-422b-b8f9-a9973825e6a4",
+      "name": "Weihnachtsferien 2025 Nordrhein-Westfalen",
+      "date": "2025-12-22",
+      "endDate": "2026-01-06",
+      "md5": "1bd9c3f20f62c902f2088bd29d430f61",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "d94a97e5-9f96-451a-82f8-9ebb77887db8",
+      "name": "Osterferien 2026 Nordrhein-Westfalen",
+      "date": "2026-03-30",
+      "endDate": "2026-04-11",
+      "md5": "a121deeca6282a40566370c84e71fe11",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "c775a6dd-cb27-45ae-ad38-60d8929bd6be",
+      "name": "Pfingstferien 2026 Nordrhein-Westfalen",
+      "date": "2026-05-26",
+      "endDate": "2026-05-26",
+      "md5": "ea833e16f6662f7b202a203377a60b8a",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "b698a2eb-afcf-4d85-baca-f8dd4592da2c",
+      "name": "Sommerferien 2026 Nordrhein-Westfalen",
+      "date": "2026-07-20",
+      "endDate": "2026-09-01",
+      "md5": "21a5bb4984e19946046f14d3d6607b69",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "8ed1f201-881e-4ea9-b7b7-5769d7bb0ec2",
+      "name": "Herbstferien 2026 Nordrhein-Westfalen",
+      "date": "2026-10-17",
+      "endDate": "2026-10-31",
+      "md5": "275c0ed40e85a75b670263ede41fcac3",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "fd4da962-219c-465e-9021-f3bcbe5ceacd",
+      "name": "Weihnachtsferien 2026 Nordrhein-Westfalen",
+      "date": "2026-12-23",
+      "endDate": "2027-01-06",
+      "md5": "89b5a4f1ac218422f9d09297c6ec62c9",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "c9edf367-0f13-492f-bf7c-957b8209e5d4",
+      "name": "Osterferien 2027 Nordrhein-Westfalen",
+      "date": "2027-03-22",
+      "endDate": "2027-04-03",
+      "md5": "054c92ef6bf04c71e631490e4e7d49d6",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "f2c11b87-a3e1-4fcc-8723-f89ebcda80ec",
+      "name": "Pfingstferien 2027 Nordrhein-Westfalen",
+      "date": "2027-05-18",
+      "endDate": "2027-05-18",
+      "md5": "28c3efb0d1180860a230837183de1354",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "1da9b5c8-3b0d-4510-a727-f44689e3f881",
+      "name": "Sommerferien 2027 Nordrhein-Westfalen",
+      "date": "2027-07-19",
+      "endDate": "2027-08-31",
+      "md5": "f3de7c2f5184e0bdbcbd652c7ab325cf",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "809c776a-9f12-40b0-adb0-cecc86f67dc4",
+      "name": "Herbstferien 2027 Nordrhein-Westfalen",
+      "date": "2027-10-23",
+      "endDate": "2027-11-06",
+      "md5": "63af312afd96a96d46474741cfb0122a",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "e1e07268-02c8-4cde-99a3-2847c1350be2",
+      "name": "Weihnachtsferien 2027 Nordrhein-Westfalen",
+      "date": "2027-12-24",
+      "endDate": "2028-01-08",
+      "md5": "49e20a6c426abed41eb918e295bd77ae",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "c3952276-0258-4315-bc34-9f9d63209d88",
+      "name": "Osterferien 2028 Nordrhein-Westfalen",
+      "date": "2028-04-10",
+      "endDate": "2028-04-22",
+      "md5": "4a2cc87bc8065c8cbf7fe84a1d7903a8",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "079abd1e-de94-4b0f-861f-f88c5bef2f99",
+      "name": "Sommerferien 2028 Nordrhein-Westfalen",
+      "date": "2028-07-10",
+      "endDate": "2028-08-22",
+      "md5": "fd0b088d7bc47704362b02927e9cb9c6",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "3ddb7f0a-e7bc-4b4b-ade1-2badce17d60b",
+      "name": "Herbstferien 2028 Nordrhein-Westfalen",
+      "date": "2028-10-23",
+      "endDate": "2028-11-04",
+      "md5": "f446794bd235aec27fcfbd337abeb7e9",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "be8be6c0-e01f-479a-92df-5e14001ba7bd",
+      "name": "Weihnachtsferien 2028 Nordrhein-Westfalen",
+      "date": "2028-12-21",
+      "endDate": "2029-01-05",
+      "md5": "70b52f84b14ea8975b88685c30d66396",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    }
+  ]
+}

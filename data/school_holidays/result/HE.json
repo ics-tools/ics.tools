@@ -1,0 +1,379 @@
+{
+  "$schema": "../../schema/school-holidays.schema.json",
+  "metadata": {
+    "state": "Hessen",
+    "code": "HE"
+  },
+  "holidays": [
+    {
+      "id": "0f69cb93-b4e5-4f72-9f59-c9d0f58faa2c",
+      "name": "Weihnachtsferien 2019 Hessen",
+      "date": "2019-12-23",
+      "endDate": "2020-01-11",
+      "md5": "d17aca0a22a966fa1a2c50b88afcd984",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "d3b63a99-d2e6-4d95-aa7f-4e4d050bb8ce",
+      "name": "Osterferien 2020 Hessen",
+      "date": "2020-04-06",
+      "endDate": "2020-04-18",
+      "md5": "ad7a3a8f94d06c02b01feb9cd55ff827",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "2d60c6e3-2db0-4184-bb5b-2c210ce453e3",
+      "name": "Sommerferien 2020 Hessen",
+      "date": "2020-07-06",
+      "endDate": "2020-08-14",
+      "md5": "03bf280f046496cc38dc3252d757578d",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "a3dc52fb-799b-4ae3-9911-fece52dbd539",
+      "name": "Herbstferien 2020 Hessen",
+      "date": "2020-10-05",
+      "endDate": "2020-10-17",
+      "md5": "61be3db144295776a4eb66d8953a568a",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "7cb74b81-1091-41fb-9692-cc2f2f46ece4",
+      "name": "Weihnachtsferien 2020 Hessen",
+      "date": "2020-12-21",
+      "endDate": "2021-01-09",
+      "md5": "2ef7a1005db1777cdb3118497d2b8d96",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "8a9624a1-81e9-431d-a577-edbe5282015f",
+      "name": "Osterferien 2021 Hessen",
+      "date": "2021-04-06",
+      "endDate": "2021-04-16",
+      "md5": "48484b01b7102fdbcccaf5b60cc898fb",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "7d0000e5-2046-43fc-9ff3-286d16a7af2f",
+      "name": "Sommerferien 2021 Hessen",
+      "date": "2021-07-19",
+      "endDate": "2021-08-27",
+      "md5": "b77b981577de34dfa8271f152701ad56",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "b0604557-88e9-4667-9da1-85f1074912d7",
+      "name": "Herbstferien 2021 Hessen",
+      "date": "2021-10-11",
+      "endDate": "2021-10-23",
+      "md5": "10e91bd9108d8b2f7b49579c15a93f57",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "0d9ea202-4e86-4245-a214-8384359e2ae3",
+      "name": "Weihnachtsferien 2021 Hessen",
+      "date": "2021-12-23",
+      "endDate": "2022-01-08",
+      "md5": "c7e2a416a7ddfcd110a8b44ba9fdceb5",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "56698b29-22b5-4d34-85d0-fafac820dd06",
+      "name": "Osterferien 2022 Hessen",
+      "date": "2022-04-11",
+      "endDate": "2022-04-23",
+      "md5": "093a6b46b6810b0915f83e15331b8eeb",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "c373d275-55c5-49c5-a49a-ce11bdfea7ed",
+      "name": "Sommerferien 2022 Hessen",
+      "date": "2022-07-25",
+      "endDate": "2022-09-02",
+      "md5": "5e85afe4c11c0ba5717bf0558fb757ec",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "752a897d-4757-4133-b47e-bf82418954a8",
+      "name": "Herbstferien 2022 Hessen",
+      "date": "2022-10-24",
+      "endDate": "2022-10-29",
+      "md5": "cd0ff00764ccba4071fae0057d1e619a",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "966c89ec-1a3b-40ae-aede-e38bbac9b8c8",
+      "name": "Weihnachtsferien 2022 Hessen",
+      "date": "2022-12-22",
+      "endDate": "2023-01-07",
+      "md5": "a20e105fc1f821fc64c094aa26e45c45",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "f546ce3b-e067-47c8-b9f9-59112fac0476",
+      "name": "Osterferien 2023 Hessen",
+      "date": "2023-04-03",
+      "endDate": "2023-04-22",
+      "md5": "5eb7359092f92a6ae50ba94ac629043c",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "370728bf-cff2-490a-8327-b0c3b7b243da",
+      "name": "Sommerferien 2023 Hessen",
+      "date": "2023-07-24",
+      "endDate": "2023-09-01",
+      "md5": "fb8a7dd7a461fcb1dc804290b239fd65",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "f3ca5316-23fe-49bb-b243-27c56412e9f5",
+      "name": "Herbstferien 2023 Hessen",
+      "date": "2023-10-23",
+      "endDate": "2023-10-28",
+      "md5": "5094dde3c3621bfb27fe8d91ce754505",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "ab5ada53-819f-4a2e-ab89-e995d7ede69e",
+      "name": "Weihnachtsferien 2023 Hessen",
+      "date": "2023-12-27",
+      "endDate": "2024-01-13",
+      "md5": "1793d3170c61b04d0fbdcba2ddfdead4",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "9681a07e-dca1-40ab-9280-480ef1b47abe",
+      "name": "Osterferien 2024 Hessen",
+      "date": "2024-03-25",
+      "endDate": "2024-04-13",
+      "md5": "ac78060788253480ab81456e79e3226a",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "153c8782-870a-4cb8-809c-4fc673e3824c",
+      "name": "Sommerferien 2024 Hessen",
+      "date": "2024-07-15",
+      "endDate": "2024-08-23",
+      "md5": "9fbb15816e9a9ec43e64b2e01264fa3d",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "1b27b307-fc85-43c8-87f9-36aa8eb560cb",
+      "name": "Herbstferien 2024 Hessen",
+      "date": "2024-10-14",
+      "endDate": "2024-10-25",
+      "md5": "5f8560a4793bc788d9f5d9d3b1f1ad52",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "bd24179b-9f65-43dc-9904-b6159c7c62c4",
+      "name": "Weihnachtsferien 2024 Hessen",
+      "date": "2024-12-23",
+      "endDate": "2025-01-10",
+      "md5": "e7d69cdab214233d50f135af0da27060",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "eb9a0f8a-b9df-4df1-ab0a-cb0d06860ccc",
+      "name": "Osterferien 2025 Hessen",
+      "date": "2025-04-07",
+      "endDate": "2025-04-21",
+      "md5": "6cc1ca354d511c5534aa16aa48075fa0",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "e26dccb0-b3a2-4820-9ac1-290cb4cd8bd7",
+      "name": "Sommerferien 2025 Hessen",
+      "date": "2025-07-07",
+      "endDate": "2025-08-15",
+      "md5": "0e6bb731ce03d3795a6aec01b912bf79",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "03866510-cccc-428a-af6b-099956d6a4d7",
+      "name": "Herbstferien 2025 Hessen",
+      "date": "2025-10-06",
+      "endDate": "2025-10-18",
+      "md5": "05bc297e4bde0bb9994dcb4db251a9b7",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "eff7cc35-540d-4b5d-9bae-7c6410aac6f1",
+      "name": "Weihnachtsferien 2025 Hessen",
+      "date": "2025-12-22",
+      "endDate": "2026-01-10",
+      "md5": "8309f92e17b90dd0a23191442f32f7ad",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "e30bc500-8927-4523-baae-02bf00e56ecf",
+      "name": "Osterferien 2026 Hessen",
+      "date": "2026-03-30",
+      "endDate": "2026-04-10",
+      "md5": "6465eb2780062f630d61b93a0405823c",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "9307e97f-918a-4705-a520-dcecaa0cde88",
+      "name": "Sommerferien 2026 Hessen",
+      "date": "2026-06-29",
+      "endDate": "2026-08-07",
+      "md5": "f332dcf60327cebaeb1ad994d8ac58ed",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "877d1257-6502-49ad-a495-7ae2c919ba79",
+      "name": "Herbstferien 2026 Hessen",
+      "date": "2026-10-05",
+      "endDate": "2026-10-17",
+      "md5": "9bd581edf43f5dd37a66bd7915be1506",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "1d5756fd-509a-4218-837f-8ed39473fb1e",
+      "name": "Weihnachtsferien 2026 Hessen",
+      "date": "2026-12-23",
+      "endDate": "2027-01-12",
+      "md5": "a66bb6e0f1d66a4193de81fd6f4f3b91",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "1451f667-c14e-464c-9e16-3fd1da41ae35",
+      "name": "Osterferien 2027 Hessen",
+      "date": "2027-03-22",
+      "endDate": "2027-04-02",
+      "md5": "9bbd83ffd4942426fc19b99c9c8bd223",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "f0d2b3a4-4a6c-40e4-b4c4-a48ed67f63c6",
+      "name": "Sommerferien 2027 Hessen",
+      "date": "2027-06-28",
+      "endDate": "2027-08-06",
+      "md5": "db66a5ffe248b539e80bded8c4dbf440",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "f845c062-d10d-4c44-8490-63b45d884067",
+      "name": "Herbstferien 2027 Hessen",
+      "date": "2027-10-04",
+      "endDate": "2027-10-16",
+      "md5": "d00196b0b5a5b5c902ba69e6ab8d62c4",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "ee50ffec-76cf-4bb0-be1d-6a6c90872ca8",
+      "name": "Weihnachtsferien 2027 Hessen",
+      "date": "2027-12-23",
+      "endDate": "2028-01-11",
+      "md5": "4c1e3ca7049ecf56e9b64fda6c4193ee",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "42bac578-15fb-4f72-9359-ec96d3a05e19",
+      "name": "Osterferien 2028 Hessen",
+      "date": "2028-04-03",
+      "endDate": "2028-04-14",
+      "md5": "19ee42ff76b1af4fe94d718a96ed97be",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "510274fe-c642-44e2-bae0-da869035c2d4",
+      "name": "Sommerferien 2028 Hessen",
+      "date": "2028-07-03",
+      "endDate": "2028-08-11",
+      "md5": "524221eff2aa7098f175e343f06960a6",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "7d688168-267d-49ef-a302-89a6138c3df6",
+      "name": "Herbstferien 2028 Hessen",
+      "date": "2028-10-09",
+      "endDate": "2028-10-20",
+      "md5": "04552e954d9fc7c61cd07e310cbf8c30",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "fc12bd08-bb49-49dc-b4b6-7f742f91d80d",
+      "name": "Weihnachtsferien 2028 Hessen",
+      "date": "2028-12-27",
+      "endDate": "2029-01-12",
+      "md5": "2e0f7ff2ca12a1ffd39557def021f40b",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    }
+  ]
+}

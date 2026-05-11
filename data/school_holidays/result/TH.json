@@ -1,0 +1,559 @@
+{
+  "$schema": "../../schema/school-holidays.schema.json",
+  "metadata": {
+    "state": "Thüringen",
+    "code": "TH"
+  },
+  "holidays": [
+    {
+      "id": "f9b55925-ed1a-4b55-ac74-f199b999fc37",
+      "name": "Weihnachtsferien 2019 Thüringen",
+      "date": "2019-12-21",
+      "endDate": "2020-01-03",
+      "md5": "7be1253016171277eac8d220fa684259",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "7b09e453-ec84-4787-a388-03caa148003b",
+      "name": "Winterferien 2020 Thüringen",
+      "date": "2020-02-10",
+      "endDate": "2020-02-14",
+      "md5": "319f678a8e2be15c08dc3452862d85a0",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "2493a2f7-7ad6-488c-bada-eda17231b311",
+      "name": "Osterferien 2020 Thüringen",
+      "date": "2020-04-06",
+      "endDate": "2020-04-18",
+      "md5": "6d3cdf594cebf34822efa7651045699f",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "202492d2-139e-45b4-9e2b-98a507a84bf6",
+      "name": "Schulfreier Tag 2020 Thüringen",
+      "date": "2020-05-22",
+      "endDate": "2020-05-22",
+      "md5": "c77fbb077111fe41d941589e129e4ee9",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "428afa4e-f302-4eff-ba72-e882a7288ae0",
+      "name": "Sommerferien 2020 Thüringen",
+      "date": "2020-07-20",
+      "endDate": "2020-08-29",
+      "md5": "b4e342df10c4ae04621bfff1a3c653a6",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "52360344-575d-4d38-a574-4209e8b8ae30",
+      "name": "Herbstferien 2020 Thüringen",
+      "date": "2020-10-17",
+      "endDate": "2020-10-30",
+      "md5": "270eb335264412a835ac6d41179be565",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "c30463ce-bf13-4adb-a435-fbb782b4bb02",
+      "name": "Weihnachtsferien 2020 Thüringen",
+      "date": "2020-12-23",
+      "endDate": "2021-01-02",
+      "md5": "f03d13ac4531f5855fed367810a337bb",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "27fa0208-e732-4bae-b4de-eab872448981",
+      "name": "Winterferien 2021 Thüringen",
+      "date": "2021-01-25",
+      "endDate": "2021-01-30",
+      "md5": "88d4395b009148214cc2c94b4c55939d",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "39591d00-c323-472c-8968-10178e77171e",
+      "name": "Osterferien 2021 Thüringen",
+      "date": "2021-03-29",
+      "endDate": "2021-04-10",
+      "md5": "552fa1d3d222d19e587ce0717d1a3c10",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "818ccf41-54ff-4d0f-baae-ce1831fb6b63",
+      "name": "Schulfreier Tag 2021 Thüringen",
+      "date": "2021-05-14",
+      "endDate": "2021-05-14",
+      "md5": "97023db594519f4c47ae839781d6b63a",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "fdbb59ae-25a6-4ed2-8c85-feff4efa2e0f",
+      "name": "Sommerferien 2021 Thüringen",
+      "date": "2021-07-26",
+      "endDate": "2021-09-04",
+      "md5": "9d924df71861b57d1f4878793efc25ce",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "aae9f13e-3616-467f-a67b-c4b7f2cd404f",
+      "name": "Herbstferien 2021 Thüringen",
+      "date": "2021-10-25",
+      "endDate": "2021-11-06",
+      "md5": "5ee9a3d53e377a81e3fc5a07eb095a81",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "3c04775b-761f-4e09-b0dc-4ec935f8313e",
+      "name": "Weihnachtsferien 2021 Thüringen",
+      "date": "2021-12-23",
+      "endDate": "2021-12-31",
+      "md5": "194d81905c66a173bd0fa5f4c265cf52",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "65b500f5-a8b5-4817-8d68-75bd33044a3c",
+      "name": "Winterferien 2022 Thüringen",
+      "date": "2022-02-12",
+      "endDate": "2022-02-19",
+      "md5": "9789b61c122bf3c3050f1d8d13c6baf1",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "08b5a3f2-6d29-4856-ad25-4fe8b4022970",
+      "name": "Osterferien 2022 Thüringen",
+      "date": "2022-04-11",
+      "endDate": "2022-04-23",
+      "md5": "30664e2b043bbb42ad3e56c893360931",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "73b7c1e9-7ca9-40fc-9df5-48fc9fecac9a",
+      "name": "Schulfreier Tag 2022 Thüringen",
+      "date": "2022-05-27",
+      "endDate": "2022-05-27",
+      "md5": "c88560385049994d87f59b283d646f37",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "8ae86e02-5cf2-489d-bfef-9c627464f296",
+      "name": "Sommerferien 2022 Thüringen",
+      "date": "2022-07-18",
+      "endDate": "2022-08-27",
+      "md5": "d222ab129203cf0e7507c5d8c55f9017",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "37898ddd-63df-48d9-995e-85c55c324b66",
+      "name": "Herbstferien 2022 Thüringen",
+      "date": "2022-10-17",
+      "endDate": "2022-10-29",
+      "md5": "eb9a46985f28c013f1e3b1ed740eb0b0",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "01007b2a-7800-4e62-965c-f7de21401c19",
+      "name": "Weihnachtsferien 2022 Thüringen",
+      "date": "2022-12-22",
+      "endDate": "2023-01-03",
+      "md5": "fd0c975504c9bbc3b8b622b17a2ec713",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "d3bfa2ac-e02b-4e02-90bb-ac78a677d2f1",
+      "name": "Winterferien 2023 Thüringen",
+      "date": "2023-02-13",
+      "endDate": "2023-02-17",
+      "md5": "349cf3bcfceaf18c31dea1133b305414",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "02a2d315-5ab6-450f-87bd-6f19ebe6e14d",
+      "name": "Osterferien 2023 Thüringen",
+      "date": "2023-04-03",
+      "endDate": "2023-04-15",
+      "md5": "74a69a439a06475d98388a2258c51f54",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "515e14e9-0063-43a7-9243-583ab60fceeb",
+      "name": "Schulfreier Tag 2023 Thüringen",
+      "date": "2023-05-19",
+      "endDate": "2023-05-19",
+      "md5": "9ff8b3d146ce6b29607d31d107ef3582",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "b1264660-b41f-4bd3-ae19-c1b72357fdeb",
+      "name": "Sommerferien 2023 Thüringen",
+      "date": "2023-07-10",
+      "endDate": "2023-08-19",
+      "md5": "9605d24702b872ad1eddc65c9960e9a6",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "5bf5a0d0-6adf-42eb-9ba4-e348319ed332",
+      "name": "Herbstferien 2023 Thüringen",
+      "date": "2023-10-02",
+      "endDate": "2023-10-14",
+      "md5": "c038b5fe70075e37eccdbb33565ecb80",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "85aeb260-9f1c-4e7c-b3bf-e01a7b0cdd1d",
+      "name": "Weihnachtsferien 2023 Thüringen",
+      "date": "2023-12-22",
+      "endDate": "2024-01-05",
+      "md5": "aee66df1a8d3545c14c98d334e5ee5d6",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "e13dffe2-6ad5-4eab-8452-3749f1d7eb31",
+      "name": "Winterferien 2024 Thüringen",
+      "date": "2024-02-12",
+      "endDate": "2024-02-16",
+      "md5": "a7a46fdc19f0897fb55b104de8f9b8b5",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "f03f9de5-d608-4492-82d0-256bed5b7c11",
+      "name": "Osterferien 2024 Thüringen",
+      "date": "2024-03-25",
+      "endDate": "2024-04-06",
+      "md5": "25b81b37263d35b8415940734eb0a726",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "839dc642-0efd-4ad5-94ef-cc00b3a0eaca",
+      "name": "Schulfreier Tag 2024 Thüringen",
+      "date": "2024-05-10",
+      "endDate": "2024-05-10",
+      "md5": "23d07cd0b020a350de150b97392fe7e6",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "aa9f4dcb-d980-46b9-b407-9efc4e310a21",
+      "name": "Sommerferien 2024 Thüringen",
+      "date": "2024-06-20",
+      "endDate": "2024-07-31",
+      "md5": "5bc79d85591d025f50825ffe3370ff01",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "d81e3e8b-07ad-4ca0-beb4-884ea76bac22",
+      "name": "Herbstferien 2024 Thüringen",
+      "date": "2024-09-30",
+      "endDate": "2024-10-12",
+      "md5": "63cf80642b02998af316cec4cdb802e5",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "890f7f2b-484b-476e-ba23-95465ea9aed8",
+      "name": "Weihnachtsferien 2024 Thüringen",
+      "date": "2024-12-23",
+      "endDate": "2025-01-03",
+      "md5": "687ddf48fdbb6d1d2bd7a41877ffe98f",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "48f3266a-a478-4903-8b7e-dd5bc86e9ca5",
+      "name": "Winterferien 2025 Thüringen",
+      "date": "2025-02-03",
+      "endDate": "2025-02-08",
+      "md5": "bd1fbef580cbe2b916d8179d267bda9b",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "c5df7973-d0c2-4c01-8ed0-1639794bfdb3",
+      "name": "Osterferien 2025 Thüringen",
+      "date": "2025-04-07",
+      "endDate": "2025-04-19",
+      "md5": "0aa176b362e7e3dbc455438e669eaa96",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "8f7c8143-6403-4924-bed0-3c9aa077d5f0",
+      "name": "Schulfreier Tag 2025 Thüringen",
+      "date": "2025-05-30",
+      "endDate": "2025-05-30",
+      "md5": "13016101f67474adf2550e975d311536",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "2be72545-34d8-4617-a89b-505d85ec8ec4",
+      "name": "Sommerferien 2025 Thüringen",
+      "date": "2025-06-28",
+      "endDate": "2025-08-08",
+      "md5": "11b1d0113408d54f7aa81e04af27d45e",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "b1b5dc5d-dc4f-422d-b9fc-dfcc4325a11e",
+      "name": "Herbstferien 2025 Thüringen",
+      "date": "2025-10-06",
+      "endDate": "2025-10-18",
+      "md5": "1acf50e8a536d40cf97bac8ef0912040",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "bbb3ae65-8f0a-40d1-babe-f9972dc323b2",
+      "name": "Weihnachtsferien 2025 Thüringen",
+      "date": "2025-12-22",
+      "endDate": "2026-01-03",
+      "md5": "fcf82756c0f4d9c6b6d545ee4787b7f3",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "d0e6a7b5-039c-4969-b34b-c9c81cf43af5",
+      "name": "Winterferien 2026 Thüringen",
+      "date": "2026-02-16",
+      "endDate": "2026-02-21",
+      "md5": "d6eb439315d4b462b00ef733903fc244",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "d394c68a-55d1-4e33-b695-5185e3784e19",
+      "name": "Osterferien 2026 Thüringen",
+      "date": "2026-04-07",
+      "endDate": "2026-04-17",
+      "md5": "d4f54381da45e700a5a0e0a0d7f09c12",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "be32afce-90f0-4fcf-9ead-2b446960bfa7",
+      "name": "Schulfreier Tag 2026 Thüringen",
+      "date": "2026-05-15",
+      "endDate": "2026-05-15",
+      "md5": "b6fa6dce825d7743121ffd5cbfd1acc2",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "5fec2836-3d12-4a43-987e-1ed22ce986a5",
+      "name": "Sommerferien 2026 Thüringen",
+      "date": "2026-07-04",
+      "endDate": "2026-08-14",
+      "md5": "ca858e1fe1e66456c315ba4d090ad1c6",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "dd933683-1b2b-49e6-9933-4b565cef0d37",
+      "name": "Herbstferien 2026 Thüringen",
+      "date": "2026-10-12",
+      "endDate": "2026-10-24",
+      "md5": "6a5c31ab0f972e97c3a2df58c7e660da",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "d143fd7f-0086-4866-b22e-870e069cf39a",
+      "name": "Weihnachtsferien 2026 Thüringen",
+      "date": "2026-12-23",
+      "endDate": "2027-01-02",
+      "md5": "6288b7afd18f5888e091952a2fd002f3",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "8e8f44e0-c470-4226-84f4-70037ae8afd2",
+      "name": "Winterferien 2027 Thüringen",
+      "date": "2027-02-01",
+      "endDate": "2027-02-06",
+      "md5": "9423fb75b2cadc7dc33151be9b55794e",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "fcdcb494-ba46-4103-a151-577c7efa2913",
+      "name": "Osterferien 2027 Thüringen",
+      "date": "2027-03-22",
+      "endDate": "2027-04-03",
+      "md5": "5b59297a324885fe1010f8a296d0dce7",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "1cd32e62-e14b-45ca-b80a-aa344483b7f6",
+      "name": "Schulfreier Tag 2027 Thüringen",
+      "date": "2027-05-07",
+      "endDate": "2027-05-07",
+      "md5": "58efbd8330cc1432428a284a12aa1e22",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "a4c356dd-ebbe-48c2-be43-99c574a0661a",
+      "name": "Sommerferien 2027 Thüringen",
+      "date": "2027-07-10",
+      "endDate": "2027-08-20",
+      "md5": "e1ca683e4a51a278a13ffb26a38d0df7",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "9796a9fe-d8b1-4501-ac41-3a88655f61be",
+      "name": "Herbstferien 2027 Thüringen",
+      "date": "2027-10-09",
+      "endDate": "2027-10-23",
+      "md5": "da0391a18768ce43127cad4bd59d976a",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "50fb61a8-4b54-4207-be23-7ba6c486ea61",
+      "name": "Weihnachtsferien 2027 Thüringen",
+      "date": "2027-12-23",
+      "endDate": "2027-12-31",
+      "md5": "a5a699a0cb1aadffdea5e94c58c77eed",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "25eb1cde-3621-4098-a38a-18a7f6074a37",
+      "name": "Winterferien 2028 Thüringen",
+      "date": "2028-02-07",
+      "endDate": "2028-02-12",
+      "md5": "5f7c1891ef689a85e2395d4decd34f75",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "062833d9-b258-4eda-90ff-005ea1ee832a",
+      "name": "Osterferien 2028 Thüringen",
+      "date": "2028-04-03",
+      "endDate": "2028-04-15",
+      "md5": "5d12dbccc15371816f14b1a275c6c022",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "0a592f56-9e46-4b30-8391-70c224408d14",
+      "name": "Schulfreier Tag 2028 Thüringen",
+      "date": "2028-05-26",
+      "endDate": "2028-05-26",
+      "md5": "d3105c1e9ea74fc67b4b5ace94c0a77d",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "cfd957ce-ea6a-4fd3-b85a-ac7d3adb78cc",
+      "name": "Sommerferien 2028 Thüringen",
+      "date": "2028-07-22",
+      "endDate": "2028-09-01",
+      "md5": "b7f3e40ad7e4a164348422d4580d606b",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "1a52b969-8565-47cc-a36a-15fba35e7e87",
+      "name": "Herbstferien 2028 Thüringen",
+      "date": "2028-10-23",
+      "endDate": "2028-11-03",
+      "md5": "5e203e48b28ab4f3823766cb867424b4",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "ba8257e5-c040-46ae-b4e9-3fd8bb906853",
+      "name": "Weihnachtsferien 2028 Thüringen",
+      "date": "2028-12-23",
+      "endDate": "2029-01-05",
+      "md5": "9d1bfd8e03bc22254312c3267fd862cc",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    }
+  ]
+}

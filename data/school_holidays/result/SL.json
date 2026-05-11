@@ -1,0 +1,509 @@
+{
+  "$schema": "../../schema/school-holidays.schema.json",
+  "metadata": {
+    "state": "Saarland",
+    "code": "SL"
+  },
+  "holidays": [
+    {
+      "id": "37b3d4d5-1715-4b04-b283-35e733c65b14",
+      "name": "Weihnachtsferien 2019 Saarland",
+      "date": "2019-12-23",
+      "endDate": "2020-01-03",
+      "md5": "721d73a46bb21fbb5ead0f3f9a697030",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "c33da2b4-ae5a-4c00-a87a-3603e372ad6c",
+      "name": "Fastnachtsferien 2020 Saarland",
+      "date": "2020-02-17",
+      "endDate": "2020-02-25",
+      "md5": "4b6fe21eb57c2b79dda22b34e43a25ca",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "b91c485d-38d1-42f0-95cf-31d58b3c4be8",
+      "name": "Osterferien 2020 Saarland",
+      "date": "2020-04-14",
+      "endDate": "2020-04-24",
+      "md5": "c4ba3485d4b64ff91deb8c6c943870e4",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "d8600341-46a2-46c8-87a1-beaccd952ecf",
+      "name": "Sommerferien 2020 Saarland",
+      "date": "2020-07-06",
+      "endDate": "2020-08-14",
+      "md5": "cc670570971e44d8e083797cb0d52259",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "f4c04f44-ac65-456b-b73b-88656b349bcb",
+      "name": "Herbstferien 2020 Saarland",
+      "date": "2020-10-12",
+      "endDate": "2020-10-23",
+      "md5": "1f47b59c0bc4e559344fda4034d1039c",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "a57ce5a1-eeb0-4e72-a0e0-9d956a69f90b",
+      "name": "Weihnachtsferien 2020 Saarland",
+      "date": "2020-12-21",
+      "endDate": "2020-12-31",
+      "md5": "588de10a772f2823a43b2d69c7da714b",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "38e351e9-d51c-4b4d-9b4c-c05e8112eeff",
+      "name": "Fastnachtsferien 2021 Saarland",
+      "date": "2021-02-15",
+      "endDate": "2021-02-19",
+      "md5": "5cae0a22239ebc579588fa6efb9ef277",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "5defd4c5-ae0e-4c8d-a272-479f829e8b7d",
+      "name": "Osterferien 2021 Saarland",
+      "date": "2021-03-29",
+      "endDate": "2021-04-07",
+      "md5": "1a79d53c5b1a8571c1c42e48fdf97fd6",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "3894827b-13f2-474a-876b-48cdcc4e326f",
+      "name": "Pfingstferien 2021 Saarland",
+      "date": "2021-05-25",
+      "endDate": "2021-05-28",
+      "md5": "f861a0106377cd79916020a845b99fe0",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "abb35638-c2cb-4a15-801b-ef94c4e39934",
+      "name": "Sommerferien 2021 Saarland",
+      "date": "2021-07-19",
+      "endDate": "2021-08-27",
+      "md5": "3ef23275c41768f3db0ac8d2f624f4f2",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "bdce48a1-b2f4-4024-997b-f507c16e6991",
+      "name": "Herbstferien 2021 Saarland",
+      "date": "2021-10-18",
+      "endDate": "2021-10-29",
+      "md5": "bb0c3a089c180e06238e6e293e83f57e",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "dd168b25-6b0d-4875-859a-26e4fe37c51b",
+      "name": "Weihnachtsferien 2021 Saarland",
+      "date": "2021-12-23",
+      "endDate": "2022-01-03",
+      "md5": "a7b91460094c1d858846ca858e3f0760",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "c9ebf65b-edeb-4e4d-b268-afa7917219fa",
+      "name": "Fastnachtsferien 2022 Saarland",
+      "date": "2022-02-21",
+      "endDate": "2022-03-01",
+      "md5": "77d563c0bfea01fd999519ba9a7859e9",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "698a67de-48ae-47bd-a78a-a34b06887e72",
+      "name": "Osterferien 2022 Saarland",
+      "date": "2022-04-14",
+      "endDate": "2022-04-22",
+      "md5": "65d0932dbf936dbb4e4a767a17da016a",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "3f5415b0-81a8-41ee-ba1e-34c7c33988d4",
+      "name": "Pfingstferien 2022 Saarland",
+      "date": "2022-06-07",
+      "endDate": "2022-06-10",
+      "md5": "edbfc879d736a7e833c83dc7e0966f71",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "aa9a1e91-bd5f-4bac-8079-a00cc4ae7694",
+      "name": "Sommerferien 2022 Saarland",
+      "date": "2022-07-25",
+      "endDate": "2022-09-02",
+      "md5": "211ed8a744765e6e6fec732e88c19bfa",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "e527f8ae-a18b-4957-8235-1b013c7be40b",
+      "name": "Herbstferien 2022 Saarland",
+      "date": "2022-10-24",
+      "endDate": "2022-11-04",
+      "md5": "37684fe9f0bf404ca074211d7bc83dc2",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "63d246f7-d0c6-434a-a86b-8a34451893e8",
+      "name": "Weihnachtsferien 2022 Saarland",
+      "date": "2022-12-22",
+      "endDate": "2023-01-04",
+      "md5": "4731dd06f5f310145e2d88782ebb763e",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "a4ce4ce6-d9a0-4278-ad81-5deb69c676d3",
+      "name": "Fastnachtsferien 2023 Saarland",
+      "date": "2023-02-20",
+      "endDate": "2023-02-24",
+      "md5": "1700210eaf3a1ece69ff37f9a9a29e64",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "1bce3e05-3a9d-4306-9569-78d75adbcbd5",
+      "name": "Osterferien 2023 Saarland",
+      "date": "2023-04-03",
+      "endDate": "2023-04-12",
+      "md5": "6735ee229418f510be6098611d2a0faf",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "c4b12fd5-6eb6-4037-8857-94d5c306e6fc",
+      "name": "Pfingstferien 2023 Saarland",
+      "date": "2023-05-30",
+      "endDate": "2023-06-02",
+      "md5": "e5ca49dab28a4b381c8bb58c72923f14",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "a7e70bf5-5325-4067-9aaa-ebfe65d867ea",
+      "name": "Sommerferien 2023 Saarland",
+      "date": "2023-07-24",
+      "endDate": "2023-09-01",
+      "md5": "c5c843589c3e941d18ad4781c41d98c5",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "19ba0c68-9c60-42fd-b1d5-96a723fa16aa",
+      "name": "Herbstferien 2023 Saarland",
+      "date": "2023-10-23",
+      "endDate": "2023-11-03",
+      "md5": "9c5da125498fdd7f49982e7653b1b4e5",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "68a8ad07-d9f6-44f6-a868-44913d628559",
+      "name": "Weihnachtsferien 2023 Saarland",
+      "date": "2023-12-21",
+      "endDate": "2024-01-02",
+      "md5": "db6ca3b9a86550668fc25b37cfa84cb9",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "6636e0ee-5d20-4643-98e0-57d7c4c46f43",
+      "name": "Fastnachtsferien 2024 Saarland",
+      "date": "2024-02-12",
+      "endDate": "2024-02-16",
+      "md5": "e61f2bba105af9b36127a7023c612333",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "4a22f904-04a2-4fc2-8095-5a582b818983",
+      "name": "Osterferien 2024 Saarland",
+      "date": "2024-03-25",
+      "endDate": "2024-04-05",
+      "md5": "f00f4490bc5ef64a7fd923eda34f73c2",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "fa840009-fe10-4081-ab9d-13c42029803f",
+      "name": "Pfingstferien 2024 Saarland",
+      "date": "2024-05-21",
+      "endDate": "2024-05-24",
+      "md5": "355f2014e434be4febf2beb3e9c2cd71",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "25d673ee-81d1-4576-a898-47b59435397d",
+      "name": "Sommerferien 2024 Saarland",
+      "date": "2024-07-15",
+      "endDate": "2024-08-23",
+      "md5": "e523fea3e56bd51e1e72248deb2f572b",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "a64a3510-a3b7-43e1-b6ab-1f5d5e99e0af",
+      "name": "Herbstferien 2024 Saarland",
+      "date": "2024-10-14",
+      "endDate": "2024-10-25",
+      "md5": "12000ca10697700c6efd612093b39415",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "04102750-f2a2-4115-a514-05cd87f9d449",
+      "name": "Weihnachtsferien 2024 Saarland",
+      "date": "2024-12-23",
+      "endDate": "2025-01-03",
+      "md5": "50d9621fab017f61e815734012304e26",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "b2ef277f-bb89-4e87-89f5-aeadc10567e5",
+      "name": "Fastnachtsferien 2025 Saarland",
+      "date": "2025-02-24",
+      "endDate": "2025-03-04",
+      "md5": "94da7313e5492a5a90eccbefdbb050d3",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "e870f6ee-e5f2-4e7f-a4c3-529ea8ce01d8",
+      "name": "Osterferien 2025 Saarland",
+      "date": "2025-04-14",
+      "endDate": "2025-04-25",
+      "md5": "f192e0f1e5319ed6dc866daa4f9c6fd1",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "e0d24099-e6dd-4119-a7aa-3046e7c05e07",
+      "name": "Sommerferien 2025 Saarland",
+      "date": "2025-07-07",
+      "endDate": "2025-08-14",
+      "md5": "8d99d136fa3cbed4254ba98af80ca6a3",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "5f1d17df-cb3d-474b-93e9-8e2bc0a9ffec",
+      "name": "Herbstferien 2025 Saarland",
+      "date": "2025-10-13",
+      "endDate": "2025-10-24",
+      "md5": "1176d1daf75d8cad6e05fb96fd1b27ef",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "8a986132-33cd-4982-a161-13f8bc04ffdd",
+      "name": "Weihnachtsferien 2025 Saarland",
+      "date": "2025-12-22",
+      "endDate": "2026-01-02",
+      "md5": "83f313da1cf0af243e0c4f204b65cf1b",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "366278de-9837-42cd-b2e7-2cf6c29352bb",
+      "name": "Fastnachtsferien 2026 Saarland",
+      "date": "2026-02-16",
+      "endDate": "2026-02-20",
+      "md5": "a7bd4eab7d415f535c5bfd72a8f59dcb",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "6931a493-7fbf-437d-95fa-7ad87655cf96",
+      "name": "Osterferien 2026 Saarland",
+      "date": "2026-04-07",
+      "endDate": "2026-04-17",
+      "md5": "a3de291c61f476cc37da1c515705f0f0",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "61351570-1e0c-4089-8531-94cf0b74fb5b",
+      "name": "Sommerferien 2026 Saarland",
+      "date": "2026-06-29",
+      "endDate": "2026-08-07",
+      "md5": "1b911b5710eb6d89316d77386086429c",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "fc737103-609f-4764-af68-d93cfefe3ac8",
+      "name": "Herbstferien 2026 Saarland",
+      "date": "2026-10-05",
+      "endDate": "2026-10-16",
+      "md5": "7acf0b87a4de9dbdb3dc8678250e448f",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "6b2376b8-1a22-4536-9bbb-bef3b29f86e6",
+      "name": "Weihnachtsferien 2026 Saarland",
+      "date": "2026-12-21",
+      "endDate": "2026-12-31",
+      "md5": "61302e8973f0bd9e99d73cbb32815177",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "9dec8fce-af89-43df-a2a2-bd5523a04d8d",
+      "name": "Fastnachtsferien 2027 Saarland",
+      "date": "2027-02-08",
+      "endDate": "2027-02-12",
+      "md5": "1aefe898334ef0af16c2da054651f3f3",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "bad2916d-4472-4804-b571-d0eaa26e1410",
+      "name": "Osterferien 2027 Saarland",
+      "date": "2027-03-30",
+      "endDate": "2027-04-09",
+      "md5": "39f85cf5945490d2359c7dc90a16a560",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "28853d48-8668-45d1-87d0-36b798fdf226",
+      "name": "Sommerferien 2027 Saarland",
+      "date": "2027-06-28",
+      "endDate": "2027-08-06",
+      "md5": "457112b9cad5ebd67f32e6beb814857e",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "2a463c28-62df-447d-bbf4-00006baa6816",
+      "name": "Herbstferien 2027 Saarland",
+      "date": "2027-10-04",
+      "endDate": "2027-10-15",
+      "md5": "5c8f5157f86b3f1aea4222d472377b84",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "f320fbb4-3ac6-42c6-af3f-845aea913838",
+      "name": "Weihnachtsferien 2027 Saarland",
+      "date": "2027-12-20",
+      "endDate": "2027-12-31",
+      "md5": "84d02c1ccbe4351f84eae59e436d6976",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "4eeaabdf-5ee3-4221-98c1-36eb62258615",
+      "name": "Fastnachtsferien 2028 Saarland",
+      "date": "2028-02-21",
+      "endDate": "2028-02-29",
+      "md5": "2c1a2dae2e392ae6fb0f7a0872ea45ff",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "e59a80fa-2253-47a7-9331-eae21d075cd5",
+      "name": "Osterferien 2028 Saarland",
+      "date": "2028-04-12",
+      "endDate": "2028-04-21",
+      "md5": "1568b8d0cfa0fe52e50acf046198c3b7",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "e95ff734-c6f0-4676-abb9-5ab01bf8ae29",
+      "name": "Sommerferien 2028 Saarland",
+      "date": "2028-07-03",
+      "endDate": "2028-08-11",
+      "md5": "69e7a6f0061acad3ab06628a6f82bfd4",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "4ac577cf-a4a0-4451-9176-d3416f8f1295",
+      "name": "Herbstferien 2028 Saarland",
+      "date": "2028-10-09",
+      "endDate": "2028-10-20",
+      "md5": "3cec0ef428201a8d824eadde6b965c3c",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "ea3de04f-ad52-40b7-8fc4-e712e0cd7ffc",
+      "name": "Weihnachtsferien 2028 Saarland",
+      "date": "2028-12-20",
+      "endDate": "2029-01-02",
+      "md5": "c93d1bc5f4b9ef3cdaf0fa011a3bd38a",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    }
+  ]
+}

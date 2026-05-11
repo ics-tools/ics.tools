@@ -1,0 +1,1676 @@
+[
+  {
+    "id": "2028646a-607c-4ecf-b33a-852e455cc729",
+    "startDate": "2019-12-23",
+    "endDate": "2020-01-06",
+    "type": "School",
+    "name": [
+      {
+        "language": "DE",
+        "text": "Weihnachtsferien"
+      }
+    ],
+    "regionalScope": "Regional",
+    "temporalScope": "FullDay",
+    "nationwide": false,
+    "subdivisions": [
+      {
+        "code": "DE-SH",
+        "shortName": "SH"
+      }
+    ]
+  },
+  {
+    "id": "113d6e8d-70c5-4371-8ed1-6014080065b2",
+    "startDate": "2020-03-30",
+    "endDate": "2020-04-17",
+    "type": "School",
+    "name": [
+      {
+        "language": "DE",
+        "text": "Osterferien"
+      }
+    ],
+    "regionalScope": "Regional",
+    "temporalScope": "FullDay",
+    "nationwide": false,
+    "subdivisions": [
+      {
+        "code": "DE-SH",
+        "shortName": "SH"
+      }
+    ]
+  },
+  {
+    "id": "a4a3e9ac-578e-435e-8b6a-6d3bdcf39608",
+    "startDate": "2020-05-22",
+    "endDate": "2020-05-22",
+    "type": "School",
+    "name": [
+      {
+        "language": "DE",
+        "text": "Himmelfahrt"
+      }
+    ],
+    "regionalScope": "Regional",
+    "temporalScope": "FullDay",
+    "nationwide": false,
+    "subdivisions": [
+      {
+        "code": "DE-SH",
+        "shortName": "SH"
+      }
+    ]
+  },
+  {
+    "id": "76e69f66-2bce-45df-a498-d5e8b715f694",
+    "startDate": "2020-06-29",
+    "endDate": "2020-08-01",
+    "type": "School",
+    "name": [
+      {
+        "language": "DE",
+        "text": "Sommerferien"
+      }
+    ],
+    "regionalScope": "Regional",
+    "temporalScope": "FullDay",
+    "nationwide": false,
+    "subdivisions": [
+      {
+        "code": "DE-SH",
+        "shortName": "SH"
+      }
+    ],
+    "comment": [
+      {
+        "language": "DE",
+        "text": "Inseln Sylt, Föhr, Amrum, Helgoland und die Halligen"
+      }
+    ],
+    "tags": [
+      "Exception"
+    ]
+  },
+  {
+    "id": "809edd99-2e24-4eb2-a6a8-26483ac731ec",
+    "startDate": "2020-06-29",
+    "endDate": "2020-08-08",
+    "type": "School",
+    "name": [
+      {
+        "language": "DE",
+        "text": "Sommerferien"
+      }
+    ],
+    "regionalScope": "Regional",
+    "temporalScope": "FullDay",
+    "nationwide": false,
+    "subdivisions": [
+      {
+        "code": "DE-SH",
+        "shortName": "SH"
+      }
+    ]
+  },
+  {
+    "id": "8b0ee37c-0601-4f1a-89ff-9867b4e88b6f",
+    "startDate": "2020-09-28",
+    "endDate": "2020-10-17",
+    "type": "School",
+    "name": [
+      {
+        "language": "DE",
+        "text": "Herbstferien"
+      }
+    ],
+    "regionalScope": "Regional",
+    "temporalScope": "FullDay",
+    "nationwide": false,
+    "subdivisions": [
+      {
+        "code": "DE-SH",
+        "shortName": "SH"
+      }
+    ],
+    "comment": [
+      {
+        "language": "DE",
+        "text": "Inseln Sylt, Föhr, Amrum, Helgoland und die Halligen"
+      }
+    ],
+    "tags": [
+      "Exception"
+    ]
+  },
+  {
+    "id": "7a722647-0002-478c-b648-5fdfe6a2abf2",
+    "startDate": "2020-10-05",
+    "endDate": "2020-10-17",
+    "type": "School",
+    "name": [
+      {
+        "language": "DE",
+        "text": "Herbstferien"
+      }
+    ],
+    "regionalScope": "Regional",
+    "temporalScope": "FullDay",
+    "nationwide": false,
+    "subdivisions": [
+      {
+        "code": "DE-SH",
+        "shortName": "SH"
+      }
+    ]
+  },
+  {
+    "id": "55434584-11f9-417f-b2ae-993c5d4ae8ea",
+    "startDate": "2020-12-21",
+    "endDate": "2021-01-06",
+    "type": "School",
+    "name": [
+      {
+        "language": "DE",
+        "text": "Weihnachtsferien"
+      }
+    ],
+    "regionalScope": "Regional",
+    "temporalScope": "FullDay",
+    "nationwide": false,
+    "subdivisions": [
+      {
+        "code": "DE-SH",
+        "shortName": "SH"
+      }
+    ]
+  },
+  {
+    "id": "55434584-11f9-417f-b2ae-993c5d4ae8ea",
+    "startDate": "2020-12-21",
+    "endDate": "2021-01-06",
+    "type": "School",
+    "name": [
+      {
+        "language": "DE",
+        "text": "Weihnachtsferien"
+      }
+    ],
+    "regionalScope": "Regional",
+    "temporalScope": "FullDay",
+    "nationwide": false,
+    "subdivisions": [
+      {
+        "code": "DE-SH",
+        "shortName": "SH"
+      }
+    ]
+  },
+  {
+    "id": "a80da99c-cb94-4f61-a99f-9ce15db78ea6",
+    "startDate": "2021-04-01",
+    "endDate": "2021-04-16",
+    "type": "School",
+    "name": [
+      {
+        "language": "DE",
+        "text": "Osterferien"
+      }
+    ],
+    "regionalScope": "Regional",
+    "temporalScope": "FullDay",
+    "nationwide": false,
+    "subdivisions": [
+      {
+        "code": "DE-SH",
+        "shortName": "SH"
+      }
+    ]
+  },
+  {
+    "id": "5febdd4f-27a8-4195-8fb2-b969cec562d2",
+    "startDate": "2021-05-14",
+    "endDate": "2021-05-15",
+    "type": "School",
+    "name": [
+      {
+        "language": "DE",
+        "text": "Himmelfahrt"
+      }
+    ],
+    "regionalScope": "Regional",
+    "temporalScope": "FullDay",
+    "nationwide": false,
+    "subdivisions": [
+      {
+        "code": "DE-SH",
+        "shortName": "SH"
+      }
+    ]
+  },
+  {
+    "id": "50bbed73-71bb-4ce8-8c09-c50b3f03e59c",
+    "startDate": "2021-06-21",
+    "endDate": "2021-07-31",
+    "type": "School",
+    "name": [
+      {
+        "language": "DE",
+        "text": "Sommerferien"
+      }
+    ],
+    "regionalScope": "Regional",
+    "temporalScope": "FullDay",
+    "nationwide": false,
+    "subdivisions": [
+      {
+        "code": "DE-SH",
+        "shortName": "SH"
+      }
+    ]
+  },
+  {
+    "id": "d1874465-1086-4bc3-b5cd-2e9d3df70182",
+    "startDate": "2021-06-21",
+    "endDate": "2021-07-24",
+    "type": "School",
+    "name": [
+      {
+        "language": "DE",
+        "text": "Sommerferien"
+      }
+    ],
+    "regionalScope": "Regional",
+    "temporalScope": "FullDay",
+    "nationwide": false,
+    "subdivisions": [
+      {
+        "code": "DE-SH",
+        "shortName": "SH"
+      }
+    ],
+    "comment": [
+      {
+        "language": "DE",
+        "text": "Inseln Sylt, Föhr, Amrum, Helgoland und die Halligen"
+      }
+    ],
+    "tags": [
+      "Exception"
+    ]
+  },
+  {
+    "id": "bd66b9d0-8690-4793-99cc-66b61c408bdf",
+    "startDate": "2021-09-27",
+    "endDate": "2021-10-16",
+    "type": "School",
+    "name": [
+      {
+        "language": "DE",
+        "text": "Herbstferien"
+      }
+    ],
+    "regionalScope": "Regional",
+    "temporalScope": "FullDay",
+    "nationwide": false,
+    "subdivisions": [
+      {
+        "code": "DE-SH",
+        "shortName": "SH"
+      }
+    ],
+    "comment": [
+      {
+        "language": "DE",
+        "text": "Inseln Sylt, Föhr, Amrum, Helgoland und die Halligen"
+      }
+    ],
+    "tags": [
+      "Exception"
+    ]
+  },
+  {
+    "id": "f505ba97-2ac8-4725-b9f5-b9e41200319b",
+    "startDate": "2021-10-04",
+    "endDate": "2021-10-16",
+    "type": "School",
+    "name": [
+      {
+        "language": "DE",
+        "text": "Herbstferien"
+      }
+    ],
+    "regionalScope": "Regional",
+    "temporalScope": "FullDay",
+    "nationwide": false,
+    "subdivisions": [
+      {
+        "code": "DE-SH",
+        "shortName": "SH"
+      }
+    ]
+  },
+  {
+    "id": "f32a0a35-2b9a-45a7-a417-e501239a7131",
+    "startDate": "2021-12-23",
+    "endDate": "2022-01-08",
+    "type": "School",
+    "name": [
+      {
+        "language": "DE",
+        "text": "Weihnachtsferien"
+      }
+    ],
+    "regionalScope": "Regional",
+    "temporalScope": "FullDay",
+    "nationwide": false,
+    "subdivisions": [
+      {
+        "code": "DE-SH",
+        "shortName": "SH"
+      }
+    ]
+  },
+  {
+    "id": "f32a0a35-2b9a-45a7-a417-e501239a7131",
+    "startDate": "2021-12-23",
+    "endDate": "2022-01-08",
+    "type": "School",
+    "name": [
+      {
+        "language": "DE",
+        "text": "Weihnachtsferien"
+      }
+    ],
+    "regionalScope": "Regional",
+    "temporalScope": "FullDay",
+    "nationwide": false,
+    "subdivisions": [
+      {
+        "code": "DE-SH",
+        "shortName": "SH"
+      }
+    ]
+  },
+  {
+    "id": "03770012-8bc5-4363-9f80-508efea29b41",
+    "startDate": "2022-04-04",
+    "endDate": "2022-04-16",
+    "type": "School",
+    "name": [
+      {
+        "language": "DE",
+        "text": "Osterferien"
+      }
+    ],
+    "regionalScope": "Regional",
+    "temporalScope": "FullDay",
+    "nationwide": false,
+    "subdivisions": [
+      {
+        "code": "DE-SH",
+        "shortName": "SH"
+      }
+    ]
+  },
+  {
+    "id": "12873d17-f4f3-4752-bac1-a7072f61e344",
+    "startDate": "2022-05-27",
+    "endDate": "2022-05-28",
+    "type": "School",
+    "name": [
+      {
+        "language": "DE",
+        "text": "Himmelfahrt"
+      }
+    ],
+    "regionalScope": "Regional",
+    "temporalScope": "FullDay",
+    "nationwide": false,
+    "subdivisions": [
+      {
+        "code": "DE-SH",
+        "shortName": "SH"
+      }
+    ]
+  },
+  {
+    "id": "491d12d3-fc6a-498e-b50e-69732ac05b83",
+    "startDate": "2022-07-04",
+    "endDate": "2022-08-13",
+    "type": "School",
+    "name": [
+      {
+        "language": "DE",
+        "text": "Sommerferien"
+      }
+    ],
+    "regionalScope": "Regional",
+    "temporalScope": "FullDay",
+    "nationwide": false,
+    "subdivisions": [
+      {
+        "code": "DE-SH",
+        "shortName": "SH"
+      }
+    ]
+  },
+  {
+    "id": "74f0a270-731a-4c8f-bc66-25d12ef87d7b",
+    "startDate": "2022-07-04",
+    "endDate": "2022-08-06",
+    "type": "School",
+    "name": [
+      {
+        "language": "DE",
+        "text": "Sommerferien"
+      }
+    ],
+    "regionalScope": "Regional",
+    "temporalScope": "FullDay",
+    "nationwide": false,
+    "subdivisions": [
+      {
+        "code": "DE-SH",
+        "shortName": "SH"
+      }
+    ],
+    "comment": [
+      {
+        "language": "DE",
+        "text": "Inseln Sylt, Föhr, Amrum, Helgoland und die Halligen"
+      }
+    ],
+    "tags": [
+      "Exception"
+    ]
+  },
+  {
+    "id": "a7c11d82-8d35-456b-bf6c-93d6d8ff43ea",
+    "startDate": "2022-10-03",
+    "endDate": "2022-10-21",
+    "type": "School",
+    "name": [
+      {
+        "language": "DE",
+        "text": "Herbstferien"
+      }
+    ],
+    "regionalScope": "Regional",
+    "temporalScope": "FullDay",
+    "nationwide": false,
+    "subdivisions": [
+      {
+        "code": "DE-SH",
+        "shortName": "SH"
+      }
+    ],
+    "comment": [
+      {
+        "language": "DE",
+        "text": "Inseln Sylt, Föhr, Amrum, Helgoland und die Halligen"
+      }
+    ],
+    "tags": [
+      "Exception"
+    ]
+  },
+  {
+    "id": "a37db8e3-2da1-4ae4-9041-873e06d66887",
+    "startDate": "2022-10-10",
+    "endDate": "2022-10-21",
+    "type": "School",
+    "name": [
+      {
+        "language": "DE",
+        "text": "Herbstferien"
+      }
+    ],
+    "regionalScope": "Regional",
+    "temporalScope": "FullDay",
+    "nationwide": false,
+    "subdivisions": [
+      {
+        "code": "DE-SH",
+        "shortName": "SH"
+      }
+    ]
+  },
+  {
+    "id": "a435990f-82ee-4b10-959e-4523765e291f",
+    "startDate": "2022-12-23",
+    "endDate": "2023-01-07",
+    "type": "School",
+    "name": [
+      {
+        "language": "DE",
+        "text": "Weihnachtsferien"
+      }
+    ],
+    "regionalScope": "Regional",
+    "temporalScope": "FullDay",
+    "nationwide": false,
+    "subdivisions": [
+      {
+        "code": "DE-SH",
+        "shortName": "SH"
+      }
+    ]
+  },
+  {
+    "id": "a435990f-82ee-4b10-959e-4523765e291f",
+    "startDate": "2022-12-23",
+    "endDate": "2023-01-07",
+    "type": "School",
+    "name": [
+      {
+        "language": "DE",
+        "text": "Weihnachtsferien"
+      }
+    ],
+    "regionalScope": "Regional",
+    "temporalScope": "FullDay",
+    "nationwide": false,
+    "subdivisions": [
+      {
+        "code": "DE-SH",
+        "shortName": "SH"
+      }
+    ]
+  },
+  {
+    "id": "6cb736d4-98b9-4e50-bd26-8cf298a0f12a",
+    "startDate": "2023-04-06",
+    "endDate": "2023-04-22",
+    "type": "School",
+    "name": [
+      {
+        "language": "DE",
+        "text": "Osterferien"
+      }
+    ],
+    "regionalScope": "Regional",
+    "temporalScope": "FullDay",
+    "nationwide": false,
+    "subdivisions": [
+      {
+        "code": "DE-SH",
+        "shortName": "SH"
+      }
+    ]
+  },
+  {
+    "id": "d818b0fe-13fb-481e-8708-fa6c5bd83269",
+    "startDate": "2023-05-19",
+    "endDate": "2023-05-20",
+    "type": "School",
+    "name": [
+      {
+        "language": "DE",
+        "text": "Himmelfahrt"
+      }
+    ],
+    "regionalScope": "Regional",
+    "temporalScope": "FullDay",
+    "nationwide": false,
+    "subdivisions": [
+      {
+        "code": "DE-SH",
+        "shortName": "SH"
+      }
+    ]
+  },
+  {
+    "id": "04a679a7-e058-4c25-9b44-1aebfb36516a",
+    "startDate": "2023-07-17",
+    "endDate": "2023-08-19",
+    "type": "School",
+    "name": [
+      {
+        "language": "DE",
+        "text": "Sommerferien"
+      }
+    ],
+    "regionalScope": "Regional",
+    "temporalScope": "FullDay",
+    "nationwide": false,
+    "subdivisions": [
+      {
+        "code": "DE-SH",
+        "shortName": "SH"
+      }
+    ],
+    "comment": [
+      {
+        "language": "DE",
+        "text": "Inseln Sylt, Föhr, Amrum, Helgoland und die Halligen"
+      }
+    ],
+    "tags": [
+      "Exception"
+    ]
+  },
+  {
+    "id": "438a0dfe-6dfb-45f4-aafd-9dd9fa0929bc",
+    "startDate": "2023-07-17",
+    "endDate": "2023-08-26",
+    "type": "School",
+    "name": [
+      {
+        "language": "DE",
+        "text": "Sommerferien"
+      }
+    ],
+    "regionalScope": "Regional",
+    "temporalScope": "FullDay",
+    "nationwide": false,
+    "subdivisions": [
+      {
+        "code": "DE-SH",
+        "shortName": "SH"
+      }
+    ]
+  },
+  {
+    "id": "f6e640c9-09d7-469f-9c4e-e3e9b55dce26",
+    "startDate": "2023-10-09",
+    "endDate": "2023-10-27",
+    "type": "School",
+    "name": [
+      {
+        "language": "DE",
+        "text": "Herbstferien"
+      }
+    ],
+    "regionalScope": "Regional",
+    "temporalScope": "FullDay",
+    "nationwide": false,
+    "subdivisions": [
+      {
+        "code": "DE-SH",
+        "shortName": "SH"
+      }
+    ],
+    "comment": [
+      {
+        "language": "DE",
+        "text": "Inseln Sylt, Föhr, Amrum, Helgoland und die Halligen"
+      }
+    ],
+    "tags": [
+      "Exception"
+    ]
+  },
+  {
+    "id": "0e212497-aa5b-4110-b030-950026637571",
+    "startDate": "2023-10-16",
+    "endDate": "2023-10-27",
+    "type": "School",
+    "name": [
+      {
+        "language": "DE",
+        "text": "Herbstferien"
+      }
+    ],
+    "regionalScope": "Regional",
+    "temporalScope": "FullDay",
+    "nationwide": false,
+    "subdivisions": [
+      {
+        "code": "DE-SH",
+        "shortName": "SH"
+      }
+    ]
+  },
+  {
+    "id": "8ca0788a-2ce9-463d-b66e-2feb1c2e8cec",
+    "startDate": "2023-12-27",
+    "endDate": "2024-01-06",
+    "type": "School",
+    "name": [
+      {
+        "language": "DE",
+        "text": "Weihnachtsferien"
+      }
+    ],
+    "regionalScope": "Regional",
+    "temporalScope": "FullDay",
+    "nationwide": false,
+    "subdivisions": [
+      {
+        "code": "DE-SH",
+        "shortName": "SH"
+      }
+    ]
+  },
+  {
+    "id": "8ca0788a-2ce9-463d-b66e-2feb1c2e8cec",
+    "startDate": "2023-12-27",
+    "endDate": "2024-01-06",
+    "type": "School",
+    "name": [
+      {
+        "language": "DE",
+        "text": "Weihnachtsferien"
+      }
+    ],
+    "regionalScope": "Regional",
+    "temporalScope": "FullDay",
+    "nationwide": false,
+    "subdivisions": [
+      {
+        "code": "DE-SH",
+        "shortName": "SH"
+      }
+    ]
+  },
+  {
+    "id": "e5d33965-124e-4dfb-b2d7-f4e7f6d0eb6d",
+    "startDate": "2024-04-02",
+    "endDate": "2024-04-19",
+    "type": "School",
+    "name": [
+      {
+        "language": "DE",
+        "text": "Osterferien"
+      }
+    ],
+    "regionalScope": "Regional",
+    "temporalScope": "FullDay",
+    "nationwide": false,
+    "subdivisions": [
+      {
+        "code": "DE-SH",
+        "shortName": "SH"
+      }
+    ]
+  },
+  {
+    "id": "c6c51588-b427-4454-aa64-384c0a555a6a",
+    "startDate": "2024-05-10",
+    "endDate": "2024-05-11",
+    "type": "School",
+    "name": [
+      {
+        "language": "DE",
+        "text": "Himmelfahrt"
+      }
+    ],
+    "regionalScope": "Regional",
+    "temporalScope": "FullDay",
+    "nationwide": false,
+    "subdivisions": [
+      {
+        "code": "DE-SH",
+        "shortName": "SH"
+      }
+    ]
+  },
+  {
+    "id": "b385bd29-3c0a-4322-8475-4c9c22b6c5cf",
+    "startDate": "2024-07-22",
+    "endDate": "2024-08-24",
+    "type": "School",
+    "name": [
+      {
+        "language": "DE",
+        "text": "Sommerferien"
+      }
+    ],
+    "regionalScope": "Regional",
+    "temporalScope": "FullDay",
+    "nationwide": false,
+    "subdivisions": [
+      {
+        "code": "DE-SH",
+        "shortName": "SH"
+      }
+    ],
+    "comment": [
+      {
+        "language": "DE",
+        "text": "Inseln Sylt, Föhr, Amrum, Helgoland und die Halligen"
+      }
+    ],
+    "tags": [
+      "Exception"
+    ]
+  },
+  {
+    "id": "fd5307fe-76d6-42f2-8774-5fef700d8031",
+    "startDate": "2024-07-22",
+    "endDate": "2024-08-31",
+    "type": "School",
+    "name": [
+      {
+        "language": "DE",
+        "text": "Sommerferien"
+      }
+    ],
+    "regionalScope": "Regional",
+    "temporalScope": "FullDay",
+    "nationwide": false,
+    "subdivisions": [
+      {
+        "code": "DE-SH",
+        "shortName": "SH"
+      }
+    ]
+  },
+  {
+    "id": "209768f1-b65c-4056-bc17-01df2c04822a",
+    "startDate": "2024-10-14",
+    "endDate": "2024-11-01",
+    "type": "School",
+    "name": [
+      {
+        "language": "DE",
+        "text": "Herbstferien"
+      }
+    ],
+    "regionalScope": "Regional",
+    "temporalScope": "FullDay",
+    "nationwide": false,
+    "subdivisions": [
+      {
+        "code": "DE-SH",
+        "shortName": "SH"
+      }
+    ],
+    "comment": [
+      {
+        "language": "DE",
+        "text": "Inseln Sylt, Föhr, Amrum, Helgoland und die Halligen"
+      }
+    ],
+    "tags": [
+      "Exception"
+    ]
+  },
+  {
+    "id": "08eef432-6e8e-49aa-81a3-c85f1d53c96f",
+    "startDate": "2024-10-21",
+    "endDate": "2024-11-01",
+    "type": "School",
+    "name": [
+      {
+        "language": "DE",
+        "text": "Herbstferien"
+      }
+    ],
+    "regionalScope": "Regional",
+    "temporalScope": "FullDay",
+    "nationwide": false,
+    "subdivisions": [
+      {
+        "code": "DE-SH",
+        "shortName": "SH"
+      }
+    ]
+  },
+  {
+    "id": "ade0ef11-b174-4694-81a7-f4070e5c0803",
+    "startDate": "2024-12-19",
+    "endDate": "2025-01-07",
+    "type": "School",
+    "name": [
+      {
+        "language": "DE",
+        "text": "Weihnachtsferien"
+      }
+    ],
+    "regionalScope": "Regional",
+    "temporalScope": "FullDay",
+    "nationwide": false,
+    "subdivisions": [
+      {
+        "code": "DE-SH",
+        "shortName": "SH"
+      }
+    ]
+  },
+  {
+    "id": "ade0ef11-b174-4694-81a7-f4070e5c0803",
+    "startDate": "2024-12-19",
+    "endDate": "2025-01-07",
+    "type": "School",
+    "name": [
+      {
+        "language": "DE",
+        "text": "Weihnachtsferien"
+      }
+    ],
+    "regionalScope": "Regional",
+    "temporalScope": "FullDay",
+    "nationwide": false,
+    "subdivisions": [
+      {
+        "code": "DE-SH",
+        "shortName": "SH"
+      }
+    ]
+  },
+  {
+    "id": "dc5f7764-bbd1-4b8b-b5c1-5ae64870dbbd",
+    "startDate": "2025-04-11",
+    "endDate": "2025-04-25",
+    "type": "School",
+    "name": [
+      {
+        "language": "DE",
+        "text": "Osterferien"
+      }
+    ],
+    "regionalScope": "Regional",
+    "temporalScope": "FullDay",
+    "nationwide": false,
+    "subdivisions": [
+      {
+        "code": "DE-SH",
+        "shortName": "SH"
+      }
+    ]
+  },
+  {
+    "id": "22d1fa1e-73f1-4865-9e41-216b826feaa0",
+    "startDate": "2025-05-30",
+    "endDate": "2025-05-30",
+    "type": "School",
+    "name": [
+      {
+        "language": "DE",
+        "text": "Himmelfahrt"
+      }
+    ],
+    "regionalScope": "Regional",
+    "temporalScope": "FullDay",
+    "nationwide": false,
+    "subdivisions": [
+      {
+        "code": "DE-SH",
+        "shortName": "SH"
+      }
+    ]
+  },
+  {
+    "id": "4efa8a64-e3a7-420c-ad2c-82f2fbe79215",
+    "startDate": "2025-07-28",
+    "endDate": "2025-09-06",
+    "type": "School",
+    "name": [
+      {
+        "language": "DE",
+        "text": "Sommerferien"
+      }
+    ],
+    "regionalScope": "Regional",
+    "temporalScope": "FullDay",
+    "nationwide": false,
+    "subdivisions": [
+      {
+        "code": "DE-SH",
+        "shortName": "SH"
+      }
+    ]
+  },
+  {
+    "id": "d14df348-0bb6-40e2-8e11-9bfe61f310f3",
+    "startDate": "2025-07-28",
+    "endDate": "2025-08-30",
+    "type": "School",
+    "name": [
+      {
+        "language": "DE",
+        "text": "Sommerferien"
+      }
+    ],
+    "regionalScope": "Regional",
+    "temporalScope": "FullDay",
+    "nationwide": false,
+    "subdivisions": [
+      {
+        "code": "DE-SH",
+        "shortName": "SH"
+      }
+    ],
+    "comment": [
+      {
+        "language": "DE",
+        "text": "Inseln Sylt, Föhr, Amrum, Helgoland und die Halligen"
+      }
+    ],
+    "tags": [
+      "Exception"
+    ]
+  },
+  {
+    "id": "c9a70962-0482-405e-bfb5-f31863c2e0d5",
+    "startDate": "2025-10-13",
+    "endDate": "2025-10-30",
+    "type": "School",
+    "name": [
+      {
+        "language": "DE",
+        "text": "Herbstferien"
+      }
+    ],
+    "regionalScope": "Regional",
+    "temporalScope": "FullDay",
+    "nationwide": false,
+    "subdivisions": [
+      {
+        "code": "DE-SH",
+        "shortName": "SH"
+      }
+    ],
+    "comment": [
+      {
+        "language": "DE",
+        "text": "Inseln Sylt, Föhr, Amrum, Helgoland und die Halligen"
+      }
+    ],
+    "tags": [
+      "Exception"
+    ]
+  },
+  {
+    "id": "613a52df-5ad8-4179-906b-1dc3c90250b1",
+    "startDate": "2025-10-20",
+    "endDate": "2025-10-30",
+    "type": "School",
+    "name": [
+      {
+        "language": "DE",
+        "text": "Herbstferien"
+      }
+    ],
+    "regionalScope": "Regional",
+    "temporalScope": "FullDay",
+    "nationwide": false,
+    "subdivisions": [
+      {
+        "code": "DE-SH",
+        "shortName": "SH"
+      }
+    ]
+  },
+  {
+    "id": "2fc953e8-0194-420a-9aba-437c50faaa74",
+    "startDate": "2025-12-19",
+    "endDate": "2026-01-06",
+    "type": "School",
+    "name": [
+      {
+        "language": "DE",
+        "text": "Weihnachtsferien"
+      }
+    ],
+    "regionalScope": "Regional",
+    "temporalScope": "FullDay",
+    "nationwide": false,
+    "subdivisions": [
+      {
+        "code": "DE-SH",
+        "shortName": "SH"
+      }
+    ]
+  },
+  {
+    "id": "2fc953e8-0194-420a-9aba-437c50faaa74",
+    "startDate": "2025-12-19",
+    "endDate": "2026-01-06",
+    "type": "School",
+    "name": [
+      {
+        "language": "DE",
+        "text": "Weihnachtsferien"
+      }
+    ],
+    "regionalScope": "Regional",
+    "temporalScope": "FullDay",
+    "nationwide": false,
+    "subdivisions": [
+      {
+        "code": "DE-SH",
+        "shortName": "SH"
+      }
+    ]
+  },
+  {
+    "id": "6c743d0a-dc28-4cc7-9ff6-296839145178",
+    "startDate": "2026-03-26",
+    "endDate": "2026-04-10",
+    "type": "School",
+    "name": [
+      {
+        "language": "DE",
+        "text": "Osterferien"
+      }
+    ],
+    "regionalScope": "Regional",
+    "temporalScope": "FullDay",
+    "nationwide": false,
+    "subdivisions": [
+      {
+        "code": "DE-SH",
+        "shortName": "SH"
+      }
+    ]
+  },
+  {
+    "id": "0ee33968-9d63-4969-bf78-c4827e711994",
+    "startDate": "2026-05-15",
+    "endDate": "2026-05-15",
+    "type": "School",
+    "name": [
+      {
+        "language": "DE",
+        "text": "Himmelfahrt"
+      }
+    ],
+    "regionalScope": "Regional",
+    "temporalScope": "FullDay",
+    "nationwide": false,
+    "subdivisions": [
+      {
+        "code": "DE-SH",
+        "shortName": "SH"
+      }
+    ]
+  },
+  {
+    "id": "7dcb7a13-cb0f-4661-a283-495acbc3ed82",
+    "startDate": "2026-07-04",
+    "endDate": "2026-08-15",
+    "type": "School",
+    "name": [
+      {
+        "language": "DE",
+        "text": "Sommerferien"
+      }
+    ],
+    "regionalScope": "Regional",
+    "temporalScope": "FullDay",
+    "nationwide": false,
+    "subdivisions": [
+      {
+        "code": "DE-SH",
+        "shortName": "SH"
+      }
+    ]
+  },
+  {
+    "id": "fdd6cbef-1e9f-4897-831d-8fdb276c4797",
+    "startDate": "2026-07-04",
+    "endDate": "2026-08-08",
+    "type": "School",
+    "name": [
+      {
+        "language": "DE",
+        "text": "Sommerferien"
+      }
+    ],
+    "regionalScope": "Regional",
+    "temporalScope": "FullDay",
+    "nationwide": false,
+    "subdivisions": [
+      {
+        "code": "DE-SH",
+        "shortName": "SH"
+      }
+    ],
+    "comment": [
+      {
+        "language": "DE",
+        "text": "Inseln Sylt, Föhr, Amrum, Helgoland und die Halligen"
+      }
+    ],
+    "tags": [
+      "Exception"
+    ]
+  },
+  {
+    "id": "e3d21746-7a9c-4ae6-93c1-2f20aa59e25f",
+    "startDate": "2026-10-05",
+    "endDate": "2026-10-24",
+    "type": "School",
+    "name": [
+      {
+        "language": "DE",
+        "text": "Herbstferien"
+      }
+    ],
+    "regionalScope": "Regional",
+    "temporalScope": "FullDay",
+    "nationwide": false,
+    "subdivisions": [
+      {
+        "code": "DE-SH",
+        "shortName": "SH"
+      }
+    ],
+    "comment": [
+      {
+        "language": "DE",
+        "text": "Inseln Sylt, Föhr, Amrum, Helgoland und die Halligen"
+      }
+    ],
+    "tags": [
+      "Exception"
+    ]
+  },
+  {
+    "id": "84a4da5f-d71a-4fa2-9333-625b6fd50300",
+    "startDate": "2026-10-12",
+    "endDate": "2026-10-24",
+    "type": "School",
+    "name": [
+      {
+        "language": "DE",
+        "text": "Herbstferien"
+      }
+    ],
+    "regionalScope": "Regional",
+    "temporalScope": "FullDay",
+    "nationwide": false,
+    "subdivisions": [
+      {
+        "code": "DE-SH",
+        "shortName": "SH"
+      }
+    ]
+  },
+  {
+    "id": "74875362-e705-4227-94bf-4232f6df2903",
+    "startDate": "2026-12-21",
+    "endDate": "2027-01-06",
+    "type": "School",
+    "name": [
+      {
+        "language": "DE",
+        "text": "Weihnachtsferien"
+      }
+    ],
+    "regionalScope": "Regional",
+    "temporalScope": "FullDay",
+    "nationwide": false,
+    "subdivisions": [
+      {
+        "code": "DE-SH",
+        "shortName": "SH"
+      }
+    ]
+  },
+  {
+    "id": "74875362-e705-4227-94bf-4232f6df2903",
+    "startDate": "2026-12-21",
+    "endDate": "2027-01-06",
+    "type": "School",
+    "name": [
+      {
+        "language": "DE",
+        "text": "Weihnachtsferien"
+      }
+    ],
+    "regionalScope": "Regional",
+    "temporalScope": "FullDay",
+    "nationwide": false,
+    "subdivisions": [
+      {
+        "code": "DE-SH",
+        "shortName": "SH"
+      }
+    ]
+  },
+  {
+    "id": "61a1f854-0863-47fe-a21d-25f12a4edec2",
+    "startDate": "2027-03-30",
+    "endDate": "2027-04-10",
+    "type": "School",
+    "name": [
+      {
+        "language": "DE",
+        "text": "Osterferien"
+      }
+    ],
+    "regionalScope": "Regional",
+    "temporalScope": "FullDay",
+    "nationwide": false,
+    "subdivisions": [
+      {
+        "code": "DE-SH",
+        "shortName": "SH"
+      }
+    ]
+  },
+  {
+    "id": "5c72cce9-3058-4f4e-9bef-82cd4c1eca9e",
+    "startDate": "2027-05-07",
+    "endDate": "2027-05-07",
+    "type": "School",
+    "name": [
+      {
+        "language": "DE",
+        "text": "Himmelfahrt"
+      }
+    ],
+    "regionalScope": "Regional",
+    "temporalScope": "FullDay",
+    "nationwide": false,
+    "subdivisions": [
+      {
+        "code": "DE-SH",
+        "shortName": "SH"
+      }
+    ]
+  },
+  {
+    "id": "4743f7af-800d-4d0b-afb2-2e07fa82d13b",
+    "startDate": "2027-07-03",
+    "endDate": "2027-08-14",
+    "type": "School",
+    "name": [
+      {
+        "language": "DE",
+        "text": "Sommerferien"
+      }
+    ],
+    "regionalScope": "Regional",
+    "temporalScope": "FullDay",
+    "nationwide": false,
+    "subdivisions": [
+      {
+        "code": "DE-SH",
+        "shortName": "SH"
+      }
+    ]
+  },
+  {
+    "id": "9aa4c32e-e8f8-4a8e-80ea-5b83bda3b448",
+    "startDate": "2027-07-03",
+    "endDate": "2027-08-07",
+    "type": "School",
+    "name": [
+      {
+        "language": "DE",
+        "text": "Sommerferien"
+      }
+    ],
+    "regionalScope": "Regional",
+    "temporalScope": "FullDay",
+    "nationwide": false,
+    "subdivisions": [
+      {
+        "code": "DE-SH",
+        "shortName": "SH"
+      }
+    ],
+    "comment": [
+      {
+        "language": "DE",
+        "text": "Inseln Sylt, Föhr, Amrum, Helgoland und die Halligen"
+      }
+    ],
+    "tags": [
+      "Exception"
+    ]
+  },
+  {
+    "id": "4e2c2a5c-4a71-4c3e-98cb-1eb269431519",
+    "startDate": "2027-10-04",
+    "endDate": "2027-10-23",
+    "type": "School",
+    "name": [
+      {
+        "language": "DE",
+        "text": "Herbstferien"
+      }
+    ],
+    "regionalScope": "Regional",
+    "temporalScope": "FullDay",
+    "nationwide": false,
+    "subdivisions": [
+      {
+        "code": "DE-SH",
+        "shortName": "SH"
+      }
+    ],
+    "comment": [
+      {
+        "language": "DE",
+        "text": "Inseln Sylt, Föhr, Amrum, Helgoland und die Halligen"
+      }
+    ],
+    "tags": [
+      "Exception"
+    ]
+  },
+  {
+    "id": "377af68e-2c15-458a-ac42-bdc8354ac6dd",
+    "startDate": "2027-10-11",
+    "endDate": "2027-10-23",
+    "type": "School",
+    "name": [
+      {
+        "language": "DE",
+        "text": "Herbstferien"
+      }
+    ],
+    "regionalScope": "Regional",
+    "temporalScope": "FullDay",
+    "nationwide": false,
+    "subdivisions": [
+      {
+        "code": "DE-SH",
+        "shortName": "SH"
+      }
+    ]
+  },
+  {
+    "id": "ed341123-ee3c-478a-9dea-ffbbf460b8d3",
+    "startDate": "2027-12-23",
+    "endDate": "2028-01-08",
+    "type": "School",
+    "name": [
+      {
+        "language": "DE",
+        "text": "Weihnachtsferien"
+      }
+    ],
+    "regionalScope": "Regional",
+    "temporalScope": "FullDay",
+    "nationwide": false,
+    "subdivisions": [
+      {
+        "code": "DE-SH",
+        "shortName": "SH"
+      }
+    ]
+  },
+  {
+    "id": "ed341123-ee3c-478a-9dea-ffbbf460b8d3",
+    "startDate": "2027-12-23",
+    "endDate": "2028-01-08",
+    "type": "School",
+    "name": [
+      {
+        "language": "DE",
+        "text": "Weihnachtsferien"
+      }
+    ],
+    "regionalScope": "Regional",
+    "temporalScope": "FullDay",
+    "nationwide": false,
+    "subdivisions": [
+      {
+        "code": "DE-SH",
+        "shortName": "SH"
+      }
+    ]
+  },
+  {
+    "id": "89cf029f-a702-40d2-a462-a11ad3a92f4c",
+    "startDate": "2028-04-03",
+    "endDate": "2028-04-15",
+    "type": "School",
+    "name": [
+      {
+        "language": "DE",
+        "text": "Osterferien"
+      }
+    ],
+    "regionalScope": "Regional",
+    "temporalScope": "FullDay",
+    "nationwide": false,
+    "subdivisions": [
+      {
+        "code": "DE-SH",
+        "shortName": "SH"
+      }
+    ]
+  },
+  {
+    "id": "5774e099-8873-4e9a-a744-19a2664f325d",
+    "startDate": "2028-05-26",
+    "endDate": "2028-05-26",
+    "type": "School",
+    "name": [
+      {
+        "language": "DE",
+        "text": "Himmelfahrt"
+      }
+    ],
+    "regionalScope": "Regional",
+    "temporalScope": "FullDay",
+    "nationwide": false,
+    "subdivisions": [
+      {
+        "code": "DE-SH",
+        "shortName": "SH"
+      }
+    ]
+  },
+  {
+    "id": "678de58c-7267-419c-8d49-6dbac21e490a",
+    "startDate": "2028-06-24",
+    "endDate": "2028-08-04",
+    "type": "School",
+    "name": [
+      {
+        "language": "DE",
+        "text": "Sommerferien"
+      }
+    ],
+    "regionalScope": "Regional",
+    "temporalScope": "FullDay",
+    "nationwide": false,
+    "subdivisions": [
+      {
+        "code": "DE-SH",
+        "shortName": "SH"
+      }
+    ]
+  },
+  {
+    "id": "6a3fda5f-6c73-4f3a-b85a-84792ab399e0",
+    "startDate": "2028-06-24",
+    "endDate": "2028-07-28",
+    "type": "School",
+    "name": [
+      {
+        "language": "DE",
+        "text": "Sommerferien"
+      }
+    ],
+    "regionalScope": "Regional",
+    "temporalScope": "FullDay",
+    "nationwide": false,
+    "subdivisions": [
+      {
+        "code": "DE-SH",
+        "shortName": "SH"
+      }
+    ],
+    "comment": [
+      {
+        "language": "DE",
+        "text": "Inseln Sylt, Föhr, Amrum, Helgoland und die Halligen"
+      }
+    ],
+    "tags": [
+      "Exception"
+    ]
+  },
+  {
+    "id": "3c83cf6f-154c-412c-baa7-15d6099c589e",
+    "startDate": "2028-10-09",
+    "endDate": "2028-10-30",
+    "type": "School",
+    "name": [
+      {
+        "language": "DE",
+        "text": "Herbstferien"
+      }
+    ],
+    "regionalScope": "Regional",
+    "temporalScope": "FullDay",
+    "nationwide": false,
+    "subdivisions": [
+      {
+        "code": "DE-SH",
+        "shortName": "SH"
+      }
+    ],
+    "comment": [
+      {
+        "language": "DE",
+        "text": "Inseln Sylt, Föhr, Amrum, Helgoland und die Halligen"
+      }
+    ],
+    "tags": [
+      "Exception"
+    ]
+  },
+  {
+    "id": "d4c682e4-c864-432e-8108-bb8518f46556",
+    "startDate": "2028-10-16",
+    "endDate": "2028-10-30",
+    "type": "School",
+    "name": [
+      {
+        "language": "DE",
+        "text": "Herbstferien"
+      }
+    ],
+    "regionalScope": "Regional",
+    "temporalScope": "FullDay",
+    "nationwide": false,
+    "subdivisions": [
+      {
+        "code": "DE-SH",
+        "shortName": "SH"
+      }
+    ]
+  },
+  {
+    "id": "1314c1d4-675b-428b-a240-2930c4567973",
+    "startDate": "2028-12-21",
+    "endDate": "2029-01-05",
+    "type": "School",
+    "name": [
+      {
+        "language": "DE",
+        "text": "Weihnachtsferien"
+      }
+    ],
+    "regionalScope": "Regional",
+    "temporalScope": "FullDay",
+    "nationwide": false,
+    "subdivisions": [
+      {
+        "code": "DE-SH",
+        "shortName": "SH"
+      }
+    ]
+  }
+]

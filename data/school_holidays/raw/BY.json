@@ -1,0 +1,1493 @@
+[
+  {
+    "id": "3c508482-faa7-4fe8-b80b-bb7f33dcc4ef",
+    "startDate": "2019-12-23",
+    "endDate": "2020-01-04",
+    "type": "School",
+    "name": [
+      {
+        "language": "DE",
+        "text": "Weihnachtsferien"
+      }
+    ],
+    "regionalScope": "Regional",
+    "temporalScope": "FullDay",
+    "nationwide": false,
+    "subdivisions": [
+      {
+        "code": "DE-BY",
+        "shortName": "BY"
+      }
+    ]
+  },
+  {
+    "id": "a570a9c7-10b8-4ee9-b4a3-268f224017d0",
+    "startDate": "2020-02-24",
+    "endDate": "2020-02-28",
+    "type": "School",
+    "name": [
+      {
+        "language": "DE",
+        "text": "Frühjahrsferien"
+      }
+    ],
+    "regionalScope": "Regional",
+    "temporalScope": "FullDay",
+    "nationwide": false,
+    "subdivisions": [
+      {
+        "code": "DE-BY",
+        "shortName": "BY"
+      }
+    ]
+  },
+  {
+    "id": "e17083ad-ad28-4284-92b5-bf07da7958e1",
+    "startDate": "2020-04-06",
+    "endDate": "2020-04-18",
+    "type": "School",
+    "name": [
+      {
+        "language": "DE",
+        "text": "Osterferien"
+      }
+    ],
+    "regionalScope": "Regional",
+    "temporalScope": "FullDay",
+    "nationwide": false,
+    "subdivisions": [
+      {
+        "code": "DE-BY",
+        "shortName": "BY"
+      }
+    ]
+  },
+  {
+    "id": "bebe56e4-e16f-49af-8a3e-b01f03c74f59",
+    "startDate": "2020-06-02",
+    "endDate": "2020-06-13",
+    "type": "School",
+    "name": [
+      {
+        "language": "DE",
+        "text": "Pfingstferien"
+      }
+    ],
+    "regionalScope": "Regional",
+    "temporalScope": "FullDay",
+    "nationwide": false,
+    "subdivisions": [
+      {
+        "code": "DE-BY",
+        "shortName": "BY"
+      }
+    ]
+  },
+  {
+    "id": "915fb380-b6ad-4542-a2b2-2e7111323f49",
+    "startDate": "2020-07-27",
+    "endDate": "2020-09-07",
+    "type": "School",
+    "name": [
+      {
+        "language": "DE",
+        "text": "Sommerferien"
+      }
+    ],
+    "regionalScope": "Regional",
+    "temporalScope": "FullDay",
+    "nationwide": false,
+    "subdivisions": [
+      {
+        "code": "DE-BY",
+        "shortName": "BY"
+      }
+    ]
+  },
+  {
+    "id": "f63af775-225d-47bd-bb9a-74e9450a9932",
+    "startDate": "2020-10-31",
+    "endDate": "2020-11-06",
+    "type": "School",
+    "name": [
+      {
+        "language": "DE",
+        "text": "Herbstferien"
+      }
+    ],
+    "regionalScope": "Regional",
+    "temporalScope": "FullDay",
+    "nationwide": false,
+    "subdivisions": [
+      {
+        "code": "DE-BY",
+        "shortName": "BY"
+      }
+    ]
+  },
+  {
+    "id": "010baeca-7fc4-468a-a869-181cd0560104",
+    "startDate": "2020-11-18",
+    "endDate": "2020-11-18",
+    "type": "School",
+    "name": [
+      {
+        "language": "DE",
+        "text": "Buß- und Bettag"
+      }
+    ],
+    "regionalScope": "Regional",
+    "temporalScope": "FullDay",
+    "nationwide": false,
+    "subdivisions": [
+      {
+        "code": "DE-BY",
+        "shortName": "BY"
+      }
+    ]
+  },
+  {
+    "id": "9b11d6b2-4ce1-4f7b-9472-e4c66fb63c06",
+    "startDate": "2020-12-23",
+    "endDate": "2021-01-09",
+    "type": "School",
+    "name": [
+      {
+        "language": "DE",
+        "text": "Weihnachtsferien"
+      }
+    ],
+    "regionalScope": "Regional",
+    "temporalScope": "FullDay",
+    "nationwide": false,
+    "subdivisions": [
+      {
+        "code": "DE-BY",
+        "shortName": "BY"
+      }
+    ]
+  },
+  {
+    "id": "9b11d6b2-4ce1-4f7b-9472-e4c66fb63c06",
+    "startDate": "2020-12-23",
+    "endDate": "2021-01-09",
+    "type": "School",
+    "name": [
+      {
+        "language": "DE",
+        "text": "Weihnachtsferien"
+      }
+    ],
+    "regionalScope": "Regional",
+    "temporalScope": "FullDay",
+    "nationwide": false,
+    "subdivisions": [
+      {
+        "code": "DE-BY",
+        "shortName": "BY"
+      }
+    ]
+  },
+  {
+    "id": "b359fe5f-f6d9-45ee-8f8e-89bdfd557797",
+    "startDate": "2021-03-29",
+    "endDate": "2021-04-10",
+    "type": "School",
+    "name": [
+      {
+        "language": "DE",
+        "text": "Osterferien"
+      }
+    ],
+    "regionalScope": "Regional",
+    "temporalScope": "FullDay",
+    "nationwide": false,
+    "subdivisions": [
+      {
+        "code": "DE-BY",
+        "shortName": "BY"
+      }
+    ]
+  },
+  {
+    "id": "bee479e6-7a9f-44f6-9457-601a51cbc692",
+    "startDate": "2021-05-25",
+    "endDate": "2021-06-04",
+    "type": "School",
+    "name": [
+      {
+        "language": "DE",
+        "text": "Pfingstferien"
+      }
+    ],
+    "regionalScope": "Regional",
+    "temporalScope": "FullDay",
+    "nationwide": false,
+    "subdivisions": [
+      {
+        "code": "DE-BY",
+        "shortName": "BY"
+      }
+    ]
+  },
+  {
+    "id": "bd663213-a04d-4d20-ae92-7ba54bf28257",
+    "startDate": "2021-07-30",
+    "endDate": "2021-09-13",
+    "type": "School",
+    "name": [
+      {
+        "language": "DE",
+        "text": "Sommerferien"
+      }
+    ],
+    "regionalScope": "Regional",
+    "temporalScope": "FullDay",
+    "nationwide": false,
+    "subdivisions": [
+      {
+        "code": "DE-BY",
+        "shortName": "BY"
+      }
+    ]
+  },
+  {
+    "id": "170e3acd-6518-460d-824b-e7a86a8468e8",
+    "startDate": "2021-11-02",
+    "endDate": "2021-11-05",
+    "type": "School",
+    "name": [
+      {
+        "language": "DE",
+        "text": "Herbstferien"
+      }
+    ],
+    "regionalScope": "Regional",
+    "temporalScope": "FullDay",
+    "nationwide": false,
+    "subdivisions": [
+      {
+        "code": "DE-BY",
+        "shortName": "BY"
+      }
+    ]
+  },
+  {
+    "id": "b233ad5d-2c8d-4c58-89f7-b990a2bace91",
+    "startDate": "2021-11-17",
+    "endDate": "2021-11-17",
+    "type": "School",
+    "name": [
+      {
+        "language": "DE",
+        "text": "Buß- und Bettag"
+      }
+    ],
+    "regionalScope": "Regional",
+    "temporalScope": "FullDay",
+    "nationwide": false,
+    "subdivisions": [
+      {
+        "code": "DE-BY",
+        "shortName": "BY"
+      }
+    ]
+  },
+  {
+    "id": "cba055e2-e225-44fa-a20f-37ec20355fa9",
+    "startDate": "2021-12-24",
+    "endDate": "2022-01-08",
+    "type": "School",
+    "name": [
+      {
+        "language": "DE",
+        "text": "Weihnachtsferien"
+      }
+    ],
+    "regionalScope": "Regional",
+    "temporalScope": "FullDay",
+    "nationwide": false,
+    "subdivisions": [
+      {
+        "code": "DE-BY",
+        "shortName": "BY"
+      }
+    ]
+  },
+  {
+    "id": "cba055e2-e225-44fa-a20f-37ec20355fa9",
+    "startDate": "2021-12-24",
+    "endDate": "2022-01-08",
+    "type": "School",
+    "name": [
+      {
+        "language": "DE",
+        "text": "Weihnachtsferien"
+      }
+    ],
+    "regionalScope": "Regional",
+    "temporalScope": "FullDay",
+    "nationwide": false,
+    "subdivisions": [
+      {
+        "code": "DE-BY",
+        "shortName": "BY"
+      }
+    ]
+  },
+  {
+    "id": "80a241e8-a0d0-4b89-8905-bb08cd6d28a6",
+    "startDate": "2022-02-28",
+    "endDate": "2022-03-04",
+    "type": "School",
+    "name": [
+      {
+        "language": "DE",
+        "text": "Frühjahrsferien"
+      }
+    ],
+    "regionalScope": "Regional",
+    "temporalScope": "FullDay",
+    "nationwide": false,
+    "subdivisions": [
+      {
+        "code": "DE-BY",
+        "shortName": "BY"
+      }
+    ]
+  },
+  {
+    "id": "64ebbda3-6c9b-4109-9326-185ca96b50e6",
+    "startDate": "2022-04-11",
+    "endDate": "2022-04-23",
+    "type": "School",
+    "name": [
+      {
+        "language": "DE",
+        "text": "Osterferien"
+      }
+    ],
+    "regionalScope": "Regional",
+    "temporalScope": "FullDay",
+    "nationwide": false,
+    "subdivisions": [
+      {
+        "code": "DE-BY",
+        "shortName": "BY"
+      }
+    ]
+  },
+  {
+    "id": "73e0cd5a-260d-4fad-8aa1-d45d9d9b0eae",
+    "startDate": "2022-06-07",
+    "endDate": "2022-06-18",
+    "type": "School",
+    "name": [
+      {
+        "language": "DE",
+        "text": "Pfingstferien"
+      }
+    ],
+    "regionalScope": "Regional",
+    "temporalScope": "FullDay",
+    "nationwide": false,
+    "subdivisions": [
+      {
+        "code": "DE-BY",
+        "shortName": "BY"
+      }
+    ]
+  },
+  {
+    "id": "51acc4e1-02ce-479f-bfe5-f5b8d2b5a747",
+    "startDate": "2022-08-01",
+    "endDate": "2022-09-12",
+    "type": "School",
+    "name": [
+      {
+        "language": "DE",
+        "text": "Sommerferien"
+      }
+    ],
+    "regionalScope": "Regional",
+    "temporalScope": "FullDay",
+    "nationwide": false,
+    "subdivisions": [
+      {
+        "code": "DE-BY",
+        "shortName": "BY"
+      }
+    ]
+  },
+  {
+    "id": "b08785c5-cd40-4c92-834a-c6c18db0756b",
+    "startDate": "2022-10-31",
+    "endDate": "2022-11-04",
+    "type": "School",
+    "name": [
+      {
+        "language": "DE",
+        "text": "Herbstferien"
+      }
+    ],
+    "regionalScope": "Regional",
+    "temporalScope": "FullDay",
+    "nationwide": false,
+    "subdivisions": [
+      {
+        "code": "DE-BY",
+        "shortName": "BY"
+      }
+    ]
+  },
+  {
+    "id": "ed59a45c-fef7-4471-8176-50bc77dcbff0",
+    "startDate": "2022-11-16",
+    "endDate": "2022-11-16",
+    "type": "School",
+    "name": [
+      {
+        "language": "DE",
+        "text": "Buß- und Bettag"
+      }
+    ],
+    "regionalScope": "Regional",
+    "temporalScope": "FullDay",
+    "nationwide": false,
+    "subdivisions": [
+      {
+        "code": "DE-BY",
+        "shortName": "BY"
+      }
+    ]
+  },
+  {
+    "id": "5a7eae70-428a-4bf5-8f40-8571e41cd058",
+    "startDate": "2022-12-24",
+    "endDate": "2023-01-07",
+    "type": "School",
+    "name": [
+      {
+        "language": "DE",
+        "text": "Weihnachtsferien"
+      }
+    ],
+    "regionalScope": "Regional",
+    "temporalScope": "FullDay",
+    "nationwide": false,
+    "subdivisions": [
+      {
+        "code": "DE-BY",
+        "shortName": "BY"
+      }
+    ]
+  },
+  {
+    "id": "5a7eae70-428a-4bf5-8f40-8571e41cd058",
+    "startDate": "2022-12-24",
+    "endDate": "2023-01-07",
+    "type": "School",
+    "name": [
+      {
+        "language": "DE",
+        "text": "Weihnachtsferien"
+      }
+    ],
+    "regionalScope": "Regional",
+    "temporalScope": "FullDay",
+    "nationwide": false,
+    "subdivisions": [
+      {
+        "code": "DE-BY",
+        "shortName": "BY"
+      }
+    ]
+  },
+  {
+    "id": "e2e36723-b732-400f-8b60-4572eccb09d6",
+    "startDate": "2023-02-20",
+    "endDate": "2023-02-24",
+    "type": "School",
+    "name": [
+      {
+        "language": "DE",
+        "text": "Frühjahrsferien"
+      }
+    ],
+    "regionalScope": "Regional",
+    "temporalScope": "FullDay",
+    "nationwide": false,
+    "subdivisions": [
+      {
+        "code": "DE-BY",
+        "shortName": "BY"
+      }
+    ]
+  },
+  {
+    "id": "950780d4-2182-4804-8678-1ec83168aeac",
+    "startDate": "2023-04-03",
+    "endDate": "2023-04-15",
+    "type": "School",
+    "name": [
+      {
+        "language": "DE",
+        "text": "Osterferien"
+      }
+    ],
+    "regionalScope": "Regional",
+    "temporalScope": "FullDay",
+    "nationwide": false,
+    "subdivisions": [
+      {
+        "code": "DE-BY",
+        "shortName": "BY"
+      }
+    ]
+  },
+  {
+    "id": "327e5368-24ff-442d-aeee-8c02cb968ebd",
+    "startDate": "2023-05-30",
+    "endDate": "2023-06-09",
+    "type": "School",
+    "name": [
+      {
+        "language": "DE",
+        "text": "Pfingstferien"
+      }
+    ],
+    "regionalScope": "Regional",
+    "temporalScope": "FullDay",
+    "nationwide": false,
+    "subdivisions": [
+      {
+        "code": "DE-BY",
+        "shortName": "BY"
+      }
+    ]
+  },
+  {
+    "id": "91a595fc-ff92-43e7-9bd8-f08e6da028fc",
+    "startDate": "2023-07-31",
+    "endDate": "2023-09-11",
+    "type": "School",
+    "name": [
+      {
+        "language": "DE",
+        "text": "Sommerferien"
+      }
+    ],
+    "regionalScope": "Regional",
+    "temporalScope": "FullDay",
+    "nationwide": false,
+    "subdivisions": [
+      {
+        "code": "DE-BY",
+        "shortName": "BY"
+      }
+    ]
+  },
+  {
+    "id": "8c10cfa2-9af6-4ec5-bb00-c358fbf3b0f3",
+    "startDate": "2023-10-30",
+    "endDate": "2023-11-04",
+    "type": "School",
+    "name": [
+      {
+        "language": "DE",
+        "text": "Herbstferien"
+      }
+    ],
+    "regionalScope": "Regional",
+    "temporalScope": "FullDay",
+    "nationwide": false,
+    "subdivisions": [
+      {
+        "code": "DE-BY",
+        "shortName": "BY"
+      }
+    ]
+  },
+  {
+    "id": "fcfe3a89-c9d3-4879-988b-6471e4abb0ec",
+    "startDate": "2023-11-22",
+    "endDate": "2023-11-22",
+    "type": "School",
+    "name": [
+      {
+        "language": "DE",
+        "text": "Buß- und Bettag"
+      }
+    ],
+    "regionalScope": "Regional",
+    "temporalScope": "FullDay",
+    "nationwide": false,
+    "subdivisions": [
+      {
+        "code": "DE-BY",
+        "shortName": "BY"
+      }
+    ]
+  },
+  {
+    "id": "b5fc4c46-d6db-434a-b65f-329d14491938",
+    "startDate": "2023-12-23",
+    "endDate": "2024-01-05",
+    "type": "School",
+    "name": [
+      {
+        "language": "DE",
+        "text": "Weihnachtsferien"
+      }
+    ],
+    "regionalScope": "Regional",
+    "temporalScope": "FullDay",
+    "nationwide": false,
+    "subdivisions": [
+      {
+        "code": "DE-BY",
+        "shortName": "BY"
+      }
+    ]
+  },
+  {
+    "id": "b5fc4c46-d6db-434a-b65f-329d14491938",
+    "startDate": "2023-12-23",
+    "endDate": "2024-01-05",
+    "type": "School",
+    "name": [
+      {
+        "language": "DE",
+        "text": "Weihnachtsferien"
+      }
+    ],
+    "regionalScope": "Regional",
+    "temporalScope": "FullDay",
+    "nationwide": false,
+    "subdivisions": [
+      {
+        "code": "DE-BY",
+        "shortName": "BY"
+      }
+    ]
+  },
+  {
+    "id": "f4cbdd5b-1bf6-4530-8620-b8ddecbbb636",
+    "startDate": "2024-02-12",
+    "endDate": "2024-02-16",
+    "type": "School",
+    "name": [
+      {
+        "language": "DE",
+        "text": "Frühjahrsferien"
+      }
+    ],
+    "regionalScope": "Regional",
+    "temporalScope": "FullDay",
+    "nationwide": false,
+    "subdivisions": [
+      {
+        "code": "DE-BY",
+        "shortName": "BY"
+      }
+    ]
+  },
+  {
+    "id": "807d237c-c6d4-4b9f-886f-8e0d805a0397",
+    "startDate": "2024-03-25",
+    "endDate": "2024-04-06",
+    "type": "School",
+    "name": [
+      {
+        "language": "DE",
+        "text": "Osterferien"
+      }
+    ],
+    "regionalScope": "Regional",
+    "temporalScope": "FullDay",
+    "nationwide": false,
+    "subdivisions": [
+      {
+        "code": "DE-BY",
+        "shortName": "BY"
+      }
+    ]
+  },
+  {
+    "id": "f2bb829a-1425-4b89-9c9a-11c94d21c014",
+    "startDate": "2024-05-21",
+    "endDate": "2024-06-01",
+    "type": "School",
+    "name": [
+      {
+        "language": "DE",
+        "text": "Pfingstferien"
+      }
+    ],
+    "regionalScope": "Regional",
+    "temporalScope": "FullDay",
+    "nationwide": false,
+    "subdivisions": [
+      {
+        "code": "DE-BY",
+        "shortName": "BY"
+      }
+    ]
+  },
+  {
+    "id": "871df250-0576-493c-aea4-e64ee4608bef",
+    "startDate": "2024-07-29",
+    "endDate": "2024-09-09",
+    "type": "School",
+    "name": [
+      {
+        "language": "DE",
+        "text": "Sommerferien"
+      }
+    ],
+    "regionalScope": "Regional",
+    "temporalScope": "FullDay",
+    "nationwide": false,
+    "subdivisions": [
+      {
+        "code": "DE-BY",
+        "shortName": "BY"
+      }
+    ]
+  },
+  {
+    "id": "64437d56-be06-4632-b8e8-fc8fdfc59e98",
+    "startDate": "2024-10-28",
+    "endDate": "2024-10-31",
+    "type": "School",
+    "name": [
+      {
+        "language": "DE",
+        "text": "Herbstferien"
+      }
+    ],
+    "regionalScope": "Regional",
+    "temporalScope": "FullDay",
+    "nationwide": false,
+    "subdivisions": [
+      {
+        "code": "DE-BY",
+        "shortName": "BY"
+      }
+    ]
+  },
+  {
+    "id": "23ed1774-4091-4ed2-92be-8ee1b452929d",
+    "startDate": "2024-11-20",
+    "endDate": "2024-11-20",
+    "type": "School",
+    "name": [
+      {
+        "language": "DE",
+        "text": "Buß- und Bettag"
+      }
+    ],
+    "regionalScope": "Regional",
+    "temporalScope": "FullDay",
+    "nationwide": false,
+    "subdivisions": [
+      {
+        "code": "DE-BY",
+        "shortName": "BY"
+      }
+    ]
+  },
+  {
+    "id": "f3b90493-d141-4aab-ac30-37084db988c3",
+    "startDate": "2024-12-23",
+    "endDate": "2025-01-03",
+    "type": "School",
+    "name": [
+      {
+        "language": "DE",
+        "text": "Weihnachtsferien"
+      }
+    ],
+    "regionalScope": "Regional",
+    "temporalScope": "FullDay",
+    "nationwide": false,
+    "subdivisions": [
+      {
+        "code": "DE-BY",
+        "shortName": "BY"
+      }
+    ]
+  },
+  {
+    "id": "f3b90493-d141-4aab-ac30-37084db988c3",
+    "startDate": "2024-12-23",
+    "endDate": "2025-01-03",
+    "type": "School",
+    "name": [
+      {
+        "language": "DE",
+        "text": "Weihnachtsferien"
+      }
+    ],
+    "regionalScope": "Regional",
+    "temporalScope": "FullDay",
+    "nationwide": false,
+    "subdivisions": [
+      {
+        "code": "DE-BY",
+        "shortName": "BY"
+      }
+    ]
+  },
+  {
+    "id": "5257b2de-813a-406f-9b8e-cd56586050f2",
+    "startDate": "2025-03-03",
+    "endDate": "2025-03-07",
+    "type": "School",
+    "name": [
+      {
+        "language": "DE",
+        "text": "Frühjahrsferien"
+      }
+    ],
+    "regionalScope": "Regional",
+    "temporalScope": "FullDay",
+    "nationwide": false,
+    "subdivisions": [
+      {
+        "code": "DE-BY",
+        "shortName": "BY"
+      }
+    ]
+  },
+  {
+    "id": "03cc22f2-1730-4ea4-b2dc-90d8d0f41e62",
+    "startDate": "2025-04-14",
+    "endDate": "2025-04-25",
+    "type": "School",
+    "name": [
+      {
+        "language": "DE",
+        "text": "Osterferien"
+      }
+    ],
+    "regionalScope": "Regional",
+    "temporalScope": "FullDay",
+    "nationwide": false,
+    "subdivisions": [
+      {
+        "code": "DE-BY",
+        "shortName": "BY"
+      }
+    ]
+  },
+  {
+    "id": "dcda193e-7508-48e5-9da7-670a36cb3b0c",
+    "startDate": "2025-06-10",
+    "endDate": "2025-06-20",
+    "type": "School",
+    "name": [
+      {
+        "language": "DE",
+        "text": "Pfingstferien"
+      }
+    ],
+    "regionalScope": "Regional",
+    "temporalScope": "FullDay",
+    "nationwide": false,
+    "subdivisions": [
+      {
+        "code": "DE-BY",
+        "shortName": "BY"
+      }
+    ]
+  },
+  {
+    "id": "bc2bd00a-e716-46c3-8a27-2538c777d9bd",
+    "startDate": "2025-08-01",
+    "endDate": "2025-09-15",
+    "type": "School",
+    "name": [
+      {
+        "language": "DE",
+        "text": "Sommerferien"
+      }
+    ],
+    "regionalScope": "Regional",
+    "temporalScope": "FullDay",
+    "nationwide": false,
+    "subdivisions": [
+      {
+        "code": "DE-BY",
+        "shortName": "BY"
+      }
+    ]
+  },
+  {
+    "id": "867bf086-bdaa-4642-8fcf-4fd07f45ac08",
+    "startDate": "2025-11-03",
+    "endDate": "2025-11-07",
+    "type": "School",
+    "name": [
+      {
+        "language": "DE",
+        "text": "Herbstferien"
+      }
+    ],
+    "regionalScope": "Regional",
+    "temporalScope": "FullDay",
+    "nationwide": false,
+    "subdivisions": [
+      {
+        "code": "DE-BY",
+        "shortName": "BY"
+      }
+    ]
+  },
+  {
+    "id": "cb244bdc-ddc5-48b0-a6a4-675b57facc0e",
+    "startDate": "2025-11-19",
+    "endDate": "2025-11-19",
+    "type": "School",
+    "name": [
+      {
+        "language": "DE",
+        "text": "Buß- und Bettag"
+      }
+    ],
+    "regionalScope": "Regional",
+    "temporalScope": "FullDay",
+    "nationwide": false,
+    "subdivisions": [
+      {
+        "code": "DE-BY",
+        "shortName": "BY"
+      }
+    ]
+  },
+  {
+    "id": "fae75443-4eb3-4720-9ba2-3dcca3553820",
+    "startDate": "2025-12-22",
+    "endDate": "2026-01-05",
+    "type": "School",
+    "name": [
+      {
+        "language": "DE",
+        "text": "Weihnachtsferien"
+      }
+    ],
+    "regionalScope": "Regional",
+    "temporalScope": "FullDay",
+    "nationwide": false,
+    "subdivisions": [
+      {
+        "code": "DE-BY",
+        "shortName": "BY"
+      }
+    ]
+  },
+  {
+    "id": "fae75443-4eb3-4720-9ba2-3dcca3553820",
+    "startDate": "2025-12-22",
+    "endDate": "2026-01-05",
+    "type": "School",
+    "name": [
+      {
+        "language": "DE",
+        "text": "Weihnachtsferien"
+      }
+    ],
+    "regionalScope": "Regional",
+    "temporalScope": "FullDay",
+    "nationwide": false,
+    "subdivisions": [
+      {
+        "code": "DE-BY",
+        "shortName": "BY"
+      }
+    ]
+  },
+  {
+    "id": "0cde7e09-1d34-43b3-95df-69cc27471f62",
+    "startDate": "2026-02-16",
+    "endDate": "2026-02-20",
+    "type": "School",
+    "name": [
+      {
+        "language": "DE",
+        "text": "Frühjahrsferien"
+      }
+    ],
+    "regionalScope": "Regional",
+    "temporalScope": "FullDay",
+    "nationwide": false,
+    "subdivisions": [
+      {
+        "code": "DE-BY",
+        "shortName": "BY"
+      }
+    ]
+  },
+  {
+    "id": "4000e69a-d391-412c-b0df-72dc3b72f12d",
+    "startDate": "2026-03-30",
+    "endDate": "2026-04-10",
+    "type": "School",
+    "name": [
+      {
+        "language": "DE",
+        "text": "Osterferien"
+      }
+    ],
+    "regionalScope": "Regional",
+    "temporalScope": "FullDay",
+    "nationwide": false,
+    "subdivisions": [
+      {
+        "code": "DE-BY",
+        "shortName": "BY"
+      }
+    ]
+  },
+  {
+    "id": "1e06a1e6-bf8a-414c-aa04-8da95b84fb02",
+    "startDate": "2026-05-26",
+    "endDate": "2026-06-05",
+    "type": "School",
+    "name": [
+      {
+        "language": "DE",
+        "text": "Pfingstferien"
+      }
+    ],
+    "regionalScope": "Regional",
+    "temporalScope": "FullDay",
+    "nationwide": false,
+    "subdivisions": [
+      {
+        "code": "DE-BY",
+        "shortName": "BY"
+      }
+    ]
+  },
+  {
+    "id": "7451c518-92c2-4d26-9381-6d5745865a54",
+    "startDate": "2026-08-03",
+    "endDate": "2026-09-14",
+    "type": "School",
+    "name": [
+      {
+        "language": "DE",
+        "text": "Sommerferien"
+      }
+    ],
+    "regionalScope": "Regional",
+    "temporalScope": "FullDay",
+    "nationwide": false,
+    "subdivisions": [
+      {
+        "code": "DE-BY",
+        "shortName": "BY"
+      }
+    ]
+  },
+  {
+    "id": "b5045dcf-6618-41e7-b649-c3d6d135a611",
+    "startDate": "2026-11-02",
+    "endDate": "2026-11-06",
+    "type": "School",
+    "name": [
+      {
+        "language": "DE",
+        "text": "Herbstferien"
+      }
+    ],
+    "regionalScope": "Regional",
+    "temporalScope": "FullDay",
+    "nationwide": false,
+    "subdivisions": [
+      {
+        "code": "DE-BY",
+        "shortName": "BY"
+      }
+    ]
+  },
+  {
+    "id": "76149977-58f0-455c-b74a-89937a90c200",
+    "startDate": "2026-11-18",
+    "endDate": "2026-11-18",
+    "type": "School",
+    "name": [
+      {
+        "language": "DE",
+        "text": "Buß- und Bettag"
+      }
+    ],
+    "regionalScope": "Regional",
+    "temporalScope": "FullDay",
+    "nationwide": false,
+    "subdivisions": [
+      {
+        "code": "DE-BY",
+        "shortName": "BY"
+      }
+    ]
+  },
+  {
+    "id": "c38a3f7c-04e7-4acf-ae55-1063a077bf9b",
+    "startDate": "2026-12-24",
+    "endDate": "2027-01-08",
+    "type": "School",
+    "name": [
+      {
+        "language": "DE",
+        "text": "Weihnachtsferien"
+      }
+    ],
+    "regionalScope": "Regional",
+    "temporalScope": "FullDay",
+    "nationwide": false,
+    "subdivisions": [
+      {
+        "code": "DE-BY",
+        "shortName": "BY"
+      }
+    ]
+  },
+  {
+    "id": "c38a3f7c-04e7-4acf-ae55-1063a077bf9b",
+    "startDate": "2026-12-24",
+    "endDate": "2027-01-08",
+    "type": "School",
+    "name": [
+      {
+        "language": "DE",
+        "text": "Weihnachtsferien"
+      }
+    ],
+    "regionalScope": "Regional",
+    "temporalScope": "FullDay",
+    "nationwide": false,
+    "subdivisions": [
+      {
+        "code": "DE-BY",
+        "shortName": "BY"
+      }
+    ]
+  },
+  {
+    "id": "37821c22-3fa7-46f9-9cb2-9b7812ae859a",
+    "startDate": "2027-02-08",
+    "endDate": "2027-02-12",
+    "type": "School",
+    "name": [
+      {
+        "language": "DE",
+        "text": "Frühjahrsferien"
+      }
+    ],
+    "regionalScope": "Regional",
+    "temporalScope": "FullDay",
+    "nationwide": false,
+    "subdivisions": [
+      {
+        "code": "DE-BY",
+        "shortName": "BY"
+      }
+    ]
+  },
+  {
+    "id": "843e9ad1-beac-4553-ae45-32f9f41a007e",
+    "startDate": "2027-03-22",
+    "endDate": "2027-04-02",
+    "type": "School",
+    "name": [
+      {
+        "language": "DE",
+        "text": "Osterferien"
+      }
+    ],
+    "regionalScope": "Regional",
+    "temporalScope": "FullDay",
+    "nationwide": false,
+    "subdivisions": [
+      {
+        "code": "DE-BY",
+        "shortName": "BY"
+      }
+    ]
+  },
+  {
+    "id": "1e397cac-c9a1-427b-b60d-89be682c8ab4",
+    "startDate": "2027-05-18",
+    "endDate": "2027-05-28",
+    "type": "School",
+    "name": [
+      {
+        "language": "DE",
+        "text": "Pfingstferien"
+      }
+    ],
+    "regionalScope": "Regional",
+    "temporalScope": "FullDay",
+    "nationwide": false,
+    "subdivisions": [
+      {
+        "code": "DE-BY",
+        "shortName": "BY"
+      }
+    ]
+  },
+  {
+    "id": "f89e2b94-62aa-4a95-98be-972bc1144988",
+    "startDate": "2027-08-02",
+    "endDate": "2027-09-13",
+    "type": "School",
+    "name": [
+      {
+        "language": "DE",
+        "text": "Sommerferien"
+      }
+    ],
+    "regionalScope": "Regional",
+    "temporalScope": "FullDay",
+    "nationwide": false,
+    "subdivisions": [
+      {
+        "code": "DE-BY",
+        "shortName": "BY"
+      }
+    ]
+  },
+  {
+    "id": "b64a2f1e-2886-4510-9c14-0d5ba6fa91b5",
+    "startDate": "2027-11-02",
+    "endDate": "2027-11-05",
+    "type": "School",
+    "name": [
+      {
+        "language": "DE",
+        "text": "Herbstferien"
+      }
+    ],
+    "regionalScope": "Regional",
+    "temporalScope": "FullDay",
+    "nationwide": false,
+    "subdivisions": [
+      {
+        "code": "DE-BY",
+        "shortName": "BY"
+      }
+    ]
+  },
+  {
+    "id": "99499e30-3ed5-4f69-a7cb-139b7c3fbc66",
+    "startDate": "2027-11-17",
+    "endDate": "2027-11-17",
+    "type": "School",
+    "name": [
+      {
+        "language": "DE",
+        "text": "Buß- und Bettag"
+      }
+    ],
+    "regionalScope": "Regional",
+    "temporalScope": "FullDay",
+    "nationwide": false,
+    "subdivisions": [
+      {
+        "code": "DE-BY",
+        "shortName": "BY"
+      }
+    ]
+  },
+  {
+    "id": "8cf3dcbe-51c1-4125-a453-3e57e767f277",
+    "startDate": "2027-12-24",
+    "endDate": "2028-01-07",
+    "type": "School",
+    "name": [
+      {
+        "language": "DE",
+        "text": "Weihnachtsferien"
+      }
+    ],
+    "regionalScope": "Regional",
+    "temporalScope": "FullDay",
+    "nationwide": false,
+    "subdivisions": [
+      {
+        "code": "DE-BY",
+        "shortName": "BY"
+      }
+    ]
+  },
+  {
+    "id": "8cf3dcbe-51c1-4125-a453-3e57e767f277",
+    "startDate": "2027-12-24",
+    "endDate": "2028-01-07",
+    "type": "School",
+    "name": [
+      {
+        "language": "DE",
+        "text": "Weihnachtsferien"
+      }
+    ],
+    "regionalScope": "Regional",
+    "temporalScope": "FullDay",
+    "nationwide": false,
+    "subdivisions": [
+      {
+        "code": "DE-BY",
+        "shortName": "BY"
+      }
+    ]
+  },
+  {
+    "id": "9696a58f-963a-4172-92ee-f17967130a4e",
+    "startDate": "2028-02-28",
+    "endDate": "2028-03-03",
+    "type": "School",
+    "name": [
+      {
+        "language": "DE",
+        "text": "Frühjahrsferien"
+      }
+    ],
+    "regionalScope": "Regional",
+    "temporalScope": "FullDay",
+    "nationwide": false,
+    "subdivisions": [
+      {
+        "code": "DE-BY",
+        "shortName": "BY"
+      }
+    ]
+  },
+  {
+    "id": "b3bd9115-a0ab-4ab5-a7e9-7f720278187c",
+    "startDate": "2028-04-10",
+    "endDate": "2028-04-21",
+    "type": "School",
+    "name": [
+      {
+        "language": "DE",
+        "text": "Osterferien"
+      }
+    ],
+    "regionalScope": "Regional",
+    "temporalScope": "FullDay",
+    "nationwide": false,
+    "subdivisions": [
+      {
+        "code": "DE-BY",
+        "shortName": "BY"
+      }
+    ]
+  },
+  {
+    "id": "d23c43ee-1edf-4a1c-8007-d56b25ef8f65",
+    "startDate": "2028-06-06",
+    "endDate": "2028-06-16",
+    "type": "School",
+    "name": [
+      {
+        "language": "DE",
+        "text": "Pfingstferien"
+      }
+    ],
+    "regionalScope": "Regional",
+    "temporalScope": "FullDay",
+    "nationwide": false,
+    "subdivisions": [
+      {
+        "code": "DE-BY",
+        "shortName": "BY"
+      }
+    ]
+  },
+  {
+    "id": "73ad9a8a-8063-4dd7-b548-008bf03c8a7b",
+    "startDate": "2028-07-31",
+    "endDate": "2028-09-11",
+    "type": "School",
+    "name": [
+      {
+        "language": "DE",
+        "text": "Sommerferien"
+      }
+    ],
+    "regionalScope": "Regional",
+    "temporalScope": "FullDay",
+    "nationwide": false,
+    "subdivisions": [
+      {
+        "code": "DE-BY",
+        "shortName": "BY"
+      }
+    ]
+  },
+  {
+    "id": "4a305ebe-3c17-4a56-8dfd-e8a8ed1a9bf7",
+    "startDate": "2028-10-30",
+    "endDate": "2028-11-03",
+    "type": "School",
+    "name": [
+      {
+        "language": "DE",
+        "text": "Herbstferien"
+      }
+    ],
+    "regionalScope": "Regional",
+    "temporalScope": "FullDay",
+    "nationwide": false,
+    "subdivisions": [
+      {
+        "code": "DE-BY",
+        "shortName": "BY"
+      }
+    ]
+  },
+  {
+    "id": "794ad275-b88e-46b1-9b16-eb9c3e1b4ee0",
+    "startDate": "2028-11-22",
+    "endDate": "2028-11-22",
+    "type": "School",
+    "name": [
+      {
+        "language": "DE",
+        "text": "Buß- und Bettag"
+      }
+    ],
+    "regionalScope": "Regional",
+    "temporalScope": "FullDay",
+    "nationwide": false,
+    "subdivisions": [
+      {
+        "code": "DE-BY",
+        "shortName": "BY"
+      }
+    ]
+  },
+  {
+    "id": "b58b70b6-8121-4b75-b9d5-aeb71b417a96",
+    "startDate": "2028-12-23",
+    "endDate": "2029-01-05",
+    "type": "School",
+    "name": [
+      {
+        "language": "DE",
+        "text": "Weihnachtsferien"
+      }
+    ],
+    "regionalScope": "Regional",
+    "temporalScope": "FullDay",
+    "nationwide": false,
+    "subdivisions": [
+      {
+        "code": "DE-BY",
+        "shortName": "BY"
+      }
+    ]
+  }
+]
