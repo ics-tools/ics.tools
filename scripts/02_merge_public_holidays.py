@@ -4,6 +4,7 @@ import hashlib
 from datetime import datetime, timezone
 from typing import List, Dict, Any, Optional
 from config import (
+    IGNORED_RAW_TAGS,
     PUBLIC_HOLIDAYS_OVERRIDE_DIR,
     PUBLIC_HOLIDAYS_RAW_DIR,
     PUBLIC_HOLIDAYS_RESULT_DIR,
@@ -30,6 +31,15 @@ def load_json_file(filepath: str, default_fallback: Any) -> Any:
         with open(filepath, "r", encoding="utf-8") as f:
             return json.load(f)
     return default_fallback
+
+
+def should_ignore_entry(entry: Dict[str, Any]) -> bool:
+    """Returns True when the raw entry has a tag configured to be skipped."""
+    tags = entry.get("tags")
+    if not isinstance(tags, list):
+        return False
+
+    return any(tag in IGNORED_RAW_TAGS for tag in tags)
 
 
 def extract_name(
@@ -177,8 +187,13 @@ def process_state(state_code: str, state_name: str) -> None:
     for entry in raw_entries:
         if entry.get("regionalScope") == "Local":
             continue
+        if should_ignore_entry(entry):
+            continue
 
         entry_id = entry.get("id")
+        if not entry_id:
+            continue
+
         working_data[entry_id] = {
             "id": entry_id,
             "name": extract_name(entry.get("name"), entry_id, state_code),

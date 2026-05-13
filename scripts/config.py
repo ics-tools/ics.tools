@@ -41,6 +41,9 @@ SCHOOL_HOLIDAYS_OVERRIDE_DIR = "data/school_holidays/override"
 SCHOOL_HOLIDAYS_RESULT_DIR = "data/school_holidays/result"
 SCHOOL_HOLIDAYS_ICS_DIR = "Ferien"
 
+# Raw holiday entries carrying any of these tags are skipped during merge.
+IGNORED_RAW_TAGS = ["Exception"]
+
 # Website generation config
 WEBSITE_BASE_URL = "https://ics.tools/"
 WEBSITE_TEMPLATE_DIR = "website_template"
