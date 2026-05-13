@@ -5,6 +5,7 @@ from datetime import datetime, timezone
 from typing import List, Dict, Any, Optional
 from config import (
     IGNORED_RAW_TAGS,
+    PUBLIC_HOLIDAY_GROUPS_BY_STATE,
     PUBLIC_HOLIDAYS_OVERRIDE_DIR,
     PUBLIC_HOLIDAYS_RAW_DIR,
     PUBLIC_HOLIDAYS_RESULT_DIR,
@@ -40,6 +41,37 @@ def should_ignore_entry(entry: Dict[str, Any]) -> bool:
         return False
 
     return any(tag in IGNORED_RAW_TAGS for tag in tags)
+
+
+def get_entry_group_codes(entry: Dict[str, Any]) -> List[str]:
+    """Extracts group codes from a raw entry, ignoring malformed items."""
+    groups = entry.get("groups")
+    if not isinstance(groups, list):
+        return []
+
+    group_codes: List[str] = []
+    for group in groups:
+        if isinstance(group, dict):
+            group_code = group.get("code")
+            if group_code:
+                group_codes.append(group_code)
+        elif isinstance(group, str) and group:
+            group_codes.append(group)
+
+    return group_codes
+
+
+def should_keep_entry_for_state(entry: Dict[str, Any], state_code: str) -> bool:
+    """Keeps all entries when no state filter exists or when an entry has no groups."""
+    allowed_groups = PUBLIC_HOLIDAY_GROUPS_BY_STATE.get(state_code)
+    if not allowed_groups:
+        return True
+
+    entry_groups = get_entry_group_codes(entry)
+    if not entry_groups:
+        return True
+
+    return any(group_code in allowed_groups for group_code in entry_groups)
 
 
 def extract_name(
@@ -188,6 +220,8 @@ def process_state(state_code: str, state_name: str) -> None:
         if entry.get("regionalScope") == "Local":
             continue
         if should_ignore_entry(entry):
+            continue
+        if not should_keep_entry_for_state(entry, state_code):
             continue
 
         entry_id = entry.get("id")

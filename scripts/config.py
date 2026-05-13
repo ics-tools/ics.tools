@@ -44,6 +44,18 @@ SCHOOL_HOLIDAYS_ICS_DIR = "Ferien"
 # Raw holiday entries carrying any of these tags are skipped during merge.
 IGNORED_RAW_TAGS = ["Exception"]
 
+# Per-state group filters for raw entries.
+# Use None or omit a state to keep all groups.
+# Entries without group metadata are always kept.
+PUBLIC_HOLIDAY_GROUPS_BY_STATE = {
+    # Example:
+    # "MV": ["DE-MV-ABS"],
+}
+
+SCHOOL_HOLIDAY_GROUPS_BY_STATE = {
+    "MV": ["DE-MV-ABS"],
+}
+
 # Website generation config
 WEBSITE_BASE_URL = "https://ics.tools/"
 WEBSITE_TEMPLATE_DIR = "website_template"
