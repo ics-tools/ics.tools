@@ -42,6 +42,9 @@ jobs:
       - name: Generate school holidays ics
         run: python scripts/03_generate_school_holidays_ics.py
 
+      - name: Generate combined public holidays ics
+        run: python scripts/04_generate_public_holidays_aggregated_ics.py
+
       - name: Run unit tests
         run: pytest
       
