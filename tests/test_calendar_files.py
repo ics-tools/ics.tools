@@ -1,5 +1,6 @@
 import pytest
 import os
+from datetime import datetime, timedelta
 
 import requests
 from icalendar import Calendar
@@ -68,6 +69,55 @@ def build_expected_calendar_name(ics_path: str) -> str:
     
     return f"{expected_name_part} {category_name}"
 
+
+def iter_event_days(component):
+    dtstart_prop = component.get("dtstart")
+    if not dtstart_prop:
+        return []
+
+    dtstart = dtstart_prop.dt
+    dtstart_date = dtstart.date() if isinstance(dtstart, datetime) else dtstart
+
+    dtend_prop = component.get("dtend")
+    if not dtend_prop:
+        return [dtstart_date]
+
+    dtend = dtend_prop.dt
+
+    if isinstance(dtend, datetime):
+        end_date = dtend.date() - timedelta(days=1) if dtend.time() == datetime.min.time() else dtend.date()
+    else:
+        end_date = dtend - timedelta(days=1)
+
+    if end_date < dtstart_date:
+        end_date = dtstart_date
+
+    return [dtstart_date + timedelta(days=offset) for offset in range((end_date - dtstart_date).days + 1)]
+
+
+def get_event_period(component):
+    dtstart_prop = component.get("dtstart")
+    if not dtstart_prop:
+        return None
+
+    dtstart = dtstart_prop.dt
+    start_date = dtstart.date() if isinstance(dtstart, datetime) else dtstart
+
+    dtend_prop = component.get("dtend")
+    if not dtend_prop:
+        return start_date, start_date
+
+    dtend = dtend_prop.dt
+    if isinstance(dtend, datetime):
+        end_date = dtend.date() - timedelta(days=1) if dtend.time() == datetime.min.time() else dtend.date()
+    else:
+        end_date = dtend - timedelta(days=1)
+
+    if end_date < start_date:
+        end_date = start_date
+
+    return start_date, end_date
+
 def test_calendar_name_matches_filename_with_suffix(parsed_calendar):
     cal, path = parsed_calendar
 
@@ -80,6 +130,38 @@ def test_calendar_name_matches_filename_with_suffix(parsed_calendar):
     expected_name = build_expected_calendar_name(path)
     assert cal_name == expected_name, f"Expected calendar name '{expected_name}', but found '{cal_name}' (NAME) in {path}"
     assert x_wr_cal_name == expected_name, f"Expected calendar name '{expected_name}', but found '{x_wr_cal_name}' (X-WR-CALNAME) in {path}"
+
+
+def test_no_overlapping_event_periods(parsed_calendar):
+    cal, path = parsed_calendar
+
+    events = []
+
+    for component in cal.walk("VEVENT"):
+        summary = str(component.get("summary", "Ohne Titel"))
+        event_period = get_event_period(component)
+        if event_period is None:
+            continue
+
+        start_date, end_date = event_period
+        events.append((summary, start_date, end_date))
+
+    conflicts = []
+    for index, (summary_a, start_a, end_a) in enumerate(events):
+        for summary_b, start_b, end_b in events[index + 1 :]:
+            overlap_start = max(start_a, start_b)
+            overlap_end = min(end_a, end_b)
+            if overlap_start <= overlap_end:
+                conflicts.append((summary_a, start_a, end_a, summary_b, start_b, end_b, overlap_start, overlap_end))
+
+    assert not conflicts, (
+        f"Found overlapping event periods in {path} ({len(conflicts)} pairs):\n"
+        + "\n".join(
+            f"- {summary_a} [{start_a} -> {end_a}] <-> {summary_b} [{start_b} -> {end_b}] | overlap {overlap_start}..{overlap_end}"
+            for summary_a, start_a, end_a, summary_b, start_b, end_b, overlap_start, overlap_end in conflicts[:25]
+        )
+        + (f"\n... and {len(conflicts) - 25} more" if len(conflicts) > 25 else "")
+    )
 
 
 @pytest.mark.parametrize("ics_path", find_ics_files())
