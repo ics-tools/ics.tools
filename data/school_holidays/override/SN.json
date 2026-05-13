@@ -1,3 +1,17 @@
 {
-    "$schema": "../../schema/school-holiday-override.schema.json"
+    "$schema": "../../schema/school-holiday-override.schema.json",
+    "new": [
+        {
+            "id": "30969724-a39d-423e-a769-2b964f4a264b",
+            "name": "Unterrichtsfreier Tag 2020 Sachsen",
+            "startDate": "2020-05-22",
+            "endDate": "2020-05-22"
+        },
+        {
+            "id": "2787e3c8-7cde-4404-85ce-c0dcecd70674",
+            "name": "Unterrichtsfreier Tag 2021 Sachsen",
+            "startDate": "2021-05-14",
+            "endDate": "2021-05-14"
+        }
+    ]
 }
