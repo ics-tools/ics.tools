@@ -62,6 +62,10 @@ def build_expected_calendar_name(ics_path: str) -> str:
             category_name = dirname
 
     expected_name_part = filename.title()
+    
+    if filename == "bundesweit" and dirname == "Feiertage":
+        expected_name_part = "Bundesweite"
+    
     return f"{expected_name_part} {category_name}"
 
 def test_calendar_name_matches_filename_with_suffix(parsed_calendar):

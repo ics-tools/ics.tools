@@ -186,7 +186,7 @@ def main() -> None:
             bundesweit_holidays.append(normalized_item)
 
     build_calendar("Alle Feiertage", "alle", all_holidays)
-    build_calendar("Bundesweit Feiertage", "bundesweit", bundesweit_holidays)
+    build_calendar("Bundesweite Feiertage", "bundesweit", bundesweit_holidays)
 
 
 if __name__ == "__main__":
