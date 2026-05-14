@@ -136,6 +136,26 @@
       "sequence": 0
     },
     {
+      "id": "36b8bb1e-b5f8-4c5c-a073-0568651037ad",
+      "name": "Schulfreier Tag 2020 Thüringen",
+      "date": "2022-01-03",
+      "endDate": "2022-01-03",
+      "md5": "b7f91124ddc6cfe756ee6c9cac7d4c87",
+      "created": "2026-05-14T01:30:42+00:00",
+      "modified": "2026-05-14T01:30:42+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "de814b66-3056-4dd1-bf6e-6bcf01b558a4",
+      "name": "Schulfreier Tag 2020 Thüringen",
+      "date": "2022-01-04",
+      "endDate": "2022-01-04",
+      "md5": "5e61e994044a76914a36aaba841afa80",
+      "created": "2026-05-14T01:30:42+00:00",
+      "modified": "2026-05-14T01:30:42+00:00",
+      "sequence": 0
+    },
+    {
       "id": "65b500f5-a8b5-4817-8d68-75bd33044a3c",
       "name": "Winterferien 2022 Thüringen",
       "date": "2022-02-12",

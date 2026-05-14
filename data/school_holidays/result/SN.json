@@ -36,6 +36,16 @@
       "sequence": 0
     },
     {
+      "id": "30969724-a39d-423e-a769-2b964f4a264b",
+      "name": "Unterrichtsfreier Tag 2020 Sachsen",
+      "date": "2020-05-22",
+      "endDate": "2020-05-22",
+      "md5": "3e7bd24eb86788d4b34db163a6b0b699",
+      "created": "2026-05-14T01:30:42+00:00",
+      "modified": "2026-05-14T01:30:42+00:00",
+      "sequence": 0
+    },
+    {
       "id": "a6365c63-b581-41c6-8de6-ca9e4bbd1412",
       "name": "Sommerferien 2020 Sachsen",
       "date": "2020-07-20",
@@ -83,6 +93,16 @@
       "md5": "039f7c01e3b9b6e3c15c63778867c82e",
       "created": "2026-05-11T12:44:20+00:00",
       "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "2787e3c8-7cde-4404-85ce-c0dcecd70674",
+      "name": "Unterrichtsfreier Tag 2021 Sachsen",
+      "date": "2021-05-14",
+      "endDate": "2021-05-14",
+      "md5": "028bb24c495c6df9bf0a9c4159e3a532",
+      "created": "2026-05-14T01:30:42+00:00",
+      "modified": "2026-05-14T01:30:42+00:00",
       "sequence": 0
     },
     {

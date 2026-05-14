@@ -66,6 +66,16 @@
       "sequence": 0
     },
     {
+      "id": "187fe437-9f20-45a7-be6e-7c2620de714a",
+      "name": "Gründonnerstag 2021 Baden-Württemberg",
+      "date": "2021-04-01",
+      "endDate": "2021-04-01",
+      "md5": "c644f57cc26aab41eb11440ca4afaa31",
+      "created": "2026-05-14T01:30:42+00:00",
+      "modified": "2026-05-14T01:30:42+00:00",
+      "sequence": 0
+    },
+    {
       "id": "95a9db7e-a499-409a-9d50-ec0535804041",
       "name": "Osterferien 2021 Baden-Württemberg",
       "date": "2021-04-06",
@@ -73,6 +83,16 @@
       "md5": "69d4e2614b106474a11c7938d2e85d7c",
       "created": "2026-05-11T12:44:20+00:00",
       "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "7f0f473a-8950-4aac-9acc-7381ce194237",
+      "name": "Gründonnerstag 2022 Baden-Württemberg",
+      "date": "2021-04-14",
+      "endDate": "2021-04-14",
+      "md5": "fd1205c544096b5cfeb084fc807e6e93",
+      "created": "2026-05-14T01:30:42+00:00",
+      "modified": "2026-05-14T01:30:42+00:00",
       "sequence": 0
     },
     {
@@ -93,6 +113,16 @@
       "md5": "33f21189b6c56b6dcb1b76f6f5a5960f",
       "created": "2026-05-11T12:44:20+00:00",
       "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "338ae26a-d9f9-477a-81dc-68db4d1d56c1",
+      "name": "Reformationsfest 2021 Baden-Württemberg",
+      "date": "2021-10-31",
+      "endDate": "2021-10-31",
+      "md5": "3f7aaab43c29ca99e5198976626c6435",
+      "created": "2026-05-14T01:30:42+00:00",
+      "modified": "2026-05-14T01:30:42+00:00",
       "sequence": 0
     },
     {

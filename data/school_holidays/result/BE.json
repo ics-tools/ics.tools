@@ -138,11 +138,21 @@
     {
       "id": "344b2197-5a52-4df3-894c-317f836fe1a4",
       "name": "Winterferien 2022 Berlin",
-      "date": "2022-01-30",
-      "endDate": "2022-02-04",
-      "md5": "2eaaa971e49d19406aef608a381558d0",
+      "date": "2022-01-29",
+      "endDate": "2022-02-05",
+      "md5": "90517a2ca1c1300e4403d1a634ea83d5",
       "created": "2026-05-11T12:44:20+00:00",
-      "modified": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-14T01:30:42+00:00",
+      "sequence": 1
+    },
+    {
+      "id": "2c65aea7-e1a2-46ac-9cc1-ba0ab7addb4a",
+      "name": "Unterrichtsfreier Tag 2022 Berlin",
+      "date": "2022-03-07",
+      "endDate": "2022-03-07",
+      "md5": "d582b16284d6cb0d7417b6602f933e3e",
+      "created": "2026-05-14T01:30:42+00:00",
+      "modified": "2026-05-14T01:30:42+00:00",
       "sequence": 0
     },
     {
@@ -179,11 +189,11 @@
       "id": "6b3491f3-455d-4ba1-bbbd-3e5aa1c20416",
       "name": "Sommerferien 2022 Berlin",
       "date": "2022-07-07",
-      "endDate": "2022-08-18",
-      "md5": "d399a39913138cb0f2cd9c108ce16a73",
+      "endDate": "2022-08-19",
+      "md5": "a3b4100e4bce5e3720455cc77352fd13",
       "created": "2026-05-11T12:44:20+00:00",
-      "modified": "2026-05-11T12:44:20+00:00",
-      "sequence": 0
+      "modified": "2026-05-14T01:30:42+00:00",
+      "sequence": 1
     },
     {
       "id": "056d3c40-8a26-4bee-affa-75e22430a086",
