@@ -1,3 +1,22 @@
 {
-    "$schema": "../../schema/school-holiday-override.schema.json"
+    "$schema": "../../schema/school-holiday-override.schema.json",
+    "new": [
+        {
+            "id": "2c65aea7-e1a2-46ac-9cc1-ba0ab7addb4a",
+            "name": "Unterrichtsfreier Tag 2022 Berlin",
+            "startDate": "2022-03-07",
+            "endDate": "2022-03-07"
+        }
+    ],
+    "modify": [
+        {
+            "id": "344b2197-5a52-4df3-894c-317f836fe1a4",
+            "startDate": "2022-01-29",
+            "endDate": "2022-02-05"
+        },
+        {
+            "id": "6b3491f3-455d-4ba1-bbbd-3e5aa1c20416",
+            "endDate": "2022-08-19"
+        }
+    ]
 }

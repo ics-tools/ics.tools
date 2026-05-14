@@ -1,3 +1,9 @@
 {
-    "$schema": "../../schema/school-holiday-override.schema.json"
+    "$schema": "../../schema/school-holiday-override.schema.json",
+    "modify": [
+        {
+            "id": "8c10cfa2-9af6-4ec5-bb00-c358fbf3b0f3",
+            "endDate": "2023-11-03"
+        }
+    ]
 }

@@ -1,3 +1,23 @@
 {
-    "$schema": "../../schema/school-holiday-override.schema.json"
+    "$schema": "../../schema/school-holiday-override.schema.json",
+    "new": [
+        {
+            "id": "187fe437-9f20-45a7-be6e-7c2620de714a",
+            "name": "Gründonnerstag 2021 Baden-Württemberg",
+            "startDate": "2021-04-01",
+            "endDate": "2021-04-01"
+        },
+        {
+            "id": "338ae26a-d9f9-477a-81dc-68db4d1d56c1",
+            "name": "Reformationsfest 2021 Baden-Württemberg",
+            "startDate": "2021-10-31",
+            "endDate": "2021-10-31"
+        },
+        {
+            "id": "7f0f473a-8950-4aac-9acc-7381ce194237",
+            "name": "Gründonnerstag 2022 Baden-Württemberg",
+            "startDate": "2021-04-14",
+            "endDate": "2021-04-14"
+        }
+    ]
 }
