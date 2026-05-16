@@ -549,11 +549,11 @@
       "id": "559ea68e-e562-4b71-b177-fd2884f06441",
       "name": "Herbstferien 2025 Mecklenburg-Vorpommern",
       "date": "2025-10-20",
-      "endDate": "2025-10-25",
-      "md5": "12250523bc3662e4ee5494454ba4a848",
+      "endDate": "2025-10-24",
+      "md5": "23c57743f49a30b0834578e43723e12a",
       "created": "2026-05-11T12:44:20+00:00",
-      "modified": "2026-05-14T01:30:42+00:00",
-      "sequence": 1
+      "modified": "2026-05-16T20:50:29+00:00",
+      "sequence": 2
     },
     {
       "id": "eaa6ecbe-07f5-4d36-8e7d-b54a6fbe85f0",
@@ -568,12 +568,12 @@
     {
       "id": "572f118a-d564-41bc-bec6-384f1f9a33b7",
       "name": "Weihnachtsferien 2025 Mecklenburg-Vorpommern",
-      "date": "2025-12-22",
+      "date": "2025-12-20",
       "endDate": "2026-01-03",
-      "md5": "427c375f3e478092ac69d62523754d9c",
+      "md5": "4bdfabdc6c1915832f53839eb28973fd",
       "created": "2026-05-11T12:44:20+00:00",
-      "modified": "2026-05-14T01:30:42+00:00",
-      "sequence": 1
+      "modified": "2026-05-16T20:50:29+00:00",
+      "sequence": 2
     },
     {
       "id": "60a7807f-9463-4c71-bcac-1eec6918918e",
@@ -628,12 +628,12 @@
     {
       "id": "afcf89fd-5efc-458a-99fe-361fbd6e7af4",
       "name": "Herbstferien 2026 Mecklenburg-Vorpommern",
-      "date": "2026-10-19",
+      "date": "2026-10-15",
       "endDate": "2026-10-24",
-      "md5": "22e503f267b8fd89142754bc282d06ca",
+      "md5": "e2361f48a78d486967fe46d9f4604099",
       "created": "2026-05-11T12:44:20+00:00",
-      "modified": "2026-05-14T01:30:42+00:00",
-      "sequence": 1
+      "modified": "2026-05-16T20:50:29+00:00",
+      "sequence": 2
     },
     {
       "id": "45efb86d-5b0b-4f35-8684-a787a04043cb",
@@ -658,12 +658,12 @@
     {
       "id": "070bae4d-8671-4c87-8dbb-6f790aa12e4e",
       "name": "Weihnachtsferien 2026 Mecklenburg-Vorpommern",
-      "date": "2026-12-19",
+      "date": "2026-12-21",
       "endDate": "2027-01-02",
-      "md5": "dd229e1152d810a63f4fba8dc276be4d",
+      "md5": "6d655acffc487e67f02ebff124836c53",
       "created": "2026-05-11T12:44:20+00:00",
-      "modified": "2026-05-14T01:30:42+00:00",
-      "sequence": 1
+      "modified": "2026-05-16T20:50:29+00:00",
+      "sequence": 2
     },
     {
       "id": "97de5c95-2c41-4709-a8bf-bf5910ee758d",
