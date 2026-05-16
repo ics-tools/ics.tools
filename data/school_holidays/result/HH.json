@@ -1,0 +1,609 @@
+{
+  "$schema": "../../schema/school-holidays.schema.json",
+  "metadata": {
+    "state": "Hamburg",
+    "code": "HH"
+  },
+  "holidays": [
+    {
+      "id": "762d866a-ea90-42c6-ba87-df77be17b0b8",
+      "name": "Weihnachtsferien 2019 Hamburg",
+      "date": "2019-12-20",
+      "endDate": "2020-01-03",
+      "md5": "fd73b79b06503f581190a0c4a2a19089",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "b631bb39-d371-447e-bf26-0fcef3e7447a",
+      "name": "Halbjahrespause 2020 Hamburg",
+      "date": "2020-01-31",
+      "endDate": "2020-01-31",
+      "md5": "bedc2bdbd7d19ef1bb06936081e99e57",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "e2152d9f-3f53-40f4-bec4-9c9b1ff74519",
+      "name": "Frühjahrsferien 2020 Hamburg",
+      "date": "2020-03-02",
+      "endDate": "2020-03-13",
+      "md5": "fb211b2371698f199be70a66f8dedad9",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "5f005e0d-06ae-4a9f-ab63-3a1b13099b21",
+      "name": "Pfingstferien 2020 Hamburg",
+      "date": "2020-05-18",
+      "endDate": "2020-05-22",
+      "md5": "a3b129b5e1e76821d85749f5a268ff89",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "bc419a81-5142-46b4-ae3f-2c7f5069aae7",
+      "name": "Sommerferien 2020 Hamburg",
+      "date": "2020-06-25",
+      "endDate": "2020-08-05",
+      "md5": "3a333534773793efc0e3e27561ebc6e9",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "1395b88d-82ef-429c-9afd-a3d5e4d16251",
+      "name": "Herbstferien 2020 Hamburg",
+      "date": "2020-10-05",
+      "endDate": "2020-10-16",
+      "md5": "b785a6016d804cbea54e97f56baafeb8",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "bea523d6-d253-4e64-8ceb-23eb68e0c960",
+      "name": "Weihnachtsferien 2020 Hamburg",
+      "date": "2020-12-21",
+      "endDate": "2021-01-04",
+      "md5": "f2c4c1b60e4ba91783ab7f7dab5201b6",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "613aae45-a2b8-4bf7-81f9-77033fb572f9",
+      "name": "Halbjahrespause 2021 Hamburg",
+      "date": "2021-01-29",
+      "endDate": "2021-01-29",
+      "md5": "516189daefa6a4486aeb7b0a76b8e918",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "84fbee02-fa82-4567-b712-ef8924b6faba",
+      "name": "Frühjahrsferien 2021 Hamburg",
+      "date": "2021-03-01",
+      "endDate": "2021-03-12",
+      "md5": "581ab653f340680071f31ffa1d32c5f8",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "d0c05570-1cfd-4bc8-b3be-7913c2f3ecc7",
+      "name": "Pfingstferien 2021 Hamburg",
+      "date": "2021-05-10",
+      "endDate": "2021-05-14",
+      "md5": "533c4cdab888a9abf0ce53088bad8eaa",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "84fce7ce-f125-4945-9cce-3f96a9be62aa",
+      "name": "Sommerferien 2021 Hamburg",
+      "date": "2021-06-24",
+      "endDate": "2021-08-04",
+      "md5": "116015a9ac14ce2c014dd56fb6654546",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "f9c37593-bac5-4fe9-b695-0af5cc39e455",
+      "name": "Herbstferien 2021 Hamburg",
+      "date": "2021-10-04",
+      "endDate": "2021-10-15",
+      "md5": "2ee273d73c0df137618ee9000c2c49ab",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "1e261639-4f7a-4fde-8cc8-6d6a1fb9a2a2",
+      "name": "Weihnachtsferien 2021 Hamburg",
+      "date": "2021-12-23",
+      "endDate": "2022-01-04",
+      "md5": "beda2b94ee6dbf6f0b22d7b6fc8774c3",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "fdc1efbd-4bdc-40f8-8ddb-98fb3bc56ac3",
+      "name": "Halbjahrespause 2022 Hamburg",
+      "date": "2022-01-28",
+      "endDate": "2022-01-28",
+      "md5": "184054c49d57d8852f6afda79a7c25eb",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "8f46427d-bc1b-42d4-8f6e-cc82366af75d",
+      "name": "Frühjahrsferien 2022 Hamburg",
+      "date": "2022-03-07",
+      "endDate": "2022-03-18",
+      "md5": "6a64bb6750aaa22699ca79842c285233",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "f961a294-5bf7-4fe1-9d03-0223952657ea",
+      "name": "Pfingstferien 2022 Hamburg",
+      "date": "2022-05-23",
+      "endDate": "2022-05-27",
+      "md5": "74c02b1d2519033266963634a63a7f13",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "940148ef-a89e-4f48-ba41-37ec1e5fc593",
+      "name": "Sommerferien 2022 Hamburg",
+      "date": "2022-07-07",
+      "endDate": "2022-08-17",
+      "md5": "e035897e2d6c6d92a24b056be047d23b",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "d55fd631-c532-43fa-b97c-c24ab34e3196",
+      "name": "Herbstferien 2022 Hamburg",
+      "date": "2022-10-10",
+      "endDate": "2022-10-21",
+      "md5": "d4b853e9ab61c14f302d55ccbdfa72e1",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "7c7a202a-5725-4676-a6dd-22d6e99aafd3",
+      "name": "Weihnachtsferien 2022 Hamburg",
+      "date": "2022-12-23",
+      "endDate": "2023-01-06",
+      "md5": "7bfba1b006638cfbee1054a657aaea6a",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "b8cf2000-8fee-4b38-968b-f9d5b965cb2c",
+      "name": "Halbjahrespause 2023 Hamburg",
+      "date": "2023-01-27",
+      "endDate": "2023-01-27",
+      "md5": "1ae403d1a7615dd16ce6506ad851d18d",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "c009f4d0-66a0-4535-a3fe-671bbd745888",
+      "name": "Frühjahrsferien 2023 Hamburg",
+      "date": "2023-03-06",
+      "endDate": "2023-03-17",
+      "md5": "2d4adf883f2dcade70ff7f9737bdb2a7",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "dd5e932f-6144-4ab7-a91e-50951dea8451",
+      "name": "Pfingstferien 2023 Hamburg",
+      "date": "2023-05-15",
+      "endDate": "2023-05-19",
+      "md5": "3f22ae5d8c5a1f5200a45a343ad7ef42",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "78d48fc0-ea1b-458e-83d1-effc1f8c2578",
+      "name": "Sommerferien 2023 Hamburg",
+      "date": "2023-07-13",
+      "endDate": "2023-08-23",
+      "md5": "1cc96411b93bc681790313add0d4c100",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "04119849-4338-4ab2-984c-96563dfd73c5",
+      "name": "Brückentag 2023 Hamburg",
+      "date": "2023-10-02",
+      "endDate": "2023-10-02",
+      "md5": "915a381ed997d0252449f4e7d32757f8",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "39eef421-15b9-47d6-bbba-00dfa39608e4",
+      "name": "Herbstferien 2023 Hamburg",
+      "date": "2023-10-16",
+      "endDate": "2023-10-27",
+      "md5": "116c233e15c108780fbcb7b70c62f7af",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "d4b3a18d-b143-4d2d-aaed-b8a6fca7c1a0",
+      "name": "Weihnachtsferien 2023 Hamburg",
+      "date": "2023-12-22",
+      "endDate": "2024-01-05",
+      "md5": "3905abb1658a1e6b79619aab0c6d74a0",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "92af21ec-7942-408d-9d14-2c523a6ae25b",
+      "name": "Halbjahrespause 2024 Hamburg",
+      "date": "2024-02-02",
+      "endDate": "2024-02-02",
+      "md5": "f80c1affaf4bce69bb80a0df93fd6d5d",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "23ef7fed-0728-4979-8552-e5decd12cc3a",
+      "name": "Frühjahrsferien 2024 Hamburg",
+      "date": "2024-03-18",
+      "endDate": "2024-03-28",
+      "md5": "30febc153340328f76803e42f986f46d",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "16bb7469-c1ec-426f-9593-b6b723e0e380",
+      "name": "Brückentag 2024 Hamburg",
+      "date": "2024-05-10",
+      "endDate": "2024-05-10",
+      "md5": "63b69db7d00ee232917eb28bed2694b2",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "ddfeab88-5946-4027-93d9-494a2f4cd2bb",
+      "name": "Pfingstferien 2024 Hamburg",
+      "date": "2024-05-21",
+      "endDate": "2024-05-24",
+      "md5": "c50fbf3eae521425c28eec41df30a62a",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "d70bfa21-5086-4444-bc66-80f0db3d45bc",
+      "name": "Sommerferien 2024 Hamburg",
+      "date": "2024-07-18",
+      "endDate": "2024-08-28",
+      "md5": "5a7161811c9f3a6fda355ceb267c0880",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "e3ded5e4-1f39-4a31-ad03-f078c523ed2b",
+      "name": "Brückentag 2024 Hamburg",
+      "date": "2024-10-04",
+      "endDate": "2024-10-04",
+      "md5": "01042750601c806662dfcf9d62900133",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "90ffe451-e10d-4362-a5fa-b116e3af78a8",
+      "name": "Herbstferien 2024 Hamburg",
+      "date": "2024-10-21",
+      "endDate": "2024-11-01",
+      "md5": "37fcd4bea263515ac133f9a4495cdee9",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "c7ac38c5-318e-4eda-b793-86c77f4e4150",
+      "name": "Weihnachtsferien 2024 Hamburg",
+      "date": "2024-12-20",
+      "endDate": "2025-01-03",
+      "md5": "7fa843a6d5ce84d4b77d58a231d9348d",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "adde677a-fd87-4595-b2b9-c4ea84976adf",
+      "name": "Halbjahrespause 2025 Hamburg",
+      "date": "2025-01-31",
+      "endDate": "2025-01-31",
+      "md5": "1a1f1b2412fb0acb7482b210c1205517",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "ce0b0c9c-120d-4804-b5b7-38d2c0c06a4f",
+      "name": "Frühjahrsferien 2025 Hamburg",
+      "date": "2025-03-10",
+      "endDate": "2025-03-21",
+      "md5": "a69ad87355dae11831b66a30920da0e1",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "f970af1d-e3a2-4aeb-a601-7bb255607853",
+      "name": "Brückentag 2025 Hamburg",
+      "date": "2025-05-02",
+      "endDate": "2025-05-02",
+      "md5": "059a123a209be0ce113abfe8a4af6679",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "97cb510d-bd74-4af0-a027-63c5eaebbf37",
+      "name": "Pfingstferien 2025 Hamburg",
+      "date": "2025-05-26",
+      "endDate": "2025-05-30",
+      "md5": "5f2ff0bf7401bd312e472ed584b9f0f0",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "8a162264-6702-4ff3-a37b-dee1138c70b0",
+      "name": "Sommerferien 2025 Hamburg",
+      "date": "2025-07-24",
+      "endDate": "2025-09-03",
+      "md5": "18a2a8a53a021da325afea35099f05fe",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "66558e3c-97ac-4c16-86d9-89c594cd859e",
+      "name": "Herbstferien 2025 Hamburg",
+      "date": "2025-10-20",
+      "endDate": "2025-10-31",
+      "md5": "7fcd0d60526b1722dfb4d32a89e2d2dc",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "a59f841b-5270-44c7-8db4-84475b3609f4",
+      "name": "Weihnachtsferien 2025 Hamburg",
+      "date": "2025-12-17",
+      "endDate": "2026-01-02",
+      "md5": "d4b9797293f1479a3c57512b1b28d00e",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "d727d016-6332-4deb-9b9f-22eeef93012c",
+      "name": "Halbjahrespause 2026 Hamburg",
+      "date": "2026-01-30",
+      "endDate": "2026-01-30",
+      "md5": "b286901cb9048e9f1bdb4ffde6d59251",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "ff13281f-c725-4e2d-8a9f-49a7b6c71929",
+      "name": "Frühjahrsferien 2026 Hamburg",
+      "date": "2026-03-02",
+      "endDate": "2026-03-13",
+      "md5": "87818ad2256c1608997a98ffbe1ffb88",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "c66cd8e1-3006-4faa-acfd-2ea530c4f509",
+      "name": "Pfingstferien 2026 Hamburg",
+      "date": "2026-05-11",
+      "endDate": "2026-05-15",
+      "md5": "1d17dc13c74244797e6e712b38d0820a",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "41e8dc5c-a277-4ede-8c5c-22d83b5a07fd",
+      "name": "Sommerferien 2026 Hamburg",
+      "date": "2026-07-09",
+      "endDate": "2026-08-19",
+      "md5": "5063cd6e97cee411308f4ad2b7d0c1bf",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "e5d6d426-f4bf-4141-8cf0-9ceb75e0b8ac",
+      "name": "Herbstferien 2026 Hamburg",
+      "date": "2026-10-19",
+      "endDate": "2026-10-30",
+      "md5": "1607a596a4c0e589ae2f12476fd37393",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "435fe17e-e781-4107-9ea8-9b6e7c99b5ab",
+      "name": "Weihnachtsferien 2026 Hamburg",
+      "date": "2026-12-21",
+      "endDate": "2027-01-01",
+      "md5": "f9ab31d58a6b753b7770c33ae25614b2",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "92fecab9-5b32-471f-8124-8d7c923737b9",
+      "name": "Halbjahrespause 2027 Hamburg",
+      "date": "2027-01-29",
+      "endDate": "2027-01-29",
+      "md5": "a41c365f10793c174cb3c9ad7dfb2b50",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "05be1dd5-6870-41d7-8718-22532f9a297e",
+      "name": "Frühjahrsferien 2027 Hamburg",
+      "date": "2027-03-01",
+      "endDate": "2027-03-12",
+      "md5": "7291d6b257619c06ff942d9349d72c02",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "f19144e6-fdc5-4025-b5f7-54bbf6954716",
+      "name": "Pfingstferien 2027 Hamburg",
+      "date": "2027-05-07",
+      "endDate": "2027-05-14",
+      "md5": "44d778190f816df650f8ae87e273bac5",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "2d636ff5-5761-46dd-ad90-ff0b59f9c135",
+      "name": "Sommerferien 2027 Hamburg",
+      "date": "2027-07-01",
+      "endDate": "2027-08-11",
+      "md5": "768e63c179edfccbe87b0cb48ee8312b",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "afa96b6e-76f8-4c87-8ae6-1c256598169b",
+      "name": "Herbstferien 2027 Hamburg",
+      "date": "2027-10-11",
+      "endDate": "2027-10-22",
+      "md5": "513d6e1d23cbec1e1b1f2718f45b5172",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "c39b1189-c24b-44e3-8a86-33ab1e857b85",
+      "name": "Weihnachtsferien 2027 Hamburg",
+      "date": "2027-12-20",
+      "endDate": "2027-12-31",
+      "md5": "551ef603410263cd29d883a1d0691067",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "5a5989e1-a0ec-424d-ae06-6b06ad17840c",
+      "name": "Halbjahrespause 2028 Hamburg",
+      "date": "2028-01-28",
+      "endDate": "2028-01-28",
+      "md5": "7b3ed0c58efcaef396ce16fccf2c2073",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "41a01cc4-c0ad-4dd2-b6c4-d58f8a7dd607",
+      "name": "Frühjahrsferien 2028 Hamburg",
+      "date": "2028-03-06",
+      "endDate": "2028-03-17",
+      "md5": "aa81f098e21af1d9e355fdd5dfd7af17",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "edce0c14-fd96-4674-a1d3-8d777bfd1e53",
+      "name": "Pfingstferien 2028 Hamburg",
+      "date": "2028-05-22",
+      "endDate": "2028-05-26",
+      "md5": "6da09d00fe307b22b1f0ec23d1030060",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "3e770c59-4fc4-48f6-9b2f-2ac64afa437f",
+      "name": "Sommerferien 2028 Hamburg",
+      "date": "2028-07-03",
+      "endDate": "2028-08-11",
+      "md5": "6dae60b27f6ee82016de0735426751dc",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "215674d5-01ba-4c28-b150-017ffbd14dd3",
+      "name": "Herbstferien 2028 Hamburg",
+      "date": "2028-10-02",
+      "endDate": "2028-10-13",
+      "md5": "9d08d060c50deff7be38b670a0f9cea4",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "e30ec0e3-6b84-4398-9a9d-3514a60144af",
+      "name": "Brückentag 2028 Hamburg",
+      "date": "2028-10-30",
+      "endDate": "2028-10-30",
+      "md5": "8052ba99b9bbaffba63e603babdf8b7b",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "5cc9f8cc-3b83-4587-afba-2ee71e44dadd",
+      "name": "Weihnachtsferien 2028 Hamburg",
+      "date": "2028-12-18",
+      "endDate": "2028-12-29",
+      "md5": "2a762e3893c278155abf2b6921a750ce",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    }
+  ]
+}

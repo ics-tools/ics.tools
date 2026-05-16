@@ -1,0 +1,639 @@
+{
+  "$schema": "../../schema/school-holidays.schema.json",
+  "metadata": {
+    "state": "Bayern",
+    "code": "BY"
+  },
+  "holidays": [
+    {
+      "id": "3c508482-faa7-4fe8-b80b-bb7f33dcc4ef",
+      "name": "Weihnachtsferien 2019 Bayern",
+      "date": "2019-12-23",
+      "endDate": "2020-01-04",
+      "md5": "389afa806988599201bc7535595c0136",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "a570a9c7-10b8-4ee9-b4a3-268f224017d0",
+      "name": "Frühjahrsferien 2020 Bayern",
+      "date": "2020-02-24",
+      "endDate": "2020-02-28",
+      "md5": "106d264594044398351d99691bf16090",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "e17083ad-ad28-4284-92b5-bf07da7958e1",
+      "name": "Osterferien 2020 Bayern",
+      "date": "2020-04-06",
+      "endDate": "2020-04-18",
+      "md5": "ecd18cffe8a9d4828245737158f1e5d7",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "bebe56e4-e16f-49af-8a3e-b01f03c74f59",
+      "name": "Pfingstferien 2020 Bayern",
+      "date": "2020-06-02",
+      "endDate": "2020-06-13",
+      "md5": "b6f28c7c09bd541473bbbe3db712ba13",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "915fb380-b6ad-4542-a2b2-2e7111323f49",
+      "name": "Sommerferien 2020 Bayern",
+      "date": "2020-07-27",
+      "endDate": "2020-09-07",
+      "md5": "e98a2e30173aaeebabc831a64f1ab1dc",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "f63af775-225d-47bd-bb9a-74e9450a9932",
+      "name": "Herbstferien 2020 Bayern",
+      "date": "2020-10-31",
+      "endDate": "2020-11-06",
+      "md5": "1e7d704dd82ea92ff87348a5b02fba62",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "010baeca-7fc4-468a-a869-181cd0560104",
+      "name": "Buß- und Bettag 2020 Bayern",
+      "date": "2020-11-18",
+      "endDate": "2020-11-18",
+      "md5": "5051d805f442610811c59deb9c3bca51",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "9b11d6b2-4ce1-4f7b-9472-e4c66fb63c06",
+      "name": "Weihnachtsferien 2020 Bayern",
+      "date": "2020-12-23",
+      "endDate": "2021-01-09",
+      "md5": "c9682e135535bed657a9a3fa49bca53e",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "b359fe5f-f6d9-45ee-8f8e-89bdfd557797",
+      "name": "Osterferien 2021 Bayern",
+      "date": "2021-03-29",
+      "endDate": "2021-04-10",
+      "md5": "6c8722b67c9a237463692caac05deb41",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "bee479e6-7a9f-44f6-9457-601a51cbc692",
+      "name": "Pfingstferien 2021 Bayern",
+      "date": "2021-05-25",
+      "endDate": "2021-06-04",
+      "md5": "8b537b463472421273f442b4d39b391e",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "bd663213-a04d-4d20-ae92-7ba54bf28257",
+      "name": "Sommerferien 2021 Bayern",
+      "date": "2021-07-30",
+      "endDate": "2021-09-13",
+      "md5": "5ed5fd51bae554e04b79526c47f82e14",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "170e3acd-6518-460d-824b-e7a86a8468e8",
+      "name": "Herbstferien 2021 Bayern",
+      "date": "2021-11-02",
+      "endDate": "2021-11-05",
+      "md5": "d746b180d3bddf5dfbc88f46eb5aafd0",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "b233ad5d-2c8d-4c58-89f7-b990a2bace91",
+      "name": "Buß- und Bettag 2021 Bayern",
+      "date": "2021-11-17",
+      "endDate": "2021-11-17",
+      "md5": "d8e83eeca384c69f82e88b4b8bd8dbc6",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "cba055e2-e225-44fa-a20f-37ec20355fa9",
+      "name": "Weihnachtsferien 2021 Bayern",
+      "date": "2021-12-24",
+      "endDate": "2022-01-08",
+      "md5": "c229dff5119883dddde5e1a57018c3cd",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "80a241e8-a0d0-4b89-8905-bb08cd6d28a6",
+      "name": "Frühjahrsferien 2022 Bayern",
+      "date": "2022-02-28",
+      "endDate": "2022-03-04",
+      "md5": "55c9894878bc5d5e0cb2a26bf3bdb8ae",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "64ebbda3-6c9b-4109-9326-185ca96b50e6",
+      "name": "Osterferien 2022 Bayern",
+      "date": "2022-04-11",
+      "endDate": "2022-04-23",
+      "md5": "7a19dda6960dc4e3ab1dcaeba31df78c",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "73e0cd5a-260d-4fad-8aa1-d45d9d9b0eae",
+      "name": "Pfingstferien 2022 Bayern",
+      "date": "2022-06-07",
+      "endDate": "2022-06-18",
+      "md5": "adf19b97391bea7151c584e308b4e044",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "51acc4e1-02ce-479f-bfe5-f5b8d2b5a747",
+      "name": "Sommerferien 2022 Bayern",
+      "date": "2022-08-01",
+      "endDate": "2022-09-12",
+      "md5": "3e9e191a30833da6dac5a2bdf3d191fa",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "b08785c5-cd40-4c92-834a-c6c18db0756b",
+      "name": "Herbstferien 2022 Bayern",
+      "date": "2022-10-31",
+      "endDate": "2022-11-04",
+      "md5": "fb12e6107113b7d98c53765a5005d5cb",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "ed59a45c-fef7-4471-8176-50bc77dcbff0",
+      "name": "Buß- und Bettag 2022 Bayern",
+      "date": "2022-11-16",
+      "endDate": "2022-11-16",
+      "md5": "debabc96a11611cc9ecbe6da2d0071a5",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "5a7eae70-428a-4bf5-8f40-8571e41cd058",
+      "name": "Weihnachtsferien 2022 Bayern",
+      "date": "2022-12-24",
+      "endDate": "2023-01-07",
+      "md5": "b5a5c60df3a59e97b98661cbf7e29043",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "e2e36723-b732-400f-8b60-4572eccb09d6",
+      "name": "Frühjahrsferien 2023 Bayern",
+      "date": "2023-02-20",
+      "endDate": "2023-02-24",
+      "md5": "4affb4aeb4a324f8f441fdc1e0332b91",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "950780d4-2182-4804-8678-1ec83168aeac",
+      "name": "Osterferien 2023 Bayern",
+      "date": "2023-04-03",
+      "endDate": "2023-04-15",
+      "md5": "0918ced95fdfee6abf8fff4c992651a0",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "327e5368-24ff-442d-aeee-8c02cb968ebd",
+      "name": "Pfingstferien 2023 Bayern",
+      "date": "2023-05-30",
+      "endDate": "2023-06-09",
+      "md5": "d29e7f00a51b1f3d768ea9f865494d57",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "91a595fc-ff92-43e7-9bd8-f08e6da028fc",
+      "name": "Sommerferien 2023 Bayern",
+      "date": "2023-07-31",
+      "endDate": "2023-09-11",
+      "md5": "92d221508c6becabe607c8eb6ea98ef1",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "8c10cfa2-9af6-4ec5-bb00-c358fbf3b0f3",
+      "name": "Herbstferien 2023 Bayern",
+      "date": "2023-10-30",
+      "endDate": "2023-11-03",
+      "md5": "df0a9f7b3d8b75d4cca70958f0bd6496",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-14T01:30:42+00:00",
+      "sequence": 1
+    },
+    {
+      "id": "fcfe3a89-c9d3-4879-988b-6471e4abb0ec",
+      "name": "Buß- und Bettag 2023 Bayern",
+      "date": "2023-11-22",
+      "endDate": "2023-11-22",
+      "md5": "14f4328a1d5fee91c0b353d90396d3e6",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "b5fc4c46-d6db-434a-b65f-329d14491938",
+      "name": "Weihnachtsferien 2023 Bayern",
+      "date": "2023-12-23",
+      "endDate": "2024-01-05",
+      "md5": "89593008d060c65675a85f2f61ad73dd",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "f4cbdd5b-1bf6-4530-8620-b8ddecbbb636",
+      "name": "Frühjahrsferien 2024 Bayern",
+      "date": "2024-02-12",
+      "endDate": "2024-02-16",
+      "md5": "2745c439e00a06939436cad627328526",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "807d237c-c6d4-4b9f-886f-8e0d805a0397",
+      "name": "Osterferien 2024 Bayern",
+      "date": "2024-03-25",
+      "endDate": "2024-04-06",
+      "md5": "1befb5c2e311aa14c1f1a0744d588ee9",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "f2bb829a-1425-4b89-9c9a-11c94d21c014",
+      "name": "Pfingstferien 2024 Bayern",
+      "date": "2024-05-21",
+      "endDate": "2024-06-01",
+      "md5": "0204e2113633efa3e9ca235a88039632",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "871df250-0576-493c-aea4-e64ee4608bef",
+      "name": "Sommerferien 2024 Bayern",
+      "date": "2024-07-29",
+      "endDate": "2024-09-09",
+      "md5": "fd5f968325738653a328d3f7dedb40e8",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "64437d56-be06-4632-b8e8-fc8fdfc59e98",
+      "name": "Herbstferien 2024 Bayern",
+      "date": "2024-10-28",
+      "endDate": "2024-10-31",
+      "md5": "abcaf03f225a9ca42c65447cfbff0e8e",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "23ed1774-4091-4ed2-92be-8ee1b452929d",
+      "name": "Buß- und Bettag 2024 Bayern",
+      "date": "2024-11-20",
+      "endDate": "2024-11-20",
+      "md5": "8626c0c6d10eb3a1babedb795db8ff47",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "f3b90493-d141-4aab-ac30-37084db988c3",
+      "name": "Weihnachtsferien 2024 Bayern",
+      "date": "2024-12-23",
+      "endDate": "2025-01-03",
+      "md5": "26cb3e718e0c2959c0cded686120a328",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "5257b2de-813a-406f-9b8e-cd56586050f2",
+      "name": "Frühjahrsferien 2025 Bayern",
+      "date": "2025-03-03",
+      "endDate": "2025-03-07",
+      "md5": "00e8752be8141d7587211330a5b1d319",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "03cc22f2-1730-4ea4-b2dc-90d8d0f41e62",
+      "name": "Osterferien 2025 Bayern",
+      "date": "2025-04-14",
+      "endDate": "2025-04-25",
+      "md5": "e70e7d753cf452f7211b4a7db30c6808",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "dcda193e-7508-48e5-9da7-670a36cb3b0c",
+      "name": "Pfingstferien 2025 Bayern",
+      "date": "2025-06-10",
+      "endDate": "2025-06-20",
+      "md5": "4601362af6eb672a9637324880d35907",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "bc2bd00a-e716-46c3-8a27-2538c777d9bd",
+      "name": "Sommerferien 2025 Bayern",
+      "date": "2025-08-01",
+      "endDate": "2025-09-15",
+      "md5": "69efb7ed319da182d257518f8375f000",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "867bf086-bdaa-4642-8fcf-4fd07f45ac08",
+      "name": "Herbstferien 2025 Bayern",
+      "date": "2025-11-03",
+      "endDate": "2025-11-07",
+      "md5": "703839d58fa3e06febb22bcb4e6d0848",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "cb244bdc-ddc5-48b0-a6a4-675b57facc0e",
+      "name": "Buß- und Bettag 2025 Bayern",
+      "date": "2025-11-19",
+      "endDate": "2025-11-19",
+      "md5": "9ce93eb3d5e7c71428eefe45577de4f5",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "fae75443-4eb3-4720-9ba2-3dcca3553820",
+      "name": "Weihnachtsferien 2025 Bayern",
+      "date": "2025-12-22",
+      "endDate": "2026-01-05",
+      "md5": "d7c9a6e23d9cb509a244cf43b8cbc741",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "0cde7e09-1d34-43b3-95df-69cc27471f62",
+      "name": "Frühjahrsferien 2026 Bayern",
+      "date": "2026-02-16",
+      "endDate": "2026-02-20",
+      "md5": "2bb96fd3f3467b6d5a23c8c9339b611e",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "4000e69a-d391-412c-b0df-72dc3b72f12d",
+      "name": "Osterferien 2026 Bayern",
+      "date": "2026-03-30",
+      "endDate": "2026-04-10",
+      "md5": "fca197b8769325e99d531f54c6ce7931",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "1e06a1e6-bf8a-414c-aa04-8da95b84fb02",
+      "name": "Pfingstferien 2026 Bayern",
+      "date": "2026-05-26",
+      "endDate": "2026-06-05",
+      "md5": "7d63f014d60d7e85239612d6add81515",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "7451c518-92c2-4d26-9381-6d5745865a54",
+      "name": "Sommerferien 2026 Bayern",
+      "date": "2026-08-03",
+      "endDate": "2026-09-14",
+      "md5": "2033ccd6513e7b9c689b2b71af5275a5",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "b5045dcf-6618-41e7-b649-c3d6d135a611",
+      "name": "Herbstferien 2026 Bayern",
+      "date": "2026-11-02",
+      "endDate": "2026-11-06",
+      "md5": "128ca340492b7efd6466e004710fcfeb",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "76149977-58f0-455c-b74a-89937a90c200",
+      "name": "Buß- und Bettag 2026 Bayern",
+      "date": "2026-11-18",
+      "endDate": "2026-11-18",
+      "md5": "ad8861c15e8416ab37190183f8846199",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "c38a3f7c-04e7-4acf-ae55-1063a077bf9b",
+      "name": "Weihnachtsferien 2026 Bayern",
+      "date": "2026-12-24",
+      "endDate": "2027-01-08",
+      "md5": "789a60b2b77767219f5b8947a71cfd17",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "37821c22-3fa7-46f9-9cb2-9b7812ae859a",
+      "name": "Frühjahrsferien 2027 Bayern",
+      "date": "2027-02-08",
+      "endDate": "2027-02-12",
+      "md5": "3b384a632f245388b60482c77a4a5a05",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "843e9ad1-beac-4553-ae45-32f9f41a007e",
+      "name": "Osterferien 2027 Bayern",
+      "date": "2027-03-22",
+      "endDate": "2027-04-02",
+      "md5": "0c6c428b992dd78cf29143e9c60fef5b",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "1e397cac-c9a1-427b-b60d-89be682c8ab4",
+      "name": "Pfingstferien 2027 Bayern",
+      "date": "2027-05-18",
+      "endDate": "2027-05-28",
+      "md5": "008920b2de8c833a89705f2cba0827b9",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "f89e2b94-62aa-4a95-98be-972bc1144988",
+      "name": "Sommerferien 2027 Bayern",
+      "date": "2027-08-02",
+      "endDate": "2027-09-13",
+      "md5": "5762d9f1157125645ede960d6fe93acc",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "b64a2f1e-2886-4510-9c14-0d5ba6fa91b5",
+      "name": "Herbstferien 2027 Bayern",
+      "date": "2027-11-02",
+      "endDate": "2027-11-05",
+      "md5": "46e20e7bf5f692d01b22b317dae74edb",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "99499e30-3ed5-4f69-a7cb-139b7c3fbc66",
+      "name": "Buß- und Bettag 2027 Bayern",
+      "date": "2027-11-17",
+      "endDate": "2027-11-17",
+      "md5": "b671457f54a7f8cc1bf705fcf55ad92b",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "8cf3dcbe-51c1-4125-a453-3e57e767f277",
+      "name": "Weihnachtsferien 2027 Bayern",
+      "date": "2027-12-24",
+      "endDate": "2028-01-07",
+      "md5": "44e0811f5dc23c2751cdd3e85a51f474",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "9696a58f-963a-4172-92ee-f17967130a4e",
+      "name": "Frühjahrsferien 2028 Bayern",
+      "date": "2028-02-28",
+      "endDate": "2028-03-03",
+      "md5": "bd1ce1e7d35e4b69329ba7dcc6c73f2b",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "b3bd9115-a0ab-4ab5-a7e9-7f720278187c",
+      "name": "Osterferien 2028 Bayern",
+      "date": "2028-04-10",
+      "endDate": "2028-04-21",
+      "md5": "1afe93d76c40f652ce410afcb59c99e2",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "d23c43ee-1edf-4a1c-8007-d56b25ef8f65",
+      "name": "Pfingstferien 2028 Bayern",
+      "date": "2028-06-06",
+      "endDate": "2028-06-16",
+      "md5": "ecee9e73044580d53aa6061617b0d916",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "73ad9a8a-8063-4dd7-b548-008bf03c8a7b",
+      "name": "Sommerferien 2028 Bayern",
+      "date": "2028-07-31",
+      "endDate": "2028-09-11",
+      "md5": "6e4a86abc4429f409cb92e26a8351c3f",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "4a305ebe-3c17-4a56-8dfd-e8a8ed1a9bf7",
+      "name": "Herbstferien 2028 Bayern",
+      "date": "2028-10-30",
+      "endDate": "2028-11-03",
+      "md5": "677ef8f2dd5de3fe172b71d036742f65",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "794ad275-b88e-46b1-9b16-eb9c3e1b4ee0",
+      "name": "Buß- und Bettag 2028 Bayern",
+      "date": "2028-11-22",
+      "endDate": "2028-11-22",
+      "md5": "40fa31aeca671a76e97cc46d3872c37b",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "b58b70b6-8121-4b75-b9d5-aeb71b417a96",
+      "name": "Weihnachtsferien 2028 Bayern",
+      "date": "2028-12-23",
+      "endDate": "2029-01-05",
+      "md5": "a7be9864d3b19c715b9fc27acc1fc84f",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    }
+  ]
+}

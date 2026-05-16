@@ -1,0 +1,9 @@
+{
+    "$schema": "../../schema/school-holiday-override.schema.json",
+    "modify": [
+        {
+            "id": "5b6529c2-b83c-4d24-be1b-9cb7d535535a",
+            "endDate": "2022-04-23"
+        }
+    ]
+}

@@ -1,0 +1,589 @@
+{
+  "$schema": "../../schema/school-holidays.schema.json",
+  "metadata": {
+    "state": "Sachsen",
+    "code": "SN"
+  },
+  "holidays": [
+    {
+      "id": "56f1f24e-ff52-4df8-a14a-23d28ee8ac89",
+      "name": "Weihnachtsferien 2019 Sachsen",
+      "date": "2019-12-21",
+      "endDate": "2020-01-03",
+      "md5": "3dc576dc5f31b6cc5f984a618c46de21",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "b81c48b1-d9cf-489f-a04d-da44fff92851",
+      "name": "Winterferien 2020 Sachsen",
+      "date": "2020-02-10",
+      "endDate": "2020-02-22",
+      "md5": "ea78a782b1ec6ad1fc5eca0d6e80a7dd",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "67f3b8f7-0fb4-429b-bd5c-3cb25c301973",
+      "name": "Osterferien 2020 Sachsen",
+      "date": "2020-04-10",
+      "endDate": "2020-04-18",
+      "md5": "bb180aac47b26160ddfb5fb95f42a664",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "30969724-a39d-423e-a769-2b964f4a264b",
+      "name": "Unterrichtsfreier Tag 2020 Sachsen",
+      "date": "2020-05-22",
+      "endDate": "2020-05-22",
+      "md5": "3e7bd24eb86788d4b34db163a6b0b699",
+      "created": "2026-05-14T01:30:42+00:00",
+      "modified": "2026-05-14T01:30:42+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "a6365c63-b581-41c6-8de6-ca9e4bbd1412",
+      "name": "Sommerferien 2020 Sachsen",
+      "date": "2020-07-20",
+      "endDate": "2020-08-28",
+      "md5": "fadc6bfd7069cec60776f2688238b071",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "dfaefcf2-d3ed-4046-914d-7e3cbccfd180",
+      "name": "Herbstferien 2020 Sachsen",
+      "date": "2020-10-19",
+      "endDate": "2020-10-31",
+      "md5": "86c25006e320adb8a365b8d530f59221",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "83d0ec6c-d867-4b08-b7d4-9b8a1ceefc05",
+      "name": "Weihnachtsferien 2020 Sachsen",
+      "date": "2020-12-19",
+      "endDate": "2021-01-02",
+      "md5": "d94c1c503fea4a15971aca23ff7e6205",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "637395da-fcb5-43be-bf6e-b7b6eff1555e",
+      "name": "Winterferien 2021 Sachsen",
+      "date": "2021-01-31",
+      "endDate": "2021-02-06",
+      "md5": "a16541d24cd93f7cb19271a4f83ebce2",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "b7133895-d931-4c08-9c29-62335fcf3a12",
+      "name": "Osterferien 2021 Sachsen",
+      "date": "2021-03-27",
+      "endDate": "2021-04-10",
+      "md5": "039f7c01e3b9b6e3c15c63778867c82e",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "2787e3c8-7cde-4404-85ce-c0dcecd70674",
+      "name": "Unterrichtsfreier Tag 2021 Sachsen",
+      "date": "2021-05-14",
+      "endDate": "2021-05-14",
+      "md5": "028bb24c495c6df9bf0a9c4159e3a532",
+      "created": "2026-05-14T01:30:42+00:00",
+      "modified": "2026-05-14T01:30:42+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "5f5c2480-a220-4ee7-aa15-1e68440114d2",
+      "name": "Sommerferien 2021 Sachsen",
+      "date": "2021-07-26",
+      "endDate": "2021-09-03",
+      "md5": "f2bc63bc681e94bc745cc57b209d2b83",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "1595a709-a862-401d-a242-5f6837af4c92",
+      "name": "Herbstferien 2021 Sachsen",
+      "date": "2021-10-18",
+      "endDate": "2021-10-30",
+      "md5": "508459e9eba8e0294894acd7b3acf506",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "0e37a329-78ba-49d0-bd7f-4185fa942b36",
+      "name": "Weihnachtsferien 2021 Sachsen",
+      "date": "2021-12-23",
+      "endDate": "2022-01-01",
+      "md5": "d5b2d40131f6d861c5bc6d74400fd638",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "3d2dc7cc-d4c7-49ec-85e9-d1de01b4a5a2",
+      "name": "Winterferien 2022 Sachsen",
+      "date": "2022-02-12",
+      "endDate": "2022-02-26",
+      "md5": "ba972a26473598c7011ca3fe39dda448",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "4fb65c4d-2c4f-498f-8d5b-f4ea4fa03304",
+      "name": "Osterferien 2022 Sachsen",
+      "date": "2022-04-15",
+      "endDate": "2022-04-23",
+      "md5": "54f00faf921709e42094ee13e2bd0823",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "7e7c4f12-a957-4cba-98b8-6612511d1d11",
+      "name": "Unterrichtsfreier Tag 2022 Sachsen",
+      "date": "2022-05-27",
+      "endDate": "2022-05-27",
+      "md5": "099fadb5b7020c59259f54a8acb35532",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "06a62641-0426-48a1-bdaf-954c0a98cf64",
+      "name": "Sommerferien 2022 Sachsen",
+      "date": "2022-07-18",
+      "endDate": "2022-08-26",
+      "md5": "0123019d1c6431b8e4b78c4e3e078606",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "b0cbdf41-b608-4a06-b869-e18bcc144207",
+      "name": "Herbstferien 2022 Sachsen",
+      "date": "2022-10-17",
+      "endDate": "2022-10-29",
+      "md5": "6b67eb326f90bd9567a89c57a9c7e476",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "30948f6b-8d4d-4198-a979-7a20a517451c",
+      "name": "Weihnachtsferien 2022 Sachsen",
+      "date": "2022-12-22",
+      "endDate": "2023-01-02",
+      "md5": "fe282223014444387daa39f9f2c26654",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "1713d397-07c1-4ad9-b3d8-04f44d08f124",
+      "name": "Winterferien 2023 Sachsen",
+      "date": "2023-02-13",
+      "endDate": "2023-02-24",
+      "md5": "1f97ba84b636f0da9446292ceec1481f",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "7eeabbc8-6759-4ea4-99d8-d08678db345b",
+      "name": "Osterferien 2023 Sachsen",
+      "date": "2023-04-07",
+      "endDate": "2023-04-15",
+      "md5": "c466eb2f653f34480b90e959fc8b66f9",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "950c6285-f59e-4759-a802-29442ced6564",
+      "name": "Unterrichtsfreier Tag 2023 Sachsen",
+      "date": "2023-05-19",
+      "endDate": "2023-05-19",
+      "md5": "57d1adc9bbb1299efe0f9e474600d6af",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "76bdc6c6-9ec6-4ce1-9300-63e9917976a6",
+      "name": "Sommerferien 2023 Sachsen",
+      "date": "2023-07-10",
+      "endDate": "2023-08-18",
+      "md5": "3b8ca182bcc00631acdd893ba0c287df",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "79b0b4f5-7349-49c3-befa-91a9dcef4b14",
+      "name": "Herbstferien 2023 Sachsen",
+      "date": "2023-10-02",
+      "endDate": "2023-10-14",
+      "md5": "ae59593c1c3170610a7b4f48541c569a",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "34b3afdc-545d-4483-a36e-ef54835660f3",
+      "name": "Unterrichtsfreier Tag 2023 Sachsen",
+      "date": "2023-10-30",
+      "endDate": "2023-10-30",
+      "md5": "c6d0349e29b2581898f20892bd4d04f4",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "58620518-991a-4338-bcae-e5194228ebdf",
+      "name": "Weihnachtsferien 2023 Sachsen",
+      "date": "2023-12-23",
+      "endDate": "2024-01-02",
+      "md5": "aebfe4d8c89d1c01d712d6b81fff37af",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "d2c84eaa-3ba2-4e6f-87b5-7652e3618044",
+      "name": "Winterferien 2024 Sachsen",
+      "date": "2024-02-12",
+      "endDate": "2024-02-23",
+      "md5": "5c98a08725628daca7ef703d7d0cc77a",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "f0ced08f-c61b-499e-a09f-b2e4bafd16d2",
+      "name": "Osterferien 2024 Sachsen",
+      "date": "2024-03-28",
+      "endDate": "2024-04-05",
+      "md5": "ceb229ab934099a20a9ad347877a2fde",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "33a1a664-b5f8-41dd-8f8d-a605ab56c34f",
+      "name": "Unterrichtsfreier Tag 2024 Sachsen",
+      "date": "2024-05-10",
+      "endDate": "2024-05-10",
+      "md5": "5e4d6e50b541faf685e38d53cd7a3491",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "f36c3080-aef0-438f-867a-aa10bbb4f546",
+      "name": "Pfingstferien 2024 Sachsen",
+      "date": "2024-05-18",
+      "endDate": "2024-05-21",
+      "md5": "747b94fa7a5d80f6c22ee75338c615dc",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "71f60a72-fe8b-4654-b69f-bb7ec689e0c6",
+      "name": "Sommerferien 2024 Sachsen",
+      "date": "2024-06-20",
+      "endDate": "2024-08-02",
+      "md5": "8b0d383a894c3d367692942446cef76f",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "fb3bf22e-6ae5-45e8-8245-be3fdc6cf870",
+      "name": "Herbstferien 2024 Sachsen",
+      "date": "2024-10-07",
+      "endDate": "2024-10-19",
+      "md5": "349b6bf938fe0e59495455e42140120c",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "a3e4c4aa-82f5-4ad5-9b5a-9751ba361583",
+      "name": "Weihnachtsferien 2024 Sachsen",
+      "date": "2024-12-23",
+      "endDate": "2025-01-03",
+      "md5": "02f074489fad72cdef7151243d56e7db",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "39a21b2f-906b-4b72-947e-1b90756d6831",
+      "name": "Winterferien 2025 Sachsen",
+      "date": "2025-02-17",
+      "endDate": "2025-03-01",
+      "md5": "77aa29b8217226a7bc5f4c2b693e9aa5",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "052218d9-6ba0-4e7a-ad44-28e4bb96fd66",
+      "name": "Osterferien 2025 Sachsen",
+      "date": "2025-04-18",
+      "endDate": "2025-04-25",
+      "md5": "e2c518d85e1d0ba7307827ecbe33478b",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "a5aa4c56-a5b2-4342-99b3-23d78827a1ad",
+      "name": "Unterrichtsfreier Tag 2025 Sachsen",
+      "date": "2025-05-30",
+      "endDate": "2025-05-30",
+      "md5": "e654e6674576e194016850c677e05382",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "7ab191b1-36d9-4ed1-883f-13f6bfc90e8c",
+      "name": "Sommerferien 2025 Sachsen",
+      "date": "2025-06-28",
+      "endDate": "2025-08-08",
+      "md5": "76a085f429952ff34e3427de6f2fe13e",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "c58f6520-f298-4b7c-a8ec-153175457133",
+      "name": "Herbstferien 2025 Sachsen",
+      "date": "2025-10-06",
+      "endDate": "2025-10-18",
+      "md5": "8d271ea19cea066fee5cd8143b3b7886",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "656fab65-59cd-46bb-a9a9-add18663cf9b",
+      "name": "Weihnachtsferien 2025 Sachsen",
+      "date": "2025-12-22",
+      "endDate": "2026-01-02",
+      "md5": "80d5aaa7c791e842cade7c7a1181ed57",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "803dd1a4-b987-4086-999d-5ed428554284",
+      "name": "Winterferien 2026 Sachsen",
+      "date": "2026-02-09",
+      "endDate": "2026-02-21",
+      "md5": "ba0aeccb06662341786390e4beda70bc",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "b7b5a510-b827-415e-97aa-57c5895ce8f2",
+      "name": "Osterferien 2026 Sachsen",
+      "date": "2026-04-03",
+      "endDate": "2026-04-10",
+      "md5": "063774acfc745cc55c3be41d298d7523",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "b93bd3ef-2c66-4181-96f4-ae8357c1afb3",
+      "name": "Unterrichtsfreier Tag 2026 Sachsen",
+      "date": "2026-05-15",
+      "endDate": "2026-05-15",
+      "md5": "2320283b90166a4a8c4c76d3d728c595",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "a3cadab5-3f43-4c2c-8c18-21cbf2180ebb",
+      "name": "Sommerferien 2026 Sachsen",
+      "date": "2026-07-04",
+      "endDate": "2026-08-14",
+      "md5": "9ed34ea25cfef058eefc328350df3fdc",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "54724cdc-13ac-4164-8103-34c2c2ccb5cc",
+      "name": "Herbstferien 2026 Sachsen",
+      "date": "2026-10-12",
+      "endDate": "2026-10-24",
+      "md5": "0e212aa7fefcafe702f395bf63504b72",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "87b821ee-783e-448a-afd5-f51c0a98d179",
+      "name": "Weihnachtsferien 2026 Sachsen",
+      "date": "2026-12-23",
+      "endDate": "2027-01-02",
+      "md5": "1b9d666061df4d24d8c72e4b1e1ec05c",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "65bece8c-0a07-4534-a4cc-d9e47c923ed9",
+      "name": "Winterferien 2027 Sachsen",
+      "date": "2027-02-08",
+      "endDate": "2027-02-19",
+      "md5": "04ea2f487831d6c977045e6cea2752b9",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "1119743d-5100-46d5-a1cf-dbcb40187314",
+      "name": "Osterferien 2027 Sachsen",
+      "date": "2027-03-26",
+      "endDate": "2027-04-02",
+      "md5": "8a537a120261068eeb8ca2734bd269e9",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "1f35829b-8fb3-4470-acb6-80556817a12b",
+      "name": "Unterrichtsfreier Tag 2027 Sachsen",
+      "date": "2027-05-07",
+      "endDate": "2027-05-07",
+      "md5": "9ea6143023719c80b8b91fe24e5cd632",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "dd4d6a86-a607-4994-a7cd-cbe4cda51cfd",
+      "name": "Pfingstferien 2027 Sachsen",
+      "date": "2027-05-15",
+      "endDate": "2027-05-18",
+      "md5": "e7ab6a924e2fea5f2a447c03b3de1d2c",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "b6b0be6c-d758-4e79-a354-814359736b2e",
+      "name": "Sommerferien 2027 Sachsen",
+      "date": "2027-07-10",
+      "endDate": "2027-08-20",
+      "md5": "d63af1a8420d273f07641ff90ffa26c4",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "c776bb1d-fe8a-4d14-bce4-32fe815dbad3",
+      "name": "Herbstferien 2027 Sachsen",
+      "date": "2027-10-11",
+      "endDate": "2027-10-23",
+      "md5": "139aefdba554fb084c1e4eb61a504997",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "7ef5f614-a256-46d9-90b3-3ad26d07753e",
+      "name": "Weihnachtsferien 2027 Sachsen",
+      "date": "2027-12-23",
+      "endDate": "2028-01-01",
+      "md5": "c8e152734337bc809455f0f89d4fdb9d",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "4ac3232a-dff8-4d03-ad5f-8e3237c498c6",
+      "name": "Winterferien 2028 Sachsen",
+      "date": "2028-02-14",
+      "endDate": "2028-02-26",
+      "md5": "22f87fa53022e9b2c1d5fe1f887fa6d5",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "60da6337-baac-4764-884f-5319735b17b4",
+      "name": "Osterferien 2028 Sachsen",
+      "date": "2028-04-14",
+      "endDate": "2028-04-22",
+      "md5": "1327fe862fc628aaab4800f685274308",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "51b14e22-3c1b-4eb7-bdec-a3d147f0160e",
+      "name": "Unterrichtsfreier Tag 2028 Sachsen",
+      "date": "2028-05-26",
+      "endDate": "2028-05-26",
+      "md5": "2298490f8b3141ffcde400cb29bd7622",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "4e4ea8c3-d278-4eb7-95d2-ca90a42a7249",
+      "name": "Sommerferien 2028 Sachsen",
+      "date": "2028-07-22",
+      "endDate": "2028-09-01",
+      "md5": "7985e6d6d80ebba37b12c93656d71d6f",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "40a6447c-c8af-4172-8110-ed9db52bd8cf",
+      "name": "Herbstferien 2028 Sachsen",
+      "date": "2028-10-23",
+      "endDate": "2028-11-03",
+      "md5": "400502697f9ca85a1b3a8fdb338c884e",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "74c64bdd-b429-4a63-9988-2143b69a7224",
+      "name": "Weihnachtsferien 2028 Sachsen",
+      "date": "2028-12-23",
+      "endDate": "2029-01-03",
+      "md5": "19d21a686cafc9ed61eed905e40819df",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    }
+  ]
+}

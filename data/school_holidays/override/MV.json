@@ -1,0 +1,5 @@
+{
+    "$schema": "../../schema/school-holiday-override.schema.json",
+    "modify": [
+    ]
+}

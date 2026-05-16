@@ -1,0 +1,659 @@
+{
+  "$schema": "../../schema/school-holidays.schema.json",
+  "metadata": {
+    "state": "Berlin",
+    "code": "BE"
+  },
+  "holidays": [
+    {
+      "id": "de073149-c6f3-4c5d-9a06-62bd4433bd0c",
+      "name": "Weihnachtsferien 2019 Berlin",
+      "date": "2019-12-23",
+      "endDate": "2020-01-04",
+      "md5": "de0e6d084c7427acf0c4d7b3bc12d0ee",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "c9a69cac-1185-4905-944a-9993d70816d1",
+      "name": "Winterferien 2020 Berlin",
+      "date": "2020-02-03",
+      "endDate": "2020-02-08",
+      "md5": "46568a6f543bf2372b847a2d335d2322",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "478f0f75-6c2a-48f3-baa9-49bba6298683",
+      "name": "Osterferien 2020 Berlin",
+      "date": "2020-04-06",
+      "endDate": "2020-04-17",
+      "md5": "d8022ac8ae3b859c2213052c2e15153c",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "59409264-fca8-46a4-97b6-9a05e7a09fa3",
+      "name": "Unterrichtsfreier Tag 2020 Berlin",
+      "date": "2020-05-22",
+      "endDate": "2020-05-22",
+      "md5": "eafecf5717452d74f9fae5c5c8485769",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "4a3180eb-3541-4bf0-b5c9-c2c42e518cf5",
+      "name": "Sommerferien 2020 Berlin",
+      "date": "2020-06-25",
+      "endDate": "2020-08-07",
+      "md5": "76d31b549a5ba9b14fb6d1884439227a",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "cded308d-5d40-4840-9676-cb54aab1bb87",
+      "name": "Herbstferien 2020 Berlin",
+      "date": "2020-10-12",
+      "endDate": "2020-10-24",
+      "md5": "5b3ee0d8e2970e39f1d347c7c3abdb96",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "74fee9fc-f039-4756-8f06-d2ac402366e6",
+      "name": "Weihnachtsferien 2020 Berlin",
+      "date": "2020-12-21",
+      "endDate": "2021-01-02",
+      "md5": "4bdcba269fdf65678211b740ad0a1143",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "cf15c249-f123-4e05-8126-099da8069a88",
+      "name": "Winterferien 2021 Berlin",
+      "date": "2021-02-01",
+      "endDate": "2021-02-06",
+      "md5": "1ce7501a627eef6fb8df1f500969f384",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "b74b2787-a0dc-4b0f-9c8a-232a75897c45",
+      "name": "Osterferien 2021 Berlin",
+      "date": "2021-03-29",
+      "endDate": "2021-04-10",
+      "md5": "38b73f8e9e923c57ed21ca1b155a71e9",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "5d246803-631e-4464-8fd8-86c1063bcc2d",
+      "name": "Unterrichtsfreier Tag 2021 Berlin",
+      "date": "2021-05-14",
+      "endDate": "2021-05-14",
+      "md5": "80386b8f22f88fef2a3d9f63d6776325",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "4dee74dd-4725-4d5f-a2cf-5a90b38874e2",
+      "name": "Sommerferien 2021 Berlin",
+      "date": "2021-06-24",
+      "endDate": "2021-08-06",
+      "md5": "eae582d96163a52aa5c20ef501f1e671",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "c13fe312-5a88-4ba1-bf13-027529f4ddbb",
+      "name": "Herbstferien 2021 Berlin",
+      "date": "2021-10-11",
+      "endDate": "2021-10-23",
+      "md5": "573f73d2c2f1d1e7e4c15c77ed2aa624",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "872dcb5b-e524-421b-bf57-d0275901bdb2",
+      "name": "Weihnachtsferien 2021 Berlin",
+      "date": "2021-12-23",
+      "endDate": "2021-12-31",
+      "md5": "efdfa846ca7a965c776cbf8c32f9c1f6",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "344b2197-5a52-4df3-894c-317f836fe1a4",
+      "name": "Winterferien 2022 Berlin",
+      "date": "2022-01-29",
+      "endDate": "2022-02-05",
+      "md5": "90517a2ca1c1300e4403d1a634ea83d5",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-14T01:30:42+00:00",
+      "sequence": 1
+    },
+    {
+      "id": "2c65aea7-e1a2-46ac-9cc1-ba0ab7addb4a",
+      "name": "Unterrichtsfreier Tag 2022 Berlin",
+      "date": "2022-03-07",
+      "endDate": "2022-03-07",
+      "md5": "d582b16284d6cb0d7417b6602f933e3e",
+      "created": "2026-05-14T01:30:42+00:00",
+      "modified": "2026-05-14T01:30:42+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "b329a066-6523-4203-b153-2593fca6f506",
+      "name": "Osterferien 2022 Berlin",
+      "date": "2022-04-11",
+      "endDate": "2022-04-23",
+      "md5": "5a79b31067d82fe37020653a04da6f6d",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "771e7c58-0b04-466e-a2d1-118bd8b7df83",
+      "name": "Unterrichtsfreier Tag 2022 Berlin",
+      "date": "2022-05-27",
+      "endDate": "2022-05-27",
+      "md5": "c6c5445289a7ff935dbde98a148f7738",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "53cf0d0e-a60f-4e4f-bbe7-6d153a97910b",
+      "name": "Pfingstferien 2022 Berlin",
+      "date": "2022-06-07",
+      "endDate": "2022-06-07",
+      "md5": "ac71cf6a5cc66aaa9bd3ca5d67c4ea93",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "6b3491f3-455d-4ba1-bbbd-3e5aa1c20416",
+      "name": "Sommerferien 2022 Berlin",
+      "date": "2022-07-07",
+      "endDate": "2022-08-19",
+      "md5": "a3b4100e4bce5e3720455cc77352fd13",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-14T01:30:42+00:00",
+      "sequence": 1
+    },
+    {
+      "id": "056d3c40-8a26-4bee-affa-75e22430a086",
+      "name": "Herbstferien 2022 Berlin",
+      "date": "2022-10-24",
+      "endDate": "2022-11-05",
+      "md5": "4a0a994bcbc4dad0c1c816d64fd07df8",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "d02fd7c1-cce8-424e-94f9-909156975411",
+      "name": "Weihnachtsferien 2022 Berlin",
+      "date": "2022-12-22",
+      "endDate": "2023-01-02",
+      "md5": "30e5d62642290915171ad6712e0e186b",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "e7b14e2d-5d2d-4154-b12f-a5352b386baf",
+      "name": "Winterferien 2023 Berlin",
+      "date": "2023-01-30",
+      "endDate": "2023-02-04",
+      "md5": "4f7ea58ae503fb1e2bf2ed8b48c9865f",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "862d1987-401a-4f34-80f8-8dbe877135f4",
+      "name": "Osterferien 2023 Berlin",
+      "date": "2023-04-03",
+      "endDate": "2023-04-14",
+      "md5": "68f27341bfaf4d62057671c2baa0cfcb",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "41931fb1-cefa-44bd-aab4-0dd25b535e09",
+      "name": "Unterrichtsfreier Tag 2023 Berlin",
+      "date": "2023-05-19",
+      "endDate": "2023-05-19",
+      "md5": "156fd4a4654f896ce30f2d33dd465241",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "ecea37fd-77c2-4914-8bd2-01980ae4dbd7",
+      "name": "Pfingstferien 2023 Berlin",
+      "date": "2023-05-30",
+      "endDate": "2023-05-30",
+      "md5": "ee70691f1b07e16972b916cdb0e51b74",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "0315571e-bde3-439d-b7bf-18a658acc801",
+      "name": "Sommerferien 2023 Berlin",
+      "date": "2023-07-13",
+      "endDate": "2023-08-25",
+      "md5": "cdbc61b4e39051621eb73084bdec1fd2",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "17ff526f-ea28-4c8e-ba3a-98676a60827d",
+      "name": "Unterrichtsfreier Tag 2023 Berlin",
+      "date": "2023-10-02",
+      "endDate": "2023-10-02",
+      "md5": "d963c9128b04663877c5183b3862390d",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "f90aec5f-b02f-46af-a045-b21d69162a50",
+      "name": "Herbstferien 2023 Berlin",
+      "date": "2023-10-23",
+      "endDate": "2023-11-04",
+      "md5": "f3558aff154ce4f360fcbdb120b547e4",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "ab67ffc6-78cc-470c-b4cd-6dfa5aa280ee",
+      "name": "Weihnachtsferien 2023 Berlin",
+      "date": "2023-12-23",
+      "endDate": "2024-01-05",
+      "md5": "6f887514f59b0c1e21a8308fb3ebce35",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "28a79671-bb65-47b1-a01c-f7f75a70d376",
+      "name": "Winterferien 2024 Berlin",
+      "date": "2024-02-05",
+      "endDate": "2024-02-10",
+      "md5": "426154a947ea2cc691bfd96d63748fc1",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "4a23efca-642f-45ef-b32d-139434d4520f",
+      "name": "Osterferien 2024 Berlin",
+      "date": "2024-03-25",
+      "endDate": "2024-04-05",
+      "md5": "0852c893eaf8e1999ad21955c327c1d8",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "5f66375e-23d0-4466-b531-af524ce8cbd1",
+      "name": "Unterrichtsfreier Tag 2024 Berlin",
+      "date": "2024-05-10",
+      "endDate": "2024-05-10",
+      "md5": "f2e85d2be0f0ede12a8d572f1e3198d9",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "769fb5c3-19c8-405a-bd22-8ac455a961c3",
+      "name": "Sommerferien 2024 Berlin",
+      "date": "2024-07-18",
+      "endDate": "2024-08-30",
+      "md5": "ea7f83e7e3eb0ab4a287c06219f9992e",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "7ad7ef6b-5f18-44a2-806b-c645a090a6e3",
+      "name": "Unterrichtsfreier Tag 2024 Berlin",
+      "date": "2024-10-04",
+      "endDate": "2024-10-04",
+      "md5": "d5504bf240c84b6358401cd6b6b16081",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "8d56adb5-c2fe-4a85-bca2-ba2063f06eb7",
+      "name": "Herbstferien 2024 Berlin",
+      "date": "2024-10-21",
+      "endDate": "2024-11-02",
+      "md5": "7d518d39ad29466e8904bb357dc790d9",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "3b9c1d7e-b3be-4f6a-8128-f0c77ae8e786",
+      "name": "Weihnachtsferien 2024 Berlin",
+      "date": "2024-12-23",
+      "endDate": "2024-12-31",
+      "md5": "60492a97ecd12dc8e960a20eb375f218",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "8e1ad167-39e8-455e-a0cf-43fee3b79a39",
+      "name": "Winterferien 2025 Berlin",
+      "date": "2025-02-03",
+      "endDate": "2025-02-08",
+      "md5": "4a756943fd73bc19414dcaf1aad79d30",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "e9883de1-3213-4288-bf53-a526ebcdb4c2",
+      "name": "Osterferien 2025 Berlin",
+      "date": "2025-04-14",
+      "endDate": "2025-04-25",
+      "md5": "4513350a89aa677b768343d9fef36480",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "aa70a7ff-f812-4272-83e3-04319ef08ef7",
+      "name": "Unterrichtsfreier Tag 2025 Berlin",
+      "date": "2025-05-02",
+      "endDate": "2025-05-02",
+      "md5": "d48698fb00ebd849dde0e799c85380c2",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "ed4102e9-2c2d-4119-9025-94b251ef5492",
+      "name": "Unterrichtsfreier Tag 2025 Berlin",
+      "date": "2025-05-30",
+      "endDate": "2025-05-30",
+      "md5": "764e48438732c09e6a24bfa44e8cac42",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "0b32c794-a19e-4a7b-8abd-6327342b518f",
+      "name": "Pfingstferien 2025 Berlin",
+      "date": "2025-06-10",
+      "endDate": "2025-06-10",
+      "md5": "859e296d0f03a051e2beee8d2ab485e0",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "d710df7e-89b3-45dc-881a-f1c47a0d3e69",
+      "name": "Sommerferien 2025 Berlin",
+      "date": "2025-07-24",
+      "endDate": "2025-09-06",
+      "md5": "21e3f0e3620db158f1c37dea0c970609",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "27cb58e8-5cfb-40ea-90ab-3149e1455cbc",
+      "name": "Herbstferien 2025 Berlin",
+      "date": "2025-10-20",
+      "endDate": "2025-11-01",
+      "md5": "4fd40585f5bc9ef1f2f7b5559647430b",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "7625e071-8456-45c2-b9dd-caedc7a2216d",
+      "name": "Weihnachtsferien 2025 Berlin",
+      "date": "2025-12-22",
+      "endDate": "2026-01-02",
+      "md5": "41fa7351b4665c2cc883279196727e37",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "f892e4b2-b7a7-4551-9d44-0abb4956d3fb",
+      "name": "Winterferien 2026 Berlin",
+      "date": "2026-02-02",
+      "endDate": "2026-02-07",
+      "md5": "4ee6b27f95a38d952d6763010f25388e",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "af270df7-839c-46b2-b771-29eb74774300",
+      "name": "Osterferien 2026 Berlin",
+      "date": "2026-03-30",
+      "endDate": "2026-04-10",
+      "md5": "c65c414b821f7259277371c766d93786",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "d245729d-4b1d-49b9-a1ff-111232f40665",
+      "name": "Unterrichtsfreier Tag 2026 Berlin",
+      "date": "2026-05-15",
+      "endDate": "2026-05-15",
+      "md5": "eabc847873d428d9a5e30cde342efe39",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "e60483a3-8323-4e98-8b8b-da6c8c92b23b",
+      "name": "Pfingstferien 2026 Berlin",
+      "date": "2026-05-26",
+      "endDate": "2026-05-26",
+      "md5": "0fd43d20682a14e9287426514ad184e1",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "2086af10-7357-4c2b-bcf9-9a82c7522642",
+      "name": "Sommerferien 2026 Berlin",
+      "date": "2026-07-09",
+      "endDate": "2026-08-22",
+      "md5": "48259f5aefb4e327cd0e3782f62d8a60",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "1fa16795-e96d-4215-8a8d-7632bdaa5285",
+      "name": "Herbstferien 2026 Berlin",
+      "date": "2026-10-19",
+      "endDate": "2026-10-31",
+      "md5": "4c9e41a1121ad865291602dcbb73b0eb",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "18964f8f-3b17-4833-b359-1ac051bf7e3d",
+      "name": "Weihnachtsferien 2026 Berlin",
+      "date": "2026-12-23",
+      "endDate": "2027-01-02",
+      "md5": "62970b3031628ea2d7d5ad652c191d0f",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "7fe6645d-4208-4c33-a761-79b45642fa3b",
+      "name": "Winterferien 2027 Berlin",
+      "date": "2027-02-01",
+      "endDate": "2027-02-06",
+      "md5": "f1de14338e5b527b35b2919c5c515f03",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "f6eabbe8-efd7-4b08-9b68-2f4e04201733",
+      "name": "Osterferien 2027 Berlin",
+      "date": "2027-03-22",
+      "endDate": "2027-04-02",
+      "md5": "85d927c8a12c21de7ec5b9c0641cfe55",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "d79c9878-f98f-46fe-86b4-48ee7b662c12",
+      "name": "Unterrichtsfreier Tag 2027 Berlin",
+      "date": "2027-05-07",
+      "endDate": "2027-05-07",
+      "md5": "ab69d5c3aa01fc7dc9b3d8dcac0ba4ef",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "28bd66fc-2b82-49c0-b282-081c92042426",
+      "name": "Pfingstferien 2027 Berlin",
+      "date": "2027-05-18",
+      "endDate": "2027-05-19",
+      "md5": "a012fe5d5fd2f534c077e10870ae9abd",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "5e52b846-36bd-4251-97f6-eb77d05415a1",
+      "name": "Sommerferien 2027 Berlin",
+      "date": "2027-07-01",
+      "endDate": "2027-08-14",
+      "md5": "f79c252ed3be84645c39427fd393e89c",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "a570b0d7-8f03-42b9-a735-a7c9b0436f10",
+      "name": "Herbstferien 2027 Berlin",
+      "date": "2027-10-11",
+      "endDate": "2027-10-23",
+      "md5": "636787d952e87c8e63193a4524e6c77f",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "ce4fd324-e06b-4071-ba48-575f2e62449c",
+      "name": "Weihnachtsferien 2027 Berlin",
+      "date": "2027-12-22",
+      "endDate": "2027-12-31",
+      "md5": "c7db6ebdcf58e2cfea8088ae8ecb2f3c",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "4856a73f-fdfd-4a1e-9c0d-bf04d0b2f0fe",
+      "name": "Winterferien 2028 Berlin",
+      "date": "2028-01-31",
+      "endDate": "2028-02-05",
+      "md5": "1b8abe8c6a5a44bf29936afb5f958af8",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "96852698-13e8-4259-a65f-2e85e08e67c2",
+      "name": "Osterferien 2028 Berlin",
+      "date": "2028-04-10",
+      "endDate": "2028-04-22",
+      "md5": "088947697589edd742a8c2d6888d549a",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "a120d29f-e8ba-467e-93da-f0fd5cc22c28",
+      "name": "Unterrichtsfreier Tag 2028 Berlin",
+      "date": "2028-05-26",
+      "endDate": "2028-05-26",
+      "md5": "54bb0a10453e5f135a8e3963e61a5c7e",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "59225862-fc35-47d4-b735-df921626d760",
+      "name": "Pfingstferien 2028 Berlin",
+      "date": "2028-06-01",
+      "endDate": "2028-06-02",
+      "md5": "af1a018bd23c567e54d8ab37020092f1",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "33db0342-8afc-4cb5-98e4-23c3b5d4c71b",
+      "name": "Sommerferien 2028 Berlin",
+      "date": "2028-07-01",
+      "endDate": "2028-08-12",
+      "md5": "3ddf1a4b28f038ad909a0ae417f17f9a",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "e0273a27-fa5e-4386-838c-fed4a2f0afe9",
+      "name": "Herbstferien 2028 Berlin",
+      "date": "2028-10-02",
+      "endDate": "2028-10-14",
+      "md5": "70b4cec9e2e7fa21f84ccc0461503562",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "fdb107ff-52b7-4d32-85ad-782903b4cbe0",
+      "name": "Weihnachtsferien 2028 Berlin",
+      "date": "2028-12-22",
+      "endDate": "2029-01-02",
+      "md5": "73c5eb7f3ac53442a7f977503951bb2d",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    }
+  ]
+}

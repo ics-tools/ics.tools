@@ -1,0 +1,859 @@
+{
+  "$schema": "../../schema/school-holidays.schema.json",
+  "metadata": {
+    "state": "Mecklenburg-Vorpommern",
+    "code": "MV"
+  },
+  "holidays": [
+    {
+      "id": "e449c403-42f5-41bf-962e-a0729c222434",
+      "name": "Weihnachtsferien 2019 Mecklenburg-Vorpommern",
+      "date": "2019-12-23",
+      "endDate": "2020-01-04",
+      "md5": "3b8058f4ed171f809ba3c4ddeb17ffb7",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "57d8e5c2-d1ef-4812-af4c-3572e31e2342",
+      "name": "Winterferien 2020 Mecklenburg-Vorpommern",
+      "date": "2020-02-10",
+      "endDate": "2020-02-21",
+      "md5": "aa4ea5e64e46488f4502d552837abf33",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "8e028878-afb8-4686-a883-4c0d6035615e",
+      "name": "Osterferien 2020 Mecklenburg-Vorpommern",
+      "date": "2020-04-06",
+      "endDate": "2020-04-15",
+      "md5": "c21a403cb83857e2b49be7a9799170da",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "08c3298f-41c7-4e9f-a96e-8ce3113c65a2",
+      "name": "Zusätzlicher Ferientag 2020 Mecklenburg-Vorpommern",
+      "date": "2020-05-22",
+      "endDate": "2020-05-22",
+      "md5": "96ef016b3a8834ca9e92fb03914f8d38",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "093f9008-9e74-4c46-bfba-71753598b6cc",
+      "name": "Pfingstferien 2020 Mecklenburg-Vorpommern",
+      "date": "2020-05-29",
+      "endDate": "2020-06-02",
+      "md5": "ddf542e8e7487c35ba19fe7c5cb262b4",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "caa3d2c7-afe4-431b-9705-f10e3d3d9fe1",
+      "name": "Sommerferien 2020 Mecklenburg-Vorpommern",
+      "date": "2020-06-22",
+      "endDate": "2020-08-01",
+      "md5": "5e112073043029e416f93e275321471f",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "0939f92c-0e14-4b82-b820-b691c07ddc41",
+      "name": "Herbstferien 2020 Mecklenburg-Vorpommern",
+      "date": "2020-10-05",
+      "endDate": "2020-10-10",
+      "md5": "857cad968972db9a253b963643faef6e",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "36994d67-872b-4e4f-a2a8-df770942a5c8",
+      "name": "Zusätzlicher Ferientag 2020 Mecklenburg-Vorpommern",
+      "date": "2020-11-02",
+      "endDate": "2020-11-02",
+      "md5": "c0c0fd174ce72d18b72bd35f36dae483",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "b8c91911-a047-4faf-8983-6358c14e80ca",
+      "name": "Zusätzlicher Ferientag 2020 Mecklenburg-Vorpommern",
+      "date": "2020-11-03",
+      "endDate": "2020-11-03",
+      "md5": "b88b6df42c64daffaf9a88267eb37679",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "ec8cc022-cb64-419f-86bf-76a07238d63e",
+      "name": "Weihnachtsferien 2020 Mecklenburg-Vorpommern",
+      "date": "2020-12-21",
+      "endDate": "2021-01-02",
+      "md5": "a9aa7b19104bf387ccca85248a3358f2",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "d5ba2d63-e1a6-4a8d-a230-55dbc2c28eb1",
+      "name": "Winterferien 2021 Mecklenburg-Vorpommern",
+      "date": "2021-02-06",
+      "endDate": "2021-02-18",
+      "md5": "8f1f3272e6b716167823f1dbda0c8789",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "b6210c92-9066-4914-b7e5-d79af4ef5707",
+      "name": "Schulfrei 2021 Mecklenburg-Vorpommern",
+      "date": "2021-02-19",
+      "endDate": "2021-02-19",
+      "md5": "7ec330e80ab1c5611a1998a547af89c5",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "a6426cc7-b99b-4cfa-a55b-546f0aebe6ec",
+      "name": "Osterferien 2021 Mecklenburg-Vorpommern",
+      "date": "2021-03-29",
+      "endDate": "2021-04-07",
+      "md5": "4006efd3a46780276eb2a07cfb042a61",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "3ba5dfac-0626-4a6f-b017-1a58a04a07a8",
+      "name": "Zusätzlicher Ferientag 2021 Mecklenburg-Vorpommern",
+      "date": "2021-05-14",
+      "endDate": "2021-05-14",
+      "md5": "9ef2925b99e9bfc1ef0eea071dc100d0",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "782d964e-fd7b-4f3e-b6ac-a3fb22defca4",
+      "name": "Pfingstferien 2021 Mecklenburg-Vorpommern",
+      "date": "2021-05-21",
+      "endDate": "2021-05-25",
+      "md5": "011f65e3667edbdb997305f193cfc06f",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "078c2a5c-417d-4607-a300-25ed86f623eb",
+      "name": "Sommerferien 2021 Mecklenburg-Vorpommern",
+      "date": "2021-06-21",
+      "endDate": "2021-07-31",
+      "md5": "9b423c98c45effeda73fdd6bd5ff5b60",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "1b439afd-f51f-40b6-9589-5e777221c334",
+      "name": "Herbstferien 2021 Mecklenburg-Vorpommern",
+      "date": "2021-10-02",
+      "endDate": "2021-10-09",
+      "md5": "05a1cff686e398308501a6d8bd1442a0",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "b4835bcb-fad0-482f-a94a-5e4b010f8c7f",
+      "name": "Zusätzlicher Ferientag 2021 Mecklenburg-Vorpommern",
+      "date": "2021-11-01",
+      "endDate": "2021-11-01",
+      "md5": "cc90f03b70795dc758148a993874b01a",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "cf5c6309-42ad-4637-8d7e-d4b651dfee31",
+      "name": "Zusätzlicher Ferientag 2021 Mecklenburg-Vorpommern",
+      "date": "2021-11-02",
+      "endDate": "2021-11-02",
+      "md5": "06c2d21405e867ddca51f4173489afe8",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "73d63c6a-8694-4a12-8721-c63055fd88dc",
+      "name": "Weihnachtsferien 2021 Mecklenburg-Vorpommern",
+      "date": "2021-12-22",
+      "endDate": "2021-12-31",
+      "md5": "d09daa8df74cee05e2028f34003bebee",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "8c9d1790-cc43-4c25-8721-1b72bfb8d759",
+      "name": "Winterferien 2022 Mecklenburg-Vorpommern",
+      "date": "2022-02-05",
+      "endDate": "2022-02-17",
+      "md5": "607b7b8062ce986dd4a6726f54b0b125",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "218a3487-abbc-4988-b9e4-fc50b46bf645",
+      "name": "Schulfrei 2022 Mecklenburg-Vorpommern",
+      "date": "2022-02-18",
+      "endDate": "2022-02-18",
+      "md5": "c6f969144178bd419263d69c66058faa",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "aa66bd2f-ff77-4311-962a-84b54092144c",
+      "name": "Osterferien 2022 Mecklenburg-Vorpommern",
+      "date": "2022-04-11",
+      "endDate": "2022-04-20",
+      "md5": "1ddde8cf53eb4758f946306b46a03ed8",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "64a64010-b2f2-4f9b-bdf7-fe6e873d86e2",
+      "name": "Zusätzlicher Ferientag 2022 Mecklenburg-Vorpommern",
+      "date": "2022-05-27",
+      "endDate": "2022-05-27",
+      "md5": "a404485546c76e500604db197cfa2624",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "2972a33f-0ef1-4418-a4ce-e2670c9088bf",
+      "name": "Pfingstferien 2022 Mecklenburg-Vorpommern",
+      "date": "2022-06-03",
+      "endDate": "2022-06-07",
+      "md5": "37f8f439e7848050f70f32cd004e93ed",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "ceeb5a8d-6832-4644-851e-faa228bf529c",
+      "name": "Sommerferien 2022 Mecklenburg-Vorpommern",
+      "date": "2022-07-04",
+      "endDate": "2022-08-13",
+      "md5": "faa0e020ff25b898241c4cfd372ef77b",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "6a9493b9-898f-4bc7-9676-6b7d8e5ba2b4",
+      "name": "Herbstferien 2022 Mecklenburg-Vorpommern",
+      "date": "2022-10-10",
+      "endDate": "2022-10-14",
+      "md5": "63c10d4f79503637dc82c37777fc810f",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "07b0bafb-651a-4c52-a6bd-f2d0ba3c72ed",
+      "name": "Zusätzlicher Ferientag 2022 Mecklenburg-Vorpommern",
+      "date": "2022-11-01",
+      "endDate": "2022-11-01",
+      "md5": "8604495da4b2c885e1a044fd9f2c2ac1",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "1645677a-0459-43eb-af93-d5f20f455ffc",
+      "name": "Zusätzlicher Ferientag 2022 Mecklenburg-Vorpommern",
+      "date": "2022-11-02",
+      "endDate": "2022-11-02",
+      "md5": "ffd412009a994d8e48f1f41322c033ea",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "70c78ccd-f712-45ad-b8d5-15277ac35d04",
+      "name": "Weihnachtsferien 2022 Mecklenburg-Vorpommern",
+      "date": "2022-12-22",
+      "endDate": "2023-01-02",
+      "md5": "298f7fd9200f3f333e6bacb94728b8e7",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "7020c5a0-5a4e-4814-a5b0-fb5f13212186",
+      "name": "Winterferien 2023 Mecklenburg-Vorpommern",
+      "date": "2023-02-06",
+      "endDate": "2023-02-18",
+      "md5": "26824a202bc0b62965bf4cbbf30ab7ac",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "1b88fa23-8158-4e96-b6d5-9f7aef4f2cd3",
+      "name": "Osterferien 2023 Mecklenburg-Vorpommern",
+      "date": "2023-04-03",
+      "endDate": "2023-04-12",
+      "md5": "aa89a7f2cead1a2f85b9bf224c522446",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "72cb043c-af50-4b49-88e8-a6cf1affa3ad",
+      "name": "Zusätzlicher Ferientag 2023 Mecklenburg-Vorpommern",
+      "date": "2023-05-19",
+      "endDate": "2023-05-19",
+      "md5": "3163cb8054010d83ac2eba09c3b40d12",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "0259afb4-396c-41f0-ba8c-2174c337f811",
+      "name": "Pfingstferien 2023 Mecklenburg-Vorpommern",
+      "date": "2023-05-26",
+      "endDate": "2023-05-30",
+      "md5": "a88db0cd0b22d3dabe70ecad12a6c515",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "fd124a6e-f672-4511-b357-f6226a99b696",
+      "name": "Sommerferien 2023 Mecklenburg-Vorpommern",
+      "date": "2023-07-17",
+      "endDate": "2023-08-26",
+      "md5": "2bcba2a92d9c6d0fa3e6c91ae530f7ea",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "06998771-44e6-4188-b7e2-e9e99ca58b52",
+      "name": "Herbstferien 2023 Mecklenburg-Vorpommern",
+      "date": "2023-10-09",
+      "endDate": "2023-10-14",
+      "md5": "31d2a735c3da483f40ce651f0999955e",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "10a2ec39-b213-4e07-a1d6-b31566c83f3d",
+      "name": "Zusätzlicher Ferientag 2023 Mecklenburg-Vorpommern",
+      "date": "2023-10-30",
+      "endDate": "2023-10-30",
+      "md5": "f5584eeeb70ba8e1e537945063c4a63b",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "4d7b494b-f493-4425-92c2-eab780c1ee35",
+      "name": "Zusätzlicher Ferientag 2023 Mecklenburg-Vorpommern",
+      "date": "2023-11-01",
+      "endDate": "2023-11-01",
+      "md5": "163249ec6a316f5de88f012df7a4c524",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "0fa4ded4-0fe3-451b-8554-2514794e0ad4",
+      "name": "Weihnachtsferien 2023 Mecklenburg-Vorpommern",
+      "date": "2023-12-21",
+      "endDate": "2024-01-03",
+      "md5": "c7751897c2bb77d79e55f7a5b09b845d",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "68fb113c-665a-40e5-9bb4-b3651d8f4c82",
+      "name": "Winterferien 2024 Mecklenburg-Vorpommern",
+      "date": "2024-02-05",
+      "endDate": "2024-02-16",
+      "md5": "c7e373946a60a6955e763457220cc3db",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "bc0c8a42-aa70-4ea8-a338-e11cf37c09c1",
+      "name": "Osterferien 2024 Mecklenburg-Vorpommern",
+      "date": "2024-03-25",
+      "endDate": "2024-04-03",
+      "md5": "108eaa08e56d39303d3c5a78c579e89f",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "da486444-a96f-43e4-baea-52876277d985",
+      "name": "Zusätzlicher Ferientag 2024 Mecklenburg-Vorpommern",
+      "date": "2024-05-10",
+      "endDate": "2024-05-10",
+      "md5": "62c8ad95873dba62f069101a04911c20",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "6740e325-a1d0-4249-8684-2b8b2cd50002",
+      "name": "Pfingstferien 2024 Mecklenburg-Vorpommern",
+      "date": "2024-05-17",
+      "endDate": "2024-05-21",
+      "md5": "2f64e9373194662cc5a3de3a89c70fae",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "963a3506-eeb8-4190-81bb-ec00829f6521",
+      "name": "Sommerferien 2024 Mecklenburg-Vorpommern",
+      "date": "2024-07-22",
+      "endDate": "2024-08-31",
+      "md5": "c7ec8c88b47008510af76b413aec8078",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "2fa7f870-7102-4c23-a03e-cbedf119aae0",
+      "name": "Zusätzlicher Ferientag 2024 Mecklenburg-Vorpommern",
+      "date": "2024-10-04",
+      "endDate": "2024-10-04",
+      "md5": "bcaac92b9f9228891b4b120dc0aaed35",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "c90a8655-ad1e-4709-b601-840550f44f66",
+      "name": "Herbstferien 2024 Mecklenburg-Vorpommern",
+      "date": "2024-10-21",
+      "endDate": "2024-10-26",
+      "md5": "b27cfc35ffb74a52a7f3550121b521a6",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "7c93c96d-9937-47c2-a7a7-737db4d3f3d2",
+      "name": "Zusätzlicher Ferientag 2024 Mecklenburg-Vorpommern",
+      "date": "2024-11-01",
+      "endDate": "2024-11-01",
+      "md5": "fe202ac523272747cc2cea1d5e7d02ed",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "738023d8-9af3-445a-853f-94fa279b128d",
+      "name": "Weihnachtsferien 2024 Mecklenburg-Vorpommern",
+      "date": "2024-12-23",
+      "endDate": "2025-01-06",
+      "md5": "cd3d6da419fe62e29bd49d0449c56452",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "271d692c-2d55-4e79-a071-55bcee3687b1",
+      "name": "Winterferien 2025 Mecklenburg-Vorpommern",
+      "date": "2025-02-03",
+      "endDate": "2025-02-14",
+      "md5": "84a7a9ffa49343662e06cf38f69eab66",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "530691fb-6fa2-48cb-9030-cba93b1cafd8",
+      "name": "Osterferien 2025 Mecklenburg-Vorpommern",
+      "date": "2025-04-14",
+      "endDate": "2025-04-23",
+      "md5": "dd50f4a236a460f4c1676ba1ee69d307",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "7d2e2e83-010d-4407-b891-1c542c72ca37",
+      "name": "Zusätzlicher Ferientag 2025 Mecklenburg-Vorpommern",
+      "date": "2025-05-30",
+      "endDate": "2025-05-30",
+      "md5": "6b04c50a69e721ba6a0c45b034a7043a",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "0a4d39fe-d65c-4073-be16-ef0b39299d59",
+      "name": "Pfingstferien 2025 Mecklenburg-Vorpommern",
+      "date": "2025-06-06",
+      "endDate": "2025-06-10",
+      "md5": "197d5e63ca06c12cc2198bfb1ec0175b",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "ae70b01b-3137-4456-924a-efb69b4378a3",
+      "name": "Sommerferien 2025 Mecklenburg-Vorpommern",
+      "date": "2025-07-28",
+      "endDate": "2025-09-06",
+      "md5": "9add5194e1f252c095436dcc1d49746d",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "233e4d42-48b3-44f9-bcb2-f96625711dc3",
+      "name": "Zusätzlicher Ferientag 2025 Mecklenburg-Vorpommern",
+      "date": "2025-10-02",
+      "endDate": "2025-10-02",
+      "md5": "436fcc6381ad4a5ee3f5025ae9b21137",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "559ea68e-e562-4b71-b177-fd2884f06441",
+      "name": "Herbstferien 2025 Mecklenburg-Vorpommern",
+      "date": "2025-10-20",
+      "endDate": "2025-10-24",
+      "md5": "23c57743f49a30b0834578e43723e12a",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-16T20:50:29+00:00",
+      "sequence": 2
+    },
+    {
+      "id": "eaa6ecbe-07f5-4d36-8e7d-b54a6fbe85f0",
+      "name": "Zusätzlicher Ferientag 2025 Mecklenburg-Vorpommern",
+      "date": "2025-11-03",
+      "endDate": "2025-11-03",
+      "md5": "710f4d3f5d8d11fe4cfcf23d788be231",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "572f118a-d564-41bc-bec6-384f1f9a33b7",
+      "name": "Weihnachtsferien 2025 Mecklenburg-Vorpommern",
+      "date": "2025-12-20",
+      "endDate": "2026-01-03",
+      "md5": "4bdfabdc6c1915832f53839eb28973fd",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-16T20:50:29+00:00",
+      "sequence": 2
+    },
+    {
+      "id": "60a7807f-9463-4c71-bcac-1eec6918918e",
+      "name": "Winterferien 2026 Mecklenburg-Vorpommern",
+      "date": "2026-02-09",
+      "endDate": "2026-02-20",
+      "md5": "04984500b952003997f44b4d06e663ad",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "a7f8913a-5455-4683-a61b-73a59bda0af9",
+      "name": "Osterferien 2026 Mecklenburg-Vorpommern",
+      "date": "2026-03-30",
+      "endDate": "2026-04-08",
+      "md5": "60a024941ba74d5efccb90849b6915b8",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "38831ad3-3e34-4b28-965b-6a1af14c24f4",
+      "name": "Zusätzlicher Ferientag 2026 Mecklenburg-Vorpommern",
+      "date": "2026-05-15",
+      "endDate": "2026-05-15",
+      "md5": "03fda05f3757cea4f4a469e2e0c6d081",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "b45aa5f5-22ee-4507-a0f2-79eb2dc85859",
+      "name": "Pfingstferien 2026 Mecklenburg-Vorpommern",
+      "date": "2026-05-22",
+      "endDate": "2026-05-26",
+      "md5": "544b2ee97b5f3890fae69b28f13246d4",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "d21b921b-089f-4b70-ad91-4b874f937db4",
+      "name": "Sommerferien 2026 Mecklenburg-Vorpommern",
+      "date": "2026-07-13",
+      "endDate": "2026-08-22",
+      "md5": "3779e94556702d008590efaa655b4f6f",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "afcf89fd-5efc-458a-99fe-361fbd6e7af4",
+      "name": "Herbstferien 2026 Mecklenburg-Vorpommern",
+      "date": "2026-10-15",
+      "endDate": "2026-10-24",
+      "md5": "e2361f48a78d486967fe46d9f4604099",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-16T20:50:29+00:00",
+      "sequence": 2
+    },
+    {
+      "id": "45efb86d-5b0b-4f35-8684-a787a04043cb",
+      "name": "Zusätzlicher Ferientag 2026 Mecklenburg-Vorpommern",
+      "date": "2026-11-26",
+      "endDate": "2026-11-26",
+      "md5": "bb6e2dfc61b81d17da27722ee2c2a79d",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "76af2a1e-ee5d-4e1e-b8e3-64034b07bc95",
+      "name": "Zusätzlicher Ferientag 2026 Mecklenburg-Vorpommern",
+      "date": "2026-11-27",
+      "endDate": "2026-11-27",
+      "md5": "091f9305b794c49fa8b544a24d5c98a1",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "070bae4d-8671-4c87-8dbb-6f790aa12e4e",
+      "name": "Weihnachtsferien 2026 Mecklenburg-Vorpommern",
+      "date": "2026-12-21",
+      "endDate": "2027-01-02",
+      "md5": "6d655acffc487e67f02ebff124836c53",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-16T20:50:29+00:00",
+      "sequence": 2
+    },
+    {
+      "id": "97de5c95-2c41-4709-a8bf-bf5910ee758d",
+      "name": "Winterferien 2027 Mecklenburg-Vorpommern",
+      "date": "2027-02-08",
+      "endDate": "2027-02-19",
+      "md5": "5e2a9280db0c449f30f62245a9caa945",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "72a82721-5402-44fb-a689-3e69c35afb8f",
+      "name": "Osterferien 2027 Mecklenburg-Vorpommern",
+      "date": "2027-03-24",
+      "endDate": "2027-04-02",
+      "md5": "d22f7c2b2a3373174fe2b29f78a0b493",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "f067c14f-cc84-4406-9ef5-57f6492ed058",
+      "name": "Zusätzlicher Ferientag 2027 Mecklenburg-Vorpommern",
+      "date": "2027-05-07",
+      "endDate": "2027-05-07",
+      "md5": "7bc135f4d6dbe38c9a978bb0a8cedf9f",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "7290bcd1-e9cb-4c73-8fe2-58e6069872d4",
+      "name": "Pfingstferien 2027 Mecklenburg-Vorpommern",
+      "date": "2027-05-14",
+      "endDate": "2027-05-18",
+      "md5": "5124919cbdde788a011511a799f330e4",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "e6959de8-eb3f-4b03-a040-1fe9fde9505e",
+      "name": "Sommerferien 2027 Mecklenburg-Vorpommern",
+      "date": "2027-07-05",
+      "endDate": "2027-08-14",
+      "md5": "41739239ca37b10112728808fb393414",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "c0603985-81a2-43c8-a714-25b65f40c21b",
+      "name": "Herbstferien 2027 Mecklenburg-Vorpommern",
+      "date": "2027-10-14",
+      "endDate": "2027-10-23",
+      "md5": "b94111ddfcb1cc3a2743dc01395fb540",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "19332be1-0020-4e23-95de-27b1b8b849db",
+      "name": "Zusätzlicher Ferientag 2027 Mecklenburg-Vorpommern",
+      "date": "2027-11-25",
+      "endDate": "2027-11-25",
+      "md5": "24f73d589fbc70ae9912812b10993c69",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "bd056361-d360-44d7-8240-2492920b414d",
+      "name": "Zusätzlicher Ferientag 2027 Mecklenburg-Vorpommern",
+      "date": "2027-11-26",
+      "endDate": "2027-11-26",
+      "md5": "523ed678f4f956d1bb2b3bcf77628d04",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "42a05609-93b0-4398-90e1-b36f3cc4cb0a",
+      "name": "Weihnachtsferien 2027 Mecklenburg-Vorpommern",
+      "date": "2027-12-22",
+      "endDate": "2028-01-04",
+      "md5": "810581a6b5d5f7639b9a89916fa3091d",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "95eefce2-a004-49d0-a13e-5448b8611813",
+      "name": "Winterferien 2028 Mecklenburg-Vorpommern",
+      "date": "2028-02-05",
+      "endDate": "2028-02-17",
+      "md5": "ca25e306ee475800b255d27818f16306",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "9dc0f76f-3de6-459c-9fde-122b211c556d",
+      "name": "Schulfrei 2028 Mecklenburg-Vorpommern",
+      "date": "2028-02-18",
+      "endDate": "2028-02-18",
+      "md5": "07c9eb6c39dccb01d5f391b8983e4634",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "aa17fa73-99a7-4123-a674-99a5153f575c",
+      "name": "Osterferien 2028 Mecklenburg-Vorpommern",
+      "date": "2028-04-12",
+      "endDate": "2028-04-21",
+      "md5": "5fe60d471ef875fc9ab870c688237f76",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "6e2a0909-650d-43fe-869d-e2cbaa2bf9e3",
+      "name": "Zusätzlicher Ferientag 2028 Mecklenburg-Vorpommern",
+      "date": "2028-05-26",
+      "endDate": "2028-05-26",
+      "md5": "fcf2f62fccbaa0ca4b082ef4dedaf7bf",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "a2024625-80c4-4e1f-b54b-d2f3823786d2",
+      "name": "Pfingstferien 2028 Mecklenburg-Vorpommern",
+      "date": "2028-06-02",
+      "endDate": "2028-06-06",
+      "md5": "0bdaa657b4e2cdc17c4e25fff60cd58f",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "a3edc618-ff88-432e-b83b-3950ca02cdd7",
+      "name": "Sommerferien 2028 Mecklenburg-Vorpommern",
+      "date": "2028-06-26",
+      "endDate": "2028-08-05",
+      "md5": "a60526c04c1dadc8cfa906b5b64cd865",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "551779d9-c334-467b-b2da-759e27b428ab",
+      "name": "Zusätzlicher Ferientag 2028 Mecklenburg-Vorpommern",
+      "date": "2028-10-02",
+      "endDate": "2028-10-02",
+      "md5": "27e9b3704fd18c22e5926b4b04e69b13",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "247c004c-89f8-4238-9022-e6c2a880ffca",
+      "name": "Herbstferien 2028 Mecklenburg-Vorpommern",
+      "date": "2028-10-23",
+      "endDate": "2028-10-28",
+      "md5": "b99972c93538352822d128b6c400afcb",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "4857fa79-4d2f-48b3-aae7-227fd75d9fe0",
+      "name": "Zusätzlicher Ferientag 2028 Mecklenburg-Vorpommern",
+      "date": "2028-10-30",
+      "endDate": "2028-10-30",
+      "md5": "9fb09394614484013aac411e5f311ff9",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    },
+    {
+      "id": "979f871c-5356-47b1-8388-df788af98652",
+      "name": "Weihnachtsferien 2028 Mecklenburg-Vorpommern",
+      "date": "2028-12-22",
+      "endDate": "2029-01-02",
+      "md5": "63ba1e621a3c781d452db0e0e12b2c71",
+      "created": "2026-05-11T12:44:20+00:00",
+      "modified": "2026-05-11T12:44:20+00:00",
+      "sequence": 0
+    }
+  ]
+}
