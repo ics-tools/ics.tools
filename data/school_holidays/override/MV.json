@@ -1,21 +1,5 @@
 {
     "$schema": "../../schema/school-holiday-override.schema.json",
     "modify": [
-        {
-            "id": "559ea68e-e562-4b71-b177-fd2884f06441",
-            "endDate": "2025-10-25"
-        },
-        {
-            "id": "572f118a-d564-41bc-bec6-384f1f9a33b7",
-            "startDate": "2025-12-22"
-        },
-        {
-            "id": "afcf89fd-5efc-458a-99fe-361fbd6e7af4",
-            "startDate": "2026-10-19"
-        },
-        {
-            "id": "070bae4d-8671-4c87-8dbb-6f790aa12e4e",
-            "startDate": "2026-12-19"
-        }
     ]
 }
