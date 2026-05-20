@@ -4,7 +4,7 @@ Ein Open-Source-Projekt, das standardisierte ICS-Kalenderdateien für deutsche F
 
 ## 📋 Projektbeschreibung
 
-**ics.tools** automatisiert die Bereitstellung von Kalenderinformationen für alle deutschen Bundesländer. Das Projekt bezieht Daten von der Open Holidays API, validiert sie manuell und stellt sie als ICS-Dateien zur Verfügung.
+**ics.tools** automatisiert die Bereitstellung von Kalenderinformationen für alle deutschen Bundesländer. Das Projekt nutzt die Daten der [Open Holiday API](https://www.openholidaysapi.org/) als Grundlage, validiert diese manuell und stellt sie als ICS-Dateien zur Verfügung.
 
 ### Features
 
