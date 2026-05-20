@@ -114,11 +114,27 @@ def select_summary(name_counts: Counter[str], fallback_name: str) -> str:
     return candidates[0]
 
 
-def build_description(state_codes: set[str]) -> str:
-    state_names = sorted(
+def sort_state_names(state_codes: set[str]) -> list[str]:
+    return sorted(
         (STATE_NAME_BY_CODE[code] for code in state_codes),
         key=lambda name: name.casefold(),
     )
+
+
+def build_description(state_codes: set[str]) -> str:
+    missing_state_codes = ALL_STATE_CODES - state_codes
+
+    if not missing_state_codes:
+        return "Gilt in allen Bundesländern"
+
+    if len(missing_state_codes) <= 5:
+        missing_state_names = sort_state_names(missing_state_codes)
+        return "\n".join(
+            ["Gilt in allen Bundesländern außer:"]
+            + [f"- {state_name}" for state_name in missing_state_names]
+        )
+
+    state_names = sort_state_names(state_codes)
     return "\n".join(["Gilt in:"] + [f"- {state_name}" for state_name in state_names])
 
 
