@@ -157,6 +157,7 @@ def build_calendar(
         event.add("sequence", item["sequence"])
         event.add("transp", "TRANSPARENT")
         event.add("description", build_description(item["states"]))
+        event.add("location", ", ".join(sorted(item["states"])))
         cal.add_component(event)
 
     with open(result_file, "wb") as output_file:
