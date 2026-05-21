@@ -1,3 +1,9 @@
+<!--
+SPDX-FileCopyrightText: 2026 Sebastian Espei <seblsebastian@aol.de>
+
+SPDX-License-Identifier: AGPL-3.0-or-later
+-->
+
 # ics.tools – Kalender für deutsche Feiertage und Schulferien
 
 Ein Open-Source-Projekt, das standardisierte ICS-Kalenderdateien für deutsche Feiertage und Schulferien bereitstellt.

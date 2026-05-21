@@ -1,4 +1,8 @@
 ---
+# SPDX-FileCopyrightText: 2026 Sebastian Espei <seblsebastian@aol.de>
+#
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
 layout: default
 title: "ics.tools"
 description: "Deutsche Feiertage und Schulferien als Kalender"
