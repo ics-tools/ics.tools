@@ -1,4 +1,8 @@
 ---
+# SPDX-FileCopyrightText: 2026 Sebastian Espei <seblsebastian@aol.de>
+#
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
 layout: default
 title: "ics.tools"
 description: "Deutsche Feiertage und Schulferien als Kalender"
@@ -10,7 +14,9 @@ Dein universeller Kalender für **deutsche Feiertage** und **Schulferien**.
 
 ## Was ist ics.tools?
 
-**ics.tools** bietet dir standardisierte Kalenderdateien im **ICS-Format**. Mit nur wenigen Klicks integrierst du Feiertage und Schulferien in deine bevorzugte Kalender-App – und sie bleiben automatisch auf dem neuesten Stand.
+**ics.tools** bietet dir standardisierte Kalenderdateien im **ICS-Format**. Damit integrierst du Feiertage und Schulferien mit nur wenigen Klicks in deine bevorzugte Kalender-App – und dank automatischer Updates bleibst du immer auf dem neuesten Stand. 
+
+Als verlässliche Basis dient dabei die [Open Holiday API](https://www.openholidaysapi.org/). Deren Daten werden zusätzlich manuell geprüft, bevor sie als fertige ICS-Dateien für dich bereitgestellt werden.
 
 ### Zwei einfache Wege:
 
@@ -41,7 +47,11 @@ Lade die Datei herunter und importiere sie manuell in deinen Kalender.
 
 ---
 
-## ICS-Format – Der Standard für Kalender
+## Lizenz & Daten
+
+**Quellcode:** Der Programmcode steht unter der **GNU Affero General Public License v3 (AGPL-3.0)**.
+
+**Daten:** Die Daten im Ordner `/data` basieren auf der Open Holiday API und stehen unter der **Open Database License (ODbL)**.
 
 ICS-Dateien (iCalendar-Format, [RFC 5545](https://www.rfc-editor.org/rfc/rfc5545)) sind der weltweite Standard für Kalenderaustausch. Sie sind mit praktisch jeder Kalender-Anwendung kompatibel.
 
@@ -55,4 +65,5 @@ ICS-Dateien (iCalendar-Format, [RFC 5545](https://www.rfc-editor.org/rfc/rfc5545
 
 ---
 
-[Impressum](https://skillkiller.de/impressum) • [GitHub](https://github.com/ics-tools/ics.tools) • [Status](https://status.ics.tools/)
+[Impressum](https://skillkiller.de/impressum) • [GitHub](https://github.com/ics-tools/ics.tools) • [Status](https://status.ics.tools/)  
+© 2021-2026 Sebastian Espei

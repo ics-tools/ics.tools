@@ -1,3 +1,7 @@
+# SPDX-FileCopyrightText: 2026 Sebastian Espei <seblsebastian@aol.de>
+#
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
 import os
 import json
 from pathlib import Path

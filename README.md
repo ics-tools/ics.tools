@@ -1,10 +1,16 @@
+<!--
+SPDX-FileCopyrightText: 2026 Sebastian Espei <seblsebastian@aol.de>
+
+SPDX-License-Identifier: AGPL-3.0-or-later
+-->
+
 # ics.tools – Kalender für deutsche Feiertage und Schulferien
 
 Ein Open-Source-Projekt, das standardisierte ICS-Kalenderdateien für deutsche Feiertage und Schulferien bereitstellt.
 
 ## 📋 Projektbeschreibung
 
-**ics.tools** automatisiert die Bereitstellung von Kalenderinformationen für alle deutschen Bundesländer. Das Projekt bezieht Daten von der Open Holidays API, validiert sie manuell und stellt sie als ICS-Dateien zur Verfügung.
+**ics.tools** automatisiert die Bereitstellung von Kalenderinformationen für alle deutschen Bundesländer. Das Projekt nutzt die Daten der [Open Holiday API](https://www.openholidaysapi.org/) als Grundlage, validiert diese manuell und stellt sie als ICS-Dateien zur Verfügung.
 
 ### Features
 
@@ -18,6 +24,13 @@ Ein Open-Source-Projekt, das standardisierte ICS-Kalenderdateien für deutsche F
 2. **Override** – Manuelle Überprüfung und Anpassungen in `data/*/override/`
 3. **Merge** (`02_merge_*.py`) – Daten + Overrides zusammenführen
 4. **Generate** (`03_generate_*.py`) – ICS-Dateien erstellen
+
+## Lizenz
+
+Dieses Projekt nutzt unterschiedliche Lizenzen für den Quellcode und die enthaltenen Daten:
+
+*   **💻 Quellcode:** Der gesamte Programmcode steht unter der **GNU Affero General Public License v3 (AGPL-3.0)**. Der vollständige Lizenztext befindet sich in der Datei `LICENSE` im Hauptverzeichnis.
+*   **📊 Daten:** Die Daten im Ordner `/data` (inklusive aller Anpassungen) basieren auf der Open Holiday API und stehen unter der **Open Database License (ODbL)**. Details dazu findest du in der `data/README.md`.
 
 ## 🏗️ Website-Generierung
 
@@ -56,4 +69,5 @@ Fehler gefunden? Idee für eine Verbesserung?
 
 ---
 
-**Open Source & Community-Driven**
+**Open Source & Community-Driven**  
+Copyright (C) 2021-2026 Sebastian Espei
