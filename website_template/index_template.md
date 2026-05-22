@@ -65,4 +65,5 @@ ICS-Dateien (iCalendar-Format, [RFC 5545](https://www.rfc-editor.org/rfc/rfc5545
 
 ---
 
-[Impressum](https://skillkiller.de/impressum) • [GitHub](https://github.com/ics-tools/ics.tools) • [Status](https://status.ics.tools/)
+[Impressum](https://skillkiller.de/impressum) • [GitHub](https://github.com/ics-tools/ics.tools) • [Status](https://status.ics.tools/)  
+© 2021-2026 Sebastian Espei
