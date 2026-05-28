@@ -58,7 +58,9 @@ def main() -> None:
         if isinstance(data, list):
             all_holidays.extend(data)
 
-    all_holidays.sort(key=lambda item: item.get("startDate", ""))
+    all_holidays.sort(
+        key=lambda item: (item.get("startDate", ""), item.get("id", ""))
+    )
 
     output_path = os.path.join(PUBLIC_HOLIDAYS_RAW_DIR, "de.json")
 
