@@ -21,11 +21,24 @@ RESULT_PATH = os.path.join(PUBLIC_HOLIDAYS_RESULT_DIR, "de.json")
 
 STATE_CODE_ORDER = list(STATE_CODES)
 STATE_CODE_SET = set(STATE_CODES)
-ALL_STATE_CODES = list(STATE_CODES)
 
 
 def get_now_iso() -> str:
     return datetime.now(timezone.utc).isoformat(timespec="seconds")
+
+
+def log_github_actions_error(message: str, *, title: str | None = None) -> None:
+    if title:
+        print(f"::error title={title}::{message}")
+    else:
+        print(f"::error::{message}")
+
+
+def log_github_actions_warning(message: str, *, title: str | None = None) -> None:
+    if title:
+        print(f"::warning title={title}::{message}")
+    else:
+        print(f"::warning::{message}")
 
 
 def load_json_file(filepath: str, default_fallback: Any) -> Any:
@@ -39,9 +52,42 @@ def load_json_file(filepath: str, default_fallback: Any) -> Any:
         return default_fallback
 
 
+def parse_iso_date(value: Any, field_name: str, entry_id: str) -> datetime:
+    if not isinstance(value, str):
+        log_github_actions_error(
+            f"Entry {entry_id!r} has invalid {field_name} value {value!r}. Expected ISO date string.",
+            title="Invalid Public Holiday Date",
+        )
+        raise RuntimeError(f"Invalid {field_name} for public holiday {entry_id}.")
+
+    try:
+        return datetime.fromisoformat(value)
+    except ValueError as exc:
+        log_github_actions_error(
+            f"Entry {entry_id!r} has invalid {field_name} value {value!r}. Expected ISO date string.",
+            title="Invalid Public Holiday Date",
+        )
+        raise RuntimeError(f"Invalid {field_name} for public holiday {entry_id}.") from exc
+
+
+def validate_date_range(entry_id: str, start_date: Any, end_date: Any) -> None:
+    start = parse_iso_date(start_date, "startDate", entry_id)
+    end = parse_iso_date(end_date, "endDate", entry_id)
+
+    if end.date() < start.date():
+        log_github_actions_error(
+            f"Entry {entry_id!r} has endDate {end_date!r} before startDate {start_date!r}.",
+            title="Invalid Public Holiday Date Range",
+        )
+        raise RuntimeError(f"Invalid holiday range for public holiday {entry_id}.")
+
+
 def extract_name(name_list: Optional[List[Dict[str, str]]], entry_id: str) -> str:
     if not name_list or not isinstance(name_list, list):
-        print(f"::warning title=Missing Name::No name found for public holiday {entry_id}. Using 'Unknown'.")
+        log_github_actions_warning(
+            f"No name found for public holiday {entry_id}. Using 'Unknown'.",
+            title="Missing Name",
+        )
         return "Unknown"
 
     for item in name_list:
@@ -49,8 +95,9 @@ def extract_name(name_list: Optional[List[Dict[str, str]]], entry_id: str) -> st
             return item["text"]
 
     fallback_name = name_list[0].get("text", "Unknown")
-    print(
-        f"::warning title=Missing German Name::German name missing for {entry_id}. Falling back to: {fallback_name}"
+    log_github_actions_warning(
+        f"German name missing for {entry_id}. Falling back to: {fallback_name}",
+        title="Missing German Name",
     )
     return fallback_name
 
@@ -113,6 +160,8 @@ def build_working_entry(entry: Dict[str, Any]) -> Optional[Dict[str, Any]]:
     if not entry_id or not start_date or not end_date:
         return None
 
+    validate_date_range(entry_id, start_date, end_date)
+
     states = get_entry_states(entry)
     if not states:
         return None
@@ -161,8 +210,13 @@ def apply_overrides(
         states = normalize_state_codes(new_entry.get("states", []))
 
         if not entry_id or not start_date or not end_date or not states:
-            print(f"::warning::Skipping invalid public holiday override entry: {entry_id!r}")
+            log_github_actions_warning(
+                f"Skipping invalid public holiday override entry: {entry_id!r}",
+                title="Invalid Public Holiday Override",
+            )
             continue
+
+        validate_date_range(entry_id, start_date, end_date)
 
         working_data[entry_id] = {
             "id": entry_id,
@@ -246,6 +300,9 @@ def main() -> None:
         working_data[working_entry["id"]] = working_entry
 
     apply_overrides(working_data, overrides if isinstance(overrides, dict) else {})
+
+    for entry_id, data in working_data.items():
+        validate_date_range(entry_id, data["startDate"], data["endDate"])
 
     final_entries = enrich_with_metadata(working_data, previous_memory)
     final_result = {"holidays": final_entries}
