@@ -4,7 +4,6 @@
     "title": "ics.tools Public holiday schema",
     "type": "object",
     "required": [
-        "metadata",
         "holidays"
     ],
     "additionalProperties": false,
@@ -13,42 +12,6 @@
             "type": "string",
             "format": "uri-reference"
         },
-        "metadata": {
-            "type": "object",
-            "required": [
-                "state",
-                "code"
-            ],
-            "additionalProperties": false,
-            "properties": {
-                "state": {
-                    "type": "string",
-                    "description": "Vollständiger Name des Bundeslandes (z.B. Bayern)"
-                },
-                "code": {
-                    "type": "string",
-                    "enum": [
-                        "BW",
-                        "BY",
-                        "BE",
-                        "BB",
-                        "HB",
-                        "HH",
-                        "HE",
-                        "MV",
-                        "NI",
-                        "NW",
-                        "RP",
-                        "SL",
-                        "SN",
-                        "ST",
-                        "SH",
-                        "TH"
-                    ],
-                    "description": "Zweistelliges ISO-Kürzel"
-                }
-            }
-        },
         "holidays": {
             "type": "array",
             "items": {
@@ -56,47 +19,82 @@
                 "required": [
                     "id",
                     "name",
-                    "date",
+                    "startDate",
+                    "endDate",
                     "md5",
                     "created",
                     "modified",
-                    "sequence"
+                    "sequence",
+                    "states"
                 ],
                 "additionalProperties": false,
                 "properties": {
                     "id": {
                         "type": "string",
                         "format": "uuid",
-                        "description": "Eindeutige ID des Feiertags"
+                        "description": "Unique holiday identifier"
                     },
                     "name": {
                         "type": "string",
-                        "description": "Bezeichnung des Feiertags"
+                        "description": "Holiday display name"
                     },
-                    "date": {
+                    "startDate": {
                         "type": "string",
                         "format": "date",
-                        "description": "Datum im Format YYYY-MM-DD"
+                        "description": "Start date in YYYY-MM-DD format"
+                    },
+                    "endDate": {
+                        "type": "string",
+                        "format": "date",
+                        "description": "End date in YYYY-MM-DD format"
                     },
                     "md5": {
                         "type": "string",
                         "pattern": "^[a-fA-F0-9]{32}$",
-                        "description": "MD5 Hash der Feiertagsdaten"
+                        "description": "MD5 hash of the holiday data"
                     },
                     "created": {
                         "type": "string",
                         "format": "date-time",
-                        "description": "Erstellungszeitpunkt (ISO 8601)"
+                        "description": "Creation timestamp (ISO 8601)"
                     },
                     "modified": {
                         "type": "string",
                         "format": "date-time",
-                        "description": "Letzter Änderungszeitpunkt (ISO 8601)"
+                        "description": "Last modification timestamp (ISO 8601)"
                     },
                     "sequence": {
                         "type": "integer",
                         "minimum": 0,
-                        "description": "Versionszähler für Änderungen"
+                        "description": "Version counter for changes"
+                    },
+                    "states": {
+                        "description": "Federal states in which the holiday is valid.",
+                        "type": "array",
+                        "minItems": 1,
+                        "uniqueItems": true,
+                        "items": {
+                            "type": "string",
+                            "description": "Two-letter German federal state code.",
+                            "enum": [
+                                "BW",
+                                "BY",
+                                "BE",
+                                "BB",
+                                "HB",
+                                "HH",
+                                "HE",
+                                "MV",
+                                "NI",
+                                "NW",
+                                "RP",
+                                "SL",
+                                "SN",
+                                "ST",
+                                "SH",
+                                "TH"
+                            ]
+                        }
                     }
                 }
             }
