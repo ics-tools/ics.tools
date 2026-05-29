@@ -98,7 +98,13 @@ def build_calendar(
         key=lambda entry: (entry["startDate"], entry["endDate"], entry["name"], entry["id"]),
     ):
         event = Event()
-        event.add("uid", generate_uid(item["id"], calendar_slug))
+        event.add(
+            "uid",
+            generate_uid(
+                item["id"],
+                own_state_code if own_state_code is not None else calendar_slug,
+            ),
+        )
         event.add("summary", item["name"])
 
         start_date = datetime.fromisoformat(item["startDate"]).date()
