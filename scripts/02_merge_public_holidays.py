@@ -2,266 +2,315 @@
 #
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
+import hashlib
 import json
 import os
-import hashlib
 from datetime import datetime, timezone
-from typing import List, Dict, Any, Optional
+from typing import Any, Dict, Iterable, List, Optional
+
 from config import (
-    IGNORED_RAW_TAGS,
-    PUBLIC_HOLIDAY_GROUPS_BY_STATE,
     PUBLIC_HOLIDAYS_OVERRIDE_DIR,
     PUBLIC_HOLIDAYS_RAW_DIR,
     PUBLIC_HOLIDAYS_RESULT_DIR,
-    STATE_NAMES,
+    STATE_CODES,
 )
 
+RAW_PATH = os.path.join(PUBLIC_HOLIDAYS_RAW_DIR, "de.json")
+OVERRIDE_PATH = os.path.join(PUBLIC_HOLIDAYS_OVERRIDE_DIR, "de.json")
+RESULT_PATH = os.path.join(PUBLIC_HOLIDAYS_RESULT_DIR, "de.json")
 
-def calculate_md5(name: str, date: str) -> str:
-    """Generates a stable MD5 hash for the core content."""
-    content = f"{name}|{date}"
-    return hashlib.md5(content.encode("utf-8")).hexdigest()
+STATE_CODE_ORDER = list(STATE_CODES)
+STATE_CODE_SET = set(STATE_CODES)
 
 
 def get_now_iso() -> str:
-    """Returns current UTC timestamp in ISO 8601 format."""
-    return (
-        datetime.now(timezone.utc).isoformat(timespec="seconds")
-    )
+    return datetime.now(timezone.utc).isoformat(timespec="seconds")
+
+
+def log_github_actions_error(message: str, *, title: str | None = None) -> None:
+    if title:
+        print(f"::error title={title}::{message}")
+    else:
+        print(f"::error::{message}")
+
+
+def log_github_actions_warning(message: str, *, title: str | None = None) -> None:
+    if title:
+        print(f"::warning title={title}::{message}")
+    else:
+        print(f"::warning::{message}")
 
 
 def load_json_file(filepath: str, default_fallback: Any) -> Any:
-    """Safely loads a JSON file, returning a fallback if it doesn't exist."""
-    if os.path.exists(filepath):
-        with open(filepath, "r", encoding="utf-8") as f:
-            return json.load(f)
-    return default_fallback
+    if not os.path.exists(filepath):
+        return default_fallback
+
+    try:
+        with open(filepath, "r", encoding="utf-8") as file_handle:
+            return json.load(file_handle)
+    except json.JSONDecodeError:
+        return default_fallback
 
 
-def should_ignore_entry(entry: Dict[str, Any]) -> bool:
-    """Returns True when the raw entry has a tag configured to be skipped."""
-    tags = entry.get("tags")
-    if not isinstance(tags, list):
-        return False
+def parse_iso_date(value: Any, field_name: str, entry_id: str) -> datetime:
+    if not isinstance(value, str):
+        log_github_actions_error(
+            f"Entry {entry_id!r} has invalid {field_name} value {value!r}. Expected ISO date string.",
+            title="Invalid Public Holiday Date",
+        )
+        raise RuntimeError(f"Invalid {field_name} for public holiday {entry_id}.")
 
-    return any(tag in IGNORED_RAW_TAGS for tag in tags)
-
-
-def get_entry_group_codes(entry: Dict[str, Any]) -> List[str]:
-    """Extracts group codes from a raw entry, ignoring malformed items."""
-    groups = entry.get("groups")
-    if not isinstance(groups, list):
-        return []
-
-    group_codes: List[str] = []
-    for group in groups:
-        if isinstance(group, dict):
-            group_code = group.get("code")
-            if group_code:
-                group_codes.append(group_code)
-        elif isinstance(group, str) and group:
-            group_codes.append(group)
-
-    return group_codes
+    try:
+        return datetime.fromisoformat(value)
+    except ValueError as exc:
+        log_github_actions_error(
+            f"Entry {entry_id!r} has invalid {field_name} value {value!r}. Expected ISO date string.",
+            title="Invalid Public Holiday Date",
+        )
+        raise RuntimeError(f"Invalid {field_name} for public holiday {entry_id}.") from exc
 
 
-def should_keep_entry_for_state(entry: Dict[str, Any], state_code: str) -> bool:
-    """Keeps all entries when no state filter exists or when an entry has no groups."""
-    allowed_groups = PUBLIC_HOLIDAY_GROUPS_BY_STATE.get(state_code)
-    if not allowed_groups:
-        return True
+def validate_date_range(entry_id: str, start_date: Any, end_date: Any) -> None:
+    start = parse_iso_date(start_date, "startDate", entry_id)
+    end = parse_iso_date(end_date, "endDate", entry_id)
 
-    entry_groups = get_entry_group_codes(entry)
-    if not entry_groups:
-        return True
+    if end.date() < start.date():
+        log_github_actions_error(
+            f"Entry {entry_id!r} has endDate {end_date!r} before startDate {start_date!r}.",
+            title="Invalid Public Holiday Date Range",
+        )
+        raise RuntimeError(f"Invalid holiday range for public holiday {entry_id}.")
 
-    return any(group_code in allowed_groups for group_code in entry_groups)
 
-
-def extract_name(
-    name_list: Optional[List[Dict[str, str]]], entry_id: str, state: str
-) -> str:
-    """
-    Extracts the German text from the API name array.
-    Issues warnings if German name is missing or no name exists at all.
-    """
-    if not name_list or not isinstance(name_list, list) or len(name_list) == 0:
-        print(
-            f"::warning title=Missing Name,file={state}.json::No name found for holiday {entry_id} in {state}. Using 'Unknown'."
+def extract_name(name_list: Optional[List[Dict[str, str]]], entry_id: str) -> str:
+    if not name_list or not isinstance(name_list, list):
+        log_github_actions_warning(
+            f"No name found for public holiday {entry_id}. Using 'Unknown'.",
+            title="Missing Name",
         )
         return "Unknown"
 
-    # Try to find the German name
-    for n in name_list:
-        text = n.get("text")
-        if n.get("language") == "DE" and text:
-            return text
+    for item in name_list:
+        if item.get("language") == "DE" and item.get("text"):
+            return item["text"]
 
-    # Fallback to the first available name if German is missing
     fallback_name = name_list[0].get("text", "Unknown")
-    print(
-        f"::warning title=Missing German Name,file={state}.json::German name missing for {entry_id} in {state}. Falling back to: {fallback_name}"
+    log_github_actions_warning(
+        f"German name missing for {entry_id}. Falling back to: {fallback_name}",
+        title="Missing German Name",
     )
-
     return fallback_name
+
+
+def normalize_state_codes(raw_states: Iterable[str]) -> List[str]:
+    unique_codes = {state_code for state_code in raw_states if state_code in STATE_CODE_SET}
+    return [state_code for state_code in STATE_CODE_ORDER if state_code in unique_codes]
+
+
+def get_entry_states(entry: Dict[str, Any]) -> List[str]:
+    if entry.get("nationwide") is True:
+        return list(STATE_CODE_ORDER)
+
+    subdivisions = entry.get("subdivisions")
+    if not isinstance(subdivisions, list):
+        return []
+
+    state_codes: List[str] = []
+    for subdivision in subdivisions:
+        if not isinstance(subdivision, dict):
+            continue
+
+        short_name = subdivision.get("shortName")
+        if isinstance(short_name, str) and short_name in STATE_CODE_SET:
+            state_codes.append(short_name)
+
+    return normalize_state_codes(state_codes)
+
+
+def calculate_md5(name: str, start_date: str, end_date: str, states: List[str]) -> str:
+    content = json.dumps(
+        {
+            "name": name,
+            "startDate": start_date,
+            "endDate": end_date,
+            "states": states,
+        },
+        ensure_ascii=False,
+        separators=(",", ":"),
+        sort_keys=True,
+    )
+    return hashlib.md5(content.encode("utf-8")).hexdigest()
+
+
+def should_keep_entry(entry: Dict[str, Any]) -> bool:
+    if entry.get("regionalScope") == "Local":
+        return False
+
+    if entry.get("type") not in (None, "Public"):
+        return False
+
+    return True
+
+
+def build_working_entry(entry: Dict[str, Any]) -> Optional[Dict[str, Any]]:
+    entry_id = entry.get("id")
+    start_date = entry.get("startDate")
+    end_date = entry.get("endDate") or start_date
+
+    if not entry_id or not start_date or not end_date:
+        return None
+
+    validate_date_range(entry_id, start_date, end_date)
+
+    states = get_entry_states(entry)
+    if not states:
+        return None
+
+    return {
+        "id": entry_id,
+        "name": extract_name(entry.get("name"), entry_id),
+        "startDate": start_date,
+        "endDate": end_date,
+        "states": states,
+    }
 
 
 def apply_overrides(
     working_data: Dict[str, Dict[str, Any]], overrides: Dict[str, List[Dict[str, Any]]]
 ) -> None:
-    """Applies REMOVE, MODIFY, and NEW overrides in-place to the working data."""
-
     for remove_id in overrides.get("remove", []):
         if remove_id in working_data:
             del working_data[remove_id]
 
     for mod in overrides.get("modify", []):
-        m_id = mod.get("id")
-        if m_id in working_data:
-            if "name" in mod:
-                working_data[m_id]["name"] = mod["name"]
-            if "startDate" in mod:
-                working_data[m_id]["date"] = mod["startDate"]
+        entry_id = mod.get("id")
+        if entry_id not in working_data:
+            continue
+
+        if "name" in mod:
+            working_data[entry_id]["name"] = mod["name"]
+
+        if "startDate" in mod:
+            working_data[entry_id]["startDate"] = mod["startDate"]
+            if "endDate" not in mod:
+                working_data[entry_id]["endDate"] = mod["startDate"]
+
+        if "endDate" in mod:
+            working_data[entry_id]["endDate"] = mod["endDate"]
+
+        if "states" in mod:
+            states = normalize_state_codes(mod["states"])
+            if states:
+                working_data[entry_id]["states"] = states
 
     for new_entry in overrides.get("new", []):
-        n_id = new_entry.get("id")
+        entry_id = new_entry.get("id")
+        start_date = new_entry.get("startDate")
+        end_date = new_entry.get("endDate") or start_date
+        states = normalize_state_codes(new_entry.get("states", []))
 
-        if n_id:
-            working_data[n_id] = {
-                "id": n_id,
-                "name": new_entry.get("name"),
-                "date": new_entry.get("startDate"),
-            }
-        else:
-            print("::warning::New override entry is missing an 'id'. Skipping.")
-
-
-def enrich_with_metadata(
-    state_code: str,
-    state_name: str,
-    working_data: Dict[str, Dict[str, Any]],
-    previous_memory: Dict[str, Dict[str, Any]]
-) -> dict[str, Any]:
-    """Compares current data with previous memory to generate sequence numbers and update timestamps."""
-    final_entries = []
-    timestamp_now = get_now_iso()
-
-    for entry_id, data in working_data.items():
-        current_md5 = calculate_md5(data["name"], data["date"])
-        prev = previous_memory.get(entry_id)
-
-        final_entry: Dict[str, Any] = {**data, "md5": current_md5}
-
-        if prev:
-            if prev.get("md5") == current_md5:
-                # No changes detected
-                final_entry.update(
-                    {
-                        "created": prev.get("created"),
-                        "modified": prev.get("modified"),
-                        "sequence": prev.get("sequence"),
-                    }
-                )
-            else:
-                # Change detected, bump sequence and modify timestamp
-                print(f"  📝 Change detected: {data['name']} ({entry_id})")
-                final_entry.update(
-                    {
-                        "created": prev.get("created"),
-                        "modified": timestamp_now,
-                        "sequence": prev.get("sequence", 0) + 1,
-                    }
-                )
-        else:
-            # Entirely new entry
-            final_entry.update(
-                {
-                    "created": timestamp_now,
-                    "modified": timestamp_now,
-                    "sequence": 0,
-                }
+        if not entry_id or not start_date or not end_date or not states:
+            log_github_actions_warning(
+                f"Skipping invalid public holiday override entry: {entry_id!r}",
+                title="Invalid Public Holiday Override",
             )
-
-        final_entries.append(final_entry)
-
-    # Sort final list chronologically
-    final_entries.sort(key=lambda x: x["date"])
-
-    return {
-        "$schema": "../../schema/public-holidays.schema.json",
-        "metadata": {"state": state_name, "code": state_code},
-        "holidays": final_entries,
-    }
-
-
-def process_state(state_code: str, state_name: str) -> None:
-    """Handles the complete processing pipeline for a single state."""
-    print(f"::group::Merging {state_name} ({state_code})")
-
-    raw_path = os.path.join(PUBLIC_HOLIDAYS_RAW_DIR, f"{state_code}.json")
-    override_path = os.path.join(PUBLIC_HOLIDAYS_OVERRIDE_DIR, f"{state_code}.json")
-    result_path = os.path.join(PUBLIC_HOLIDAYS_RESULT_DIR, f"{state_code}.json")
-
-    # 1. Load Data
-    raw_entries = load_json_file(raw_path, default_fallback=[])
-    overrides = load_json_file(
-        override_path, default_fallback={"new": [], "modify": [], "remove": []}
-    )
-
-    prev_data = load_json_file(result_path, default_fallback=[])
-    if isinstance(prev_data, dict):
-        prev_list = prev_data.get("holidays", [])
-    else:
-        prev_list = prev_data
-
-    previous_memory = {
-        item["id"]: item for item in prev_list if isinstance(item, dict) and "id" in item
-    }
-
-    # 2. Build Base Data
-    working_data = {}
-    for entry in raw_entries:
-        if entry.get("regionalScope") == "Local":
-            continue
-        if should_ignore_entry(entry):
-            continue
-        if not should_keep_entry_for_state(entry, state_code):
             continue
 
-        entry_id = entry.get("id")
-        if not entry_id:
-            continue
+        validate_date_range(entry_id, start_date, end_date)
 
         working_data[entry_id] = {
             "id": entry_id,
-            "name": extract_name(entry.get("name"), entry_id, state_code),
-            "date": entry.get("startDate"),
+            "name": new_entry.get("name", "Unknown"),
+            "startDate": start_date,
+            "endDate": end_date,
+            "states": states,
         }
 
-    # 3. Apply Overrides
-    apply_overrides(working_data, overrides)
 
-    # 4. Process Metadata & Hashes
-    final_result = enrich_with_metadata(
-        state_code, state_name, working_data, previous_memory
-    )
+def enrich_with_metadata(
+    working_data: Dict[str, Dict[str, Any]],
+    previous_memory: Dict[str, Dict[str, Any]],
+) -> List[Dict[str, Any]]:
+    final_entries: List[Dict[str, Any]] = []
+    timestamp_now = get_now_iso()
 
-    # 5. Save Result
-    with open(result_path, "w", encoding="utf-8") as f:
-        json.dump(final_result, f, ensure_ascii=False, indent=2)
+    for entry_id, data in working_data.items():
+        current_md5 = calculate_md5(
+            data["name"],
+            data["startDate"],
+            data["endDate"],
+            data["states"],
+        )
+        previous = previous_memory.get(entry_id)
 
-    print(f"✅ Finished {state_name} ({state_code})")
-    print("::endgroup::")
+        final_entry: Dict[str, Any] = {**data, "md5": current_md5}
+
+        if previous:
+            if previous.get("md5") == current_md5:
+                final_entry["created"] = previous.get("created") or timestamp_now
+                final_entry["modified"] = previous.get("modified") or timestamp_now
+                final_entry["sequence"] = previous.get("sequence", 0)
+            else:
+                final_entry["created"] = previous.get("created") or timestamp_now
+                final_entry["modified"] = timestamp_now
+                final_entry["sequence"] = previous.get("sequence", 0) + 1
+        else:
+            final_entry["created"] = timestamp_now
+            final_entry["modified"] = timestamp_now
+            final_entry["sequence"] = 0
+
+        final_entries.append(final_entry)
+
+    final_entries.sort(key=lambda item: (item["startDate"], item["endDate"], item["id"]))
+    return final_entries
 
 
-def main():
+def main() -> None:
+    print("Starting public holiday merge process")
+
     os.makedirs(PUBLIC_HOLIDAYS_RESULT_DIR, exist_ok=True)
-    print("Starting merge process with MD5 hashing")
 
-    for state_code, state_name in STATE_NAMES.items():
-        process_state(state_code, state_name)
+    raw_entries = load_json_file(RAW_PATH, default_fallback=[])
+    overrides = load_json_file(OVERRIDE_PATH, default_fallback={"new": [], "modify": [], "remove": []})
+    previous_data = load_json_file(RESULT_PATH, default_fallback={})
 
-    print("Merge process completed.")
+    previous_list: List[Dict[str, Any]]
+    if isinstance(previous_data, dict):
+        previous_list = previous_data.get("holidays", []) if isinstance(previous_data.get("holidays", []), list) else []
+    elif isinstance(previous_data, list):
+        previous_list = previous_data
+    else:
+        previous_list = []
+
+    previous_memory = {
+        item["id"]: item
+        for item in previous_list
+        if isinstance(item, dict) and isinstance(item.get("id"), str)
+    }
+
+    working_data: Dict[str, Dict[str, Any]] = {}
+    for entry in raw_entries:
+        if not isinstance(entry, dict) or not should_keep_entry(entry):
+            continue
+
+        working_entry = build_working_entry(entry)
+        if not working_entry:
+            continue
+
+        working_data[working_entry["id"]] = working_entry
+
+    apply_overrides(working_data, overrides if isinstance(overrides, dict) else {})
+
+    for entry_id, data in working_data.items():
+        validate_date_range(entry_id, data["startDate"], data["endDate"])
+
+    final_entries = enrich_with_metadata(working_data, previous_memory)
+    final_result = {"holidays": final_entries}
+
+    with open(RESULT_PATH, "w", encoding="utf-8") as file_handle:
+        json.dump(final_result, file_handle, ensure_ascii=False, indent=2)
+
+    print(f"File saved: {RESULT_PATH} (Total: {len(final_entries)} entries)")
 
 
 if __name__ == "__main__":

@@ -2,69 +2,73 @@
 #
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
-import requests
 import json
 import os
-import time
+from datetime import date
+
+import requests
 from config import (
     COUNTRY_CODE,
     FETCH_END_YEAR,
-    FETCH_SLEEP_SECONDS,
     FETCH_START_YEAR,
     LANGUAGE_CODE,
     PUBLIC_HOLIDAYS_API_URL,
     PUBLIC_HOLIDAYS_RAW_DIR,
-    STATE_CODES,
-    subdivision_code,
 )
 
-print("Starting public holiday fetch from OpenHolidays API")
-print(f"Period: {FETCH_START_YEAR} to {FETCH_END_YEAR}")
 
-# Ensure the output directory exists
-os.makedirs(PUBLIC_HOLIDAYS_RAW_DIR, exist_ok=True)
+def build_date_chunks(start_year: int, end_year: int) -> list[tuple[date, date]]:
+    chunks: list[tuple[date, date]] = []
 
-total_states = len(STATE_CODES)
+    for year in range(start_year, end_year + 1):
+        chunks.append((date(year, 1, 1), date(year, 12, 31)))
 
-for index, state in enumerate(STATE_CODES, start=1):
+    return chunks
+
+
+def main() -> None:
+    print("Starting public holiday fetch from OpenHolidays API")
+    print(f"Period: {FETCH_START_YEAR} to {FETCH_END_YEAR}")
+
+    os.makedirs(PUBLIC_HOLIDAYS_RAW_DIR, exist_ok=True)
+
     all_holidays = []
-    
-    print(f"::group::Processing {state} ({index}/{total_states})")
-    print(f"Starting request for {state}...")
-    
-    for year in range(FETCH_START_YEAR, FETCH_END_YEAR + 1):
+
+    chunks = build_date_chunks(FETCH_START_YEAR, FETCH_END_YEAR)
+    print(f"Split into {len(chunks)} request window(s)")
+
+    for index, (chunk_start, chunk_end) in enumerate(chunks, start=1):
+        print(f"Request {index}/{len(chunks)}: {chunk_start} to {chunk_end}")
+
         params = {
             "countryIsoCode": COUNTRY_CODE,
             "languageIsoCode": LANGUAGE_CODE,
-            "subdivisionCode": subdivision_code(state),
-            "validFrom": f"{year}-01-01",
-            "validTo": f"{year}-12-31"
+            "validFrom": chunk_start.isoformat(),
+            "validTo": chunk_end.isoformat(),
         }
-        
-        try:
-            response = requests.get(PUBLIC_HOLIDAYS_API_URL, params=params, timeout=15)
-            response.raise_for_status()
-            
-            data = response.json()
-            if isinstance(data, list):
-                all_holidays.extend(data)
-                print(f"  ✅ {year}: {len(data)} holidays loaded.")
-            
-        except Exception as e:
-            print(f"  ❌ Error for {state} in year {year}: {e}")
 
-        # Short pause to avoid overloading the API
-        time.sleep(FETCH_SLEEP_SECONDS)
+        response = requests.get(PUBLIC_HOLIDAYS_API_URL, params=params, timeout=15)
 
-    # Sort data by start date
-    all_holidays.sort(key=lambda x: x.get('startDate', ''))
+        if response.status_code != 200:
+            raise RuntimeError(
+                f"Public holiday request failed with status {response.status_code}: {response.text}"
+            )
 
-    file_path = os.path.join(PUBLIC_HOLIDAYS_RAW_DIR, f"{state}.json")
-    with open(file_path, 'w', encoding='utf-8') as f:
-        json.dump(all_holidays, f, ensure_ascii=False, indent=2)
-    
-    print(f"File saved: {file_path} (Total: {len(all_holidays)} entries)")
-    print("::endgroup::")
+        data = response.json()
+        if isinstance(data, list):
+            all_holidays.extend(data)
+
+    all_holidays.sort(
+        key=lambda item: (item.get("startDate", ""), item.get("id", ""))
+    )
+
+    output_path = os.path.join(PUBLIC_HOLIDAYS_RAW_DIR, "de.json")
+
+    with open(output_path, "w", encoding="utf-8") as output_file:
+        json.dump(all_holidays, output_file, ensure_ascii=False, indent=2)
+
+    print(f"File saved: {output_path} (Total: {len(all_holidays)} entries)")
 
 
-print("✅ All states processed successfully.")
+if __name__ == "__main__":
+    main()

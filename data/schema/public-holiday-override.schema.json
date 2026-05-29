@@ -16,8 +16,10 @@
                 "required": [
                     "id",
                     "name",
-                    "startDate"
+                    "startDate",
+                    "states"
                 ],
+                "additionalProperties": false,
                 "properties": {
                     "id": {
                         "type": "string",
@@ -31,6 +33,39 @@
                         "type": "string",
                         "format": "date",
                         "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+                    },
+                    "endDate": {
+                        "type": "string",
+                        "format": "date",
+                        "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+                    },
+                    "states": {
+                        "description": "States in which this holiday is valid.",
+                        "type": "array",
+                        "minItems": 1,
+                        "uniqueItems": true,
+                        "items": {
+                            "type": "string",
+                            "description": "Two-letter German federal state code.",
+                            "enum": [
+                                "BE",
+                                "BB",
+                                "BW",
+                                "BY",
+                                "HB",
+                                "HE",
+                                "HH",
+                                "MV",
+                                "NI",
+                                "NW",
+                                "RP",
+                                "SH",
+                                "SL",
+                                "SN",
+                                "ST",
+                                "TH"
+                            ]
+                        }
                     }
                 }
             }
@@ -43,6 +78,7 @@
                 "required": [
                     "id"
                 ],
+                "additionalProperties": false,
                 "properties": {
                     "id": {
                         "type": "string",
@@ -55,6 +91,39 @@
                         "type": "string",
                         "format": "date",
                         "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+                    },
+                    "endDate": {
+                        "type": "string",
+                        "format": "date",
+                        "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+                    },
+                    "states": {
+                        "description": "States in which this holiday is valid.",
+                        "type": "array",
+                        "minItems": 1,
+                        "uniqueItems": true,
+                        "items": {
+                            "type": "string",
+                            "description": "Two-letter German federal state code.",
+                            "enum": [
+                                "BE",
+                                "BB",
+                                "BW",
+                                "BY",
+                                "HB",
+                                "HE",
+                                "HH",
+                                "MV",
+                                "NI",
+                                "NW",
+                                "RP",
+                                "SH",
+                                "SL",
+                                "SN",
+                                "ST",
+                                "TH"
+                            ]
+                        }
                     }
                 },
                 "minProperties": 2
@@ -63,6 +132,7 @@
         "remove": {
             "type": "array",
             "description": "List of API IDs to be removed from the final result",
+            "uniqueItems": true,
             "items": {
                 "type": "string"
             }
