@@ -42,6 +42,8 @@ def build_calendar() -> None:
     cal.add("version", "2.0")
     cal.add("x-wr-calname", CALENDAR_NAME)
     cal.add("name", CALENDAR_NAME)
+    cal.add("x-wr-caldesc", "ISO-8601-Kalenderwochen")
+    cal.add("description", "ISO-8601-Kalenderwochen")
     cal.add("x-wr-timezone", "Europe/Berlin")
     cal.add("refresh-interval", "P1W", parameters={"VALUE": "DURATION"})
     cal.add("x-published-ttl", "P1W")
