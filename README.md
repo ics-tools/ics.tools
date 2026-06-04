@@ -25,6 +25,10 @@ Ein Open-Source-Projekt, das standardisierte ICS-Kalenderdateien für deutsche F
 3. **Merge** (`02_merge_*.py`) – Daten + Overrides zusammenführen
 4. **Generate** (`03_generate_*.py`) – ICS-Dateien erstellen
 
+### Extras
+
+- Kalenderwochen Kalender mit ganztätigen ``KWXX`` Einträgen jeden Montag 
+
 ## Lizenz
 
 Dieses Projekt nutzt unterschiedliche Lizenzen für den Quellcode und die enthaltenen Daten:
