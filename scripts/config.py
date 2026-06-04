@@ -45,6 +45,8 @@ SCHOOL_HOLIDAYS_OVERRIDE_DIR = "data/school_holidays/override"
 SCHOOL_HOLIDAYS_RESULT_DIR = "data/school_holidays/result"
 SCHOOL_HOLIDAYS_ICS_DIR = "Ferien"
 
+EXTRA_ICS_DIR = "extra"
+
 # Raw holiday entries carrying any of these tags are skipped during merge.
 IGNORED_RAW_TAGS = ["Exception"]
 
@@ -64,10 +66,12 @@ WEBSITE_OUTPUT_FILE = "index.md"
 WEBSITE_ICS_SOURCE_DIRS = [
     PUBLIC_HOLIDAYS_ICS_DIR,
     SCHOOL_HOLIDAYS_ICS_DIR,
+    EXTRA_ICS_DIR,
 ]
 WEBSITE_PLACEHOLDERS = {
     PUBLIC_HOLIDAYS_ICS_DIR: "[[feiertage-tree]]",
     SCHOOL_HOLIDAYS_ICS_DIR: "[[ferien-tree]]",
+    EXTRA_ICS_DIR: "[[extra-tree]]",
 }
 
 
