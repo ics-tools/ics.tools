@@ -6,19 +6,31 @@ import requests
 from icalendar import Calendar
 
 ICAL_VALIDATOR_URL = "https://icalendar.org/validator.html?json=1"
+REPO_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
-def find_ics_files(base_path='./'):
+def find_ics_files(base_path=REPO_ROOT):
     ics_files = []
     for root, _, files in os.walk(base_path):
         path_parts = set(os.path.normpath(root).split(os.sep))
-        if path_parts.intersection({'Feiertage', 'Ferien'}):
+        if path_parts.intersection({'Feiertage', 'Ferien', 'extra'}):
             for file in files:
                 if file.endswith('.ics'):
                     ics_files.append(os.path.join(root, file))
     return ics_files
 
 
-def find_ferien_ics_files(base_path='./'):
+def find_kalenderwochen_ics_files(base_path=REPO_ROOT):
+    ics_files = []
+    for root, _, files in os.walk(base_path):
+        path_parts = set(os.path.normpath(root).split(os.sep))
+        if 'extra' in path_parts:
+            for file in files:
+                if file.endswith('.ics'):
+                    ics_files.append(os.path.join(root, file))
+    return ics_files
+
+
+def find_ferien_ics_files(base_path=REPO_ROOT):
     """Find only ICS files in 'Ferien' directories."""
     ics_files = []
     for root, _, files in os.walk(base_path):
@@ -59,6 +71,8 @@ def build_expected_calendar_name(ics_path: str) -> str:
     match dirname:
         case "Ferien":
             category_name = "Schulferien"
+        case "extra":
+            return "Kalenderwochen"
         case _:
             category_name = dirname
 
@@ -185,3 +199,30 @@ def test_icalendar_org_validator(ics_path):
     if warnings > 0:
         messages = "\n".join(warn["message"] for warn in data.get("warnings", []))
         pytest.skip(f"Validation warnings in {ics_path}:\n{messages}")
+
+
+@pytest.mark.parametrize("ics_path", find_kalenderwochen_ics_files())
+def test_calendar_week_events_are_mondays(ics_path):
+    with open(ics_path, 'r', encoding='utf-8') as f:
+        cal = Calendar.from_ical(f.read())
+
+    events = list(cal.walk('VEVENT'))
+    assert events, f'No events found in {ics_path}'
+
+    for component in events:
+        summary = str(component.get('summary', ''))
+        assert summary.startswith('KW '), f"Unexpected summary '{summary}' in {ics_path}"
+
+        dtstart_prop = component.get('dtstart')
+        assert dtstart_prop is not None, f'Missing DTSTART in {ics_path}'
+        dtstart = dtstart_prop.dt
+        assert dtstart.weekday() == 0, f'DTSTART is not a Monday in {ics_path}: {dtstart}'
+
+        week_number = dtstart.isocalendar().week
+        assert summary == f'KW {week_number:02d}', (
+            f"Summary '{summary}' does not match ISO week {week_number:02d} in {ics_path}"
+        )
+
+        dtend_prop = component.get('dtend')
+        assert dtend_prop is not None, f'Missing DTEND in {ics_path}'
+        assert (dtend_prop.dt - dtstart).days == 1, f'Expected single-day event in {ics_path}'
