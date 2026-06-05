@@ -70,6 +70,9 @@ def build_description(state_codes: list[str], own_state_code: str | None = None)
 
 def build_location(state_codes: list[str], own_state_code: str | None = None) -> str:
     ordered_codes = ordered_state_codes(state_codes, own_state_code=own_state_code)
+    if set(ordered_codes) == ALL_STATE_CODES:
+        return "Bundesweit"
+
     return ", ".join(ordered_codes)
 
 
