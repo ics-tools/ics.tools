@@ -42,25 +42,29 @@ def find_ferien_ics_files(base_path=REPO_ROOT):
     return ics_files
 
 
+def parse_calendar_file(path: str):
+    with open(path, "r", encoding="utf-8") as f:
+        try:
+            return Calendar.from_ical(f.read())
+        except Exception as e:
+            pytest.fail(f"Failed to parse ICS file {path}: {e}")
+
+
+def is_overlap_exception(ics_path: str) -> bool:
+    return os.path.normpath(ics_path).endswith(os.path.normpath(os.path.join("Ferien", "alle.ics")))
+
+
 @pytest.fixture(params=find_ics_files())
 def parsed_calendar(request):
     path = request.param
-    with open(path, "r", encoding="utf-8") as f:
-        try:
-            cal = Calendar.from_ical(f.read())
-        except Exception as e:
-            pytest.fail(f"Failed to parse ICS file {path}: {e}")
+    cal = parse_calendar_file(path)
     return cal, path
 
 
-@pytest.fixture(params=find_ferien_ics_files())
-def parsed_ferien_calendar(request):
+@pytest.fixture(params=[path for path in find_ics_files() if not is_overlap_exception(path)])
+def parsed_calendar_for_overlap_test(request):
     path = request.param
-    with open(path, "r", encoding="utf-8") as f:
-        try:
-            cal = Calendar.from_ical(f.read())
-        except Exception as e:
-            pytest.fail(f"Failed to parse ICS file {path}: {e}")
+    cal = parse_calendar_file(path)
     return cal, path
 
 
@@ -146,8 +150,8 @@ def test_calendar_name_matches_filename_with_suffix(parsed_calendar):
     assert x_wr_cal_name == expected_name, f"Expected calendar name '{expected_name}', but found '{x_wr_cal_name}' (X-WR-CALNAME) in {path}"
 
 
-def test_no_overlapping_event_periods(parsed_calendar):
-    cal, path = parsed_calendar
+def test_no_overlapping_event_periods(parsed_calendar_for_overlap_test):
+    cal, path = parsed_calendar_for_overlap_test
 
     events = []
 

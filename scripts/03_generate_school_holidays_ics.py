@@ -29,8 +29,24 @@ def format_github_actions_error(file_path: Path, message: str) -> str:
     escaped_message = message.replace("%", "%25").replace("\r", "%0D").replace("\n", "%0A")
     return f"::error file={file_path.as_posix()}::{escaped_message}"
 
+def create_empty_calendar(calendar_name: str, result_file: Path) -> Calendar:
+    cal = Calendar()
+    cal.add("prodid", "-//ics.tools//ics.tools Schulferien v2.0//DE")
+    cal.add("version", "2.0")
+    cal.add("x-wr-calname", calendar_name)
+    cal.add("name", calendar_name)
+    cal.add("x-wr-timezone", "Europe/Berlin")
+    cal.add("refresh-interval", "P1D", parameters={"VALUE": "DURATION"})
+    cal.add("x-published-ttl", "P1D")
+    cal.add("calscale", "GREGORIAN")
+    cal.add("source", urljoin(WEBSITE_BASE_URL, result_file.as_posix()))
+    cal.add("method", "PUBLISH")
+    
+    return cal
 
 def main() -> None:
+    all_entries_map = {}
+
     for json_file in JSON_RESULT_DIR.glob("*.json"):
         with open(json_file, "r", encoding="utf-8") as file_handle:
             data = json.load(file_handle)
@@ -49,17 +65,7 @@ def main() -> None:
 
         result_file = RESULT_DIR / f"{federal_state.lower()}.ics"
 
-        cal = Calendar()
-        cal.add("prodid", "-//ics.tools//ics.tools Schulferien v2.0//DE")
-        cal.add("version", "2.0")
-        cal.add("x-wr-calname", f"{federal_state} Schulferien")
-        cal.add("name", f"{federal_state} Schulferien")
-        cal.add("x-wr-timezone", "Europe/Berlin")
-        cal.add("refresh-interval", "P1D", parameters={"VALUE": "DURATION"})
-        cal.add("x-published-ttl", "P1D")
-        cal.add("calscale", "GREGORIAN")
-        cal.add("source", urljoin(WEBSITE_BASE_URL, result_file.as_posix()))
-        cal.add("method", "PUBLISH")
+        cal = create_empty_calendar(f"{federal_state} Schulferien", result_file)
 
         for item in data.get("holidays", []):
             event = Event()
@@ -87,10 +93,21 @@ def main() -> None:
             event.add("sequence", item["sequence"])
             event.add("transp", "TRANSPARENT")
             cal.add_component(event)
+            if not event.get("uid") in all_entries_map:
+                all_entries_map[event.get("uid")] = event
 
         with open(result_file, "wb") as output_file:
             output_file.write(cal.to_ical())
 
+        # Generate all entries calender
+        result_file = RESULT_DIR / "alle.ics"
+
+        cal = create_empty_calendar("Alle Schulferien", result_file)
+        for event in all_entries_map.values():
+            cal.add_component(event)
+
+        with open(result_file, "wb") as output_file:
+            output_file.write(cal.to_ical())
 
 if __name__ == "__main__":
     main()
