@@ -27,7 +27,8 @@ Ein Open-Source-Projekt, das standardisierte ICS-Kalenderdateien für deutsche F
 
 ### Extras
 
-- Kalenderwochen Kalender mit ganztätigen ``KWXX`` Einträgen jeden Montag 
+- Kalenderwochen-Kalender mit ganztägigen ``KWXX``-Einträgen jeden Montag
+- Kalender für die jährliche Umstellung zwischen Sommer- und Winterzeit
 
 ## Lizenz
 

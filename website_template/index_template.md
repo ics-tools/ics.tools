@@ -46,6 +46,10 @@ Lade die Datei herunter und importiere sie manuell in deinen Kalender.
 Dieser Kalender liefert pro ISO-Kalenderwoche einen ganztägigen Eintrag am Montag mit dem Titel ``KW NN`` (z. B. "KW 20").
 Er verwendet die ISO-8601-Norm für Kalenderwochen (Woche beginnt am Montag; Woche 01 ist die Woche, die den 4. Januar enthält) und bildet die Woche über das ISO-Wochenjahr ab.
 
+### Zeitumstellungen
+
+Dieser Kalender enthält die jährlichen Termine für den Beginn der Sommerzeit und der Winterzeit in Deutschland.
+
 ---
 
 ## Worin liegen die Vorteile?
