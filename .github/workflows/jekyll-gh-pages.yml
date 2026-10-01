@@ -45,6 +45,9 @@ jobs:
       - name: Generate calendar weeks ics
         run: python scripts/03_generate_calendar_weeks_ics.py
 
+      - name: Generate time changes ics
+        run: python scripts/03_generate_time_changes_ics.py
+
       - name: Run unit tests
         run: pytest
       

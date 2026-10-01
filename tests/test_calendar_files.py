@@ -1,7 +1,7 @@
-import pytest
 import os
 from datetime import datetime, timedelta
 
+import pytest
 import requests
 from icalendar import Calendar
 
@@ -25,7 +25,18 @@ def find_kalenderwochen_ics_files(base_path=REPO_ROOT):
         path_parts = set(os.path.normpath(root).split(os.sep))
         if 'extra' in path_parts:
             for file in files:
-                if file.endswith('.ics'):
+                if file == 'kalenderwochen.ics':
+                    ics_files.append(os.path.join(root, file))
+    return ics_files
+
+
+def find_zeitumstellungen_ics_files(base_path=REPO_ROOT):
+    ics_files = []
+    for root, _, files in os.walk(base_path):
+        path_parts = set(os.path.normpath(root).split(os.sep))
+        if 'extra' in path_parts:
+            for file in files:
+                if file == 'zeitumstellungen.ics':
                     ics_files.append(os.path.join(root, file))
     return ics_files
 
@@ -76,7 +87,7 @@ def build_expected_calendar_name(ics_path: str) -> str:
         case "Ferien":
             category_name = "Schulferien"
         case "extra":
-            return "Kalenderwochen"
+            return filename.title()
         case _:
             category_name = dirname
 
@@ -230,3 +241,37 @@ def test_calendar_week_events_are_mondays(ics_path):
         dtend_prop = component.get('dtend')
         assert dtend_prop is not None, f'Missing DTEND in {ics_path}'
         assert (dtend_prop.dt - dtstart).days == 1, f'Expected single-day event in {ics_path}'
+
+
+@pytest.mark.parametrize("ics_path", find_zeitumstellungen_ics_files())
+def test_time_change_events_use_last_sundays(ics_path):
+    with open(ics_path, 'r', encoding='utf-8') as f:
+        cal = Calendar.from_ical(f.read())
+
+    events = list(cal.walk('VEVENT'))
+    assert events, f'No events found in {ics_path}'
+
+    events_by_year = {}
+    for component in events:
+        dtstart = component.get('dtstart').dt
+        summary = str(component.get('summary', ''))
+        events_by_year.setdefault(dtstart.year, {})[summary] = dtstart
+
+        description = str(component.get('description', ''))
+        if summary == 'Beginn der Sommerzeit':
+            assert description == 'Die Uhr wird von 02:00 Uhr auf 03:00 Uhr vorgestellt.'
+        elif summary == 'Beginn der Winterzeit':
+            assert description == 'Die Uhr wird von 03:00 Uhr auf 02:00 Uhr zurückgestellt.'
+
+        dtend = component.get('dtend').dt
+        assert dtstart.weekday() == 6, f'DTSTART is not a Sunday in {ics_path}: {dtstart}'
+        assert (dtend - dtstart).days == 1, f'Expected single-day event in {ics_path}'
+
+    for year, events_for_year in events_by_year.items():
+        assert set(events_for_year) == {'Beginn der Sommerzeit', 'Beginn der Winterzeit'}
+        assert events_for_year['Beginn der Sommerzeit'].month == 3
+        assert events_for_year['Beginn der Winterzeit'].month == 10
+        assert events_for_year['Beginn der Sommerzeit'].day >= 25
+        assert events_for_year['Beginn der Winterzeit'].day >= 25
+        assert (events_for_year['Beginn der Sommerzeit'] + timedelta(days=7)).month != 3
+        assert (events_for_year['Beginn der Winterzeit'] + timedelta(days=7)).month != 10
